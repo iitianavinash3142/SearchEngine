@@ -1,0 +1,38 @@
+
+
+
+Booth served as President of [[Lakehead University]] from 1972–1978.
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.cbi.umn.edu/oh/display.phtml?id=375 Oral history interview with A. D. Booth], [[Charles Babbage Institute]], University of Minnesota.
+*[http://pytheas.club.fr/english/apexc.html The APEXC driver page]
+*[http://www.timescolonist.com/technology/Obituary+Sooke+physicist+helped+pioneer+first+computer/2315560/story.html Obituary]
+
+| NAME              = Booth, Andrew Donald
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Booth, Andrew Donald}}
+[[Category:1918 births]]
+[[Category:2009 deaths]]
+[[Category:Old Haberdashers]]
+[[Category:Alumni of Jesus College, Cambridge]]
+[[Category:Alumni of the University of London]]
+[[Category:British electrical engineers]]
+[[Category:British computer scientists]]
+[[Category:Computer pioneers]]
+[[Category:Academics of Birkbeck, University of London]]
+[[Category:Lakehead University faculty]]
+
+
+{{UK-engineer-stub}}
+{{UK-compu-bio-stub}}
+
+[[pt:Andrew D. Booth]]

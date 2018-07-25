@@ -1,0 +1,9 @@
+
+| author = Shopping.com
+| title = What is an API Key and how do I get one?
+| url = http://developer.shopping.com/kb/02n400000009R8wAAE/501400000009apNAAQ}}
+
+==References==
+
+
+

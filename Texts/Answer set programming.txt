@@ -1,0 +1,176 @@
+
+
+==History==
+
+
+==Answer set programming language Lparse==
+
+[http://www.tcs.hut.fi/Software/smodels/lparse.ps Lparse] is the name of the program that was originally created as 
+a front-end for the answer set solver [http://www.tcs.hut.fi/Software/smodels/ smodels], and is now used in the same way in many other answer set solvers, including [http://assat.cs.ust.hk/ assat], [http://www.cs.uni-potsdam.de/clasp/ clasp], [http://www.cs.utexas.edu/users/tag/cmodels/ cmodels], [http://www.tcs.hut.fi/Software/gnt/ gNt], [http://www.cs.uni-potsdam.de/nomore/ nomore++] and [http://www.cs.uky.edu/ai/pbmodels/ pbmodels]. ([http://www.dbai.tuwien.ac.at/proj/dlv/ dlv] is an exception; the syntax of ASP programs written for dlv is somewhat different.)
+
+An Lparse program consists of rules of the form
+
+
+
+One other useful construct included in this language is ''choice''.  For instance, the choice rule
+
+{p,q,r}.
+
+
+
+The language of lparse allows us also to write "constrained" choice rules, such as
+
+1{p,q,r}2.
+
+
+
+
+Cardinality bounds can be used in the body of a rule as well, for instance:
+
+:- 2{p,q,r}.
+
+
+
+Variables (capitalized, as in [[Prolog#Data types|Prolog]]) are used in Lparse to abbreviate collections of rules that follow the same pattern, and also to abbreviate collections of atoms within the same rule.  For instance, the Lparse program
+
+p(a). p(b). p(c).
+q(X) :- p(X), X!=a.
+
+has the same meaning as
+
+p(a). p(b). p(c).
+q(b). q(c).
+
+The program
+
+p(a). p(b). p(c).
+{q(X):p(X)}2.
+
+is shorthand for
+
+p(a). p(b). p(c).
+{q(a),q(b),q(c)}2.
+
+==Generating stable models==
+
+
+
+
+1{p,q,r}2.
+s :- not p.
+
+then the command
+
+% lparse test | smodels 0
+
+produces the output
+
+Answer: 1
+Stable Model: q p 
+Answer: 2
+Stable Model: p 
+Answer: 3
+Stable Model: r p 
+Answer: 4
+Stable Model: q s 
+Answer: 5
+Stable Model: r s 
+Answer: 6
+Stable Model: r q s
+
+==Examples of ASP programs==
+===Graph coloring===
+
+
+This can be accomplished using the following Lparse program:
+
+c(1..n).                                           
+1 {color(X,I) : c(I)} 1 :- v(X).             
+:- color(X,I), color(Y,I), e(X,Y), c(I).
+
+
+
+v(1..100). % 1,...,100 are vertices
+e(1,55). % there is an edge from 1 to 55
+. . .
+
+
+The program in this example illustrates the "generate-and-test" organization that is often found in simple ASP programs.  The choice rule describes a set of "potential solutions" -- a simple superset of the set of solutions to the given search problem.  It is followed by a constraint, which eliminates all potential solutions that are not acceptable.  However, the search process employed by smodels and other answer set solvers is not based on [[trial and error]].
+
+===Large clique===
+
+
+n {in(X) : v(X)}.
+:- in(X), in(Y), v(X), v(Y), X!=Y, not e(X,Y), not e(Y,X).
+
+
+===Hamiltonian cycle===
+
+A [[Hamiltonian cycle]] in a [[directed graph]] is a [[Path (graph theory)|cycle]] that passes through each vertex of the graph exactly once.  The following Lparse program can be used to find a Hamiltonian cycle in a given directed graph if it exists; we assume that 0 is one of the vertices.
+
+{in(X,Y)} :- e(X,Y).
+
+:- 2 {in(X,Y) : e(X,Y)}, v(X).
+:- 2 {in(X,Y) : e(X,Y)}, v(Y).
+
+r(X) :- in(0,X), v(X).
+r(Y) :- r(X), in(X,Y), e(X,Y).
+
+:- not r(X), v(X).
+
+
+This program is an example of the more general "generate, define and test" organization: it includes the definition of an auxiliary predicate that helps us eliminate all "bad" potential solutions.
+
+==Comparison of implementations==
+
+{| class="wikitable"
+|-
+! colspan="3" | Platform
+! colspan="4" | Features
+! colspan="1" | Mechanics
+|-
+! style="background:#ffdead;" | Name
+! style="background:#ffdead;" | OS
+! style="background:#ffdead;" | Licence
+! style="background:#ffdead;" | Variables
+! style="background:#ffdead;" | Function symbols
+! style="background:#ffdead;" | Explicit sets
+! style="background:#ffdead;" | Explicit lists
+|-
+|{{rh}}|[[DLV]]
+|[[Linux]], [[Mac OS]], [[Microsoft Windows|Windows]]
+|[[Freeware]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{no}}
+|
+|-
+|{{rh}}|[[Smodels]]
+|[[Linux]], [[Mac OS]], [[Microsoft Windows|Windows]]
+|[[GPL]]
+|{{yes}}
+|{{no}}
+|{{no}}
+|{{no}}
+|
+|}
+
+==See also==
+*[[Default logic]]
+*[[Logic programming]]
+*[[Non-monotonic logic]]
+*[[Prolog]]
+*[[Stable model semantics]]
+
+==References==
+
+==External links==
+*[http://asparagus.cs.uni-potsdam.de/contest/ First ASP System Competition]
+*[http://www.cs.kuleuven.be/~dtai/events/ASP-competition/index.shtml Second ASP Competition]
+*[http://www.cs.uni-potsdam.de/platypus/ Platypus]
+*[http://www.kr.tuwien.ac.at/staff/tkren/deb.html A variety of answer set solvers packaged for Debian / Ubuntu]
+
+{{DEFAULTSORT:Answer Set Programming}}
+[[Category:Logic programming]]
+

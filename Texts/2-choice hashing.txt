@@ -1,0 +1,6 @@
+
+==See also==
+*[[2-left hashing]]
+
+{{DADS|2-choice hashing|twoChoiceHashing}}
+

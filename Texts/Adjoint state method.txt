@@ -1,0 +1,10 @@
+The '''adjoint state method''' is a [[numerical method]] for computing the [[gradient]] of a [[Function (mathematics)|function]] or [[operator (mathematics)|operator]] in a numerical optimization problem.  It has applications in [[geophysics]] and [[seismic imaging]].
+
+
+Adjoint state techniques allow the use of [[integration by parts]], resulting in a form which explicitly contains the physically interesting quantity.  An adjoint state equation is introduced, including a new unknown variable.
+
+== References ==
+
+[[Category:Numerical analysis]]
+
+

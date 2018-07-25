@@ -1,0 +1,64 @@
+{{Infobox Website
+| name = Ars Technica
+| logo = [[File:Ars Technica logo.png|64px]]
+| url = http://arstechnica.com/
+| commercial = Yes
+| type = Technology news and information
+| registration = Optional
+| owner = [[Condé Nast Publications|Condé Nast Digital]]
+| launch date = December 30, 1998
+| current status = Online
+}}
+
+Ars Technica was privately owned until May 2008 when it was sold to Condé Nast Digital—the online division of [[Condé Nast Publications]]. Condé Nast purchased the site along with two others for $25 million, and added it to their Wired Digital group that also includes [[Wired News]] and [[Reddit]]. The website's staff relocated to Chicago, Illinois, and also have offices in San Francisco, California. The cost of operating Ars Technica has always been funded primarily by online advertising. The website generated controversy in 2009 when it experimentally blocked users who use advertisement blocking software from viewing the site. Ars Technica has also offered a paid subscription service since 2001.
+
+== History ==
+
+
+== Content ==
+The content of articles published by Ars Technica has generally remained the same since its creation in 1998. Articles include commentary and opinion by the writers, and are usually accompanied by pictures for illustration, or for [[Aesthetics|aesthetic]] purposes. They are now categorized by four types: News, Guides, Reviews, and Features. News articles relay current events. Guides instruct readers on how to do things; for example, the Ars Technica System Guide that advises readers on which computer parts to buy when building a computer. Reviews give opinionated assessment of hardware and software products. Features are longer informative articles. The website's readers can post their comments and start discussions at the bottom of each article. Ars Technica also hosts OpenForum, a free [[internet forum]] for the discussion of a variety of topics.
+
+
+
+
+=== Layout ===
+
+== Revenue ==
+
+===Advertisement block===
+
+{{quote|text=... blocking ads can be devastating to the sites you love. I am not making an argument that blocking ads is a form of stealing, or is immoral, or unethical [...] It can result in people losing their jobs, it can result in less content on any given site, and it definitely can affect the quality of content. It can also put sites into a real advertising death spin.}}
+
+
+{{quote|text=Only an ad that generates a sale (either directly because the user clicked it or indirectly via brand awareness and similar) provides value. If you see yourself being paid without providing a value than [''sic''] you either tricked whoever is paying you [...] or it is a temporary state where whoever is paying you didn’t adjust to the new realities yet.}}
+
+==See also==
+* [[Technical journalism]]
+* [[Science journalism]]
+
+== References ==
+{{Reflist|colwidth=30em|refs=
+
+
+
+
+}}
+
+;Notes
+{{Reflist|group="note"}}
+
+==External links==
+*[http://www.arstechnica.com Official website]
+
+{{Advance Publications}}
+
+[[Category:Computing websites]]
+[[Category:Technology websites]]
+[[Category:News websites]]
+[[Category:Internet properties established in 1998]]
+
+[[es:Ars Technica]]
+[[fr:Ars Technica]]
+[[it:Ars Technica]]
+[[no:Ars Technica]]
+[[ru:Ars Technica]]

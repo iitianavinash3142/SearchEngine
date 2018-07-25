@@ -1,0 +1,78 @@
+
+To understand activity recognition better, consider the following scenario. An elderly man wakes up at dawn in his small studio apartment, where he stays alone. He lights the stove to make a pot of tea, switches on the toaster oven, and takes some bread and jelly from the cupboard. After taking his morning medication, a computer-generated voice gently reminds him to turn off the toaster. Later that day, his daughter accesses a secure website where she scans a check-list, which was created by a sensor network in her father's apartment. She finds that her father is eating normally, taking his medicine on schedule, and continuing to manage his daily life on his own. That information puts her mind at ease.
+
+
+==Types of activity recognition==
+===Sensor-based, single-user activity recognition===
+
+====Levels of sensor-based activity recognition====
+Sensor-based activity recognition is a challenging task due to the inherent noisy nature of the input. Thus, [[statistical modeling]] has been the main thrust in this direction in layers, where the recognition at several intermediate levels is conducted and connected. At the lowest level where the sensor data are collected, statistical learning concerns how to find the detailed locations of agents from the received signal data. At an intermediate level, [[statistical inference]] may be concerned about how to recognize individuals' activities from the inferred location sequences and environmental conditions at the lower levels. Furthermore, at the highest level a major concern is to find out the overall goal or subgoals of an agent from the activity sequences through a mixture of logical and statistical reasoning. Scientific conferences where activity recognition work from wearable and environmental often appears are [[ISWC]] and [[UbiComp]].
+
+===Sensor-based, multi-user activity recognition===
+
+===Vision-based activity recognition===
+It is a very important and challenging problem to track and understand the behavior of agents through videos taken by various cameras. The primary technique employed is computer vision. Vision-based activity recognition has found many applications such as human-computer interaction, user interface design, robot learning, and surveillance, among others.
+Scientific conferences where vision based activity recognition work often appears are [[ICCV]] and [[CVPR]].
+
+In vision-based activity recognition, a great deal of work has been done. Researchers have attempted a number of methods such as [[optical flow]], [[Kalman filtering]], hidden [[Markov model]]s, etc., under different modalities such as single camera, stereo, and infrared. In addition, researchers have considered multiple aspects on this topic, including single pedestrian tracking, group tracking, and detecting dropped objects.
+
+====Levels of vision-based activity recognition====
+In vision-based activity recognition, the computational process is often divided into four steps, namely human detection, human tracking, human activity recognition and then a high-level activity evaluation.
+
+==Approaches of activity recognition==
+===Activity recognition through logic and reasoning===
+
+
+Inconsistent plans and goals are repeatedly pruned when new actions arrive. Besides, they also presented methods for adapting a goal recognizer to handle individual idiosyncratic behavior given a sample of an individual's recent behavior. Pollack et al. described a direct argumentation model that can know about the relative strength of several kinds of arguments for belief and intention description.
+
+A serious problem of logic-based approaches is their inability or inherent infeasibility to represent uncertainty. They offer no mechanism for preferring one consistent approach to another and incapable of deciding whether one particular plan is more likely than another, as long as both of them can be consistent enough to explain the actions observed. There is also a lack of learning ability associated with logic based methods.
+
+===Activity recognition through probabilistic reasoning===
+Probability theory and statistical learning models are more recently applied in activity recognition to reason about actions, plans and goals.
+
+
+
+===Wi-Fi-based activity recognition===
+
+
+===Data mining based approach to activity recognition===
+
+==Labs in the world==
+* [http://www.eecs.umich.edu/~pollackm/ Martha Pollack's research group]
+* [http://www.cse.ust.hk/~qyang/ Prof Qiang Yang's research group]
+* [http://www.cs.washington.edu/ai/Mobile_Robotics/ RSE Lab @ University of Washington, leading by Dieter Fox]
+* [http://www.igd.fhg.de/igd-a1/index.html Fraunhofer IGD Lab for Ambient Intelligence]
+* [http://www.imada.sdu.dk/~gu Dr. Tao Gu's Pervasive Computing and Information System Lab at University of Southern Denmark]
+* [http://www.pancube.com/MLMC/MLWSN.html Jeffrey Junfeng Pan's Sensor-based Localization and Tracking Project]
+* [http://www.cuslab.com/eng/template/vba.php Ajou University CUSLAB Vision-based Activity Awareness]
+* [http://pac.cs.dartmouth.edu/ Tanzeem Choudhury's People-Aware Computing (PAC) Group]
+* [http://www.wearable.ethz.ch/ Wearable Computing Lab at ETH Zurich]
+* [http://www.eng.yale.edu/enalab/behaviorscope.htm The BehaviorScope Project at ENALAB - Yale]
+* [http://www.ess.tu-darmstadt.de The Embedded Sensing Systems group] at [http://en.wikipedia.org/wiki/Darmstadt_University_of_Technology TU Darmstadt]
+* [http://ailab.wsu.edu/casas/ WSU CASAS Smart Home Project]
+* [http://www.kn-s.dlr.de/activity/ DLR Institute for Communications and Navigation Activity Recognition Project]
+
+==Related conferences==
+* [http://www.aaai.org/ AAAI]
+* [http://vision.eecs.ucf.edu/ CVPR]
+* [http://www.iccv2009.org/ ICCV]
+* [http://www.ijcai.org/ IJCAI]
+* [http://nips.cc/ NIPS]
+* [http://www.pervasive2008.org/ PERVASIVE]
+* [http://www.ubicomp.org/ Ubicomp]
+* [http://www.percom.org/ PerCom]
+* [http://www.iswc.net/ ISWC]
+
+==See also==
+* [[Planning]]
+* [[Naive Bayes classifier]]
+* [[Support vector machines]]
+* [[Hidden Markov model]]
+* [[Conditional random field]]
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Activity Recognition}}
+[[Category:Cognition]]
+[[Category:Artificial intelligence applications]]

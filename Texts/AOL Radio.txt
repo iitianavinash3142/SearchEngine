@@ -1,0 +1,87 @@
+
+{{Infobox software
+| name = AOL Radio
+| logo = [[File:AOL Radio logo.png]]
+| collapsible = no
+| company_slogan = Online Radio - Free Internet Radio Stations.
+| author =
+| developer = [[AOL LLC]]
+| released = 2001
+| latest release version =
+| latest release date =
+| latest preview version =
+| latest preview date =
+| operating system = [[Mac OS X]], [[Microsoft Windows|Windows]], [[iPhone OS]], [[Linux]]
+| platform =
+| language =
+| status =
+| genre = [[Internet Radio]] player, [[Broadcasting]] - [[Radio]]
+| license =
+| website = [http://radio.aol.com/ AOL Radio]
+| screenshot = [[Image:AOL Radio Mac SL.png|250px]]
+| caption =   AOL Radio player on running Mac OS X 10.6.1
+}}
+
+'''AOL Radio powered by CBS Radio''', (formerly '''AOL Radio featuring XM'''), is an online [[radio]] service.
+
+== History ==
+
+
+
+
+
+
+
+== Marketing ==
+
+
+
+
+On June 10, 2008 the AOL CBS player for AIM was released. On June 11, 2008, the new AOL CBS Radio player for the web was released.
+
+== Technology ==
+
+AOL Radio powered by CBS Radio is supported on Adobe Flash 9 and is compatible with [[web browser]]s that support Flash 9 on [[Windows 2000]] through [[Windows Vista]] and [[Mac OS X]].
+
+Listeners can connect to AOL Radio through the web, AOL Client, and AOL Radio for Mac. On July 10, 2008 AOL released a client for Apple's [[iPhone]] and [[iPod Touch]] via the [[App Store]] offering mobile streaming of all stations though WiFi, EDGE and 3G cellular connections. AOL Radio is now also available through the [[AOL Instant Messenger]] service, and [[Winamp]].
+
+==Limits==
+
+*Commercial breaks every hour
+*There is no rewind, fast-forward, or playback.
+*Local radio stations are limited to CBS affiliates
+*There is no play-on-demand service
+*No direct channel customization, though rating influences the songs played.
+*Songs cannot be banned entirely, though giving them a 1-star rating will have them played very rarely.
+*Banner ads, which cannot be blocked.
+*A maximum of six skips per station per hour. Changing stations, refreshing the page, or reloading the player will use a skip.
+*As of 2010, there is no premium subscription to remove the ads or skip limits.
+
+== Notable DJs / Mixers / Personalities ==
+
+
+==See also==
+{{Portal|Radio}}
+* [[Live365]]
+* [[LAUNCHcast]]
+* [[SHOUTcast]]
+
+==External links==
+* [http://music.aol.com/radioguide/bb AOL Online Radio Guide]
+* [http://www.aolradioblog.com AOL Radio Blog]
+
+{{CBS Radio}}
+{{AOL Inc.}}
+{{CBS}}
+
+==References==
+{{Reflist}}
+
+{{coord missing|United States}}
+
+{{DEFAULTSORT:Aol Radio}}
+[[Category:Internet radio stations in the United States]]
+[[Category:AOL|Radio]]
+[[Category:IOS software]]
+[[Category:Mac OS X software]]
+[[Category:Windows software]]

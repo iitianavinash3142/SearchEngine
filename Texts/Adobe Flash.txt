@@ -1,0 +1,369 @@
+
+Flash manipulates [[vector graphics|vector]] and [[raster graphics]] to provide animation of text, drawings, and still images. It supports bidirectional [[Streaming media|streaming]] of audio and video, and it can capture user input via mouse, keyboard, microphone, and camera. Flash contains an [[Object-oriented language]] called [[ActionScript]].
+
+Flash content may be displayed on various computer systems and [[information appliance|devices]], using [[Adobe Flash Player]], which is available free of charge for common [[web browser]]s, some [[mobile phone]]s and a few other [[electronic device]]s (using [[Flash Lite]]).
+
+
+==History==
+ | last = Gay | first = Jonathan | authorlink = Jonathan Gay | title = The History of Flash
+ | publisher = Adobe Systems Inc. | year = 2001
+ | url = http://www.adobe.com/macromedia/events/john_gay/page02.html
+
+===Recent developments===
+
+'''Adobe Labs''' (previously called ''Macromedia Labs'') is a source for news and pre-release versions of emerging products and technologies from Adobe. Most innovations, such as Flash 10, [[Macromedia Flex|Flex]] 3, and ActionScript 3.0 have all been discussed and/or trialled on the site.
+
+
+
+
+====Open Screen Project====
+
+
+
+==Format==
+{{main|SWF}}
+
+The use of vector graphics combined with program code allows Flash files to be smaller — and thus for streams to use less [[Bandwidth (computing)|bandwidth]] — than the corresponding bitmaps or video clips. For content in a single format (such as just text, video, or audio), other alternatives may provide better performance and consume less [[central processing unit|CPU]] power than the corresponding Flash movie, for example when using transparency or making large screen updates such as photographic or text fades.
+
+In addition to a vector-rendering engine, the Flash Player includes a virtual machine called the ActionScript Virtual Machine (AVM) for scripting interactivity at run-time, support for video, MP3-based audio, and bitmap graphics. As of Flash Player 8, it offers two video codecs: [[On2 Technologies]] [[VP6]] and [[sorenson codec|Sorenson Spark]], and run-time support for [[JPEG]], Progressive JPEG, [[Portable Network Graphics|PNG]], and [[Graphics Interchange Format|GIF]]. In the next version, Flash is slated to use a [[Just-in-time compilation|just-in-time]] compiler for the ActionScript engine.
+
+Flash Player is a browser plugin, and cannot run within a usual e-mail client, such as [[Microsoft Outlook|Outlook]]. Instead, a link must open a browser window. A [[Gmail]] labs feature allows playback of YouTube videos linked in emails.
+
+===Flash Video===
+{{Main|Flash Video}}
+Virtually all browser plugins for video are [[Gratis#Software|free of charge]] and cross-platform, including Adobe's offering of Flash Video, which was first introduced with Flash version 6. Flash Video has been a popular choice for websites due to the large [[#Installed user base|installed user base]] and programmability of Flash. In 2010, Apple [[#Criticism|publicly criticized]] Adobe Flash, including its implementation of video playback for not taking advantage of hardware acceleration, one reason Flash is not to be found on Apple's mobile devices. Soon after Apple's criticism, Adobe demoed and released a beta version of Flash 10.1, which takes advantage of GPU hardware acceleration even on a Mac. Flash 10.2 beta, released December 2010, finally adds multicore CPU hardware acceleration for h.264, three years after most other decoders.
+
+===Flash Audio===
+Flash Audio is most commonly encoded in [[MP3]] or AAC ([[Advanced Audio Coding]]) however it does also support [[ADPCM]], Nellymoser ([[Nellymoser Asao Codec]]) and [[Speex]] audio codecs. Flash allows sample rates of 11, 22 and 44.1 kHz. It does not support 48 kHz audio sample rate which is the standard TV, DVD sample rate.
+
+|url=http://www.kaourantin.net/2007/08/what-just-happened-to-video-on-web_20.html
+|title=What just happened to video on the web
+|publisher=Adobe
+
+Adobe Flash Player 10.1 does not support acoustic echo cancellation, unlike the VoIP offerings of Skype and Google Voice. This makes Flash less suitable for group calling or meetings, as use of headphones for all participants is essential, or at least highly advised.
+
+===Scripting language===
+{{See|ActionScript}}
+
+===Proprietary restrictions===
+{{See also|Proprietary software}}
+
+|url=http://news.zdnet.com/2424-3515_22-199508.html
+|title=Mozilla warns of Flash and Silverlight 'agenda'
+|last=Meyer|first=David
+|publisher=[[ZDNet]]
+|date=2008-04-30
+|accessdate=2009-01-11
+
+|url=http://video.google.com/videoplay?docid=5545573096553082541&ei=LV6hSaz0JpbA2AKh4OyPDg&hl=un
+|title=Håkon Wium Lie on the video element in HTML 5
+|accessdate=2009-02-22
+|publisher=Google Video
+
+===Disclosure===
+In October 1998, Macromedia disclosed the Flash Version 3 Specification to the world on its website. It did this in response to many new and often semi-open formats competing with SWF, such as Xara's [[Xara Flare|Flare]] and Sharp's [[Extended Vector Animation]] formats. Several developers quickly created a [[C (programming language)|C]] [[C library|library]] for producing SWF. In February 1999, the company introduced [[MorphInk]] 99, the first third-party program to create SWF files. Macromedia also hired [[Middlesoft]] to create a freely available [[development kit|developers' kit]] for the SWF file format versions 3 to 5.
+
+Macromedia made the Flash Files specifications for versions 6 and later available only under a [[non-disclosure agreement]], but they are widely available from various sites.
+
+
+
+==Authoring tools==
+===Adobe Flash Professional===
+ You may do so by adding an {{anchor|Adobe Flash Professional}} to the new name, or simply by refraining to change the name.
+-->
+{{Infobox software
+| name = Adobe Flash Professional
+| logo = [[Image:Adobe Flash Pro CS5 icon.png|64px|Adobe Flash CS5 Icon]]
+| caption = Adobe Flash CS5 Professional (11.0.2.489)
+| screenshot = [[Image:Adobe Flash CS5.jpg|300px|Adobe Flash CS5 Professional under [[Windows 7]]|Adobe Flash CS5 Professional]]
+| developer = [[Adobe Systems]] (formerly by [[Macromedia]])
+| frequently updated = Yes
+| programming language = [[C++]]
+| operating system = [[Microsoft Windows]] and [[Mac OS X]]|
+| genre = [[Multimedia]]
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| website = {{URL|http://www.adobe.com/products/flash/flashpro/}}
+}}
+The Adobe Flash Professional multimedia authoring program is used to create content for the [[Adobe Engagement Platform]], such as web applications, games and movies, and content for mobile phones and other embedded devices.
+
+====History====
+
+In December 1996, [[Macromedia]] bought FutureWave and so re-branded and released FutureSplash Animator as ''Macromedia Flash'' v1.0. In 2005, Adobe Systems acquired Macromedia; subsequently, in 2007, ''Adobe Flash CS3 Professional'', the next version of Macromedia Flash was released.
+
+{| class="wikitable"
+|-
+! style="width:150px;"| Release
+! Year
+! Description
+|-
+| '''FutureSplash Animator'''
+| 1996
+| Initial version of Flash with basic editing tools and a timeline
+|-
+| '''Macromedia Flash 1'''
+| 1996
+| A re-branded version of the FutureSplash Animator
+|-
+|'''Macromedia Flash 2'''
+| 1997
+|Released with Flash Player 2, new features included: the object [[Library (computer science)|library]]
+|-
+|'''Macromedia Flash 3'''
+|1998
+|Released with Flash Player 3, new features included: the movieclip element, [[JavaScript]] plug-in integration, [[transparency (graphic)|transparency]] and an external stand alone player
+|-
+|'''Macromedia Flash 4'''
+|1999
+|Released with Flash Player 4, new features included: internal [[Variable (programming)|variables]], an input field, advanced ActionScript, and [[Streaming media|streaming]] MP3
+|-
+|'''Macromedia Flash 5'''
+|2000
+|Released with Flash Player 5, new features included: ActionScript 1.0 (based on ECMAScript, making it very similar to JavaScript in syntax), [[XML]] support, Smartclips (the precursor to components in Flash), [[HTML]] text formatting added for dynamic text
+|-
+|'''Macromedia Flash MX(6)'''
+|2002
+|Released with Flash Player 6, new features included: a video [[codec]] (Sorenson Spark), [[Unicode]], v1 [[Widget engine|UI Components]], [[Data compression|compression]], ActionScript vector drawing API
+|-
+|'''Macromedia Flash MX 2004(7)'''
+|2003
+|Released with Flash Player 7, new features included: Actionscript 2.0 (which enabled an [[object-oriented programming]] model for Flash, although it lacked the Script assist function of other versions, meaning Actionscript could only be typed out manually), behaviors, extensibility layer (JSAPI), alias text support, timeline effects. Macromedia Flash MX Professional 2004 included all Flash MX 2004 features, plus: Screens (forms for non-linear state-based development and slides for organizing content in a linear slide format like [[Microsoft PowerPoint|PowerPoint]]), [[web service]]s integration, video import wizard, Media Playback components (which encapsulate a complete MP3 and/or FLV player in a component that may be placed in an SWF), Data components (DataSet, XMLConnector, WebServicesConnector, XUpdateResolver, etc.) and data binding APIs, the Project Panel, v2 UI components, and Transition class libraries.
+|-
+|'''Macromedia Flash 8'''
+|2005
+| Macromedia Flash Basic 8, a less [[feature-rich]] version of the Flash authoring tool {{Citation needed|reason=less than what? needs relative identification.|date=December 2010}} targeted at new users who only want to do basic drawing, animation and interactivity. Released with Flash Player 8, this version of the product has limited support for video and advanced graphical and animation effects. Macromedia Flash Professional 8 added features focused on expressiveness, quality, video, and mobile authoring. New features included Filters and blend modes, easing control for animation, enhanced stroke properties (caps and joins), object-based drawing mode, run-time bitmap caching, [[Saffron Type System|FlashType advanced anti-aliasing]] for text, [[On2 Technologies|On2]] VP6 advanced video codec, support for alpha transparency in video, a stand-alone encoder and advanced video importer, cue point support in FLV files, an advanced video playback component, and an interactive mobile device emulator.
+|-
+|'''Adobe Flash CS3(9) Professional'''
+|2007
+|Flash CS3 is the first version of Flash released under the Adobe name. CS3 features full support for ActionScript 3.0, allows entire applications to be converted into ActionScript, adds better integration with other Adobe products such as [[Adobe Photoshop]], and also provides better Vector drawing behavior, becoming more like [[Adobe Illustrator]] and [[Adobe Fireworks]].
+|-
+|'''Adobe Flash CS4(10) Professional'''
+|2008
+|Contains [[inverse kinematics]] (bones), basic [[Three-dimensional space|3D]] object manipulation, object-based animation, a text engine, and further expansions to ActionScript 3.0. CS4 allows the developer to create animations with many features absent in previous versions.
+|-
+|'''Adobe Flash Professional CS5(10.1)'''
+|2010
+Other features of Flash CS5 are a new text engine (TLF), further improvement to [[inverse kinematics]], and the Code Snippets panel.
+|}
+
+===Third-party tools===
+[[Open Source]] projects like [[Ajax framework|Ajax Animator]] and the (now defunct) [[UIRA]] aim to create a Flash development environment, complete with a graphical user environment. Alternatively, programs such as [[swfmill]], [[SWFTools]], and [[MTASC]] provide tools to create SWF files, but do so by compiling text, actionscript or XML files into [[Flash animation]]s. It is also possible to create SWF files programmatically using the [[Ming library]], which has interfaces for [[C (Programming Language)|C]], [[PHP]], [[C++]], [[Perl]], [[Python (programming language)|Python]], and [[Ruby (programming language)|Ruby]]. [[haXe]] is an open source, high-level object-oriented programming language geared towards web-content creation that can compile Flash files.
+
+Many [[shareware]] developers produced Flash creation tools and sold them for under US$50 between 2000 and 2002. In 2003 competition and the emergence of free Flash creation tools had driven many third-party Flash-creation tool-makers out of the market, allowing the remaining developers to raise their prices, although many of the products still cost less than US$100 and support ActionScript. As for open source tools, [[KToon]] can edit vectors and generate SWF, but its interface is very different from Macromedia's. Another, more recent example of a Flash creation tool is [[SWiSH Max]] made by an ex-employee of Macromedia. [[ToonBoom|Toon Boom]] Technologies also sells a traditional animation tool, based on Flash.
+
+In addition, several programs create [[.swf]]-compliant files as output from their programs. Among the most famous of these are [[Screencast]] tools, which leverage the ability to do lossless compression and playback of captured screen content in order to produce demos, tutorials, or software simulations of programs. These programs are typically designed for use by non-programmers, and create Flash content quickly and easily, but cannot actually edit the underlying Flash code (i.e. the tweening and transforms, etc.) [[Screencam]] is perhaps the oldest screencasting authoring tool to adopt Flash as the preferred output format, having been developed since the mid-90s. The fact that screencasting programs have adopted Flash as the preferred output is testament to Flash's presence as a ubiquitous cross-platform animation file format.
+
+Other tools are focused on creating specific types of Flash content. [[Anime Studio]] is a 2D animation software package specialized for character animation which creates SWF files. [[Express Animator]] is similarly aimed specifically at animators. [[Question Writer]] publishes its quizzes to Flash file format.
+
+Users who are not programmers or web designers will also find on-line tools that allow them to build full Flash-based websites. One of the oldest services available (1998) is [http://www.flashtogo.com/ FlashToGo]. Such companies provide a wide variety of pre-built models (templates) associated to a Content Management System that empowers users to easily build, edit and publish their websites. Other sites, that allows for greater customization and design flexibility are [[Wix.com]] and [[CirclePad]].
+
+Adobe wrote a software package called [[Adobe LiveMotion]], designed to create interactive animation content and export it to a variety of formats, including SWF. LiveMotion went through two major releases, but failed to gain any notable user base.
+
+In February 2003, Macromedia purchased Presedia, which had developed a Flash authoring tool that automatically converted PowerPoint files into Flash. Macromedia subsequently released the new product as Breeze, which included many new enhancements. In addition, (as of version 2) [[Apple Inc.|Apple]]'s [[Keynote (software)|Keynote]] presentation software also allows users to create interactive presentations and export to SWF.
+
+{{anchor|Installed user base}}
+==User experience==
+|last=Shankland
+|first=Stephen
+|title=HTML vs. Flash: Can a turf war be avoided?
+|publisher=[[CNET News]]
+|url=http://news.cnet.com/8301-30685_3-20000037-264.html
+|date=February 3, 2010
+|accessdate=December 26, 2010
+
+The Adobe Flash Player exists for a variety of systems and devices: Windows, [[Mac OS 9]]/[[Mac OS X|X]], [[Linux]], [[Solaris (operating system)|Solaris]], [[HP-UX]], [[Pocket PC]]/[[Windows CE]], [[OS/2]], [[QNX]], [[Android (operating system)|Android]], [[Symbian]], [[Palm OS]], [[BeOS]], and [[IRIX]], although the performance is typically best on Windows (see [[#Performance|Performance]]). For compatibility with devices (embedded systems), see [[Macromedia Flash Lite]].
+
+[[File:Noflash.png|thumb|Some websites rely on Flash so heavily that they are totally unusable without this plugin]]
+
+
+Downloading Flash is blocked in countries that are under U.S [[economic sanction|sanctions]] (such as Syria & Sudan). Users in these countries are blocked (by Adobe) from downloading Flash plug-ins for both Internet Explorer and Firefox browsers.{{Citation needed|date=November 2010}}
+
+
+===Accessibility===
+* Text size can be controlled using full page zoom, found in many modern browsers.
+
+===Performance===
+
+===Flash blocking in web browsers===
+
+{{anchor|Security}}
+
+==Flash client security==
+
+
+===Local Shared Objects (“Flash cookies”)===
+{{Main|Local Shared Object}}
+
+==64-bit support==
+
+
+The key new capabilities in the Flash Player "Square" preview are:
+* 64-bit support — Native support for 64-bit operating systems and 64-bit web browsers on Linux, Mac OS, and Windows. (Hulu and Amazon which depends on RTMPE are not currently functioning because there are some 64-bit libs that need to be integrated into the branch{{cite web|url=http://forums.adobe.com/thread/738761?tstart=0|title=Adobe Forums: Flash Player "Square": 64-bit}})
+* Internet Explorer 9 hardware accelerated rendering support — Enhanced support for Internet Explorer 9 Beta. It takes advantage of hardware accelerated graphics in Internet Explorer 9 Beta, utilizing hardware rendering surfaces to improve graphics performance and enable seamless composition.
+
+
+
+
+
+==Usage==
+{{Unreferenced section|date=August 2008}}
+One of the uses of Adobe Flash is to create a '''flash intro''', a piece of animated content displayed at the beginning of a [[website]]. Often, the main content is loading in the background, while the animated content is displayed in the foreground. The intent is to captivate the user's attention so that he or she does not stray from the site, although it may do the opposite as it slows the user from accessing the actual site and can be tedious for users with slow internet connections. Often a "skip" or "skip intro" button is prepared to allow more immediate access to the site's homepage.
+
+==Alternatives to Flash==
+===HTML5===
+{{main|HTML5 vs. Flash}}
+
+
+===Microsoft Silverlight===
+
+===Java===
+[[Java applet]]s are used both to create interactive visualisations and to present video, three dimensional objects and other media. Java applets are more appropriate for complex visualizations that require significant programming effort in high level language or communications between applet and originating server. Sun's new [[JavaFX]] is considered as another competitor for [[Rich Internet Applications]].
+
+===Other open alternatives===
+{{See also|Open format}}
+
+There are equivalent open standards for many simple uses of Flash. Most notably the [[Scalable Vector Graphics|SVG]] and [[Synchronized Multimedia Integration Language|SMIL]] file formats, the ''canvas'', ''audio'' and ''video'' HTML elements, and the [[JavaScript]] programming language. More complex use cases can be achieved by combining these.
+
+
+
+===Third-party players===
+
+
+There is, as of late 2008, no complete free software replacement which offers all the functionality of the latest version of Adobe Flash Player.
+
+|title=Richard Stallman on The free software movement and its challenges
+|accessdate=2009-02-21
+|publisher=Google Video
+
+
+
+[[Swfdec]] is another open-source flash player available for Linux, [[FreeBSD]] and [[OpenBSD]]. See also SWFOpener.
+
+[[Lightspark]] is a new implementation aiming to create a more modern and fast player. Besides hardware-accelerated rendering, it exploits [[Thread (computer science)|multithreading]] and [[JIT compilation]]. It supports only the new [[ActionScript#ActionScript 3.0|ActionScript 3]] [[Virtual Machine|VM]] introduced in Flash 9.
+
+
+
+[http://savannah.nongnu.org/projects/flvstreamer flvstreamer] is an open source software implementation of an RTMP client, Flash's own streaming protocol. It is a fork of rtmpdump which has all the cryptographic support (i.e. RTMPE and SWF verification) removed from the code.
+
+[http://smokescreen.us Smokescreen] allows playback of Flash files using javascript in the webpage.
+
+==See also==
+;Adobe Flash
+* [[SWF]] file format, the files generated by the Flash application and played by Flash Player.
+* [[ActionScript]]
+* [[ActionScript code protection]]
+* [[Adobe Flash Player]], the runtime that executes and plays back Flash movies.
+* [[Adobe Flash Lite]], a lightweight version of Flash Player for devices that lack the resources to run regular Flash movies such as mobile phones, some laptop computers and other portable devices.
+* [[List of 2D animation software]]
+* [[Flash Video]]
+* [[Flash emulator]]
+* [[Saffron Type System]], the [[Anti-aliasing|anti-aliased]] text-rendering engine used in version 8 onwards.
+* [[Local Shared Object]]
+* [[SWFObject]], a JavaScript library used to embed Flash content into webpages.
+* [[Flash CMS]], content management for Flash content.
+;Other
+* [[Gnash]]
+* [[HTML5 video]]
+* [[Microsoft Silverlight]]
+* [[JavaFX]]
+* [[OpenLaszlo]]
+* [[Synfig]]
+* [[Lightspark]]
+
+==Footnotes==
+{{Reflist|group="spec"}}
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==External links==
+ | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia |
+ | is not a collection of links nor should it be used for advertising. |
+ | |
+ | Excessive or inappropriate links WILL BE DELETED. |
+ | See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details. |
+ | |
+ | If there are already plentiful links, please propose additions or |
+ | replacements on this article's discussion page, or submit your link |
+ | to the relevant category at the Open Directory Project (dmoz.org) |
+ | and link back to that category using the {{dmoz}} template. |
+ ======================= {{No more links}} =============================-->
+* [http://blogs.adobe.com/flashplatform/ Adobe Flash Platform Blog] - official news channel about Adobe Flash
+* [http://www.adobe.com/products/flash/ Adobe Flash for MS WinXP/Vista and Mac OS X]
+* [http://kb2.adobe.com/cps/406/kb406791.html Flash plug-in for MS Windows 9x / Macintosh OSX 10.1-10.3 / Red Hat Enterprise Linux 3 and 4]
+* [http://wiki.benjaminwolsey.de/FLA_Format FLA format specification]
+* [http://ipaddress.net16.net Detect if Flash Player is installed]
+;Communities:
+* [http://forums.adobe.com/community/flash Adobe's Flash Forum]
+* [http://www.flexflashforum.com FlexFlashForum.com - Flash Forum]
+* [http://www.actionscript.org Actionscript.org - Community Resource / Tutorials]
+* [http://www.flashcomponents.net/community/ Flash Forum / Questions and Answers]
+
+{{Flash builders}}
+{{Animation editors}}
+{{Adobe Flash}}
+{{AdobeCS}}
+{{Adobe eLearning Suite}}
+{{Adobe Systems}}
+
+[[Category:Animation software]]
+[[Category:Cross-platform software]]
+[[Category:C++ software]]
+[[Category:Graphics file formats]]
+[[Category:Mac OS software]]
+[[Category:Mac OS X software]]
+[[Category:Macromedia software|Flash]]
+[[Category:Adobe software|Flash]]
+[[Category:Adobe Creative Suite]]
+[[Category:Vector graphics editors]]
+[[Category:Web development software]]
+[[Category:Adobe Flash| ]]
+[[Category:2D Animation software]]
+[[Category:American inventions]]
+[[Category:Windows software]]
+[[Category:1996 software]]
+
+[[ar:أدوبي فلاش]]
+[[az:Adobe Flash]]
+[[bn:অ্যাডোবি ফ্ল্যাশ]]
+[[zh-min-nan:Macromedia Flash]]
+[[bg:Adobe Flash]]
+[[ca:Adobe Flash]]
+[[cs:Adobe Flash]]
+[[da:Adobe Flash]]
+[[de:Adobe Flash]]
+[[et:Flash]]
+[[es:Adobe Flash]]
+[[eu:Adobe Flash]]
+[[fa:ادوبی فلش]]
+[[fr:Adobe Flash]]
+[[gu:એડોબ ફ્લેશ]]
+[[ko:어도비 플래시]]
+[[hi:ऍडोब फ्लैश]]
+[[id:Adobe Flash]]
+[[is:Adobe Flash]]
+[[it:Adobe Flash]]
+[[he:אדובי פלאש]]
+[[kn:ಅಡೋಬ್ ಫ್ಲ್ಯಾಶ್]]
+[[ka:Adobe Flash]]
+[[lt:Adobe Flash]]
+[[hu:Adobe Flash]]
+[[mk:Adobe Flash]]
+[[mr:अ‍ॅडोबे फ्लॅश]]
+[[ms:Adobe Flash]]
+[[nl:Adobe Flash]]
+[[ja:Adobe Flash]]
+[[no:Adobe Flash]]
+[[pl:Adobe Flash]]
+[[pt:Adobe Flash]]
+[[ro:Adobe Flash]]
+[[ru:Adobe Flash]]
+[[si:ෆ්ලෑෂ් (මෘදුකාංගය)]]
+[[simple:Adobe Flash]]
+[[fi:Adobe Flash]]
+[[sv:Adobe Flash]]
+[[ta:அடோப் ஃப்ளாஷ்]]
+[[th:อะโดบี แฟลช]]
+[[tr:Adobe Flash]]
+[[uk:Adobe Flash]]
+[[vi:Adobe Flash]]
+[[diq:Adobe Flash]]

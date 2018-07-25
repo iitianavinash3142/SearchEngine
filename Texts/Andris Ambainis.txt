@@ -1,0 +1,51 @@
+|box_width         = 300x
+|name              = Andris Ambainis
+|image             = Andris Ambainis (2009) side.jpg
+|image_size        = 200px
+|caption           = 
+|birth_name    = 
+|birth_date        = {{birth date and age|df=yes|1975|01|18}}
+|birth_place       = [[Daugavpils]], [[Latvia]]
+|residence         = 
+|citizenship       = 
+|nationality       = [[Latvian people|Latvian]]
+|religion          = 
+|ethnicity         = 
+|workplaces        = [[University of Latvia]]
+|doctoral_advisor  = [[Umesh Vazirani]]
+|academic_advisors = 
+|doctoral_students = 
+|notable_students  = 
+|author_abbrev_bot = 
+|author_abbrev_zoo = 
+|influences        = 
+|influenced        = 
+|awards            =  [[International Mathematical Olympiad]] gold medal (1991)
+|signature         =  
+|footnotes         = 
+}}
+
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.latgaleslaiks.lv/lv/2004/1/16/17042 (in Latvian)]
+*[http://www.on-line.lv/jaunumi.php?jn=164 (in Latvian)]
+
+| NAME              = Ambainis, Andris
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 18 January 1975
+| PLACE OF BIRTH    = [[Daugavpils]], [[Latvia]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Ambainis, Andris}}
+[[Category:Living people]]
+[[Category:1975 births]]
+[[Category:Theoretical computer scientists]]
+[[Category:People from Daugavpils]]
+[[Category:University of California, Berkeley alumni]]
+
+[[lv:Andris Ambainis]]

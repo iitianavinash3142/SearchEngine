@@ -1,0 +1,42 @@
+{{infobox biodatabase
+|title = ASTD
+|logo =[[File:Database.png]]
+|description = [[Alternative splicing|alternative Splicing]] and [[RNA|Transcript]] Diversity database.
+|scope =
+|organism =
+|center =[[European Bioinformatics Institute]]
+|laboratory = 
+|author = Gautier Koscielny
+|released = 2008
+|standard =
+|format =
+|url = http://www.ebi.ac.uk/astd
+|download =
+|webservice =
+|sql =
+|sparql =
+|webapp =
+|standalone =
+|license =
+|versioning =
+|frequency =
+|curation =
+|bookmark =
+|version=
+
+==See also==
+* [[Alternative splicing annotation project]]
+* [[AspicDB]]
+* [[RNA splicing]]
+
+==References==
+
+==External links==
+* http://www.ebi.ac.uk/astd
+
+{{DEFAULTSORT:Alternative Splicing And Transcript Diversity Database}}
+[[Category:Biological databases]]
+[[Category:Gene expression]]
+[[Category:RNA splicing]]
+
+

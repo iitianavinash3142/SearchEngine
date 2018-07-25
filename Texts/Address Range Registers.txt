@@ -1,0 +1,17 @@
+ |url = http://cateee.net/lkddb/web-lkddb/MTRR.html
+ |title = Linux Kernel Driver Database
+ |accessdate = 2009-09-27
+ |work = Linux Kernel Driver DataBase
+ |publisher = Linux Kernel Driver DataBase
+}}
+
+== See also ==
+* [[Write barrier]]
+* [[Page Attribute Table]]
+* [[Memory Type Range Registers]]
+
+== References ==
+{{reflist}}
+
+[[Category:Digital registers]]
+

@@ -1,0 +1,36 @@
+
+==Publications==
+SIGACT publishes a quarterly print newsletter, '''''SIGACT News'''''. Its online version, ''SIGACT News Online'', is available since 1996 for SIGACT members, with unrestricted access to some features.
+
+==Conferences==
+SIGACT sponsors a number of annual conferences.
+
+*COLT: [[Conference on Learning Theory]]
+*PODC: ACM [[Symposium on Principles of Distributed Computing]] (jointly sponsored by [[SIGOPS]])
+*PODS: ACM [[Symposium on Principles of Database Systems]]
+*POPL: ACM [[Symposium on Principles of Programming Languages]]
+*SoCG: ACM [[Symposium on Computational Geometry]] (jointly sponsored by [[SIGGRAPH]])
+*SODA: ACM/SIAM [[Symposium on Discrete Algorithms]] (jointly sponsored by the [[Society for Industrial and Applied Mathematics]]). Two annual workshops held in conjunction with SODA also have the same joint sponsorship:
+**ALENEX: Workshop on Algorithms and Experiments
+**ANALCO: Workshop on Analytic Algorithms and Combinatorics
+*SPAA: ACM [[Symposium on Parallelism in Algorithms and Architectures]]
+*STOC: ACM [[Symposium on the Theory of Computing]]
+
+
+==Awards and prizes==
+*[[Gödel Prize]], for outstanding papers in  theoretical computer science (sponsored jointly with [[EATCS]])
+*[[Donald E. Knuth Prize]], for outstanding contributions to the foundations of computer science (sponsored jointly with [[IEEE Computer Society]]'s Technical Committee on the Mathematical Foundations of Computing)
+*[[Paris Kanellakis Theory and Practice Award]], for theoretical accomplishments of significant and demonstrable effect on the practice of computing ([[Association for Computing Machinery|ACM]] Award co-sponsored by SIGACT)
+*[[Eugene L. Lawler Award]] for Humanitarian Contributions within Computer Science and Informatics (ACM Award co-sponsored by SIGACT)
+*[[Danny Lewin Best Student Paper Award]]
+*Best Paper Award for ACM [[Symposium on Theory of Computing|STOC]] and [[Institute of Electrical and Electronics Engineers|IEEE]] [[Symposium on Foundations of Computer Science|FOCS]] conference papers
+*ACM SIGACT Distinguished Service Award
+
+==Notes==
+{{reflist}}
+
+==External links==
+*[http://sigact.acm.org/ SIGACT webpage]
+*[http://portal.acm.org/browse_dl.cfm?idx=J697 SIGACT News on ACM Digital Library]
+
+[[Category:Association for Computing Machinery Special Interest Groups]]

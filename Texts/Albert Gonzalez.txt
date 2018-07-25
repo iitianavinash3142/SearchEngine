@@ -1,0 +1,94 @@
+{{Infobox criminal
+|image_name = Albert-gonzalez.jpg
+| subject_name = Albert Gonzalez
+| image_size = 220px
+| image_caption = Photo of Albert Gonzalez by U.S. Secret Service
+| birth_date = 1981 
+| birth_place =
+| death_date =
+| death_place = 
+| alias = 
+| conviction =
+| conviction_penalty = 
+| conviction_status =
+| occupation = 
+| spouse = 
+| parents =
+| children =
+}}
+
+'''Albert Gonzalez''' (born 1981) is a [[Hacker (computer security)|computer hacker]] and [[computer criminal]] who is accused of masterminding the combined [[credit card theft]] and subsequent reselling of more than 170 million card and [[Automated teller machine|ATM]] [[Bank card number|numbers]] from 2005 through 2007—the biggest such fraud in history.
+
+Gonzalez and his accomplices used [[SQL injection]] techniques to create [[malware]] [[Backdoor (computing)|backdoors]] on several corporate systems in order to launch [[packet sniffing]] (specifically, [[ARP Spoofing]]) attacks which allowed him to [[Hacker (computer security)|steal computer data]] from internal corporate networks.
+
+
+Gonzalez had three federal indictments:
+*May 2008 in [[New York]] for the Dave & Busters case (trial schedule September 2009)
+*May 2008 in [[Massachusetts]] for the TJ Maxx case (trial scheduled early 2010)
+*August 2009 in [[New Jersey]] in connection with the Heartland Payment case.
+
+On March 25, 2010, Gonzalez was sentenced to 20 years in federal prison.
+
+==Early life==
+
+In 2000 he moved to [[New York City]] where he lived for three months before moving to [[Kearny, New Jersey]].
+
+==Shadowcrew==
+{{main|ShadowCrew}}
+
+
+
+==TJX Companies==
+
+
+
+
+==Arrest==
+
+
+
+
+He was in the [[Metropolitan Detention Center, Brooklyn|Metropolitan Detention Center]] in [[Brooklyn]] when he was indicted in the Heartland attacks.
+
+==Heartland Payment Systems==
+
+Gonzalez and his co-horts targeted large companies and studied their check out terminals and then attacked the companies from internet-connected computers in New Jersey, Illinois, [[Latvia]], the [[Netherlands]] and [[Ukraine]].
+
+
+The indictment said the hackers tested their program against 20 [[anti virus programs]].
+
+
+
+
+
+==Plea bargain==
+On August 28, 2009, his attorney filed papers with the [[United States District Court for the District of Massachusetts]] in Boston indicating that he would plead guilty to all 19 charges in the U.S. v. Albert Gonzalez, 08-CR-10223, case (the TJ Maxx case).  According to reports this [[plea bargain]] would "resolve" issues with the New York case of U.S. v. Yastremskiy, 08-CR-00160 in [[United States District Court for the Eastern District of New York]] (the Dave and Busters case).
+
+Gonzalez could serve a term of 15 years to 25 years. He would forfeit more than $1.65 million, a condominium in Miami, a blue 2006 [[BMW 330i]] automobile, [[IBM]] and [[Toshiba]] laptop computers, a Glock 27 firearm, a [[Nokia]] cell phone, a [[Tiffany]] diamond ring and three [[Rolex]] watches. 
+
+
+
+==References==
+{{reflist|2}}
+
+| NAME              = Gonzalez, Albert
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1981
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Gonzalez, Albert}}
+[[Category:1981 births]]
+[[Category:People from Miami, Florida]]
+[[Category:Hacking (computer security)]]
+[[Category:People associated with computer security]]
+[[Category:Living people]]
+[[Category:American fraudsters]]
+[[Category:American people of Cuban descent]]
+[[Category:American white-collar criminals]]
+[[Category:Computer criminals]]
+
+[[fr:Albert Gonzalez]]
+[[ja:アルバート・ゴンザレス (ハッカー)]]

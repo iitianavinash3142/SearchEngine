@@ -1,0 +1,36 @@
+| name                    = Andrew Ng
+| residence               = [[United States]]
+| field                   = [[Artificial intelligence|Artificial Intelligence]]
+| work_institution        = [[Stanford University]]
+}}
+
+'''Andrew Ng''' is an Associate Professor in the Department of [[Computer Science]] at [[Stanford University]]. His work is primarily in [[machine learning]] and [[robotics]].
+
+His research projects include the Stanford AI Robot ([http://stair.stanford.edu/ STAIR]).
+
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://ai.stanford.edu/~ang/index.html Homepage]
+* [http://stair.stanford.edu/ STAIR Homepage]
+* [http://ai.stanford.edu/~ang/papers.php Publications]
+* [http://www.youtube.com/watch?v=UzxYlbK2c7E&feature=PlayList&p=A89DCFA6ADACE599&playnext_from=PL&index=0&playnext=1 Machine Learning (CS 229) Video Lecture]
+
+| NAME              =Ng, Andrew
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Ng, Andrew}}
+[[Category:Living people]]
+[[Category:Artificial intelligence researchers]]
+[[Category:Roboticists]]
+[[Category:Stanford University faculty]]
+[[Category:Sloan Research Fellowships]]
+
+

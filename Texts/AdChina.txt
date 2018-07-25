@@ -1,0 +1,67 @@
+| company_name   = AdChina {{lang|zh|易传媒}}
+| logo           = [[File:AdChina LOGO.png]]
+| foundation     = [[Silicon Valley, California]], [[United States|USA]] (2007) 
+| location       = Shanghai, China
+| industry       = [[Digital Marketing & Sales]]
+| homepage       = [http://www.adchina.com www.adchina.com]
+}}
+
+'''AdChina'''({{zh|c=[[wikt:易|易]][[wikt:传|传]][[wikt:媒|媒]]}}) is an [[integrated digital platform]] in [[China]] that runs its own [[ad network]], ePR network, [[eCommerce]] platform and SNS ([[social networking sites]]) network. AdChina provides brands ([[Procter & Gamble|P&G]], [[China Telecom]], [[Unilever]], [[L'Oreal]], [[Nike, Inc.|Nike]], etc.) and agencies ([[Vivaki]], [[OgilvyOne]], etc.) with integrated digital marketing and sales products and services, including branding, iWOM, and online sales.
+
+==History==
+In April 2007, AdChina was founded in [[Silicon Valley]], [[United States]]. AdChina headquarters in [[Shanghai]], with offices in [[Beijing]] and [[Guangzhou]].
+
+===Financing===
+AdChina is a venture-backed technology company. Its investors include [[GSR Ventures]], [[Richmond Management]] and [[News Corporation]].
+
+
+
+===Partnerships===
+====[[MSN China]]====
+AdChina built strategic partnership with [[MSN]] China on [[online advertising]] as well as [[eCommerce]]. AdChina serves online ads on news, entertainment, finance and video channels of [[MSN China]]. Moreover, the partnership extended to an exclusive management rights for the [[B2C]] online shopping platform on [[MSN China]]([http://shop.msn.com.cn shop.msn.com.cn]) launched in November 2009.
+
+====China Network Television (CNTV)====
+
+====HunanTV.com====
+
+==Products & Services==
+[[File:WebTV syndication.png|thumb|Syndication WebTV|200px]][[File:WebTV onsite.png|thumb|On-site WebTV|200px]][[File:MSN shopping channel.png|thumb|MSN Shopping Channel|200px]]
+
+===Display [[ad network|Ad Network]]===
+
+===Video [[ad network|Ad Network]]===
+AdChina video [[ad network]] integrates WebTV platform and online video websites.
+
+====WebTV Platform====
+The syndication WebTV looks like a floating AdTV with multiple TV video clips (15~30 sec.) embedded, and [[Television advertisement|TVC]] ads are served between the clips. The on-site video ad formats refer to regular video ad formats including pre-roll and background ad on the online platforms of TV media.
+
+====Online Video Website====
+AdChina integrates the ad inventory of online video websites and client programs into its video ad network.
+
+===Social Media([[social networking sites]]) Network===
+AdChina SNS network integrates a number of applications (APP) on multiple [[social networking sites]] to provide marketers with advertising services in terms of expandable banner ad, brand image embedding into APP and tailored APP. Moreover, AdChina leverages the demographic information of [[social networking sites]] users to deliver demographic targeted ads across the whole AdChina [[ad network]]. Besides advertising, AdChina cooperates with plenty of [[opinion leaders]] on social networking sites to implement ePR campaigns for marketers.
+
+===[[eCommerce]]===
+AdChina operates the [[B2C]] online shopping platform on [[MSN China]], the MSN shopping channel ([http://shop.msn.com.cn shop.msn.com.cn]). MSN shopping channel sells products in various categories, including cosmetics & skincare, fashion & apparel and home improvements. With the eCommerce platform, AdChina bridges online branding and sales for its clients.
+
+===ePR Network===
+AdChina provides 3 major ePR solutions: campaign specific ePR services, continuous iWOM maintenance and [[crisis management]].
+
+===[[Mobile Web|Mobile]] Network===
+AdChina [[Mobile Web|mobile]] network extends products and services of AdChina from Internet to mobile, including display [[ad network]], ePR network, social media network and video [[ad network]], to offer advertisers integrated digital marketing solutions across [[Mobile Web|mobile]] and [[Internet]].
+
+==Culture==
+'''C.A.R.E.'''
+*'''''C''''' - Communication
+*'''''A''''' - Accountability
+*'''''R''''' - Respect
+*'''''E''''' - Entrepreneurship
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Adchina}}
+[[Category:Advertising]]
+[[Category:Social network services]]
+[[Category:Video]]
+[[Category:Internet advertising services and affiliate networks]]

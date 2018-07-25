@@ -1,0 +1,56 @@
+
+==Asymmetric c-command==
+The theory is based on a notion of ''asymmetric [[c-command]]'', c-command being a relation between nodes in a [[tree (graph theory)|tree]] originally defined by [[Tanya Reinhart]]. Kayne uses a simple definition of c-command based on the "first node up". However, the definition is complicated by his use of a "segment/category distinction". A category is a kind of extended node; if two directly connected nodes in a tree have the same label, these two nodes are both segments of a single category. C-command is defined in terms of categories using the notion of "exclusion". A category excludes all categories not dominated by ''both'' its segments. A c-commands B if every category that dominates A also dominates B, and A excludes B. The following tree illustrates these concepts:
+
+
+
+(The above is not an exhaustive list of c-command relations in the tree, but covers all of those that are significant in the following exposition.)
+
+''Asymmetric c-command'' is the relation that holds between two categories, A and B, if A c-commands B but B does not c-command A. This relationship is a primitive in Kayne's theory of linearization, the process that converts a tree structure into a flat (structureless) string of terminal nodes.
+
+==Precedence and asymmetric c-command==
+Informally, Kayne's theory states that if a nonterminal category A c-commands another nonterminal category B, all the terminal nodes dominated by A must precede all of the terminal nodes dominated by B (this statement is commonly referred to as the "Linear Correspondence Axiom" or LCA). Moreover, this principle must suffice to establish a ''complete'' and ''consistent'' ordering of all terminal nodes &mdash; if it cannot consistently order all of the terminal nodes in a tree, the tree is illicit. Consider the following tree:
+-->
+
+
+(S and S' may either be simplex structures like BP, or complex structures with specifers and complements like CP.)
+
+
+
+==Derivation of X-bar theory==
+The example tree in the [[Antisymmetry#Asymmetric c-command|first section]] of this article is in accordance with [[X-bar theory]] (with the exception that [Spec,CP] is treated as an adjunct). It can be seen that removing any of the structure in the tree (e.g. deleting the C dominating the 'c' terminal, so that the complement of A is [CP c]) will destroy the asymmetric c-command relations necessary for linearly ordering the terminals of the tree. 
+
+==The universal order==
+
+==Derived orders: the case of Japanese wh-questions==
+Perhaps the biggest challenge for antisymmetry is to explain the wide variety of different surface orders across languages. Any deviation from Spec-Head-Comp order (which implies overall Subject-Verb-Object order, if objects are complements) must be explained by movement. Kayne argues that in some cases, the need for extra movements (previously unnecessary because different underlying orders were assumed for different languages) can actually explain some mysterious typological generalizations. His explanation for the lack of [[wh-movement]] in [[Japanese language|Japanese]] is the most striking example of this. From the mid-1980s onwards, the standard analysis of wh-movement involved the wh-phrase moving leftward to a position on the left edge of the clause called [Spec,CP] (i.e., the specifier of the CP phrase). Thus, a derivation of the English question ''What did John buy?'' would proceed roughly as follows:
+
+:[CP {Spec,CP position} John did buy what]
+::''wh-movement'' →
+:[CP What did John buy]
+
+
+:
+{| border="0" cellspacing="7"
+|-----
+| John-wa || nani-o || kaimasita || ka
+|-----
+| John-''topic_marker''
+| what-''[[accusative case|accusative]]''
+| bought || ''question_particle''
+|}
+
+Japanese has an overt "question particle" (''ka''), which appears at the end of the sentence in questions. It is generally assumed that languages such as English have a "covert" (i.e. phonologically null) equivalent of this particle in the 'C' position of the clause &mdash; the position just to the right of [Spec,CP]. This particle is overtly realised in English by movement of an [[auxiliary verb|auxiliary]] to C (in the case of the example above, by movement of ''did'' to C). Why is it that this particle is on the left edge of the clause in English, but on the right edge in Japanese? Kayne suggests that in Japanese, the ''whole of the clause'' (apart from the question particle in C) has moved to the [Spec,CP] position. So, the structure for the Japanese example above is something like the following:
+
+:[CP [John-wa nani-o kaimasita] [[C ka]]
+
+
+==Dynamic Antisymmetry==
+
+==References and footnotes==
+
+[[Category:Generative linguistics]]
+[[Category:Grammar frameworks]]
+[[Category:Syntactic relationships]]
+
+[[ca:Antisimètric]]

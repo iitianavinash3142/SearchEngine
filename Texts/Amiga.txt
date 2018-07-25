@@ -1,0 +1,281 @@
+[[Image:Amiga Logo 1985.svg|right|thumb|265px|The former Amiga logo, as used by Commodore-Amiga Inc.]]
+[[Image:Amiga 1000DP.jpg|thumb|265px|The [[Amiga 1000]] (1985) was the first model released.]]
+
+
+Based on the [[Motorola 68000 family|Motorola 68000 series]] of [[microprocessor]]s, the machine sports a [[original Amiga chipset|custom chipset]] with graphics and sound capabilities that were unprecedented for the price, and a [[pre-emptive multitasking]] [[operating system]] (now known as [[AmigaOS]]).
+
+
+Since the demise of Commodore, various groups have marketed successors to the original Amiga line. [[Eyetech]] sold PowerPC based hardware under the [[AmigaOne]] brand from 2002 to 2005. A-Cube sell the Amiga compatible [[Sam440]] PowerPC board with the [[AmigaOS 4.1]].
+
+
+== History ==
+{{Main|History of the Amiga}}
+
+[[Image:Amiga-90sLogo.gif|right|thumb|200px|Logo used by Commodore in the US during the late 1980s]]
+[[Image:Recent Amiga.svg|thumb|right|265px|Amiga Technologies Logo. (1996)]]
+
+
+In 1994, Commodore filed for bankruptcy and its assets were purchased by [[Escom (computer corp)|Escom]], a German PC manufacturer, who created the subsidiary company Amiga Technologies. They re-released the A1200 and A4000T, and introduced a new [[68060]] version of the A4000T. However, Escom in turn went bankrupt in 1997. The Amiga brand was then sold to another PC manufacturer, [[Gateway 2000]], which had announced grand plans for it. However, in 2000, Gateway sold the Amiga brand without having released any products. The current owner of the trademark, [[Amiga, Inc.]], licensed the rights to make hardware using the Amiga brand to a UK computer vendor Eyetech Group, Ltd. selling the [[AmigaOne]] via an international dealer network. The AmigaOne is a [[PowerPC]] computer to run [[AmigaOS 4]].
+
+In October 2009, Hyperion was granted an exclusive, perpetual, worldwide right to AmigaOS 3.1 in order to use, develop, modify, commercialize, distribute and market [[AmigaOS 4|AmigaOS 4.x]] in any form, on any medium and for any current or future hardware platform under the exclusive trademark “AmigaOS”.
+
+== Hardware ==
+At its core, the Amiga has a custom chipset consisting of several [[coprocessor]]s, which handle audio, video and [[direct memory access]] independently of the [[Central Processing Unit]] (CPU). This architecture freed up the Amiga's processor for other tasks and gave the Amiga a performance edge over its competitors, particularly in terms of video-intensive applications and games.
+
+=== Central processing unit ===
+
+
+CPU upgrades were offered by both Commodore and third-party manufacturers. Most Amiga models can be upgraded either by direct CPU replacement or through expansion boards. Such boards often featured faster and higher capacity memory interfaces and [[hard disk drive|hard disk]] controllers.
+
+
+=== Custom chipset ===
+The custom chipset at the core of the Amiga design appeared in three distinct generations, with a large degree of backward-compatibility. The [[Original Chip Set]] (OCS) appeared with the launch of the A1000. OCS was eventually followed by the modestly improved [[Enhanced Chip Set]] (ECS) in 1990 and finally by the 32-bit [[Advanced Graphics Architecture]] (AGA) in 1992. Each chipset consists of several [[coprocessors]] which handle [[raster graphics]], digital audio, [[direct memory access]] and communication between various peripherals (e.g., CPU, memory and floppy disks). In addition, some models featured auxiliary [[Amiga custom chips|custom chip]]s which performed tasks, such as, [[SCSI]] control and display de-interlacing.
+
+==== Graphics ====
+[[Image:HAM6example.png|thumb|right|A 4096 color [[Amiga Hold-and-Modify|HAM]] picture created with [[Photon Paint]] in 1989.]]
+
+All Amiga systems can display full-screen animated graphics with 32, 64 ([[Amiga Halfbrite mode|EHB Mode]]) or 4096 colors ([[Amiga Hold-and-Modify|HAM Mode]]). Models with the AGA chipset (A1200 and A4000) also have 128, 256 and 262144 ([[Amiga Hold-and-Modify|HAM Mode]]) color modes and a palette expanded from 4096 to [[Color depth#Truecolor|16.8 million colors]].
+The Amiga chipset can ''[[genlock]]'' — adjust its own screen refresh timing to match an NTSC or PAL video signal. When combined with setting transparency, this allows an Amiga to overlay an external video source with graphics. This ability made the Amiga popular for many applications, and provides the ability to do [[Character generator|character generation]] and [[Computer-generated imagery|CGI]] effects far more cheaply than earlier systems. Some frequent users of this ability included wedding videographers, TV stations and their weather forecasting divisions (for weather graphics and radar), advertising channels, music video production, and 'desktop video'. The [[NewTek]] [[Video Toaster]] was made possible by the genlock ability of the Amiga.
+
+
+==== Sound ====
+The sound chip, named Paula, supports four sound channels (two for the left speaker and two for the right) with 8-bit resolution for each channel and a 6-bit volume control per channel. The analog output is connected to a low-pass filter, which filters out high-frequency aliases when the Amiga is using a lower sampling rate (see [[Nyquist limit]]). The brightness of the Amiga's power LED is used to indicate the status of the Amiga’s low-pass filter. The filter is active when the LED is at normal brightness, and deactivated when dimmed (or off on older A500 Amigas). On Amiga 1000 (and very first Amiga 500 and Amiga 2000 model), the power LED had no relation to the filter's status, a wire needed to be manually soldered between pins on the sound chip to disable the filter. Paula can read directly from the system's [[RAM]], using direct memory access (DMA), making sound playback without CPU intervention possible.
+
+Although the hardware is limited to four separate sound channels, software such as ''[[OctaMED]]'' uses software mixing to allow eight or more virtual channels, and it was possible for software to mix two hardware channels to achieve a single 14-bit resolution channel by playing with the volumes of the channels in such a way that one of the source channels contributes the most significant bits and the other the least ones.
+
+The quality of the Amiga's sound output, and the fact that the hardware is ubiquitous and easily addressed by software, were standout features of Amiga hardware unavailable on PC platforms for years. Third-party sound cards exist that provide DSP functions, multi-track direct-to-disk recording, multiple hardware sound channels and 16-bit and beyond resolutions. A retargetable sound API called [[AHI (Amiga)|AHI]] was developed allowing these cards to be used transparently by the OS and software.
+
+=== Kickstart firmware ===
+{{Main|Kickstart (Amiga)}}
+Kickstart is the [[booting|bootstrap]] [[firmware]]. Its purpose is to initialize the Amiga hardware and core components of [[AmigaOS]] and then attempt to boot from a [[bootable]] [[volume (computing)|volume]], such as a floppy disk or hard disk drive.
+
+The first production Amiga, the Amiga 1000, required Kickstart to be loaded first from floppy disk into 256 [[kilobyte|kB]] of RAM reserved for this purpose. Later models generally hold Kickstart on an embedded [[Read-only memory|ROM]] chip, improving start-up times. Models can be upgraded by replacing the ROM. Like the Amiga 1000, early Amiga 3000 systems loaded Kickstart from hard (or floppy) disk as the machine was launched while AmigaOS 2.0 was still in [[software release cycle#Beta|beta]] development.
+
+Several third-party vendors produced switchable socket doublers to allow two ROM chips to plug into the single ROM socket on the motherboard. These became popular as later Kickstart versions caused some backwards compatibility problems with earlier Amiga software titles. The effect of these switchable doublers was a convenient [[dual boot]] system, with a choice of two distinct OS versions via a pre-determined key sequence at reboot, or via a two way switch installed in the case, depending on the specific version installed.
+
+=== Peripherals ===
+The Amiga was one of the first home computers for which inexpensive sound sampling and video digitization accessories were available. As a result of this and the Amiga's audio and video capabilities the Amiga became a popular system for editing and producing both music and video.
+
+Many expansion boards were produced for Amiga computers to improve the performance and capability of the hardware, such as memory expansions, [[SCSI]] controllers, CPU boards, and graphics boards. Other upgrades include genlocks, Ethernet cards, modems, sound cards and samplers, video digitizers, USB cards, extra serial ports, and IDE controllers.
+
+The most popular upgrades were memory, SCSI controllers and CPU accelerator cards. These were sometimes combined into the one device, particularly on big-box Amigas like the A2000, A3000 and A4000.
+
+Early CPU accelerator cards feature full 32-bit CPUs of the 68000 family such as the [[Motorola 68020]] and [[Motorola 68030]], almost always with 32-bit memory and usually with [[floating point unit|FPUs]] and [[Memory management unit|MMUs]] or the facility to add them. Later designs feature the [[Motorola 68040]] and [[Motorola 68060]]. Both CPUs feature integrated FPUs and MMUs. Many CPU accelerator cards also had integrated SCSI controllers.
+
+Phase5 designed the [[PowerUP (accelerator)|PowerUP]] boards ([[PowerUP (accelerator)#Blizzard PPC|Blizzard PPC]] and [[PowerUP (accelerator)#Cyberstorm PPC|CyberStorm PPC]]) featuring both a 68k (a 68040 or 68060) and a PPC (603 or 604) CPU, which are able to run the two CPUs at the same time (and share the system memory). The PPC CPU on PowerUP boards is usually used as a coprocessor for heavy computations (a powerful CPU is needed to run for example [[MAME]], but even decoding [[JPEG]] pictures and [[MP3]] audio was considered heavy computation at the time). It is also possible to ignore the 68k CPU and run [[Linux]] on the PPC (project Linux APUS), but a PPC-native Amiga OS was not available when the PPC boards first appeared.
+
+24-bit graphics cards and video cards were also available. Graphics cards are designed primarily for 2D artwork production, workstation use, and later, gaming. Video cards are designed for inputting and outputting video signals, and processing and manipulating video.
+
+Perhaps the most famous video card in the North American market was the ''NewTek [[Video Toaster]]''. This was a powerful video effects board which turned the Amiga into an affordable video processing computer which found its way into many professional video environments. Due to its [[NTSC]]-only design it did not find a market in countries that used the [[PAL]] standard, such as in Europe. In PAL countries the ''OpalVision'' card was popular, although less featured and supported than the Video Toaster. Low-cost [[Timebase correction|time base correctors (TBCs)]] specifically designed to work with the Toaster quickly came to market, most of which were designed as standard Amiga bus cards.
+
+Various manufacturers started producing PCI busboards for the A1200 and A4000, allowing standard Amiga computers to use PCI cards such as Voodoo graphic cards, [[Sound Blaster]] sound cards, 10/100 Ethernet cards, and TV tuner cards. Other manufacturers produced hybrid boards which contained an Intel x86 series chip, allowing the Amiga to emulate a PC.
+
+PowerPC upgrades with Wide SCSI controllers, PCI busboards with Ethernet, sound and 3D graphics cards, and tower cases allowed the A1200 and A4000 to survive well into the late nineties.
+
+Expansion boards were made by [[Richmond Sound Design]] that allow their [[show control]] and [[sound design]] software to communicate with their custom hardware frames either by ribbon cable or fiber optic cable for long distances, allowing the Amiga to control up to eight million digitally controlled external audio, lighting, automation, relay and voltage control channels spread around a large theme park, for example. See [[Amiga software]] for more information on these applications.
+
+Other popular devices:
+* Trumpcard 500 Zorro-II SCSI interface.
+
+=== Networking ===
+Amiga had three networking interface APIs:
+* SANA-II — Is a standardized API for hardware of network interfaces. It uses an inefficient buffer handling scheme, and lacks proper support for [[Promiscuous mode|promiscuous]] and [[multicast]] modes.
+* Miami Network Interface (MNI) - Is an API that doesn't have the problems which SANA-II suffers from. It requires [[AmigaOS]] v2,04 or higher.
+
+Different network media was used:
+
+{| class="wikitable"
+|-
+! Type                          !! Speed       !! Example
+|-
+|-
+|-
+|-
+| [[Serial port]]               || {{nowrap|≤ 115.2 kbit/s}} ||
+|-
+|-
+|-
+|}
+
+== Models and variants ==
+{{Main|Amiga models and variants}}
+|last =Knight
+|first =Gareth
+|author-link =
+|last2 =
+|first2 =
+|author2-link =
+|title =Amiga history guide
+|date =
+|year =1997-2003
+|url =http://www.amigau.com/aig/comamiga.html
+|accessdate =2007-09-29
+
+=== Commodore Amiga ===
+[[Image:Amiiga4000DP.jpg|thumb|The [[Amiga 4000]] (1992) was the last desktop computer made by Commodore.]]
+
+
+The [[Commodore CDTV|CDTV]] launched in 1991, was a [[CD-ROM]] based all-in-one multimedia system. It was an early attempt at a multi-purpose multimedia appliance in an era before multimedia consoles and CD-ROM drives were common. Unfortunately for Commodore, the system never achieved any real commercial success.
+
+Commodore's last Amiga offering before filing for bankruptcy was an attempt to capture a portion of the highly competitive 1990s console market with the [[Amiga CD32]] (1993), a 32-bit CD-ROM games console. Though discontinued after Commodore's demise it met with moderate commercial success in Europe.
+
+Following purchase of Commodore's assets by Escom in 1995, the A1200 and A4000T continued to be sold in small quantities until 1996, though the ground lost since the initial launch and the prohibitive expense of these units meant that the Amiga line never regained any real popularity.
+
+|last =Knight
+|first =Gareth
+|author-link =
+|last2 =
+|first2 =
+|author2-link =
+|title =References to B52 songs on Amiga Motherboards
+|date =
+|year =1997-2006
+|url =http://www.amigahistory.co.uk/b52board.html
+|accessdate =2008-05-20
+
+=== AmigaOS 4 systems ===
+{{Main|AmigaOS 4}}
+[[Image:AmigaOS 4.1 Update 2.png|right|thumb|[[AmigaOS 4.1]] Update 2]]
+
+AmigaOS 4 (OS4) is designed for PowerPC Amiga systems and currently runs on both Amigas equipped with CyberstormPPC or BlizzardPPC accelerator boards, and on the PPC Teron series based [[AmigaOne]] computers built by [[Eyetech]] under license by Amiga Inc. AmigaOS 4.0 had been available only in developer pre-releases for numerous years until it was officially released in December 2006. Due to the nature of some provisions of the contract between Amiga Inc. and [[Hyperion Entertainment]] (the Belgian company which is developing the OS), the commercial AmigaOS 4 had been available only to licensed buyers of AmigaOne motherboards.
+
+
+
+=== Amiga hardware clones ===
+Long-time Amiga developer MacroSystem entered the Amiga-clone market with their [http://www.amiga-hardware.com/showhardware.cgi?HARDID=43 DraCo] [[Non-linear editing system|nonlinear video edit]] system. It appears in two versions, initially a tower model and later a cube. DraCo expanded upon and combined a number of earlier expansion cards developed for Amiga (VLabMotion, Toccata, WarpEngine, RetinaIII) into a true Amiga-clone powered by Motorola's [[Motorola 68060|68060]] processor. The DraCo can run AmigaOS 3.1 up through AmigaOS 3.9. It is the only Amiga-based system to support [[FireWire]] for video I/O. DraCo also offers an Amiga-compatible [[Amiga Zorro II|ZORRO-II]] expansion bus and introduced a faster custom DraCoBus, capable of 30 MB/sec transfer rates (faster than Commodore's [[Amiga Zorro III|ZORRO-III]]). The technology was later used in the Casablanca system, a set-top-box also designed for non-linear video editing.
+
+In 1998, [[Index Information]] released the Access, an Amiga-clone similar to the [[Amiga 1200|A1200]], but on a motherboard which could fit into a standard [[Drive bay#5%"|5 1/4" drive bay]]. It features either a [[Motorola 68020|68020]] or [[Motorola 68030|68030]] CPU, with a redesigned [[Amiga Advanced Graphics Architecture|AGA]] chipset, and runs [[AmigaOS]] 3.1.
+
+
+
+=== Emulation ===
+{{Main|Amiga emulation}}
+
+One of the most challenging aspects of emulation is the design of the Amiga chipset, which relies on cycle-critical timings. As a result, early emulators did not always achieve the intended results though later emulator versions can now accurately reproduce the behavior of Amiga systems.
+
+== Operating systems ==
+=== AmigaOS ===
+{{Main|AmigaOS}}
+
+
+Another notable feature was the combined use of both a [[command-line interface]] and [[graphical user interface]]. [[AmigaDOS]] was the disk operating system and command line portion of the OS and [[Workbench (AmigaOS)|Workbench]] the native graphical windowing, [[Icon (computer)|icon]]s, menu and pointer environment for file management and launching applications. Notably, AmigaDOS allowed long [[filename]]s with [[Whitespace (computer science)|whitespace]] and did not require [[file extension]]s.
+
+
+
+The problem was somewhat exacerbated by Commodore's initial decision to release documentation relating not only to the OS's underlying software routines, but also to the hardware itself, enabling intrepid programmers who cut their teeth on the Commodore 64 to [[Peek and Poke|POKE]] the hardware directly, as was done on the older platform. While the decision to release the documentation was a popular one and allowed the creation of fast, sophisticated sound and graphics routines in games and demos, it also contributed to system instability as some programmers lacked the expertise to program at this level. For this reason, when the new [[Advanced Graphics Architecture|AGA]] chipset was released, [[Commodore International|Commodore]] declined to release low-level documentation in an attempt to force developers into using the approved software routines.
+
+====Influences on other Operating Systems====
+
+
+=== Unix and Unix-like systems ===
+Commodore-Amiga produced [[Amiga Unix]], informally known as Amix, based on AT&T [[UNIX System V|SVR4]]. It supports the [[Amiga 2500]] and Amiga 3000 and was included with the [[Amiga 3000UX]]. Among other unusual features of Amix is a hardware-accelerated windowing system which can scroll windows without copying data. Amix is not supported on the later Amiga systems based on [[Motorola 68040|68040]] or [[Motorola 68060|68060]] processors.
+
+Other, still maintained, operating systems are available for the classic Amiga platform, including Linux and [[NetBSD]]. Both require a CPU with MMU such as the [[Motorola 68020|68020]] with [[Motorola 68851|68851]] or full versions of the [[Motorola 68030|68030]], [[Motorola 68040|68040]] or [[Motorola 68060|68060]]. There is also a version of Linux for Amigas with PowerPC accelerator cards. [[Debian]] and [[Yellow Dog Linux]] can run on the AmigaOne.
+
+
+=== Emulating other systems ===
+{{Main|Emulation on the Amiga}}
+The Amiga is able to emulate other computer platforms ranging from many 8-bit systems such as the [[Sinclair ZX Spectrum]], Commodore 64, Nintendo Game Boy, Nintendo Entertainment System, [[Apple II]] and the [[TRS-80]], up to platforms such as the IBM PC, Apple Macintosh and Atari ST. [[MAME]] (the arcade machine emulator) is also available for Amiga systems with PPC accelerator card upgrades.
+
+== Amiga software ==
+{{Main|Amiga software}}
+The Amiga was a primary target for productivity and game development during the late 1980s and early 1990s. Software was often developed for the Amiga and the [[Atari ST]] simultaneously, since the ST had a similar CPU architecture.
+
+[[Aminet]] was created in 1992 and until around 1996, was the largest public archive of software for any platform.
+
+== Boing Ball ==
+[[Image:boingball.png|thumb|The Boing Ball.]]
+The Boing Ball has been synonymous with Amiga since its public release in 1985. The bouncing ball (or other graphical elements) has been a popular theme in computer [[demo effect]]s since the 1950s, when a bouncing ball demo was released for [[Whirlwind (computer)|Whirlwind]] computers and became the primary theme for early Atari games [[Pong]] and [[Breakout (video game)|Breakout]]. [[Commodore International|Commodore]] released a bouncing ball demo at the 1978 [[Consumer Electronics Show]], to illustrate the capabilities of the VIC chip. A similar theme was used by Amiga Corporation to demonstrate the capabilities of the Amiga computer at the 1984 Winter Consumer Electronics Show in January 1984. It was a real-time [[animation]] showing a red-and-white spinning ball (about 1/4 screen size) bouncing up and down and casting a shadow on a wall behind it. The echoing deep Bong! sound and left-right motion was added soon after the show was over. Since then, the Boing Ball became one of the most well-known symbols for Amiga and compatible computers.{{citation needed|date=November 2010}} Within the context of this tradition of bouncing ball demos at the Consumer Electronics Show, CBS Electronics also showed a Bouncing Ball demo for the [[Atari]] VCS/2600, with a spinning and bouncing ball, at the same event.
+
+The 1984 Boing Ball demo was one of the very first demos shown on the Amiga. It was specifically designed to take advantage of the Amiga's custom graphics, achieving a level of speed and smoothness not previously seen on an affordable computer. The 1984 demo ran standalone as there was no official DOS operating system and Intuition was just a glint in [[Robert J. Mical|RJ Mical]]'s eye at the time. A year later this demo was converted to operate in an [[Intuition (Amiga)|Intuition]] Screen, allowing the higher resolution Amiga Workbench screen to be dragged down to make the Boing Ball visible from behind, bouncing up above the Workbench while the Workbench remained fully active. Since the Boing Ball used almost no CPU time (only to calculate the bounce angles - animation was handled by playfield vertical and horizontal scrolling tricks, the rotation animation was done with [[color cycling]] in the graphics chip, and of course the sound chip handled the sound), this made a particularly impressive demonstration of multitasking at the time.
+
+
+== Amiga community ==
+When Commodore went bankrupt in 1994, there was still a very active Amiga community, and it continued to support the platform long after mainstream commercial vendors abandoned it. The most popular Amiga magazine, ''[[Amiga Format]]'', continued to publish editions until 2000, some six years after Commodore filed for bankruptcy. Another magazine, ''[[Amiga Active]]'', was launched in 1999 and was published until 2001. 
+
+Despite of declining interest in the platform there was a bi-weekly specialist column in the UK weekly magazine [[Micro Mart]]. There is also a web site, [http://www.amiga.org/index.php Amiga.org], that has served as a community discussion and support resource since the 1994 bankruptcy.
+
+== Notable historic uses ==
+
+The Amiga series of computers found a place in early computer graphic design and television presentation. Below are some examples of notable uses and users:
+
+*[[Rolf Harris]] used an Amiga to digitize his hand-drawn art work for animation on his television series, ''Rolf's Cartoon Club''.
+*[[Todd Rundgren]]'s video "Change Myself" was produced with Toaster and Lightwave.
+*An Amiga 1000 can be seen in the movie ''[[Disorderlies]]'' in the background running a heart animation.
+*An Amiga 4000 was in Michael Jackson's movie ''[[Michael Jackson's Ghosts|Ghosts]]''. At the left of the screen, an Amiga monitor and keyboard can be easily seen at the end credit. (at exactly 38:40)
+*[[Susumu Hirasawa]], a [[Japan]]ese [[Electropop]]-[[artist]] is known for using Amigas to compose and perform music.
+*A black Commodore Amiga 1200 was seen on an episode of ''[[Bones (TV series)|Bones]]'', used as evidence to lead to a murder suspect. A clip of this show hosted on youtube became infamous because of the high number of errors in such a minor mention. Amongst many other errors, an IBM 5150, the first PC was shown as its floppy drive, and it was claimed it used "a homemade operating system" with a "6800 chipset".
+*[[Tom Berenger|Tom Berenger's]] character Gary Simmons uses an Amiga 500 for his KKK network in the 1988 movie ''[[Betrayed (1988 film)|Betrayed]]''.
+
+== Media ==
+Image:Amigacd32.jpg|[[Amiga CD32]]
+Image:Amiga 600.jpg|[[Amiga 600]]
+Image:Amiga 1200 with mouse, drives.jpg|[[Amiga 1200]]
+Image:Amiga_Mouse.jpg|Amiga mouse
+
+== See also ==
+
+* [[Amiga games]]
+* [[Aminet]]
+* [[Hold-And-Modify]]
+* [[Minimig]]
+* [[Natami]]
+* [[UAE (emulator)]]
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+{{Commons category|Commodore Amiga}}
+*[http://wigilius.se/amiga/ Famous Amiga Uses]
+*[http://www.amiga.com/ Amiga, Inc.]
+*[http://amiga.resource.cx/ Amiga Hardware Database] - details of Amiga hardware
+*[http://hardware.amigafuture.de/ Big Book of Amiga Hardware] - Big Book of Amiga Hardware
+*[http://www.atarimagazines.com/creative/v10n4/150_Amiga_Lorraine_finally_.php ''Amiga Lorraine: finally, the next generation Atari?''] [[John J. Anderson]], ''[[Creative Computing]]'', April 1984
+*[http://wkrweb.blogspot.com/2006/09/book-review-on-edge-spectacular-rise.html On the Edge: The Spectacular Rise and Fall of Commodore] Bagnall, Brian (2005), Variant Press, ISBN 0-9738649-0-7.
+*[http://baetzler.de/amiga/gurubook.html The Amiga Guru Book by Ralph Babel, Self Published by Ralph Babel for Commodore and Amiga in 1989, 1993] {{de icon}}, {{en icon}}
+*[http://amigaworld.net Amiga community at Amigaworld.net]
+*[http://www.amiga.org/index.php Amiga.org] - community forums and support
+*[http://fc-jungle.com FC-Jungle Memories.. Amiga Mods in MP3, author's cut]
+*[http://www.boingsworld.de/ BoingsWorld.de] -  German Podcast roundabout AMIGA
+
+{{CBM computers}}
+{{AmigaOS}}
+
+[[Category:Home computers]]
+[[Category:Personal computers]]
+[[Category:Amiga|*]]
+[[Category:CBM hardware]]
+[[Category:1985 introductions]]
+
+[[ar:أميغا]]
+[[ca:Amiga]]
+[[cs:Amiga]]
+[[da:Commodore Amiga]]
+[[de:Amiga]]
+[[es:Commodore Amiga]]
+[[eo:Amiga]]
+[[fa:آمیگا]]
+[[fr:Amiga]]
+[[gl:Amiga]]
+[[ko:아미가]]
+[[hr:Amiga]]
+[[id:Amiga]]
+[[it:Amiga]]
+[[he:קומודור אמיגה]]
+[[hu:Amiga]]
+[[nl:Amiga]]
+[[ja:Amiga]]
+[[no:Amiga]]
+[[nn:Amiga]]
+[[oc:Amiga]]
+[[pl:Amiga]]
+[[pt:Amiga]]
+[[ru:Amiga]]
+[[sk:Amiga]]
+[[sr:Амига]]
+[[sh:Amiga]]
+[[su:Amiga]]
+[[fi:Amiga]]
+[[sv:Amiga]]
+[[tr:Amiga]]

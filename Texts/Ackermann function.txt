@@ -1,0 +1,281 @@
+
+
+\begin{cases}
+n+1 & \mbox{if } m = 0 \\
+A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
+A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0.
+\end{cases}
+
+
+==History==
+and for ''p'' > 2 it extends these basic operations in a way that happens to be expressible in [[Knuth's up-arrow notation]] as
+(Aside from its historic role as a total-computable-but-not-primitive-recursive function, Ackermann's original function is seen to extend the basic arithmetic operations beyond exponentiation, although not as seamlessly as do variants of Ackermann's function that are specifically designed for that purpose — such as [[Reuben Goodstein|Goodstein's]] [[hyperoperation]] sequence.)
+
+
+
+==Definition and properties==
+
+\phi(m, n, 0) = m + n \\
+\phi(m, 0, 1) = 0 \\
+\phi(m, 0, 2) = 1 \\
+\phi(m, 0, p) = m \text{ for } p > 2 \\
+\phi(m, n, p) = \phi(m, \phi(m, n-1, p), p - 1) \text{ for } n > 0 \text{ and } p > 0.
+
+Of the various two-argument versions, the one developed by Péter and Robinson (called "the" Ackermann function by some authors) is defined for nonnegative integers ''m'' and ''n'' as follows:
+
+\begin{cases}
+n+1 & \mbox{if } m = 0 \\
+A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
+A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0.
+\end{cases}
+
+
+The Péter-Ackermann function can also be expressed in terms of various other versions of the Ackermann function:
+* the indexed version of [[Knuth's up-arrow notation]] (extended to integer indices ≥ -2):
+
+* [[hyper operator]]s:
+::''A''(''m'', ''n'') = hyper(2, m, n + 3) − 3.
+
+* [[Conway chained arrow]] notation:
+::''A''(''m'', ''n'') = (2 → (''n''+3) → ''(m'' − 2)) − 3 for ''m'' > 2
+:hence
+::2 → ''n'' → ''m'' = ''A''(''m''+2,''n''-3) + 3 for ''n''>2.
+:(''n''=1 and ''n''=2 would correspond with ''A''(''m'',−2) = −1 and ''A''(''m'',−1) = 1, which could logically be added.)
+
+For small values of ''m'' like 1, 2, or 3, the Ackermann function grows relatively slowly with respect to ''n'' (at most [[exponential growth|exponentially]]). For ''m'' ≥ 4, however, it grows much more quickly; even ''A''(4, 2) is about 2{{e|19728}}, and the decimal expansion of ''A''(4, 3) is very large by any typical measure.
+
+If we define the function ''f'' (''n'') = ''A''(''n'', ''n''), which increases both ''m'' and ''n'' at the same time, we have a function of one variable that dwarfs every primitive recursive function, including very fast-growing functions such as the [[exponential function]], the factorial function, multi- and [[superfactorial]] functions, and even functions defined using Knuth's up-arrow notation (except when the indexed up-arrow is used).
+
+
+\begin{array}{lcl}
+\operatorname{Ack}(0) & = & \operatorname{Succ} \\
+\operatorname{Ack}(m+1) & = & \operatorname{Iter}(\operatorname{Ack}(m))
+\end{array}
+
+where ''Succ'' is the usual [[successor function]] and ''Iter'' is defined by primitive recursion as well:
+
+\begin{array}{lcl}
+\operatorname{Iter}(f)(0) & = & f(1) \\
+\operatorname{Iter}(f)(n+1) & = & f(\operatorname{Iter}(f)(n)).
+\end{array}
+
+One interesting aspect of the Ackermann function is that the only arithmetic operations it ever uses are addition and subtraction of 1. Its properties come solely from the power of unlimited recursion. This also implies that its running time is at least proportional to its output, and so is also extremely huge. In actuality, for most cases the running time is far larger than the output; see below.
+
+==Table of values==
+Computing the Ackermann function can be restated in terms of an infinite table. We place the natural numbers along the top row. To determine a number in the table, take the number immediately to the left, then look up the required number in the previous row, at the position given by the number just taken. If there is no number to its left, simply look at the column headed "1" in the previous row. Here is a small upper-left portion of the table:
+
+{| class="wikitable"
+|+ Values of ''A''(''m'', ''n'')
+|-
+! ''m''\''n''
+! 0
+! 1
+! 2
+! 3
+! 4
+! n
+|-
+! 0
+|-
+! 1
+|-
+! 2
+|-
+! 3
+|-
+! 4
+| 13 || 65533
+|}
+
+The numbers listed here in a recursive reference are very large and cannot be easily notated in some other form.
+
+Despite the large values occurring in this early section of the table, some even larger numbers have been defined, such as [[Graham's number]], which cannot be written with any small number of [[Knuth's up-arrow notation|Knuth arrows]]. This number is constructed with a technique similar to applying the Ackermann function to itself recursively.
+
+This is a repeat of the above table, but with the values replaced by the relevant expression from the function definition to show the pattern clearly:
+
+{| class="wikitable"
+|+ Values of ''A''(''m'', ''n'')
+|-
+! ''m''\''n''
+! 0
+! 1
+! 2
+! 3
+! 4
+! n
+|-
+! 0
+|-
+! 1
+|-
+! 2
+|-
+! 3
+|-
+! 4
+| A(3,1) || A(3,A(4,0)) || A(3,A(4,1)) || A(3,A(4,2)) || A(3,A(4,3)) ||
+|-
+! 5
+| A(4,1) || A(4,A(5,0)) || A(4,A(5,1)) || A(4,A(5,2)) || A(4,A(5,3)) ||
+''A''(4, ''A''(5, n-1))
+|-
+! 6
+| A(5,1) || A(5,A(6,0)) || A(5,A(6,1)) || A(5,A(6,2)) || A(5,A(6,3)) ||
+''A''(5, ''A''(6, n-1))
+|}
+
+
+
+==Expansion==
+
+A(1,2) & = A(0, A(1, 1))       \\
+& = A(0, A(0, A(1, 0))) \\
+& = A(0, A(0, A(0, 1))) \\
+& = A(0, A(0, 2))       \\
+& = A(0, 3)             \\
+& = 4.
+
+A(4, 3) & = A(3, A(4, 2))                                     \\
+& = A(3, A(3, A(4, 1)))                               \\
+& = A(3, A(3, A(3, A(4, 0))))                         \\
+& = A(3, A(3, A(3, A(3, 1))))                         \\
+& = A(3, A(3, A(3, A(2, A(3, 0)))))                   \\
+& = A(3, A(3, A(3, A(2, A(2, 1)))))                   \\
+& = A(3, A(3, A(3, A(2, A(1, A(2, 0))))))             \\
+& = A(3, A(3, A(3, A(2, A(1, A(1, 1))))))             \\
+& = A(3, A(3, A(3, A(2, A(1, A(0, A(1, 0)))))))       \\
+& = A(3, A(3, A(3, A(2, A(1, A(0, A(0, 1)))))))       \\
+& = A(3, A(3, A(3, A(2, A(1, A(0, 2))))))             \\
+& = A(3, A(3, A(3, A(2, A(1, 3)))))                   \\
+& = A(3, A(3, A(3, A(2, A(0, A(1, 2))))))             \\
+& = A(3, A(3, A(3, A(2, A(0, A(0, A(1, 1)))))))       \\
+& = A(3, A(3, A(3, A(2, A(0, A(0, A(0, A(1, 0)))))))) \\
+& = A(3, A(3, A(3, A(2, A(0, A(0, A(0, A(0, 1)))))))) \\
+& = A(3, A(3, A(3, A(2, A(0, A(0, A(0, 2))))))        \\
+& = A(3, A(3, A(3, A(2, A(0, A(0, 3)))))              \\
+& = A(3, A(3, A(3, A(2, A(0, 4)))))                   \\
+& = A(3, A(3, A(3, A(2, 5))))                         \\
+& = ...                                               \\
+& = A(3, A(3, A(3, 13)))                              \\
+& = ...                                               \\
+& = A(3, A(3, 65533))                                 \\
+& = ...                                               \\
+& = A(3, 2^{65536} - 3)                               \\
+& = ...                                               \\
+& = 2^{2^{ \overset{65536}{} }} - 3.                  \\
+
+
+==Inverse==
+
+This inverse appears in the time [[computational complexity theory|complexity]] of some [[algorithm]]s, such as the [[disjoint-set data structure]] and [[Bernard Chazelle|Chazelle]]'s algorithm for [[minimum spanning tree]]s. Sometimes Ackermann's original function or other variations are used in these settings, but they all grow at similarly high rates. In particular, some modified functions simplify the expression by eliminating the ''−3'' and similar terms.
+
+This function arises in more precise analyses of the algorithms mentioned above, and gives a more refined time bound. In the disjoint-set data structure, ''m'' represents the number of operations while ''n'' represents the number of elements; in the minimum spanning tree algorithm, ''m'' represents the number of edges while ''n'' represents the number of vertices.
+
+
+==Use as benchmark==
+The Ackermann function, due to its definition in terms of extremely deep recursion, can be used as a benchmark of a [[compiler]]'s ability to optimize recursion.  The first use of Ackermann's function in this way was by Yngve Sundblad, ''The Ackermann function. A Theoretical, computational and formula manipulative study.'' (BIT 11 (1971), 107119).
+
+
+
+
+
+
+The first few Ackermann numbers are:
+
+The fourth Ackermann number, 4↑↑↑↑4, can be written in terms of [[tetration]] towers as follows:
+
+:4↑↑↑↑4 = 4↑↑↑4↑↑↑4↑↑↑4 = 4↑↑↑4↑↑↑(4↑↑4↑↑4↑↑4)
+
+
+Alternatively, this can be written in terms of [[exponentiation]] towers as
+\left.
+\begin{matrix} 4^{4^{\cdot^{\cdot^{\cdot^{\cdot^{4}}}}}}\end{matrix}
+\right \}
+\left.
+\begin{matrix}4^{4^{\cdot^{\cdot^{\cdot^{4}}}}}\end{matrix}
+\right \}
+\dots
+\left.
+\begin{matrix}4^{4^{4^4}}\end{matrix}
+\right \}
+4,
+:where the number of towers on the previous line (including the rightmost "4") is
+\left.
+\begin{matrix}4^{4^{\cdot^{\cdot^{\cdot^{\cdot^{4}}}}}}\end{matrix}
+\right \}
+\left.
+\begin{matrix}4^{4^{\cdot^{\cdot^{\cdot^{4}}}}}\end{matrix}
+\right \}
+\dots
+\left.
+\begin{matrix}4^{4^{4^4}}\end{matrix}
+\right \}
+4,
+:where the number of towers on the previous line (including the rightmost "4") is
+\left.
+\begin{matrix}4^{4^{\cdot^{\cdot^{\cdot^{4}}}}}\end{matrix}
+\right \}
+\left.
+\begin{matrix}4^{4^{\cdot^{\cdot^{\cdot^{4}}}}}\end{matrix}
+\right \}
+\left.
+\begin{matrix}4^{4^{4^4}}\end{matrix}
+\right \}
+4,
+where the number of "4"s in each tower, on each of the lines above, is specified by the value of the next tower to its right (as indicated by a brace).
+
+==See also==
+* [[Computability theory]]
+* [[Recursion (computer science)]]
+* [[Primitive recursive function]]
+* [[Double recursion]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+* {{mathworld | urlname = AckermannFunction | title = Ackermann function}}
+* {{DADS|Ackermann's function|ackermann}}
+* [http://www.gfredericks.com/main/sandbox/arith/ackermann An animated Ackermann function calculator]
+* [[Scott Aaronson]], ''[http://www.scottaaronson.com/writings/bignumbers.html Who can name the biggest number?]'' (1999)
+* [http://www-users.cs.york.ac.uk/~susan/cyc/a/ackermnn.htm Ackermann function's]. Includes a table of some values.
+* [http://forum.wolframscience.com/showthread.php?s=&threadid=579 Hyper-operations: Ackermann's Function and New Arithmetical Operation]
+* [http://www.mrob.com/pub/math/largenum.html Robert Munafo's Large Numbers] describes several variations on the definition of ''A''.
+* Gabriel Nivasch, [http://www.yucs.org/~gnivasch/alpha/index.html Inverse Ackermann without pain] on the inverse Ackermann function.
+* Raimund Seidel, ''[http://cgi.di.uoa.gr/~ewcg06/invited/Seidel.pdf Understanding the inverse Ackermann function]'' (PDF presentation).
+* [http://rosettacode.org/wiki/Ackermann_Function The Ackermann function written in different programming languages], (on [[Rosetta Code]])
+* [http://www.geocities.com/hjsmithh/Ackerman/index.html Ackermann's Function] ([http://www.webcitation.org/5km8K6GSP Archived] 2009-10-24) - some study and programming by Harry J. Smith
+
+{{DEFAULTSORT:Ackermann Function}}
+[[Category:Arithmetic]]
+[[Category:Large integers]]
+[[Category:Special functions]]
+[[Category:Theory of computation]]
+[[Category:Recursion theory]]
+
+{{Link FA|de}}
+{{Link FA|es}}
+
+[[ca:Funció d'Ackermann]]
+[[cs:Ackermannova funkce]]
+[[de:Ackermannfunktion]]
+[[es:Función de Ackermann]]
+[[eo:Akermana funkcio]]
+[[fa:تابع اکرمن]]
+[[fr:Fonction d'Ackermann]]
+[[ko:애커만 함수]]
+[[it:Funzione di Ackermann]]
+[[he:פונקציית אקרמן]]
+[[hu:Ackermann-függvény]]
+[[nl:Ackermannfunctie]]
+[[ja:アッカーマン関数]]
+[[pms:Fonsion d'Ackermann]]
+[[pl:Funkcja Ackermanna]]
+[[pt:Função de Ackermann]]
+[[ru:Функция Аккермана]]
+[[sr:Акерманова функција]]
+[[fi:Ackermannin funktio]]
+[[sv:Ackermanntalen]]
+[[tr:Ackermann işlevi]]
+[[uk:Функція Акермана]]
+[[vi:Hàm số Ackermann]]

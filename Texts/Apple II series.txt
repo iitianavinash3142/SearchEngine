@@ -1,0 +1,243 @@
+
+
+
+
+
+==Design==
+
+
+
+==Models==
+{{See also|Timeline of computing}}
+
+Early II-series models were usually designated "Apple ]["; later models "Apple //", plus a letter suffix.
+
+===Apple II===
+[[File:Micromodem II in Apple II.jpg|thumb|250px|An Apple II computer with an external [[modem]]]]
+
+
+The approach taken in the Disk II controller was typical of Wozniak's design sensibility. The Apple II used several engineering shortcuts to save hardware and reduce costs. For example, taking advantage of the way that 6502 instructions only access memory every other clock cycle, the video generation circuitry's memory access on the otherwise unused cycles avoided memory contention issues and also eliminated the need for a separate refresh circuit for the DRAM chips. Rather than use a complex analog-to-digital circuit to read the outputs of the game controller, Wozniak used a simple timer circuit whose period was proportional to the resistance of the game controller, and used a software loop to measure the timer.
+
+
+Color on the Apple II series took advantage of a quirk of the [[National Television System Committee|NTSC]] television signal standard, which made color display relatively easy and inexpensive to implement. The original NTSC [[television]] signal specification was black-and-white. Color was tacked on later by adding a 3.58-MHz subcarrier signal that was partially ignored by B&W TV sets. Color is encoded based on the ''[[phase (waves)|phase]]'' of this signal in relation to a reference ''[[color burst]]'' signal. The result is that the position, size, and intensity of a series of pulses define color information. These pulses can translate into ''[[pixel]]s'' on the computer screen.
+
+The Apple II display provided two pixels per subcarrier cycle. When the color burst reference signal was turned on and the computer attached to a color display, it could display green by showing one alternating pattern of pixels, magenta with an opposite pattern of alternating pixels, and white by placing two pixels next to each other. Later, blue and orange became available by tweaking the offset of the pixels by half a pixel-width in relation to the colorburst signal. The high-resolution display offered more colors simply by compressing more, narrower pixels into each subcarrier cycle. The coarse, low-resolution graphics display mode worked differently, as it could output a short burst of high-frequency signal per pixel to offer more color options.
+
+The epitome of the Apple II design philosophy was the Apple II sound circuitry. Rather than having a dedicated sound-synthesis chip, the Apple II had a toggle circuit that could only emit a click through a built-in speaker or a line out jack; all other sounds (including two, three and, eventually, four-voice music and playback of audio samples and speech synthesis) were generated entirely by software that clicked the speaker at just the right times. Not for nearly a decade would an Apple II be released with a dedicated sound chip (though with six expansion slots, users could add sound functionality via a soundcard like the [[Mockingboard]]). Similar techniques were used for cassette storage: the cassette output worked the same as the speaker, and the input was a simple [[Zero crossing threshold detector|zero-crossing detector]] that served as a relatively crude (1-bit) audio digitizer. Routines in the ROM were used to encode and decode data in [[frequency-shift keying]] for the cassette.
+
+
+===Apple II Plus===
+ {{Main|Apple II Plus}}
+[[File:Apple II Plus.jpg|thumb|right|Apple II Plus]]
+
+The Apple II Plus was otherwise identical to the original Apple II. The smaller memory sizes were no longer available, so the II Plus always had a total of 48 kB of RAM, expandable to 64 kB by means of the "language card", a 16 kB RAM expansion card that could be installed in the computer's slot 0. The Apple's 6502 microprocessor could support up to 64 kB of memory, and a machine with 48 kB RAM reached this limit because of the additional 12 kB of read-only memory and 4 kB of I/O addresses. For this reason, the extra RAM in the language card was bank-switched over the machine's built-in ROM, allowing code loaded into the additional memory to be used as if it actually were ROM. Users could thus load Integer BASIC into the language card from disk and switch between the Integer and Applesoft dialects of BASIC with DOS 3.3's INT and FP commands just as if they had the BASIC ROM expansion card. The language card was also required to use the [[UCSD Pascal]] and [[FORTRAN|FORTRAN 77]] compilers, which were released by Apple at about the same time. These ran under the [[UCSD Pascal|UCSD p-System]] operating system, which had its own disk format and emitted code for a "virtual machine" rather than the actual 6502 processor.
+The UCSD P-system had a curious approach to [[memory management]], which became even more curious on the [[Apple III]].
+
+
+===Apple II Europlus and J-Plus===
+After the success of the first Apple II in the United States, Apple expanded its market to include [[Europe]], [[Australia]] and the [[Far East]] in 1978, with the '''Apple II Europlus''' (Europe, Australia) and the '''Apple II J-Plus''' (Japan). In these models, Apple made the necessary hardware, software and [[firmware]] changes in order to comply to standards outside of the U.S. The [[power supply]] was modified to accept the local voltage, and in the European and Australian model the video output signal was changed from color [[National Television System Committee|NTSC]] to monochrome [[Phase Alternating Line|PAL]] — an extra video card was needed for color PAL graphics, since the simple tricks Wozniak had used to generate a pseudo-NTSC signal with minimal hardware did not carry over to the more complex PAL system. In the Japanese version of the international Apple, the keyboard layout was changed to allow for [[Katakana]] writing (full [[Kanji]] support was clearly beyond the capabilities of the machine), but in most other countries the international Apple was sold with an unmodified American keyboard; thus the German model still lacked the [[Umlaut (diacritic)|umlauts]], for example. For the most part, the Apple II Europlus and J-Plus were identical to the Apple II Plus. Production of the Europlus ended in 1983.
+
+===Apple IIe===
+{{Main|Apple IIe}}
+[[Image:Apple iie.jpg|thumb|right|250px|An Apple IIe with DuoDisk and Monitor //.]]
+
+The Apple II Plus was followed in 1983 by the '''[[Apple IIe]]''', a cost-reduced yet more powerful machine that used newer chips to reduce the component count and add new features, such as the display of upper and lowercase letters and a standard 64 kB of RAM.
+
+The IIe RAM was configured as if it were a 48 kB Apple II Plus with a language card; the machine had no slot 0, but instead had an auxiliary slot that for most practical purposes took the place of slot 3, the most commonly used slot for 80-column cards in the II Plus.
+
+The auxiliary slot could accept a 1 kB memory card to enable the 80-column display. This card contained only RAM; the hardware and firmware for the 80-column display was built into the Apple IIe, remaining fairly compatible with the older Videx-style cards, even though the low-level details were very different. An "extended 80-column card" with more memory expanded the machine's RAM to 128 kB.
+
+As with the language card, the memory in the 80-column card was bank-switched over the machine's main RAM; this made the memory better suited to data storage than to running software, and in fact the [[Apple ProDOS|ProDOS]] operating system, which was introduced with the Apple IIe, would automatically configure this memory as a [[RAM disk]] upon booting.
+
+Third-party aux-slot memory cards later allowed expansion up to 1 [[megabyte|MB]]. The {{nowrap|1 K}} 80-column card also enabled one new graphics mode, Double Lo-Res (80×48 pixels). The extended 80-column card enabled two, Double Lo-Res and Double Hi-Res (560×192 pixels). Both modes doubled the horizontal resolution in comparison to the standard Lo-Res (40×48) and Hi-Res (280×192) Modes; in the case of Double Hi-Res, the number of available colors was increased as well, from 6 to 15. Apple IIe's from the very first production run cannot use Double Hi-Res. Neither of these modes was directly supported by the built-in BASIC, however, so the user had to resort to the use of lots of POKE and CALL commands in BASIC, or assembly language programming, or one of a number of software Toolkits to exploit these modes.
+
+While it was possible for software to switch out the 80-column firmware, making the firmware of a card in slot 3 available with a card in the auxiliary slot, it was not a common thing to do. However, even with the 80-column firmware enabled, slot 3's I/O memory range was still usable, giving it approximately the capability of slot 0 on a II or II plus. This meant that it actually was possible to use slot 3 for things, such as coprocessor cards and language cards, that did not use slot firmware space.
+
+Introduced with the IIe was the DuoDisk, essentially two Disk II 5.25-inch drives in a single enclosure designed to stack between the computer and the monitor, and a new controller card to run it. This controller was (by design) functionally identical to the original Disk II controller but used a different connector, allowing a single cable to control both drives in the DuoDisk. The DuoDisk was plagued by reliability problems, however, and did not catch on as well as the Apple IIe itself.
+
+The Apple IIe was the most popular Apple II ever built and was widely considered the "workhorse" of the line. It also has the distinction of being the longest-lived Apple computer of all time — it was manufactured and sold with only minor changes for nearly eleven years. In that time, following the original, two important variations were introduced known as the [[Apple IIe#The Enhanced IIe|Enhanced IIe]] (four new replacement chips to give it some of the features of the later model [[Apple IIc]], including an upgraded processor called the 65C02) and the [[Apple IIe Platinum|Platinum IIe]] (a modernized new look for the case color to match other Apple products of the era, along with the addition of a built-in numeric keypad). An Enhanced IIe with 128 kB of RAM can be considered the minimum requirement for running most Apple II software released after about 1988.
+
+Two and a half years before the Apple IIe, Apple had produced and marketed a computer called the ''[[Apple III]]'' for business users. This product was not a success, and Steve Wozniak has been quoted as saying that the Apple III had a 100% failure rate — every single machine manufactured had some kind of fault (a famous Apple technical bulletin recommended dropping the machine vertically onto a table to re-seat the DIP chips in their loose sockets{{Citation needed|date=April 2010}}). Still, many of its features were carried over in the design of the Apple IIe, without the manufacturing flaws that led to failures in the Apple III. Among them was the ProDOS operating system, which was based on Apple III's Sophisticated Operating System (SOS).
+
+===Apple IIc===
+{{Main|Apple IIc}}
+[[Image:Apple iicb.jpg|thumb|right|300px|The Apple IIc was Apple's first compact and portable computer.]]
+
+
+The Apple IIc was the first Apple II to use the [[WDC 65C02|65C02]] low-power variant of the 6502 processor, and featured a built-in 5.25-inch floppy drive and 128 kB RAM, with a built-in disk controller that could control external drives, composite video (NTSC or PAL), serial interfaces for modem and printer, and a port usable by either a joystick or mouse. Unlike previous Apple II models, the IIc had no internal expansion slots at all, this being the means by which its compact size was attained. Third parties did eventually figure out how to wedge up to 1 MB of additional memory and a real-time clock into the machine, and a later revision of the motherboard provided an expansion slot that could accept an Apple memory card bearing up to 1 MB of RAM. The disk port, originally intended for a second 5.25-inch floppy drive, eventually was able to interface to 3½-inch disk drives and (via third parties) even hard disks.
+
+To play up the portability, two different monochrome [[LCD]] displays were sold for use with the IIc's video expansion port, although both were short-lived due to high cost and poor legibility. (An Apple IIc with the smaller of these displays appeared briefly in the film ''[[2010 (film)|2010]]''.) The IIc had an external power supply that converted AC power to 12 V DC, allowing third parties to offer battery packs and automobile power adapters that connected in place of the supplied AC adapter.
+
+
+{{Main|Apple IIGS}}
+[[Image:Apple IIGS.jpg|right|thumb|150|The Apple IIGS, the most powerful Apple II, featuring a true 16-bit CPU, 4096 colors, Ensoniq synthesizer, a Mac-like GUI and a mouse.]]
+[[Image:Apple iigs.jpg|right|thumb|150|The Apple IIGS setup, with keyboard and mouse shown.]]
+
+
+In a departure from earlier Apple II graphics modes, the new modes laid out the scanlines sequentially in memory. However, programmers in search of a graphics challenge could always turn to 3200-color mode, which involved precisely swapping in a different 16-color palette for each of the screen's 200 scanlines as the monitor's electron beam traced the screen line by line. This exotic technique did not leave many CPU cycles available for other processing, so this "mode" was best suited to displaying static images.
+
+
+
+
+===Apple IIc Plus===
+{{Main|Apple IIc Plus}}
+[[Image:Apple IIc Plus (front).jpg|thumb|right|The Apple IIc Plus, an 8-bit revision of the original portable but with faster CPU, 3.5-inch floppy and built-in power supply. It was the last introduced of the Apple II line.]]
+
+
+
+===Apple IIe Card===
+{{Main|Apple IIe Card}}
+
+
+===Final years===
+Apple's [[Macintosh]] product line finally eclipsed the Apple II in the early 1990s. Even after the Macintosh's introduction, the Apple II had remained the company's primary revenue source for years. The computer was the first to attract a loyal user community and many outspoken Apple II fans were bitter that the company had invested its Apple II profits into the Macintosh rather than using them to further the Apple II series.
+
+
+==Advertising, marketing, and packaging==
+
+
+
+
+
+==Clones==
+[[Image:Taiwanese Apple II clone Cosmo.jpg|thumb|The Jiama (嘉馬) SPS-109, a [[Republic of China|Taiwanese]] clone of the Apple II, looks almost identical to the Apple II and II+, including an identical [[computer case|case]], color and [[Keyboard (computing)|keyboard]] layout. The only noticeable physical difference is the label above the keyboard.]]
+
+The Apple II was frequently cloned, both in the [[United States]] and abroad — similar cloning of the IBM PC later occurred. According to some sources (see below), more than 190 different models of [[List of Apple II clones|Apple II clones]] were manufactured. Many of these had "fruit" names (e.g. "Pineapple") to indicate to the initiated that they were Apple II clones. Well-known in the [[Soviet Bloc]] were the [[Agat computer|Agat]], an oversized Russian Apple II clone with a [[Cyrillic alphabet|Cyrillic]] character set, and [[Bulgaria]]n [[Pravetz series 8]], a close Apple II replica with Cyrillic support.
+
+
+A [[Bosnia and Herzegovina|Bosnian]] (at the time part of [[Socialist Federal Republic of Yugoslavia|Yugoslavia]]) company named [[IRIS Computers]] (sub company of biggest electric company in Bosnia and [[Herzegovina]] and Yugoslavia ENERGOINVEST) has produced Apple II clones since the early 1980s. Their official brand name was IRIS 8. They were very expensive and hard to obtain and were produced primarily for usage in early computerized digital telephone systems and for education. Their usage in offices of the state companies, R&D labs and in the Yugoslav army was also reported. IRIS 8 had looks of early IBM PCs — separate central unit with cooling system and two 5.25-inch disks, monitor and keyboard. Compatibility with original Apple II was complete. Elite high schools in Yugoslavia and especially Bosnia and Herzegovina were equipped with clusters of 8, 16 or 32 IRIS 8 computers connected in local network administrated by IRIS 16 PC clone. The number of IRIS 8's produced could be as many as a couple of tens of thousands{{Citation needed|date=April 2010}}.
+
+An [[Australia]]n-produced clone of the Apple II was the [[Medfly computer|Medfly]], named after the [[Mediterranean fruit fly]] that attacks apples. The Medfly computer featured a faster processor, more memory, detached keyboard, lower and upper case characters and a built-in disk controller.
+
+Unitron, a Brazilian company, produced another clone, named ApII. Unitron used a copy of the Apple's ROM translated to Portuguese. The operating system was Apple's DOS 3.3 translated to Portuguese. During this period, it was illegal to import microcomputers in Brazil, and buying those (illegal) clones was the only way to have a microcomputer. Unitron stopped manufacturing the ApII a few years after the introduction of IBM PC clones in Brazil.
+
+The Ace clones from [[Franklin Computer Corporation]] are the best known and had the most lasting impact, as Franklin copied Apple's ROMs and software and freely admitted to doing so. Franklin's argument: a computer's ROM was simply a pattern of switches locked into a fixed position, and one cannot copyright a pattern of switches. Apple fought Franklin in court for about five years to get its clones off the market, and was ultimately successful when a court ruled that software stored in ROM was in fact copyrightable in the U.S. (See [[Apple Computer, Inc. v. Franklin Computer Corp.]]) Franklin later released non-infringing but less-compatible clones; these could run ProDOS and AppleWorks and had an Applesoft-like BASIC, but compatibility with other software was hit-or-miss.
+
+Apple also challenged [[VTech]]'s [[Laser 128]], an enhanced clone of the Apple IIc first released in 1984, in court. This suit proved less fruitful for Apple, because VTech had [[Reverse engineering|reverse-engineered]] the Monitor ROM rather than copying it and had licensed Applesoft BASIC from its creator, [[Microsoft]]. Apple had neglected to obtain exclusive rights to the Applesoft dialect of BASIC from Microsoft; VTech was the first cloner to license it. The Laser 128 proved popular and remained on the market for many years, both in its original form and in accelerated versions that ran faster than {{nowrap|1 MHz}}. Although it was not 100% compatible with the Apple II, it was close, and its popularity ensured that most major developers tested their software on a Laser as well as on genuine Apple machines. Because it was frequently sold via mail order and mass-market retailers such as [[Sears]], the Laser 128 may have cut into the sales of low-cost competitors such as [[Commodore Business Machines]] as much as it did Apple's.
+
+While the first Apple II clones were generally exact copies of their Apple counterparts that competed mainly on price, many clones had extra capabilities too. A Franklin model, the Ace 1000, sported a numeric keypad and lower-case long before these features were added to the Apple II line. The Laser 128 series is sometimes credited with spurring Apple to release the Apple IIc Plus; the built-in 3½-inch drive and accelerated processor were features Laser had pioneered. The Laser 128 also had a IIe-style expansion slot on the side that could be used to add peripheral cards.
+
+[[Böwe Bell & Howell|Bell & Howell]], an audiovisual equipment manufacturer whose products (particularly film projectors) were ubiquitous in American schools, offered what appeared at first glance to be an Apple II Plus clone in a distinctive black plastic case. However, these were in fact real Apple II Plus units manufactured by Apple for B&H for a brief period of time. Many schools had a few of these Black Apple or [[Apple II Plus#Bell & Howell|Black "Darth Vader" Apples]] in their labs.
+
+[[ITT Corporation|ITT]] created an Apple II Plus-compatible for the European market called the ITT 2020 (Europlus). This machine was built under license from Apple. It has the same shape as the Apple II but a different color (matte silver), and is not an exact copy functionally.
+
+Syscom 2 Inc (from Carson City, NV) created the Syscom 2 Apple ][+ clone. The case looked nearly identical. They had 48 k RAM and the normal expansion capabilities. These clones also supported lower case characters, toggled with a ^O keystroke.
+
+An unknown company produced a clone called the RX-8800. One new feature it had was a numeric keypad.
+
+
+==General==
+===Data storage===
+Originally the Apple II used [[audio cassette]] tapes for program and data storage. A dedicated tape recorder along the lines of the [[Commodore Datasette]] was never produced; Apple recommended using the [[Panasonic Corporation|Panasonic]] RQ309 in some of its early printed documentation. Apple and many third-party developers made software available on tape at first, but after the Disk II became available, tape-based Apple II software essentially disappeared from the market.
+
+The Disk II floppy drive used 5.25-inch [[floppy disk]]s. The first [[disk operating system]]s for the Apple II were [[Apple DOS|DOS 3.1]] and DOS 3.2, which stored 113.75 kB on each disk, organized into 35 tracks of thirteen 256-byte sectors each. After about two years, DOS 3.3 was introduced, storing 140 kB thanks to a minor firmware change on the disk controller that allowed it to store 16 sectors per track. (This upgrade was user-installable on older controllers.) After the release of DOS 3.3, the user community discontinued use of DOS 3.2 except for running legacy software. Programs that required DOS 3.2 were fairly rare; however, as DOS 3.3 was not a major architectural change aside from the number of sectors per track, a program called MUFFIN was provided with DOS 3.3 to allow users to copy files from DOS 3.2 disks to DOS 3.3 disks.
+
+On a DOS 3.x disk, tracks 0, 1, and most of track 2 were reserved to store the operating system. (It was possible, with a special utility, to reclaim most of this space for data if a disk did not need to be bootable.) A short ROM program on the disk controller had the ability to seek to track zero — which it did without regard for the read/write head's current position, resulting in the characteristic "chattering" sound of a Disk II boot, which was the read/write head hitting the rubber stop block at the end of the rail — and read and execute code from sector 0. The code contained in there would then pull in the rest of the operating system. DOS stored the disk's directory on track 17, smack in the middle of the 35-track disks, in order to reduce the average [[seek time]] to the frequently-used directory track. The directory was fixed in size and could hold a maximum of 105 files. Subdirectories were not supported.
+
+Most game publishers did not include DOS on their floppy disks, since they needed the memory it occupied more than its capabilities; instead, they often wrote their own boot loaders and read-only file systems. This also served to discourage "crackers" from snooping around in the game's copy-protection code, since the data on the disk was not in files that could be accessed easily.
+
+Some third-party manufacturers produced floppy drives that could write 40 tracks to most 5.25-inch disks, yielding 160 kB of storage per disk, but the format did not catch on widely, and no known software was published on 40-track media. Most drives, even Disk IIs, could write 36 tracks; simple modifications to DOS for formatting the extra track were common.
+
+Incidentally, although the Apple Disk II stored 140 kB on single-sided, "single-density" floppy disks, it was very common for Apple II users to extend the capacity of a floppy disk to 280 kB — by cutting out a second write-protect notch on the side of the disk using a "disk notcher" (although a simple hole puncher would do) and inserting the disk flipped over. Early on, diskette manufacturers routinely warned that this technique would damage the read/write head of the drives or wear out the disk faster, and these warnings were frequently repeated in magazines of the day. In practice, however, this method was an inexpensive way to store twice as much data for the same amount of money, and was widely used for commercially released floppies as well.
+
+Later, Apple IIs were able to use 3.5-inch disks with a total capacity of 800 kB and hard disks. DOS 3.3 did not support these drives natively; third-party software was required, and disks larger than about 400 kB had to be split up into multiple "virtual disk volumes." [[Apple ProDOS|ProDOS]], a 1983 descendent of the Apple ///'s SOS, became the Apple II operating system of choice for users with these larger disks thanks to its native support of volumes up to 32 MB in size and the fact that AppleWorks required it.
+
+===Renditions of the "II" name===
+
+===Legacy===
+
+In addition, an active [[retrocomputing]] community of vintage Apple II collectors and users, continue to restore, maintain and develop hardware and software for daily use of these original computers. Numerous websites and support groups exist for these enthusiasts who engage in the trade and purchase for their collections, increasingly rare parts and systems. Hardly a dead platform, the Apple II has a worldwide network of kindred spirits actively engaged in preserving this otherwise outdated technology and indeed regularly attracts, new younger members who continue to keep the platform alive long after it was discontinued by Apple. There is still a small annual convention, KansasFest, dedicated to the platform.
+
+===Industry impact===
+
+The success of the Apple II in business spurred [[IBM]] to create the [[IBM PC]], which was then purchased by middle managers in all lines of business to run spreadsheet and word processing software, at first ported from Apple II versions; later, whole new application software dynasties would be founded on the PC. The popularity of these PCs and their [[IBM PC compatible|clones]] then transformed business again with [[local area network|LAN]] applications such as [[e-mail]] and later Internet applications such as [[Usenet]] and the [[World Wide Web|WWW]].
+
+
+
+==Timeline of Apple II Family models==
+{{See also|Timeline of Apple II Family}}
+{{Timeline of Apple II Family models|headerextension==}}
+{{See also|Timeline of Apple Macintosh models|Timeline of Apple products}}
+
+==See also==
+*[[List of Apple II application software]]
+*[[List of Apple II games]]
+*[[List of computer system emulators]]
+*[[Apple II peripheral cards]]
+*[[Apple II graphics]]
+*[[Steve Wozniak]]
+*[[Jerry Manock]]
+*[[Apple Industrial Design Group]]
+*[[Juiced.GS]] — The last remaining Apple II publication
+*ReactiveMicro.com — Partnered with UltimateApple2 as the last remaining Apple II hardware production companies (cloned items)
+*[[List of publications and periodicals devoted to Apple II]]
+*[[Hayes Microcomputer Products]]
+*[[List of BBS software]] — For the Apple II and other machines
+
+==References==
+{{reflist|2}}
+*{{cite news|last=Wozniak|first=Steve|authorlink=Steve Wozniak|title=System Description: The Apple II|work=[[Byte (magazine)|Byte]]|date=May 1977|url=http://oldcomputers.net/byteappleII.html}}
+
+==External links==
+{{Commons category|Apple II}}
+
+*{{dmoz|Computers/Systems/Apple/Apple_II|Apple II}}
+*[http://www.apple2history.org/ Steven Weyhrich's Apple II History]
+*[http://www.apple2history.org/history/appy/ahc.html Apple II Timeline] Genealogy table from Steven Weyhrich's Apple II History
+*[http://www-personal.umich.edu/~mressl/a2dp The Apple II Documentation Project] Documentation on the Apple II line and its peripherals
+*[http://www.a2central.com/ A2Central.com] - Apple II news and downloads
+*[http://www.oldcomputermuseum.com/apple_2plus.html Old computer museum - Apple II+]
+*[http://www.apple2.org/ Apple2.org] - The Apple II in Pictures and the Marinetti Open Source Project (TCP/IP Stack)
+*[http://www.gno.org/a2archive/ GNO Apple II Archive] - A public repository of software for the Apple II
+*[http://www.reactivemicro.com/ ReactiveMicro.com] - An Apple II hardware production company (cloned items)
+*[http://16sector.com/ 16Sector.com] Apple II hardware production - FocusDrive and SiriusRAM GS.
+*[http://www.syndicomm.com/apple2/gsoft/ GSoft BASIC] GSoft BASIC is Applesoft BASIC replacement for Apple IIGS computer
+*[http://bob-bishop.awardspace.com/softlist.html Software written by Apple-II pioneer, Bob Bishop] - (Including the ''very '''first''' four Hi-Res graphics games'' ever written for the Apple)
+*[http://www.gamasutra.com/view/feature/3527/a_history_of_gaming_platforms_the_.php Gamasutra on the Apple II] A History of Gaming Platforms: The Apple II by Bill Loguidice and Matt Barton
+*[http://www.8bit-museum.de/?page=docs/apple3b.htm PCB pictures of the Apple II]
+*[http://virtualgs.larwe.com/ Virtual GS] Apple IIGS programming site, for PC and Mac users running Apple IIGS emulation
+*[http://www.virtualapple.org/ Virtual Apple II] - Almost every Apple II and IIgs game ever made, ready to play in your browser
+*[http://pagesperso-orange.fr/gtello/a2e_e.htm WEB page of an Apple IIe user] Some cards detailed and programs to download.
+*[http://www.vintagemacworld.com/itt2020.html ITT 2020] licensed clone of Apple II
+*[http://www.youtube.com/watch?v=lrB-z1-9Kz4 Old footage filmed in 1992] by Alfred DiBlasi of an Apple II visualizing music fed in through the cassette port
+*[http://www.revergestudios.com/reblog/index.php?n=ReCode.CALL-151 The Apple II disk controller bootstrapping routine] that fit in less than 256 bytes in ROM
+*[http://www.apple2online.com Apple2Online.com] Free public-access library of Apple II software, games, documentation, hardware photos, etc.
+*[https://ultimateapple2.com/ UltimateApple2.com] — Partnered with ReactiveMicro as Apple II hardware production companies (cloned items)
+*[http://ip.com/patent/US4136359 Microcomputer for use with video display] The first Apple patent applied for and second granted (to [[Stephen G. Wozniak]], 23-Jan-1979)
+{{Apple hardware before 1998}}
+{{Apple hardware}}
+
+{{DEFAULTSORT:Apple Ii Series}}
+[[Category:1977 introductions]]
+[[Category:Apple II computers|Apple II computers]]
+[[Category:Steve Jobs]]
+
+[[bs:Apple II]]
+[[bg:Apple II]]
+[[ca:Apple II]]
+[[cs:Apple II]]
+[[da:Apple II]]
+[[de:Apple II]]
+[[es:Apple II]]
+[[eo:Apple II]]
+[[fr:Apple II]]
+[[ko:애플 II]]
+[[hr:Apple II]]
+[[is:Apple II]]
+[[it:Apple II]]
+[[he:Apple II]]
+[[ka:Apple II]]
+[[la:Apple II]]
+[[ms:Siri Apple II]]
+[[nl:Apple II-familie]]
+[[ja:Apple II]]
+[[no:Apple II]]
+[[nn:Apple II]]
+[[pl:Apple II]]
+[[pt:Apple II]]
+[[ru:Apple II]]
+[[sk:Apple II]]
+[[sr:Apple II]]
+[[sh:Apple II]]
+[[fi:Apple II]]
+[[sv:Apple II]]

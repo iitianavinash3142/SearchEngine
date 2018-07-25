@@ -1,0 +1,26 @@
+
+This article describes organizations that promote [[Artificial life]].
+
+==International Society of Artificial Life==
+
+
+The ISAL also publishes the preeminent artificial life scholarly journal ''Artificial Life'' through [[MIT Press]].
+
+==Biota.org==
+
+==Grey Thumb Society==
+
+==Notes==
+
+==External links==
+* [http://www.alife.org/ ISAL homepage]
+* [http://www.biota.org/ Biota.org Homepage]
+* [http://www.biota.org/podcast/ Biota Podcasts]
+* [http://www.biota.org/conferences/ Biota Conference proceedings]
+* [http://www.greythumb.org Grey Thumb homepage]
+* [http://www.greythumb.org/blog/ Grey Thumb blog]
+* [http://www.biota.org/podcast/ Biota.org podcast interviews]
+
+==References==
+
+{{DEFAULTSORT:Artificial Life Organizations}}

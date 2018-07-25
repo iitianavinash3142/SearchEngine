@@ -1,0 +1,31 @@
+
+A web-based easy-to-use [http://nanohub.org/resources/ABINIT graphical version] of the package is available for free use through the [[nanohub]].
+
+ABINIT also includes options to
+* optimize the [[geometry]] according to the DFT forces and stresses;
+* perform [[molecular dynamics]] [[simulation]]s using these forces; and
+* generate [[Dynamical system|dynamical]] [[matrix (mathematics)|matrices]], [[Max Born|Born]] effective [[Electric charge|charges]], and [[dielectric]] [[tensor]]s.
+
+[[Excited state]]s can be computed within the [[time-dependent density functional theory]] (for molecules), or within [[Many-body problem|many-body]] [[Perturbation theory (quantum mechanics)|perturbation theory]] (the [[GW approximation]]). In addition to the main ABINIT [[code]], different [[utility program]]s are also provided.
+
+==See also==
+
+{{Portal|Free software}}
+
+* [[List of quantum chemistry and solid state physics software]]
+
+==References==
+
+==External links==
+* {{Official|http://www.abinit.org/ |name=ABINIT web site}}
+* [http://nanohub.org/resources/ABINIT Graphical version (web-based) of ABINIT]
+
+
+[[Category:Density functional theory]]
+[[Category:Free physics software]]
+[[Category:Computational chemistry software]]{{DEFAULTSORT:Abinit}}
+
+
+{{Physics-stub}}
+{{Science-software-stub}}
+

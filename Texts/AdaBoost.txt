@@ -1,0 +1,59 @@
+
+
+== The algorithm for the binary classification task ==
+
+
+
+* Update:
+
+Output the final classifier:
+
+
+
+
+
+==Statistical Understanding of Boosting==
+
+
+
+and we are seeking a function
+
+
+==See also==
+* [[Bootstrap aggregating]]
+* [[LPBoost]]
+* [[GentleBoost]]
+
+==References==
+{{reflist}}
+
+==Implementations==
+*[http://www.inf.fu-berlin.de/inst/ag-ki/adaboost4.pdf AdaBoost and the Super Bowl of Classifiers - A Tutorial on AdaBoost.] 
+*[http://codingplayground.blogspot.com/2009/03/adaboost-improve-your-performance.html Adaboost in C++], an implementation of Adaboost in C++ and boost by Antonio Gulli
+*[http://www.mathworks.com/matlabcentral/fileexchange/27813  Easy readable Matlab Implementation of Classic AdaBoost]
+*[http://code.google.com/p/icsiboost/ icsiboost], an open source implementation of Boostexter
+*[http://jboost.sourceforge.net JBoost], a site offering a classification and visualization package, implementing AdaBoost among other boosting algorithms. 
+*[http://graphics.cs.msu.ru/en/science/research/machinelearning/adaboosttoolbox MATLAB AdaBoost toolbox. Includes Real AdaBoost, Gentle AdaBoost and Modest AdaBoost implementations.] 
+*[http://www.mathworks.com/matlabcentral/fileexchange/loadFile.do?objectId=21317&objectType=file A Matlab Implementation of AdaBoost]
+*[http://luispedro.org/software/milk milk] for Python implements [http://packages.python.org/milk/adaboost.html AdaBoost].
+*[http://www.esuli.it/mpboost MPBoost++], a C++ implementation of the original AdaBoost.MH algorithm and of an improved variant, the MPBoost algorithm.
+*[http://npatternrecognizer.codeplex.com/ NPatternRecognizer ], a fast machine learning algorithm library written in C#. It contains support vector machine, neural networks, bayes, boost, k-nearest neighbor, decision tree, ..., etc.
+*[http://opencv.willowgarage.com/documentation/boosting.html OpenCV implementation of several boosting variants] 
+
+
+==External links==
+*[http://www.boosting.org Boosting.org], a site on boosting and related ensemble learning methods
+*[http://cmp.felk.cvut.cz/~sochmj1/adaboost_talk.pdf AdaBoost] Presentation summarizing Adaboost (see page 4 for an illustrated example of performance)
+*[http://www.site.uottawa.ca/~stan/csi5387/boost-tut-ppr.pdf A Short Introduction to Boosting] Introduction to Adaboost by Freund and Schapire from 1999
+*[http://citeseer.ist.psu.edu/cache/papers/cs/2215/http:zSzzSzwww.first.gmd.dezSzpersonszSzMueller.Klaus-RobertzSzseminarzSzFreundSc95.pdf/freund95decisiontheoretic.pdf A decision-theoretic generalization of on-line learning and an application to boosting] ''Journal of Computer and System Sciences'', no. 55. 1997  (Original paper of Yoav Freund and Robert E.Schapire where Adaboost is first introduced.)
+*[http://www.cs.ucsd.edu/~yfreund/adaboost/index.html An applet demonstrating AdaBoost]
+*[http://engineering.rowan.edu/~polikar/RESEARCH/PUBLICATIONS/csm06.pdf Ensemble Based Systems in Decision Making], R. Polikar, IEEE Circuits and Systems Magazine, vol.6, no.3, pp. 21-45, 2006. A tutorial article on ensemble systems including pseudocode, block diagrams and implementation issues for AdaBoost and other ensemble learning algorithms.
+*[http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.9525 Additive logistic regression: a statistical view of boosting] by Jerome Friedman, Trevor Hastie, Robert Tibshirani. Paper introducing probabilistic theory for AdaBoost, and introducing GentleBoost
+
+[[Category:Classification algorithms]]
+[[Category:Ensemble learning]]
+
+[[fr:AdaBoost]]
+[[ja:AdaBoost]]
+[[pl:AdaBoost]]
+[[pt:AdaBoost]]

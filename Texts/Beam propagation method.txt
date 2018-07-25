@@ -1,0 +1,49 @@
+to solve the [[Helmholtz equation]] under conditions of a [[time-harmonic wave]]. BPM works under [[slowly varying envelope approximation]], for linear and nonlinear equations.
+
+
+The original BPM and PE were derived from the slowly varying envelope approximation and they are the so-called paraxial one-way models. Since then, a number of improved one-way models are introduced. They come from a one-way model involving a square root operator. They are obtained by applying rational approximations to the square root operator. After a one-way model is obtained, one still has to solve it by discretizing the variable z. However, it is possible to merge the two steps (rational approximation to the square root operator and discretization of z) into one step. Namely, one can find rational approximations to the so-called one-way propagator (the exponential of the square root operator) directly. The rational approximations are not trivial. Standard diagonal Padé approximants have trouble with the so-called evanescent modes. These evanescent modes should decay rapidly in z, but the diagonal Padé approximants will incorrectly propagate them as propagating modes along the waveguide. Modified rational approximants that can suppress the evanescent modes are now available. The accuracy of the BPM can be further improved, if you use the energy-conserving one-way model or the single-scatter one-way model.
+
+==Principles==
+BPM is generally formulated as a solution to Helmholtz equation in a time-harmonic case, 
+(\nabla^2 + k_0^2n^2)\psi = 0
+with the field written as, 
+
+Now the spatial dependence of this field is written according to any one [[Transverse_mode|TE]] or [[Transverse_mode|TM]] polarizations
+with the envelope 
+\frac{\partial^2( A(x,y) )}{\partial y^2} = 0
+
+Now the solution when replaced into the Helmholtz equation follows,
+\left[\frac{\partial^2 }{\partial x^2} + k_0^2(n^2 - \nu^2) \right]A(x,y) = \pm 2 jk_0 \nu \frac{\partial A_k(x,z)}{\partial z}
+
+With the aim to calculate the field at all points of space for all times, we only need to compute the function
+is for the time-harmonic Helmholtz equation, we only need to calculate it over one time period. We can 
+visualize the fields along the propagation direction, or the cross section waveguide modes.
+
+The master equation is discretized (using various centralized difference, crank nicholson scheme etc) 
+and rearranged in a causal fashion. Through iteration the field evolution is computed, along the propagation
+direction.
+
+==Applications==
+BPM is a quick and easy method of solving for fields in integrated optical devices. It is typically
+used only in solving for intensity and modes within shaped (bent, tapered, terminated) waveguide
+structures, as opposed to scattering problems. These structures typically consist of [[isotropic]] optical materials, but the BPM has also been extended to be applicable to simulate the propagation of light in general [[anisotropic]] materials such as [[liquid crystals]]. This allows to [http://www.elis.ugent.be/ELISgroups/lcd/research/bpm.php analyze] e.g. the polarization rotation of light in anisotropic materials, the tunability of a directional coupler based on liquid crystals or the light diffraction in LCD pixels.
+==BPM software==
+* RSoft's [http://www.rsoftdesign.com/products.php?sub=Component+Design&itm=BeamPROP BeamPROP]: vector; commercial, free trial possible
+* Optiwave's [http://www.optiwave.com/products/bpm_overview.html OptiBPM]: commercial, free trial possible
+* [http://www.elis.ugent.be/ELISgroups/lcd/research/bpm.php FEAB] (Finite Element Anisotropic Beam propagation method): academic, free version available
+
+==See also==
+*[[Computational electromagnetics]]
+*[[Finite-difference time-domain method]]
+*[[Finite element method]]
+*[[Maxwell's equations]]
+*[[MoL| Method of Lines]]
+*[[Light]]
+*[[Photon]]
+
+==References==
+
+[[Category:Computational science]]
+[[Category:Electrodynamics]]
+[[Category:Physical optics]]
+

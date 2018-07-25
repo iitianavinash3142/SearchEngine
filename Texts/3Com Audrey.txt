@@ -1,0 +1,42 @@
+|title = 3Com Ergo Audreyz
+|image = [[Image:Ergo Audrey Original and Custom.JPG|250px|3Com Ergo Audrey]]
+|manufacturer = [[3Com]]
+|type = [[Internet appliance]]
+|connectivity = [[modem]], [[Universal serial bus|USB]]
+|lifespan = October 17, 2000
+|media = 
+|operatingsystem = [[QNX]]-based
+|camera = 
+|input = [[touchscreen]], [[computer keyboard|keyboard]]
+|power = [[Alternating current|AC]] adapter
+|cpu = 200 [[Megahertz|MHz]] [[Geode (processor)|Geode]] GX 1
+|display = 640 &times; 480 resolution
+|touchpad = 
+}}
+
+
+The name ''Audrey'' was given to this first product to honor [[Audrey Hepburn]]. It was meant to deliver the elegance that she exuded. The project codename was "[[Kojak]]", named after the [[Telly Savalas]] character. The follow-on product targeted for the family room was code named "[[Mannix]]".
+
+
+==Hardware==
+The Audrey is a [[touchscreen]], passive matrix LCD device and came equipped with a [[Stylus (computing)|stylus]].  All applications were touch-enabled.  Since the standard [[infrared]] keyboard was only needed for typing tasks, it could be hung out of the way on the rear of the unit.  The stylus was to be placed in a receptacle on the top of the screen with an [[light-emitting diode|LED]] that flashed when email arrived.  Buttons on the right side of the screen were used to access the web browser, email application, and calendar, and a wheel knob at the bottom selected different "channels" of [[push technology|push]] content.
+
+The 3Com Audrey is powered by a 200 [[Megahertz|MHz]] [[Geode (processor)|Geode]] GX 1 [[Central Processing Unit|CPU]], with 16 [[Megabyte|MB]] of [[flash ROM]] and 32 MB of [[Random access memory|RAM]]. It measures 9 x 11.8 x 3.0 inches (22.86 x 29.97 x 7.62 cm), and weighs 4.1 pounds (1.86 kg). It is powered by the [[QNX]] [[operating system]].  The Audrey is equipped with a [[modem]], two [[Universal Serial Bus|USB]] ports, and a [[CompactFlash]] socket.  A USB [[Ethernet]] adapter was commonly used for [[broadband]] subscribers.
+
+The Audrey was also available in such shades as "linen" (off-white), "meadow" (green), "ocean" (blue), "slate" (grey), and "sunshine" (light yellow).
+
+==Hacking==
+After the demise of official support, the Audrey drew the attention of computer enthusiasts.  They quickly discovered an [[exploit (computer security)|exploit]] to launch a [[pterm]] session.  Using [[privilege escalation]] techniques, the [[superuser|root]] password in the [[Passwd (file)|passwd]] file could be edited, opening the box to further experimentation.
+
+
+The CompactFlash slot was also investigated.  Although it could not be used for storage expansion, the Audrey was set to flash its operating system from the slot.  Soon, a variety of replacement OS images were distributed among enthusiasts.  As the device could utilize an optional Ethernet connection, it was an easy task to mount a remote disk drive served up by a neighboring desktop system, thus allowing for virtually unlimited storage capability.
+
+==Similar devices==
+Devices similar to the Audrey included the [[i-Opener]] and [[Virgin Webplayer]].
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:3com Audrey}}
+[[Category:Information appliances]]
+[[Category:Internet tablets]]

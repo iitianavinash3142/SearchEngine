@@ -1,0 +1,11 @@
+
+==Further reading==
+*"Introduction to modern number theory", By Yu I. Manin, Alekseĭ A. Panchishkin 
+*"On arithmetic varieties" by David Kazhdan, Israel J. Math. 44 (1983), no. 2, 139–159.
+
+==See also==
+*[[Arakelov theory#Arithmetic Chow groups|Arithmetic Chow groups]]
+*[[Arithmetic of abelian varieties]]
+*[[Abelian variety]]
+
+[[Category:Number theory]]

@@ -1,0 +1,225 @@
+
+== Definitions ==
+=== IETF ===
+
+:''an [[assault]] on system security that derives from an intelligent [[threat (computer)|threat]], i.e., an intelligent act that is a deliberate attempt (especially in the sense of a method or technique) to evade [[Security service (telecommunication)|security service]]s and violate the [[security policy]] of a system.''
+=== US Government ===
+:''Any kind of malicious activity that attempts to collect, disrupt, deny, degrade, or destroy information system resources or the information itself.''
+
+{{cite book |last1= Cortada|first1= James W.|authorlink1= |last2= |first2= |authorlink2= |editor1-first= |editor1-last= |editor1-link= |others= |title= The Digital Hand: How Computers Changed the Work of American Manufacturing, Transportation,​ and Retail Industries |trans_title= |url= |archiveurl= |archivedate= |format= |accessdate= |type= |edition= |series= |volume= |date=2003-12-04 |year= |month= |origyear= |publisher= Oxford University Press|location=USA|isbn= 0195165888 |oclc= |doi= |id= |page= |pages= 512|at= |trans_chapter= |chapter= |chapterurl= |quote= |ref= |bibcode= |laysummary= |laydate= |separator= |postscript= |lastauthoramp=}}
+{{cite book |last1= Cortada|first1= James W.|authorlink1= |last2= |first2= |authorlink2= |editor1-first= |editor1-last= |editor1-link= |others= |title= The Digital Hand: Volume II: How Computers Changed the Work of American Financial, Telecommunicati​ons, Media, and Entertainment Industries |trans_title= |url= |archiveurl= |archivedate= |format= |accessdate= |type= |edition= |series= |volume= |date=2005-11-03 |year= |month= |origyear= |publisher= Oxford University Press|location=USA|isbn= 978-0195165876 |oclc= |doi= |id= |page= |pages= |at= |trans_chapter= |chapter= |chapterurl= |quote= |ref= |bibcode= |laysummary= |laydate= |separator= |postscript= |lastauthoramp=}}
+{{cite book |last1= Cortada|first1= James W.|authorlink1= |last2= |first2= |authorlink2= |editor1-first= |editor1-last= |editor1-link= |others= |title= The Digital Hand, Vol 3: How Computers Changed the Work of American Public Sector Industries  |trans_title= |url= |archiveurl= |archivedate= |format= |accessdate= |type= |edition= |series= |volume= |date=2007-11-06 |year= |month= |origyear= |publisher= Oxford University Press|location=USA|isbn= 978-0195165869 |oclc= |doi= |id= |page= |pages= 496|at= |trans_chapter= |chapter= |chapterurl= |quote= |ref= |bibcode= |laysummary= |laydate= |separator= |postscript= |lastauthoramp=}}
+:''An attack, via cyberspace, targeting an enterprise’s use of cyberspace for the purpose of disrupting, disabling, destroying, or maliciously controlling a computing environment/infrastructure; or destroying the integrity of the data or stealing controlled information.''
+
+== Phenomenology ==
+:An "active attack" attempts to alter system resources or affect their operation.
+:A "passive attack" attempts to learn or make use of information from the system but does not affect system resources. (E.g., see: [[Telephone tapping|wiretapping]].)
+:An "inside attack" is an attack initiated by an entity inside the security perimeter (an "insider"), i.e., an entity that is authorized to access system resources but uses them in a way not approved by those who granted the authorization.
+:An "outside attack" is initiated from outside the perimeter, by an unauthorized or illegitimate user of the system (an "outsider"). In the Internet, potential outside attackers range from amateur pranksters to organized criminals, international terrorists, and hostile governments.
+
+      + - - - - - - - - - - - - +  + - - - - +  + - - - - - - - - - - -+
+      | An Attack:              |  |Counter- |  | A System Resource:   |
+      | i.e., A Threat Action   |  | measure |  | Target of the Attack |
+      | +----------+            |  |         |  | +-----------------+  |
+      | |   i.e.,  |   Passive  |  |         |  | |  Vulnerability  |  |
+      | |  Agent   |  or Active |  |         |  | +-------|||-------+  |
+      | +----------+   Attack   |  |         |  |         VVV          |
+      |                         |  |         |  | Threat Consequences  |
+      + - - - - - - - - - - - - +  + - - - - +  + - - - - - - - - - - -+
+The so called [[CIA triad]] is the basis of [[Information Security]].
+
+The attack can be ''active'' when it attempts to alter system resources or affect their operation: so it compromises Integrity or Availability. A "''passive attack''" attempts to learn or make use of information from the system but does not affect system resources: so it compromises Confidentiality.
+
+
+|last= Wright
+|first=Joe
+|authormask=
+|authorlink=
+|coauthors= Jim Harmening
+|firstn= |lastn=
+|authorn-link=
+|editor=
+|editorn-last=Vacca
+|editorn-first=John
+|editor-link=
+|editorn-link=
+|others=
+|title=Computer and Information Security Handbook
+|trans_title=
+|url=
+|archiveurl=
+|archivedate=
+|format=
+|accessdate=
+|type=
+|edition=
+|series=Morgan Kaufmann Pubblications
+|volume=
+|date=
+|origyear=
+|year=2009
+|month=
+|publisher= Elsevier Inc
+|location=
+|language=
+|isbn= 978-0-12-374354-1
+|oclc=
+|doi=
+|bibcode=
+|id=
+|page=257
+|pages=
+|nopp=
+|at=
+|chapter=15
+|trans_chapter=
+|chapterurl=
+|quote=
+|ref=
+|laysummary=
+|laydate=
+|separator=
+|postscript=
+|lastauthoramp=
+}}
+
+An attack should led to a ''security incident'' i.e. a ''security event'' that involves a ''security violation''. In other words, a security-relevant system event in which the system's security policy is disobeyed or otherwise breached.
+
+
+
+
+An organization should make steps to detect, classify and manage security incidents. The first logical step is to set up an [[Incident response plan]] and eventually a [[Computer emergency response team]].
+
+|last= Caballero
+|first=Albert
+|authormask=
+|authorlink=
+|coauthors=
+|firstn= |lastn=
+|authorn-link=
+|editor=
+|editorn-last=Vacca
+|editorn-first=John
+|editor-link=
+|editorn-link=
+|others=
+|title=Computer and Information Security Handbook
+|trans_title=
+|url=
+|archiveurl=
+|archivedate=
+|format=
+|accessdate=
+|type=
+|edition=
+|series=Morgan Kaufmann Pubblications
+|volume=
+|date=
+|origyear=
+|year=2009
+|month=
+|publisher= Elsevier Inc
+|location=
+|language=
+|isbn= 978-0-12-374354-1
+|oclc=
+|doi=
+|bibcode=
+|id=
+|page=225
+|pages=
+|nopp=
+|at=
+|chapter=14
+|trans_chapter=
+|chapterurl=
+|quote=
+|ref=
+|laysummary=
+|laydate=
+|separator=
+|postscript=
+|lastauthoramp=
+}}
+== Types of attacks ==
+The attacks can be classified according to their origin: i.e. if it is conducted using one or more computers: in the last case is called a distributed attack. [[Botnet]] are used to conduct distributed attacks.
+Other classifications are according to the procedures used or the type of vulnerabilities exploited: attacks can be concentrated on network mechanisms or host features.
+Some attacks are physical: i.e. theft or damage of computers and other equipments. Other are logical, trying to force changes in the logic used by computers or network protocols in order to achieve unforeseen (by the original designer) result but useful for the attacker. The general term used to describe the category of software used to logically attacking computers is called [[malware]]
+
+The following is a partial short list of attacks:
+* Passive
+** Network
+*** [[Telephone tapping|wiretapping]]
+*** [[Port scanner]]
+*** [[Idle scan]]
+* Active
+** [[Denial-of-service attack]]
+** [[Spoofing attack|Spoofing]]
+** Network
+*** [[Man in the middle]]
+*** [[ARP poisoning]]
+*** [[Ping flood]]
+*** [[Ping of death]]
+*** [[Smurf attack]]
+** Host
+*** [[Buffer overflow]]
+*** [[Heap overflow]]
+*** [[Format string attack]]
+== Consequence of a potential attack ==
+A whole industry is working trying to minimize the likelihood and the consequence of an information attack.
+
+For a partial list look at [[:Category:Computer security software companies]]
+
+They offer different products and services, aimed at:
+* study all possible attacks category
+* publish books and articles about the subject
+* discovering vulnerabilities
+* evaluating the risks
+* fixing vulnerabilities
+* invent, design and deploy countermeasures
+* set up [[contingency plan]] in order to be ready to respond
+
+Many organization are trying to classify vulnerability and their consequence: the most famous vulnerability database is the [[Common Vulnerabilities and Exposures]]
+
+The [[Computer emergency response team]]s were set up by government and large organization to handle computer security incidents.
+== See also ==
+{{Portal|Computer Security}}
+
+* [[Asset (computing)]]
+* [[Common Vulnerabilities and Exposures]]
+* [[Computer emergency response team]]
+* [[Computer insecurity]]
+* [[Computer security]]
+* [[Contingency plan]]
+* [[Countermeasure (computer)]]
+* [[Exploit (computer security)]]
+* [[Factor Analysis of Information Risk]]
+* [[Hacking: The Art of Exploitation Second Edition‎]]
+* [[Internet Engineering Task Force]]
+* [[Information technology security audit]]
+* [[Information Security]]
+* [[Intrusion detection system]]
+* [[ISMS]]
+* [[IT risk]]
+* [[Metasploit]]
+* [[Month of Bugs]]
+* [[National Information Assurance Glossary]]
+* [[Penetration test]]
+* [[Risk factor (computing)|Risk factor]]
+* [[Security controls|Security control]]
+* [[Security service (telecommunication)]]
+* [[Threat (computer)|Threat]]
+* [[Vulnerability (computing)|Vulnerability]]
+* [[Vulnerability management]]
+* [[w3af]]
+
+== References ==
+
+== External links ==
+* [http://fismapedia.org/index.php?title=Term:Attack Term in FISMApedia]
+
+{{Use dmy dates|date=October 2010}}
+{{DEFAULTSORT:Attack (Computer)}}
+[[Category:Computer network security]]
+[[Category:Computer security]]
+[[Category:Computer security exploits]]

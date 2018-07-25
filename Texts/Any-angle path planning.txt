@@ -1,0 +1,18 @@
+
+'''Any-angle path planning''' algorithms search for paths on a cell decomposition of a continuous [[configuration space]] (such as a two-dimensional terrain).
+
+
+
+==Applications==
+* [[Robot navigation]]
+* [[Real-time strategy]] games
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Path planning]]
+
+{{DEFAULTSORT:Any-Angle Path Planning}}
+[[Category:Search algorithms]]
+[[Category:Robotics]]

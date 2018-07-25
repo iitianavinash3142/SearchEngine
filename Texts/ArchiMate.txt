@@ -1,0 +1,48 @@
+
+
+ArchiMate is one of the open standards hosted by the [[Open Group]] and is based on the [[IEEE 1471]] standard. It is supported by various tool vendors and consulting firms.
+
+
+== Overview ==
+Just like an architectural drawing in classical building architecture describes the various aspects of the construction and use of a building, ArchiMate offers a common language for describing the construction and operation of [[business processes]], organizational structures, [[information flow]]s, IT systems, and technical infrastructure. This insight helps the different [[Project stakeholder|stakeholders]] to design, assess, and communicate the consequences of decisions and changes within and between these business domains.
+
+An [[architecture framework]] is used to structure the concepts and relationships of the ArchiMate language. It divides the [[enterprise architecture]] in to a business, application and technology layer. In each layer, three aspects are considered: active elements that exhibit [[behavior]] (e.g. Process and Function), an internal [[structure]] and elements that define use or communicate [[information]].
+
+
+== History ==
+
+
+In 2008 ArchiMate was accepted and hosted as an open standard by the [[Open Group]].
+
+== ArchiMate topics ==
+
+=== Layers ===
+* The ''Business layer'' about [[business processes]], services, functions and events of business units. This layer "offers products and services to external customers, which are realized in the organization by business processes performed by business actors and roles". 
+
+* The ''Application layer'' about [[software application]]s that "support the components in the business with application services".  
+
+* The ''Technology layer'' deals "with the [[hardware]] and [[communication]] infrastructure to support the Application Layer. This layer offers infrastructural services needed to run applications, realized by computer and communication hardware and system software".
+
+
+== References ==
+{{reflist}}
+
+== Further reading ==
+* The Open Group (2009), [http://www.opengroup.org/bookstore/catalog/c091.htm ''ArchiMate 1.0 Specification'']. ISBN 9789087535025.
+* The Open Group (2009), [http://www.opengroup.org/archimate/doc/ts_archimate/ ''ArchiMate 1.0 Specification - online''].
+* Marc Lankhorst et al. (2005). ''Enterprise Architecture at Work - Modelling, Communication and Analysis''. Berlin: Springer-Verlag.
+* Marc Lankhorst and Hans van Drunen (2007). [http://www.via-nova-architectura.org/files/magazine/Lankhorst.pdf Enterprise Architecture: Development and Modelling Combining TOGAF and ArchiMate]. Paper www.via-nova-architectura.org
+* Marc Lankhorst (ed.) and the ArchiMate team (2004) [https://doc.novay.nl/dsweb/Get/Document-43839/ ''ArchiMate Language Primer'']. Enschede: [[Novay]].
+
+== External links ==
+* [http://www.archimate.org/ ArchiMate homepage].
+* [http://www.opengroup.org/archimate ArchiMate Forum of The Open Group], hosting the ArchiMate standard
+* [http://archi.cetis.ac.uk Archi - Free, open source, cross-platform ArchiMate Modelling Tool]
+* [http://www.pro-mis.com/products-articles/items/archimate-in-eva-netmodeler.38.html EVA Netmodeler - Enterprise Architecture Tool supporting Archimate notation]
+[[Category:Information science]]
+[[Category:Design]]
+[[Category:Enterprise architecture]]
+[[Category:Enterprise modelling]]
+[[Category:Open Group standards]]
+
+[[nl:ArchiMate]]

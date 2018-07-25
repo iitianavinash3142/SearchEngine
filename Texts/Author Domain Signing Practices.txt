@@ -1,0 +1,43 @@
+is an optional extension to the [[DKIM]] E-mail authentication
+ADSP was adopted as a standards track RFC 5617 in August 2009.
+
+== Concepts ==
+===Author address===
+
+The domains in 5322-''From'' addresses are not necessarily the same as in the more elaborated ''Purported Responsible Address'' covered by [[Sender ID]] specified in RFC 4407.
+
+===Author Domain Signature===
+An ''Author Domain Signature'', is a valid DKIM signature in which the domain name of the DKIM signing entity, i.e., the '''d''' tag in the ''DKIM-Signature'' header field, is the same as the domain name in the '''author address'''.
+
+This binding recognizes a higher value for author domain signatures than other valid signatures that may happen to be found in a message. In facts, it proves that the entity that controls the DNS zone for the author —an hence also the destination of replies to the message's author— has '''relayed''' the author's message. Most likely, the author has submitted the message through the proper [[message submission agent]]. Such message qualification can be verified independently of any published domain signing practice.
+
+===Author Domain Signing Practices===
+
+ _adsp._domainkey.example.com   IN   TXT   "dkim=unknown"
+
+Three possible signing practices are provided for:
+* '''unknown''', which is the same as not defining any record, says the domain might sign some, most, or all email,
+* '''all''' says all mail from the domain is signed with an Author Domain Signature,
+
+==Caveat==
+
+
+== History ==
+
+
+[[Eric Allman]], the author of [[Sendmail]], was an editor of the ADSP specification for the [[IETF]] [[DKIM]] Working Group.
+
+==See also==
+*[[DKIM]]
+*[[Simple Mail Transfer Protocol|SMTP]]
+*[[Phishing]]
+*[[E-mail authentication]]
+
+==References==
+{{Reflist}}
+
+== External links ==
+* [http://tools.ietf.org/html/rfc5617 DomainKeys Identified Mail (DKIM) Author Domain Signing Practices (ADSP)]
+* [http://tools.ietf.org/wg/dkim IETF DKIM working group] (started 2006)
+* [http://www.dkim.org/ Domain Keys Identified Mail (DKIM)]
+

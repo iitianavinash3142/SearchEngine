@@ -1,0 +1,86 @@
+the [[Grover's algorithm|Grover's search algorithm]], and gives rise to a family of
+[[quantum algorithm]]s.
+It was discovered by [[Gilles Brassard]] and
+[[Peter Høyer]] in 1997,
+{{cite journal
+|author=Gilles Brassard, Peter Høyer
+|year=1997
+|month=June
+|title=An exact quantum polynomial-time algorithm for Simon's problem
+|journal=Proceedings of Fifth Israeli Symposium on Theory of Computing and Systems
+|pages=12–23
+|publisher=IEEE Computer Society Press
+|url=http://arxiv.org/abs/quant-ph/9704027
+}}
+and independently rediscovered by [[Lov K. Grover|Lov Grover]] in 1998.
+{{cite journal
+|author=Grover, Lov K.
+|year=1998
+|month=May
+|title=Quantum Computers Can Search Rapidly by Using Almost Any Transformation
+|journal=Phys. Rev. Lett.
+|volume=80
+|issue=19
+|pages=4329–4332
+|doi=10.1103/PhysRevLett.80.4329
+}}
+
+In a quantum computer, amplitude amplification can be used to obtain a
+quadratic speedup over several classical algorithms.
+
+== Algorithm ==
+
+The derivation presented here roughly follows the one given in
+{{cite journal
+|author=Gilles Brassard, Peter Høyer, Michele Mosca, Alain Tapp
+|date=2000-05-15
+|title=Quantum Amplitude Amplification and Estimation
+|journal=arXiv:quant-ph/0005055
+|url=http://arxiv.org/abs/quant-ph/0005055
+}}
+representing the [[mathematical formulation of quantum mechanics|state space]] of our quantum system, spanned by the
+Furthermore assume we have a Boolean [[Oracle_machine#Definition|oracle]] function
+
+uniquely decompose it as 
+where
+This decomposition defines a two-dimensional subspace
+The probability of finding the system in a ''good'' state when measured
+
+Define a unitary operator
+where
+\begin{align}
+S_\psi &= I - 2|\psi\rangle \langle\psi|\quad \text{and}\\
+S_\chi |x\rangle &= (-1)^{\chi(x)} |x\rangle.
+\end{align}
+\cos(2\theta) & \sin(2\theta)\\
+-\sin(2\theta) & \cos(2\theta)
+
+
+gives
+rotating the state between the ''good'' and ''bad'' subspaces.
+The probability is maximized if we choose
+Up until this point each iteration increases the amplitude of the ''good'' states, hence
+the name of the technique.
+
+== Applications ==
+
+Assume we have an unsorted database with N elements, and an oracle function
+
+If there are G such entries in the database in total, then we can find them by
+initializing the quantum computer into a uniform superposition
+of all the database elements,
+and running the above algorithm. In this case the overlap of the initial state with the ''good'' subspace is equal to the
+= \left\lfloor\frac{\pi}{4 \arcsin(a)}\right\rfloor
+\approx \left\lfloor\frac{\pi}{4 a}\right\rfloor
+= \left\lfloor\frac{\pi}{4} \sqrt{\frac{N}{G}}\right\rfloor = O(\sqrt{N}).
+Measuring the state will now give one of the ''good'' entries with a high probability. Since each iteration requires a single oracle query,
+
+If we set G to one, the above scenario essentially reduces to the original Grover search.
+
+== References ==
+{{reflist}}
+
+{{Quantum computing}}
+
+{{DEFAULTSORT:Amplitude Amplification}}
+[[Category:Quantum algorithms]]

@@ -1,0 +1,17 @@
+
+[[Image:Fujitsu_ScanSnap_fi-5100C_tray_open.jpeg|thumb|right|A scanner with Duplexing Automatic Document Feeder.]]
+
+
+There are two kinds of document feeders capable of two-sided (duplex) scanning: a '''reversing automatic document feeder''' or '''RADF''' scans one side of a page, then flips it and scans the other side. A '''duplexing automatic document feeder''' or '''DADF''' scans both sides in one pass. The advantage of the DADF is faster speed for two-sided originals. RADFs and DADFs are rated in images per minute (IPM), the number of sides they can scan each minute.
+
+==References==
+{{reflist}}
+
+==See also==
+*[[Duplex printing]]
+
+{{Compu-hardware-stub}}
+
+[[Category:Office equipment]]
+
+[[de:Automatischer Vorlagenwechsler]]

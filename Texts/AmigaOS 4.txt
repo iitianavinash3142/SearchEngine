@@ -1,0 +1,379 @@
+
+{{Infobox OS
+|name = AmigaOS 4
+|logo =
+|caption = A screenshot of AmigaOS 4.1 Update 2.
+|family = [[AmigaOS]]
+|developer = [[Hyperion Entertainment]]
+|programmed_in = [[C Programming Language|C]]
+|source_model = [[Closed source]]
+|frequently_updated = yes
+|language = Multi-lingual
+|working_state = Current
+|url=http://os4depot.net/index.php?function=browse&cat=development/language
+|title=OS4 Development » Language
+|publisher=OS4Depot
+|supported_platforms = [[PowerPC]]
+|kernel_type = A typical [[microkernel]]
+|ui = [[Workbench (AmigaOS)|Workbench]]
+|latest_release_version = 4.1 Update 2
+|latest_release_date = {{release date|2010|04|30}}
+|license = [[Proprietary software|Proprietary]]
+|website = [http://www.amigaos4.com/ AmigaOS 4.0 official website]
+[http://www.hyperion-entertainment.biz/ Hyperion Entertainment]
+}}
+|url=http://www.youtube.com/watch?v=DKKfq44gXq8
+|title="Amiga Inc vs Hyperion Trial is Over - Part 2 of 4" (AmigaOS 3.1 source code [7:15])
+|publisher=YouTube.com
+|date=2009-10-27
+|accessdate=2010-09-20
+
+==Description==
+{{See also|AmigaOS}}
+
+AmigaOS 4 can be divided into two parts; the [[Workbench (AmigaOS)|Workbench]] and the [[Kickstart (Amiga)|Kickstart]].
+
+===Workbench===
+The [[Workbench (AmigaOS)|Workbench]] is the GUI of OS4, a graphical interface file manager and application launcher for the Operating System. It also includes some general purpose tools and utility programs such as a Notepad for typing text, MultiView for viewing images and [[Amigaguide]] documents, Unarc for unpacking Archives, a PDF reader, a number of small preferences programs for changing settings of the GUI and OS etc., etc.
+
+===Kickstart===
+The [[Kickstart (Amiga)|Kickstart]] contains many of the core components of the OS. Prior to version 4 of AmigaOS the Kickstart had been released mostly on a [[Read-only memory|ROM]] (included with the computer). In OS4 the Kickstart is instead stored on the hard disk. It consists mainly of:
+
+* [[Exec (Amiga)|Exec]], a preemptive multitasking kernel.
+* [[Intuition (Amiga)|Intuition]], a windowing system API.
+* [[AmigaDOS]] and AmigaShell, the AmigaDOS is the disk operating system for the OS, whereas the Shell is the integrated Command Line Interface (CLI). The CLI and the GUI complement each other and share the same privileges.
+|title=Project Petunia
+|publisher=Almos Rajnai
+|date=2006-12-30
+
+==History==
+{{Main|History of the AmigaOS 4 dispute}}
+
+During the five years of development, users of [[AmigaOne]] machines could download Pre-Release versions of AmigaOS 4.0 from Hyperion's repository as long as these were made available. As witnessed by many users on Amiga discussion forum sites, these versions were stable and reliable, despite the fact that they were technically labeled as "Pre-Releases".
+
+|title=AmigaOS 4 for distribution.
+|publisher=ACube Systems
+|date=
+
+|url=http://www.osnews.com/story/22360/Hyperion_Amiga_Inc_Reach_Settlement_All_Legal_Issues_Resolved
+|title=Hyperion, Amiga, Inc. Reach Settlement, All Legal Issues Resolved.
+|publisher=OSNews
+|date=2009-10-17
+|url=http://os4.hyperion-entertainment.biz/index.php?option=com_content&view=section&layout=blog&id=1&Itemid=18
+|title=Hyperion Entertainment CVBA and Amiga Inc. reach settlement .
+|publisher=Hyperion Entertainment
+|date=2009-10-17
+
+===Development process===
+{{Main|AmigaOS versions}}
+
+There have been many different versions of the [[AmigaOS]] operating system (OS) during its two decades of history.
+
+====Versions 1.0 to 1.4====
+[[Image:Amiga Workbench 1 0.png|thumb|200px|Amiga Workbench 1.0 (1985).]]
+
+The first AmigaOS was introduced in 1985 and developed by [[Commodore International]]. It was nicknamed [[Workbench (AmigaOS)|''Workbench'']] from the name of its [[Graphical user interface]] (GUI), due to an error of Commodore Marketing and Sales Department, which labeled the OS disk just with the name "Workbench Disk" and not with the correct name "AmigaOS Disk (Workbench)". The first versions of AmigaOS (1.0 and up to 1.3) are here indicated with the name of their original disks to preserve original custom.
+
+Kickstart/Workbench 1.4 was a [[Software testing#Beta testing|beta]] version of the upcoming 2.0 update and never released, but the Kickstart part was shipped in very small quantities with early [[Amiga 3000]] computers, where it is often referred to as the "[[Superkickstart]] ROM". In these machines it is only used to bootstrap the machine and load the Kickstart that will be used to actually boot the system. The appearance of a very early first release of 1.4 was similar to 1.3, but with colors slightly changed. A second version was similar to that of 2.0 and higher, with just minor differences. It is, however, possible to dump out of the OS selection screen by clicking where one would expect to see a close gadget. This will cause the machine to boot Kickstart 1.4 using either the wb_2.x: partition, or from a floppy.
+
+[[File:Wb 20.png|thumb|200px|Amiga Workbench 2.0 (1990).]]
+
+====Versions 2.0 to 3.1====
+Workbench 2.0 improvements introduced a lot of major advances to the GUI of Amiga operating system. The blue and orange colour scheme was replaced with a grey and light blue with 3D aspect in the border of the windows. The Workbench was no longer tied to the 640×256 (PAL) or 640×200 (NTSC) display modes, and much of the system was improved with an eye to making future expansion easier. For the first time, a standardised "look and feel" was added. This was done by creating the ''Amiga Style Guide'', and including libraries and software which assisted developers in making conformant software. Technologies included the GUI element creation library ''gadtools'', the software installation scripting language ''Installer'', and the ''[[AmigaGuide]]'' hypertext help system.
+
+====Versions 3.5 and 3.9====
+[[File:AmigaOS 3 and clones.svg|right|thumb|200px|Evolution of AmigaOS 3.x.]]
+After the demise of [[Commodore International|Commodore]], the later owners of the Amiga trademark granted a license to a German company called [[Haage & Partner]] to update the Amiga's operating system. Along with this update came a change in the way people referred to the Amiga's operating system. Rather than specifying "Kickstart" or "Workbench", the updates were most often referred to as simply "AmigaOS".
+Whereas all previous OS releases were Motorola 68000 compatible, some OS components from release 3.5 onwards required a 68020 or better.
+
+====Versions 4.0 and 4.1====
+Eventually Amiga Inc. contracted Hyperion Entertainment to develop the [[PowerPC]] native AmigaOS 4 (OS4).
+
+==AmigaOS 4 prominent features==
+{{Original research|section|date=November 2010|discuss=Talk:AmigaOS_4#Fast ON and OFF}}
+{{Unreliable sources|section|date=November 2010}}
+
+===General===
+* '''Responsiveness:''' Optimized to '''respond to user actions''' in an instant. A fully pre-emptive multitasking scheduler ensures that important tasks will get a fair share of processing time.{{Citation needed|date=August 2010}}
+
+===Appearance===
+[[File:AmiagOS 4 screen drag.png|right|thumb|Workbench screen in front, web browser screen behind.]]
+* '''Customisable [[Graphical user interface|GUI]]:''' Allows replacement of window gadgets with new designs, application of [[gradient]]s or [[texture (computer graphics)|textures]] of your choice to virtually every graphical element in the interface. It is possible to alter the geometry of the window drawing to suit personal taste, change font usage throughout the interface, configure the appearance of menus and chose own 3D effects. Having a different look for each public screen is also feasible.
+* '''Menuing:''' The menu bar appears at the top of the screen when pressed down the right mouse button, and disappears when it is not needed, thus reducing screen clutter and giving more room to work.
+
+===File handling===
+* '''Clear file structure:''' Operating system files are divided up into clearly labelled drawers (folders) so you know exactly where to find whatever you're looking for. For example, all libraries are stored in "Libs:" standard virtual device and absolute path finder for "Libs" directory, Fonts are all in "Fonts:" absolute locator, the files for language localization are all stored in "Locale:" and so on.
+* '''Datatypes:''' Recognises and '''handles file types''': displaying a picture, playing a music file, decoding a video file, rendering a web page etc. Any application can access Datatypes transparently, and thus have the ability to use any file that you have a Datatype for.
+* '''Icon handling:''' A file can have a default icon representing the type of file or a custom icon specific to the individual file. Additionally icons can store extra commands and [[metadata]] about the associated file — which program to open it in, for example.
+* '''Assigning devices:''' Instead of assigning drives (devices) a letter or fixed label, each drive can be given a name. Drives can be given more than one name so the system always knows where things are, if it is the system boot drive it is also known as "Sys:". Areas of hard drive can be assigned a label as if they were a virtual disk. For example, it is possible to mount MP3 players as "MP3:" and external networked resources as logical devices.
+
+===Other===
+[[File:AmigaOS 4.1 Update 1 Live CD.png|thumb|right|Booted from AmigaOS 4.1 Update 1 Live CD.]]
+* '''Live CD:''' The OS4 installation CD can be used as a [[Live CD]].
+* '''Dockies:''' It is a fully configurable docking bar for icons, allowing quick access to most used applications. These dock bar icons, "Dockies", are fully dynamic, which means they can show real-time content and act as useful micro tools. A Docky might act as a magnifying glass, display the time, or show you the latest weather forecast or stock market information direct from the Internet.
+* '''Scripting:''' Implemented scripting as a fundamental feature. Using the [[AREXX]] scripting language and [[Python (programming language)|Python]] it is possible to automate, integrate and remote control almost every application and function of the computer. Function sets and tools from several applications can be brought together into a single, integrated interface to allow the most complex jobs to be performed with the utmost simplicity.
+[[File:Amiga-grim1.png|thumb|right|A visit from the Grim Reaper.]]
+* '''[[Guru Meditation|The Grim Reaper]]:''' The "[[Guru Meditation]]" is replaced by "The Grim Reaper", a crash handling system that catches crashes and lock ups, and stops them from getting out of control. It can provide complete information about the crash and can simply kill the offending task and free up the resources it was using.
+
+==Compatible hardware==
+{{See also|Amiga models and variants}}
+
+===Amiga===
+Released (only version 4.0) for Amigas:
+* [[PowerUP (accelerator)#Blizzard PPC|Blizzard PPC]] equipped [[Amiga 1200]]
+* [[PowerUP (accelerator)#Blizzard 2604e|Blizzard 2604e]] (rare) equipped [[Amiga 2000]]
+* [[PowerUP (accelerator)#Cyberstorm PPC|CyberStorm PPC]] equipped [[Amiga 3000]] or [[Amiga 4000]]
+
+===AmigaOne===
+Released for [[AmigaOne]] motherboards:
+* AmigaOne-SE (A1-SE)
+* AmigaOne-XE (A1-XE)
+* Micro-AmigaOne (Micro-A1)
+
+===Pegasos===
+Released for [[Pegasos]] systems:
+
+===Samantha===
+Released for [[Sam440]] systems:
+* Sam440ep-flex
+|title=AmigaOS 4.1 for Sam460ex
+|publisher=ACube Systems
+|date=2010-05-13
+
+==Versions==
+===Developer pre-releases===
+====AmigaOS 4.0 (Developer Pre-release)====
+The developer pre-release version was a snapshot of AmigaOS 4.0 for [[AmigaOne]]. It contained HTML installation guide in English, German, French and Italian and the AmigaOS 4.0 SDK.
+
+
+====AmigaOS 4.0 (Developer Pre-release Update)====
+[[File:AmigaOS4.0-Pre Release.png|right|thumb|200px|AmigaOS 4.0 Pre-release]]
+
+
+Release date: 10 October 2004.
+
+Among the features:
+
+* AltiVec support
+* Improved compatibility and speed of 68k emulation (JIT not included yet)
+* Fully PowerPC-native Picasso96 graphics system
+* Fully PowerPC-native MUI
+* USB support for input devices
+* Support for on-board serial and parallel hardware
+* Drivers for the SiI0680 IDE adaptor
+* Printing support
+* Improved audio hardware support, including new drivers
+* Comprehensive bug fixes, speed improvements, added features and functionality across all system components
+
+====AmigaOS 4.0 (Developer Pre-release Update 2)====
+
+Release date: 27 December 2004.
+
+====AmigaOS 4.0 (Developer Pre-release Update 3)====
+
+
+* New kernel. The new kernel includes numerous enhancements, fixes and new features. It can now run a special variety of [[ixemul.library]] and thus run ixemul software.
+* New IDE devices. IDE drivers are included for the VIA 686B on-board and Silicon Images 0680 parallel ATA controllers, and the Silicon Images SiI3112, SiI3512 and SiI3114 Serial ATA controllers.
+* New Picasso96 graphics and monitor drivers. Limited gamma support is available in the Voodoo driver.
+* Warp3D V51. This update contains Warp3D V51, the all new, OS4-native version of the classic 3D hardware driver system. This release includes completely re-written drivers for the Voodoo 3 (Avenger), Voodoo 4/5 (Napalm) and the Radeon 7x00 series of graphics cards. New features include single-cycle multitexture support (two simultaneous units on the Voodoos, three on the Radeon) with simplified and extended combiner modes, interleaved vertex arrays, up to 8-bit stencil buffer support (where supported by hardware), and more.
+* WarpUp support. The new 3rd party powerpc.library emulates loading and execution of WarpUp binaries.
+* New Shell and updated shell commands
+* Updated [[ReAction GUI]] classes and new intuition
+* New Roadshow TCP/IP stack and updated eth3com.device
+* All new version of the Sirion USB stack and usbprinter.device
+* Updated datatypes and localization
+* Updated Preferences programs
+
+====AmigaOS 4.0 (Developer Pre-release Update 4)====
+The most prominent features of the fourth AmigaOS 4.0 Developer Pre-release Update were the return of the screen dragging ability and the Petunia just-in-time 68k emulator.
+
+
+The new features in this pre-release include:
+
+* All-new Warp3D with support for Voodoo 3/4/5 and ATI Radeon models 7000, 7200, 7500, 9000, 9200 and 9250.
+* Petunia just-in-time 68k emulator.
+* All-new Intuition with advanced features like flicker-free window redraw and new screen dragging features (among other things, screens can be dragged freely in any direction and will reveal other screens beneath even if dragged sideways)
+* Updated ExecSG kernel and most of the system components
+* New Extended Input System allows the use of mouse wheels on both PS/2 and USB mice, and the use of multimedia keyboards (with keys like volume control, play/pause etc.)
+
+===AmigaOS 4.0 (The Final Update)===
+[[File:AmigaOS4.png|right|thumb|200px|AmigaOS 4.0]]
+
+
+
+
+* Fully skinnable GUI
+* 680x0 emulator
+** Implemented [[Just-in-time compilation|JIT]] and improved compatibility
+** Optimized, 10% to 50% faster
+* Screenblanker system which supports external plug-ins as new blanker modules
+* [[TRIPOS]] ([[BCPL]]) – the last remains of legacy code removed
+* Improved TCP/IP stack, including firewall capabilities
+* Virtualized memory
+* Co-operative memory protection
+* CD–DVD writer support, including [[Mount Rainier (packet writing)|Mt. Rainier]]
+* Integrated debugger
+* Integrated viewer for PDF and other document formats
+* Enhanced shared library model
+* Improved input device support
+* Support for modern hardware devices
+* New USB stack
+* New PCI stack{{Clarify|date=September 2010}}
+* Co-operative resource tracking
+* Faster memory allocation system, similar to what is used on Solaris
+* Support for files larger than 2 GB
+* New version of AmiDock with plug-in support
+* New CDFilesystem with Joliet and HFS support, DVDRW support
+* HDToolbox replacement and new HD recovery tool
+* Added support for Truetype and Postscript fonts, with optional anti-aliasing
+
+===AmigaOS 4.0 (July 2007 Update)===
+
+Improvements of AmigaOS 4.0 July 2007 Update are:
+
+* New ExecSG kernel. The new kernel includes, among other things:
+** Support for guard-page protected stacks. Stacks will have guard pages at their bottoms to prevent programs from writing over innocent memory
+** A new semaphore type called Mutex that is Forbid-free.
+** Support for the new pthreads module
+* A new library that supports most of the [[POSIX]] threads ([[pthreads]]) API
+* A new ELF library that implements UN*X-type [[shared object]]s and [[dynamic linking]]. Shared objects are files that are loaded during runtime of a program and become part of the program's memory image. They have access to symbols and procedures of the main program as well as any other shared object loaded.
+* Amiga [[Python (programming language)|Python]] 2.5.1. This new version of the interpreted language is implemented as a shared object.
+
+===AmigaOS 4.0 for Classic Amiga===
+
+===AmigaOS 4.0 February 2008 update for CyberStormPPC and BlizzardPPC===
+Update of AmigaOS 4.0 for classic Amiga computers addressed some issues and compatibility problems.
+
+
+* A new kernel that fixes outstanding issues with the Mediator 1200/Voodoo combination as well as some other minor bug fixes
+* Support for all Mediator models, including the new Mediator 1200 TX
+* Updated Intuition and Layers modules that fix a rare occurrence of graphics trashing
+* Fixed queue-handler
+* Two [[AREXX]] libraries that had been missing in the original release
+* Updated RealTek 8029 network driver that fixes a lockup problem.
+* A new version of DvPlayer SE.
+
+===AmigaOS 4.1===
+[[File:AmigaOS4.1b.png|right|thumb|200px|AmigaOS 4.1 running on Sam440]]
+
+
+This is a new version and not just a simple update as it features, among others:
+
+* Intelligent [[paging|memory paging]]
+* [[JXFS]] filesystem with the support for drives and partitions of multiple terabyte size
+* New and improved DOS functionality (full 64-bit support, universal notification support, automatic expunge and reload of updated disk resources)
+* Improved 3D hardware-accelerated screen dragging
+* Hardware compositing engine ([[Radeon]] R1xx and R2xx family)
+* Implementation of the [[Cairo (graphics)|Cairo]] device-independent 2D rendering library
+* Improved [[Workbench (AmigaOS)|Workbench]] functionality
+* Reworked Warp3D Radeon drivers with new functionality
+* Reworked AmiDock with true transparency
+
+===AmigaOS 4.1 Quick Fix===
+[[File:AmigaOS 4.1-b.png|right|thumb|200px|AmigaOS 4.1]]
+
+
+Features include:
+
+* Improved overall system stability
+* Fixed shared object handling, especially for larger applications
+* Fixed Radeon Warp3D graphics drivers
+* Increased performance of IDE drivers
+* Fixed JXFileSystem issues with file scanning
+* Fixed Sam440ep Ethernet driver to work with hubs and Envoy.
+
+===AmigaOS 4.1 Update 1===
+[[File:AmigaOS 4.1 Update 1.png|right|thumb|200px|AmigaOS 4.1 Update 1]]
+
+
+* Kernel – Offers more stability on [[Sam440]], a more reliable and efficient memory management system and improved memory paging to and from hard disk.
+
+* DOS – A new mechanism for launching preset programs for specific tasks, such as email clients and web-browsers (URLopen). Application tracking for ease of program location (AppDir: handler). Improved shared object support with significantly decreased loading times.
+
+* Intuition – Improved window support, fading and rendering – including drop shadows. Reduced video memory consumption due to improved screen handling. New internal methods for better system "theme" support.
+
+* System – Updated ASL requesters and imagery for a fresh new look. New notification system. Enhanced automatic detection of installed hardware (including [[Display Data Channel|DDC]] support). Improved support for external USB devices. Updated sound.datatype and wav.datatype. New screenblankers. Improved calculator with extended mode.
+
+* Workbench – The new Startup preferences means no more copying files to WBStartup. A brand new icon set to complement higher screen resolutions. New window themes offering enhanced visual feedback. Scalable icons. Workbench auto-update feature.
+
+* [[Python (programming language)|Python]] – Tested with the regression suite. Enhanced distutils module for easy installation of Python packages. New Amiga modules including catalog and icon. New OS module methods.
+
+* MiniGL V2.2
+
+===AmigaOS 4.1 Update 2===
+|url=http://www.hyperion-entertainment.biz/index.php?option=com_content&view=article&id=138:update-2-of-amigaos-41-available-for-immediate-download&catid=36:amigaos-4x&Itemid=18
+|title=Update 2 of AmigaOS 4.1 available
+
+Features:
+
+* Updated Python.
+* New Cairo 1.8.10 with partial hardware acceleration.
+* Updated Ringhio notification system.
+* New version of AmiDock with icon scaling.
+* Several fixed system libraries.
+* New version of the Python-scriptable installation utility.
+* Some updated shared object files compiled and linked with the new V2 SObjs ABI.
+
+==Future==
+|title=Report: 2010 AmiWest (new Shell etc)
+|publisher=Obligement
+|date=October 2010
+
+===Discussions at AmiWest 2010===
+|title=AmigaOS 4.1 discussions at AmiWest 2010
+|publisher=Hyperion Entertainment
+|date=2010-11-03
+
+* Multiple core support ([[Symmetric multiprocessing|SMP]])
+* New [[Exec (Amiga)|Exec]] scheduler
+** Selectable policy for scheduling (may include per task)
+** Scheduling of task groups with internal scheduling of tasks within that group
+** Scheduling of tasks across multiple CPU cores (may include core affinity)
+** Support for real-time scheduling
+* Graphics and Gallium3D
+** Enables access to full OpenGL implementations like [[Mesa 3D (OpenGL)|Mesa]]
+** Compositing may be done via [[Gallium3D]]
+** Opens the door to replacing the entire graphics subsystem
+** multi-header support
+* USB 2 support
+* Support for more than 2 GB of RAM
+
+==See also==
+* [[Amiga]]
+* [[AmigaOS]]
+* [[MorphOS]]
+* [[AROS]]
+* [[AmigaOS versions]]
+* [[History of the Amiga]]
+
+==References==
+{{Reflist|2}}
+
+==Notes==
+* [http://arstechnica.com/reviews/os/amiga.ars Review of Micro-AmigaOne and AmigaOS 4 Developer Prerelease]
+* [http://arstechnica.com/reviews/os/amigaos4.ars Ars Technica reviews AmigaOS 4.0]
+* [http://arstechnica.com/articles/culture/amigaos41-ars.ars Ars Technica reviews AmigaOS 4.1]
+* [http://amiga.erkan.se/index.php/amigaos-41-review-sort-of/ AmigaOS 4.1 review]
+* [http://arstechnica.com/articles/culture/a-history-of-the-amiga-part-1.ars A history of the Amiga, part 1]
+* [http://amigaworld.net/modules/newbb/viewtopic.php?topic_id=25953&forum=14 AmigaOS 4 Classic mini-review]
+* [http://www.theinquirer.net/en/inquirer/news/2007/01/03/the-amiga-is-dead-long-live-the-amiga AmigaOS 4 launches after last Amiga compatible dies]
+* [http://www.intuitionbase.com/static.php?section=en_os4up4-review AmigaOS 4.0 - the fourth pre-release update]
+* [http://www.experiencefestival.com/amigaos_4 Articles related to AmigaOS 4]
+
+==External links==
+* [http://os4depot.net/ AmigaOS 4 software archive]
+
+{{AmigaOS 4}}
+{{AmigaOS}}
+
+{{DEFAULTSORT:Amigaos 4}}
+[[Category:2006 software|2006 software]]
+[[Category:Amiga software]]
+[[Category:AmigaOS 4|*AmigaOS 4]]
+[[Category:AmigaOS 4 software|*AmigaOS 4 software]]
+[[Category:Operating system distributions bootable from read-only media]]
+[[Category:PowerPC operating systems]]
+
+[[ang:AmigaOS 4]]
+[[da:AmigaOS 4]]
+[[fi:AmigaOS 4]]

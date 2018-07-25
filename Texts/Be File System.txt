@@ -1,0 +1,55 @@
+| name                    = BFS
+| full_name               = Be File System
+| developer               = [[Be Inc.]]
+| introduction_date       = May 10, 1997
+| directory_struct        = [[B+ tree]]
+| file_struct             = [[inode]]s
+| bad_blocks_struct       = inodes
+| max_filename_size       = 255 characters
+| max_files_no            = Unlimited
+| max_volume_size         = ~2 [[Exabyte|EB]] *
+| max_file_size           = ~260 [[Gigabyte|GB]] *
+| filename_character_set  = All [[UTF-8]] but "/"
+| dates_recorded          = Access, Creation, Modified
+| date_range              = Unknown
+| date_resolution         = 1s
+| forks_streams           = Yes
+| attributes              = POSIX ACLs: Read, Write, Execute
+| file_system_permissions = Yes, POSIX (RWX per owner, group and all)
+| compression             = No
+| encryption              = No
+| OS                      = [[BeOS]], [[Magnussoft ZETA|ZETA]], [[Haiku (operating system)|Haiku]], [[SkyOS]], [[Syllable (operating system)|Syllable]]
+}}
+The '''Be File System''' ('''BFS''', occasionally misnamed as BeFS — the name BeFS is used in the Linux kernel to avoid any confusion with [[Boot File System]]) is the native [[file system]] for the [[BeOS]].
+
+
+
+Whilst intended as a 64-bit capable file system, the size of some on-disk structures mean that practical size limit is approximately 2 exabytes. Similarly the extent based file allocation reduces the maximum practical file size to approximately 260 gigabytes at best and as little as a few blocks in a pathological worst case, depending on the degree of [[file system fragmentation|fragmentation]].
+
+
+==Implementations==
+
+
+==See also==
+* [[Comparison of file systems]]
+* [[AtheOS File System]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://arstechnica.com/open-source/news/2010/06/the-beos-filesystem.ars The BeOS file system: an OS geek retrospective]
+
+{{Filesystem}}
+
+[[Category:Disk file systems]]
+[[Category:BeOS]]
+[[Category:Haiku]]
+
+[[de:Be File System]]
+[[fr:BeOS file system]]
+[[gl:BFS]]
+[[it:Be File System]]
+[[pl:BeFS]]
+[[pt:Be File System]]
+[[ru:BeFS]]

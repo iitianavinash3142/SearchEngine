@@ -1,0 +1,30 @@
+{{Other uses|D86 (disambiguation)}}
+{{Infobox_Software 
+| name                   = A86
+| screenshot             = 
+| caption                = 
+| developer              = [[Eric Isaacson]] 
+| latest_release_version = 4.05
+| latest_release_date    = 
+| operating_system       = [[DOS]], [[Microsoft Windows|Windows]]
+| platform               = [[x86]]
+| genre                  = [[Assembly language#Assembler|Assembler]] 
+| license                = [[Proprietary software|Proprietary]]
+| website                = http://eji.com/a86/
+}}
+
+
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://eji.com/a86/ Official A86 site]
+
+{{Template:X86_assembly_topics}}
+
+[[Category:Assemblers]]
+[[Category:Debuggers]]
+[[Category:DOS software]]
+[[Category:Windows software]]
+

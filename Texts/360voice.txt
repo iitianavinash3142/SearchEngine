@@ -1,0 +1,36 @@
+| name           = 360voice.com
+| logo           = 
+| screenshot     = 
+| caption        = 
+| url            = http://360voice.gamerdna.com/
+| alexa          = 18,503
+| commercial     = No
+| type           = [[Blog publishing system|Blog host]]
+| language       = English
+| registration   = Optional (free) to view blogs / required (free) to obtain a blog
+| owner          = [[GamerDNA|GamerDNA Inc.]]
+| author         = Trapper Markelz and Steve Sopp
+| launch date    = April 17, 2006
+| current status = active
+| revenue        = 
+| slogan         = Give your [[Xbox 360|Xbox]] its own blog
+}}
+
+
+== Experience Challenge ==
+
+
+== Acquisition by GamerDNA ==
+
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://360voice.gamerdna.com/ 360voice.gamerdna.com]
+* [http://blog.360voice.com/ Development blog]
+[[Category:Companies established in 2006]]
+[[Category:Social network services]]
+[[Category:Virtual communities]]
+[[Category:Video game companies of the United States]]
+[[Category:Internet properties established in 2006]]

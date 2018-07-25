@@ -1,0 +1,15 @@
+'''''Argo''''' is an unmanned deep-towed undersea video camera sled developed by Dr. [[Robert Ballard]] through [[Woods Hole Oceanographic Institute]]'s Deep Submergence Laboratory.  ''Argo'' is most famous for its role in the 1985 discovery of the wreck of the [[RMS Titanic|RMS ''Titanic'']].  ''Argo'' was also used in the discovery of the wreck of the German battleship ''[[German battleship Bismarck|Bismarck]]''.
+
+
+== See also ==
+* [[Acoustically Navigated Geological Underwater Survey]] (ANGUS)
+
+== References ==
+{{reflist}}
+
+{{WHOI-Ships}}
+
+{{DEFAULTSORT:Argo (Rov)}}
+[[Category:Oceanographic instrumentation]]
+[[Category:Unmanned vehicles]]
+

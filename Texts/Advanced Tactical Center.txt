@@ -1,0 +1,24 @@
+The '''Advanced Tactical Center''' (ATC) is a series software tools used in [[Military tactics|tactics-oriented]] [[computer games]]. The ATCs are developed and maintained by [[Foolish Entertainment]].
+
+==Concept==
+
+The aim behind the creation of the software kit is to give the players an easy and efficient way to share and visualise tactical data.
+
+==Supported Applications==
+
+* [[Battlefield 1942]]
+* [[Battlefield 2]]
+* [[Splinter Cell: Pandora Tomorrow]]
+* [[Splinter Cell: Chaos Theory]]
+* [[Ghost Recon 2]]
+* [[Ghost Recon Advanced Warfighter]]
+* [[Rainbow Six: Lockdown]]
+* [[Battlefield: Bad Company 2]]
+
+==References==
+
+{{reflist}}
+
+==External links==
+* [http://www.foolishentertainment.com/index.asp?p=0 Foolish Entertainment Official Website]
+

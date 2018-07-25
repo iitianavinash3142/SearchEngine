@@ -1,0 +1,93 @@
+{{Refimprove|date=October 2008}}
+
+'''Address space layout randomization''' ('''ASLR''') is a [[Computer insecurity|computer security]] technique which involves randomly arranging the positions of key data areas, usually including the base of the [[executable]] and position of [[Library (computer science)|libraries]], [[Dynamic memory allocation|heap]], and [[Stack-based memory allocation|stack]], in a [[Process (computer science)|process]]'s [[address space]].
+
+== Benefits ==
+Address space randomization hinders some types of security attacks by making it more difficult for an attacker to predict target addresses.  For example, attackers trying to execute [[return-to-libc attack]]s must locate the code to be executed, while other attackers trying to execute [[shellcode]] injected on the stack have to find the stack first.  In both cases, the related memory addresses are obscured from the attackers. These values have to be guessed, and a mistaken guess is not usually recoverable due to the application crashing.
+
+=== Effectiveness ===
+Address space layout randomization relies on the low chance of an attacker guessing where randomly-placed areas are located. Security is increased by increasing the search space.  Thus, address space randomization is more effective when more [[Information entropy|entropy]] is present in the random offsets.  Entropy is increased by either raising the amount of [[virtual memory|virtual memory area]] space over which the randomization occurs or reducing the period over which the randomization occurs. The period is typically implemented as small as possible, so most systems must increase VMA space randomization.
+
+To defeat the randomization, attackers must successfully guess the positions of all areas they wish to attack.  For data areas such as stack and heap, where custom code or useful data can be loaded, more than one state can be attacked by using [[NOP slide]]s for code or repeated copies of data. This allows an attack to succeed if the area is randomized to one of a handful of values.  In contrast, code areas such as library base and main executable need to be discovered exactly.  Often these areas are mixed, for example [[stack frame]]s are injected onto the stack and a library is returned into.
+
+To begin, let us declare the following variables:
+
+
+
+
+
+
+
+
+
+
+
+==== Reducing entropy ====
+Attackers may make use of several methods to reduce the entropy present in a randomized address space, ranging from simple information leaks to attacking multiple bits of entropy per attack (such as by [[heap spraying]]).  There is little that can be done about this.
+
+It is possible to leak information about memory layout using [[format string vulnerability|format string vulnerabilities]].  Format string functions such as [[printf]]() use a [[variable argument list]] to do their job; format specifiers describe what the argument list looks like.  Because of the way arguments are typically passed, each format specifier moves closer to the top of the stack frame.  Eventually, the return pointer and stack frame pointer can be extracted, revealing the address of a vulnerable library and the address of a known stack frame; this can completely eliminate library and stack randomization as an obstacle to an attacker.
+
+
+
+== History ==
+
+== Implementations ==
+Several mainstream, general-purpose operating systems implement ASLR.
+
+=== OpenBSD ===
+|url=http://www.openbsd.org/papers/ven05-deraadt/index.html
+|title=Exploit Mitigation Techniques (updated to include random malloc and mmap)  at OpenCON 2005
+|author=Theo De Raadt
+|year=2005
+
+=== Linux ===
+
+The [[Exec Shield]] patch for Linux supplies 19 bits of stack entropy on a period of 16 bytes; and 8 bits of mmap() base randomization on a period of 1 page of 4096 bytes.  This places the stack base in an area 8 MB wide containing 524 288 possible positions; and the mmap() base in an area 1 MB wide containing 256 possible positions.
+
+[[Position-independent_code#Position-independent_executables|Position-independent executable (PIE)]] feature implements random base address for the main executable binary since 2003.  It provides the same address randomness to the main executable as being used for the shared libraries.  The PIE feature is in use only for the network facing daemons – the PIE feature cannot be used together with the [[prelink]] feature for the same executable.
+
+The [[prelink]] tool implements randomization at prelink time rather than runtime, because by design prelink aims to handle relocating libraries before the dynamic linker has to, which allows the relocation to occur once for many runs of the program. As a result, real address space randomization would defeat the purpose of prelinking.
+
+=== Microsoft Windows ===
+|url=http://blogs.msdn.com/sdl/archive/2008/12/18/ms08-078-and-the-sdl.aspx
+|title=MS08-078 and the SDL 
+|date=December 18, 2008
+|accessdate=2009-03-21
+|work=The Security Development Lifecycle
+|publisher=Microsoft
+
+
+
+=== Mac OS X ===
+
+==See also==
+* [[Buffer overflow]]
+* [[Stack buffer overflow]]
+* [[Stack-smashing protection]]
+* [[NX bit]] 
+* [[Information entropy]]
+* [[heap spraying|Heap Spray]]
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://pax.grsecurity.net/docs/aslr.txt PaX documentation on ASLR]
+*[http://grsecurity.net/PaX-presentation_files/frame.htm Comparison of PaX to ExecShield and W^X]
+*[http://blogs.msdn.com/michael_howard/archive/2006/05/26/608315.aspx ASLR for Windows Vista beta 2]
+*[http://www.wehnus.com ASLR for Windows 2000/XP/2003 (WehnTrust)]
+*[http://www.phrack.org/issues.html?issue=59&id=9#article Bypassing PaX ASLR protection]
+*[http://portal.acm.org/citation.cfm?id=1030124&dl=ACM&coll=&CFID=15151515&CFTOKEN=6184618 On the effectiveness of address space layout randomization]
+*[http://www.eweek.com/article2/0,1895,1969505,00.asp Microsoft Finds (Random) Way to Secure Vista]
+*[http://www.eweek.com/article2/0,1895,2071746,00.asp Windows Vista Randomization Gets OEM Thumbs Up]
+*[http://www.winitor.net/en/pestudio.html Test Applications (or libraries) for their ASLR and DEP support.]
+
+{{DEFAULTSORT:Address Space Layout Randomization}}
+[[Category:Operating system security]]
+[[Category:Memory management algorithms]]
+
+[[de:Address Space Layout Randomization]]
+[[fr:Address space layout randomization]]
+[[hy:Հասցեի տարածքի դասավորության պատահականացում]]
+[[it:ASLR]]
+[[ja:アドレス空間配置のランダム化]]

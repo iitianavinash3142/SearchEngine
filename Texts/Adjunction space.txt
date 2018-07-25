@@ -1,0 +1,23 @@
+
+
+
+
+==Examples==
+*A common example of an adjunction space is given when ''Y'' is a closed ''n''-[[ball (mathematics)|ball]] (or ''cell'') and ''A'' is the boundary of the ball, the (''n''−1)-[[sphere]]. Inductively attaching cells along their spherical boundaries to this space results in an example of a [[CW complex]].
+*Adjunction spaces are also used to define [[connected sum]]s of [[manifold]]s. Here, one first removes open balls from ''X'' and ''Y'' before attaching the boundaries of the removed balls along an attaching map.
+*If ''A'' is a space with one point then the adjunction is the [[wedge sum]] of ''X'' and ''Y''.
+*If ''X'' is a space with one point then the adjunction is the quotient ''Y''/''A''.
+
+==Categorical description==
+The attaching construction is an example of a [[pushout (category theory)|pushout]] in the [[category of topological spaces]]. That is to say, the adjunction space is [[universal property|universal]] with respect to following [[commutative diagram]]:
+
+[[Image:AdjunctionSpace-01.svg]]
+
+
+==References==
+* Stephen Willard, ''General Topology'', (1970) Addison-Wesley Publishing Company, Reading Massachusetts. ''(Provides a very brief introduction.)''
+* {{planetmath reference|id=3992|title=Adjunction space}}
+
+[[Category:Topology]]
+
+[[pl:Suma spójna]]

@@ -1,0 +1,20 @@
+
+==External links==
+* [http://www.chessgames.com/perl/chessgame?gid=1356927 A move by move version of Turing and Glennie's chess game]
+
+==References==
+
+| NAME              = Glennie, Alick
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Glennie, Alick}}
+[[Category:British computer scientists]]
+[[Category:1925 births]]
+[[Category:2003 deaths]]
+
+

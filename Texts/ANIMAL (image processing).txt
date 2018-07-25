@@ -1,0 +1,11 @@
+
+In the theoretical framework of ANIMAL a [[digital image]] is a boundless matrix with its ''history''. However, in the implementation it is bounded by a rectangular region in the discrete plane and the elements outside the region have a constant value. The size and position of the region in the plane (focus) is defined by the coordinates of the rectangle. In this way all the [[pixel]]s, including those on the border, have the same number of neighbors (useful in local operators, such as [[digital filter]]s). Furthermore, pixelwise [[commutative operation]]s 
+remain commutative on image level, independently on focus (size and position of the rectangular regions). The ''history'' is a list which tracks the operations and parameters applied to the matrix. This mechanism is useful to document algorithms and generate new functions.
+
+ANIMAL has been ported to [[R (programming language)|R]], a freely available language and environment for statistical computing and graphics.
+
+==References==
+
+{{DEFAULTSORT:Animal (Image Processing)}}
+[[Category:Lisp programming language family]]
+[[Category:Computer vision software]]

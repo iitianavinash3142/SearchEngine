@@ -1,0 +1,28 @@
+
+AS9100 replaces the earlier [[AS9000]] and fully incorporates the entirety of the current version of [[ISO 9000]], while adding additional requirements relating to quality and safety.
+
+==History==
+
+Prior to the adoption of an aerospace specific quality standard, various corporations typically used ISO 9000 and their own complementary quality documentation/requirements, such as [[Boeing]]'s D1-9000 or the automotive Q standard.  This created a patchwork of competing requirements that were difficult to enforce and/or comply with.  The major American aerospace manufacturers combined their efforts to create a single, unified quality standard, resulting in AS9000.  Upon the release of AS9000, companies such as Boeing discontinued use of their previous quality supplements in preference to compliance to AS9000.
+
+During the rewrite of ISO 9000 for the  year 2000 release, the AS group worked closely with the ISO organization.  As the year 2000 revision of ISO 9000 incorporated major organizational and philosophical changes, AS9000 underwent a rewrite as well.  It was released as AS9100 to the international aerospace industry at the same time as the new version of ISO 9000. 
+
+
+
+==See also==
+* [[AS9000]]
+* [[ISO 9001]]
+* [[IAQG]]
+
+==External links==
+* [http://www.iaqg.sae.org/iaqg/publications/standards.htm IAQG Published Standards]
+* [http://www.qualitydigest.com/may02/html/as9100.html Quality Digest Article on AS9100]
+* [http://ts.nist.gov/Standards/Global/as9100.cfm NIST Overview]
+
+== References ==
+{{Reflist}}
+
+{{DEFAULTSORT:As9100}}
+[[Category:Aviation standards]]
+[[Category:Quality control]]
+[[Category:Quality]]

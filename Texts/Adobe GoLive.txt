@@ -1,0 +1,128 @@
+| name                   = Adobe GoLive
+| logo                   = [[Image:GoLive 9 icon.png|64px]]
+| screenshot             = [[Image:GoLive 9.png|280px]]
+| caption                = Adobe GoLive 9 running under [[Mac OS X]]
+| developer              = [[Adobe Systems]]
+| latest release version = 9.0
+| latest release date    = {{release_date|2007|06|01}}
+| operating system       = [[Mac OS X]] and [[Microsoft Windows]]
+| programming language   = [[C++]]
+| genre                  = [[HTML editor]]
+| status                 = Discontinued
+| license                = [[Proprietary software|Proprietary]]
+| website                = [http://www.adobe.com/products/golive/main.html www.adobe.com/products/golive/]
+}}
+'''Adobe GoLive''' is an [[HTML editor]] and web site management application from [[Adobe Systems]]. It replaced [[Adobe PageMill]] as Adobe's primary HTML editor.  The latest version of Adobe GoLive is version 9, which is not integrated as part of [[Adobe Creative Suite]] 3.  GoLive was discontinued in April 2008.
+
+'''Adobe GoLive''' originated as '''CyberStudio''', the flagship product of a company named '''GoLive Systems, Inc.''' then based in Hamburg, Germany. Adobe purchased GoLive in 1999 and re-branded the '''GoLive CyberStudio''' product to what is now '''Adobe GoLive'''. The first versions of Dreamweaver and Cyberstudio were released in a similar timeframe. However, [[Dreamweaver]] eventually became the dominant HTML editor in both [[marketshare|market]] and [[mindshare]].
+
+
+==General description and distinctive aspects==
+GoLive incorporates a largely [[modeless]] workflow that relies heavily on [[drag-and-drop]]. Most user interaction is done via a contextual [[Inspector window|inspector]] rather than the modal workflow found in [[Dreamweaver]]. Among its features are a separate editor for tables that supports nesting, and a two-dimensional panel for applying [[CSS]] styles to elements. GoLive supports [[drag-and-drop]] of native [[Adobe Photoshop]] and [[Adobe Illustrator]] files via what the company calls "Smart Objects", which then automatically guide the user through saving those files in web-supported formats. Updates to the original Photoshop or Illustrator assets are automatically tracked by GoLive. As a web site management tool, GoLive allows users to transfer and publish content directly from within the application, and allows individual files to be excluded from uploading.
+
+==Language and framework structure==
+
+==Features==
+
+==Release history==
+{| class="wikitable"
+|-
+! Version
+! Code Name
+! Supported Platforms
+! Release Date
+|-
+| Gonet GoLive Pro 1.0
+|
+| Classic Mac OS
+| August 1996
+|-
+| GoLive CyberStudio 1.0
+|
+| Classic Mac OS
+| April 1997
+|-
+| GoLive CyberStudio 2.0
+|
+| Classic Mac OS
+| September 1997
+|-
+| GoLive CyberStudio 3.0
+|
+| Classic Mac OS
+| April 1998
+|-
+| Adobe GoLive 4.0
+|
+| Classic Mac OS
+| January 1999
+|-
+| Adobe GoLive 4.0
+|
+| Microsoft Windows
+| May 1999
+|-
+| Adobe GoLive 5.0
+|
+| Classic Mac OS, Microsoft Windows
+| August 2000
+|-
+| Adobe GoLive 6.0
+| The 6th Day
+| Classic Mac OS, Mac OS X, Microsoft Windows
+| February 2002
+|-
+| Adobe GoLive CS
+| Se7en
+| Mac OS X, Microsoft Windows
+| October 2003
+|-
+| Adobe GoLive CS2
+| Reloaded
+| Mac OS X, Microsoft Windows
+| April 2005
+|-
+| Adobe GoLive 9.0
+| Vicious
+| Universal Mac OS X, Microsoft Windows
+| June 2007
+|}
+
+==See also==
+*[[Comparison of HTML editors]]
+*[[List of HTML editors]]
+
+==References==
+
+==External links==
+{{Wikibooks|Adobe GoLive Guide}}
+*[http://www.adobe.com/products/golive/ Adobe GoLive homepage]
+*[http://www.oreillynet.com/pub/a/javascript/2002/04/26/golive_history.html OReilly Article with GoLive History]
+*[http://www.mprove.de/script/99/pointshoot/index.html mprove: Adobe GoLive’s Point & Shoot - an interface technique for creating hyperlinks]
+*[http://www.futurastudios.com/golive911/ Adobe GoLive Tutorials & Resource Site]
+*[http://www.technologytutorials.org/ GoLive CS2 Tutorials and Reference]
+*[http://www.golivecentral.com/ GoLiveCentral - Tutorials & Resources]
+*[http://www.transmitmedia.com/golive/paypal/ PayPal eCommerce Extension for Adobe GoLive]
+
+{{HTML editors}}
+{{Adobe Systems}}
+
+{{DEFAULTSORT:Adobe Golive}}
+[[Category:Adobe software|GoLive]]
+[[Category:Adobe Creative Suite]]
+[[Category:C++ software]]
+[[Category:Discontinued software]]
+[[Category:1996 software]]
+[[Category:HTML editors]]
+[[Category:Graphics software]]
+
+[[ar:أدوبي جو لايف]]
+[[de:Adobe GoLive]]
+[[fr:Adobe GoLive]]
+[[it:Adobe GoLive]]
+[[nl:Adobe GoLive]]
+[[ja:Adobe GoLive]]
+[[pt:Adobe GoLive]]
+[[ru:Adobe GoLive]]
+[[sv:Adobe GoLive]]
+[[uk:Adobe GoLive]]

@@ -1,0 +1,8 @@
+
+
+By [[dragging and dropping]] the control handle on an edge, you can make the control wider or narrower, taller or shorter. Corner handles let you move two edges at once.
+
+[[Category:User interface techniques]]
+
+{{comp-sci-stub}}
+

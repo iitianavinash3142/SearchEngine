@@ -1,0 +1,7 @@
+
+==External links==
+*[http://www.microapl.co.uk/apl/ MicroAPL website]
+
+[[Category:APL programming language family]]
+[[Category:Array programming languages]]
+

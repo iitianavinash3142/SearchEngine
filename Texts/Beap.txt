@@ -1,0 +1,14 @@
+
+[[Image:beap.jpg|frame|Beap]]
+==Performance== 
+
+
+==Advantages==
+
+
+==References==
+
+J. Ian Munro and Hendra Suwanda. "Implicit data structures for fast search and update". ''[[Journal of Computer and System Sciences]]'', 21(2):236250, 1980.
+
+J.W.J Williams in Algorithms 232, "Heapsort", ''[[Comm. ACM 7]]'' (June 1964), 347-348
+

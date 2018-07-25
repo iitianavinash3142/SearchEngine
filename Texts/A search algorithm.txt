@@ -1,0 +1,231 @@
+{{graph search algorithm}}
+ | first = P. E.
+ | last = Hart
+ | coauthors = Nilsson, N. J.; Raphael, B.
+ | title = A Formal Basis for the Heuristic Determination of Minimum Cost Paths
+ | journal = [[Institute of Electrical and Electronics Engineers|IEEE]] Transactions on Systems Science and Cybernetics SSC4
+ | issue = 2
+ | pages = 100–107
+ | year = 1968
+ | doi = 10.1109/TSSC.1968.300136
+ | volume = 4
+ }}
+
+==Description==
+
+A* uses a [[best-first search|best-first]] search and finds the least-cost path from a given initial [[node (graph theory)|node]] to one [[goal node]] (out of one or more possible goals).
+
+
+
+
+Note that A* has been generalized into a bidirectional heuristic search algorithm; see [[bidirectional search]].
+
+==History==
+In 1964 Nils Nilsson invented a heuristic based approach to increase the speed of Dijkstra's algorithm. This algorithm was called A1. In 1967 Bertram Raphael made dramatic improvements upon this algorithm, but failed to show optimality. He called this algorithm A2. Then in 1968 Peter E. Hart introduced an argument that proved A2 was optimal when using a consistent heuristic with only minor changes. His proof of the algorithm also included a section that showed that the new A2 algorithm was the best algorithm possible given the conditions. He thus named the new algorithm in [[Kleene star]] syntax to be the algorithm that starts with A and includes all possible version numbers or A*.
+
+==Concepts==
+
+As A* traverses the graph, it follows a path of the lowest ''known'' cost, keeping a sorted [[priority queue]] of alternate path segments along the way. If, at any point, a segment of the path being traversed has a higher cost than another encountered path segment, it abandons the higher-cost path segment and traverses the lower-cost path segment instead. This process continues until the goal is reached.
+
+==Process==
+
+[[Image:A+ Pathfinding Algorithm.png|thumb|A single-step simulation]]
+
+
+==Pseudocode==
+
+The following [[pseudocode]] describes the algorithm:
+ function A*(start,goal)
+     closedset := the empty set                 // The set of nodes already evaluated.     
+     openset := set containing the initial node // The set of tentative nodes to be evaluated.
+     came_from := the empty map                 // The map of navigated nodes.
+     g_score[start] := 0                        // Distance from start along optimal path.
+     h_score[start] := heuristic_estimate_of_distance(start, goal)
+     f_score[start] := h_score[start]           // Estimated total distance from start to goal through y.
+     while openset is not empty
+         x := the node in openset having the lowest f_score[] value
+         if x = goal
+             return reconstruct_path(came_from, came_from[goal])
+         remove x from openset
+         add x to closedset
+         foreach y in neighbor_nodes(x)
+             if y in closedset
+                 continue
+             tentative_g_score := g_score[x] + dist_between(x,y)
+             
+             if y not in openset
+                 add y to openset
+                 tentative_is_better := true
+                 tentative_is_better := true
+             else
+                 tentative_is_better := false
+             if tentative_is_better = true
+                 came_from[y] := x
+                         
+                 g_score[y] := tentative_g_score
+                 h_score[y] := heuristic_estimate_of_distance(y, goal)
+                 f_score[y] := g_score[y] + h_score[y]
+     return failure
+
+ function reconstruct_path(came_from, current_node)
+     if came_from[current_node] is set
+         p = reconstruct_path(came_from, came_from[current_node])
+         return (p + current_node)
+     else
+         return current_node
+
+
+===Example===
+An example of A star (A*) algorithm in action where nodes are cities connected with roads and h(x) is the straight-line distance to target point: 
+
+[[File:AstarExample.gif|An example of A star (A*) algorithm in action (nodes are cities connected with roads, h(x) is the straight-line distance to target point) Green: Start, Blue: Target, Orange: Visited]]
+
+'''Key:''' green: start; blue: goal; orange: visited
+
+'''Note:''' This example uses a comma as the [[decimal separator]].
+
+==Properties==
+Like [[breadth-first search]], A* is ''complete'' and will always find a solution if one exists.
+
+
+
+
+
+
+
+
+===Special cases===
+
+===Implementation details===
+There are a number of simple optimizations or implementation details that can significantly affect the performance of an A* implementation.  The first detail to note is that the way the priority queue handles ties can have a significant effect on performance in some situations.  If ties are broken so the queue behaves in a [[LIFO (computing)|LIFO]] manner, A* will behave like [[depth-first search]] among equal cost paths. 
+
+
+==Admissibility and optimality{{anchor|Admissibility and Optimality}}==
+A* is admissible and considers fewer nodes than any other admissible search algorithm with the same heuristic. This is because A* uses an "optimistic" estimate of the cost of a path through every node that it considers—optimistic in that the true cost of a path through that node to the goal will be at least as great as the estimate. But, critically, as far as A* "knows", that optimistic estimate might be achievable.
+
+Here is the main idea of the proof:
+
+When A* terminates its search, it has found a path whose actual cost is lower than the estimated cost of any path through any open node. But since those estimates are optimistic, A* can safely ignore those nodes. In other words, A* will never overlook the possibility of a lower-cost path and so is admissible.
+
+Suppose now that some other search algorithm B terminates its search with a path whose actual cost is ''not'' less than the estimated cost of a path through some open node. Based on the heuristic information it has, Algorithm B cannot rule out the possibility that a path through that node has a lower cost. So while B might consider fewer nodes than A*, it cannot be admissible. Accordingly, A* considers the fewest nodes of any admissible search algorithm.
+
+This is only true if both:
+
+ | first = Rina
+ | last = Dechter
+ | coauthors = Judea Pearl
+ | title = [http://portal.acm.org/citation.cfm?id=3830&coll=portal&dl=ACM Generalized best-first search strategies and the optimality of A*]
+ | journal = [[Journal of the ACM]]
+ | volume = 32
+ | issue = 3
+ | pages = 505–536
+ | year = 1985
+ | doi = 10.1145/3828.3830 
+ }}
+
+ | first = Sven
+ | last = Koenig
+ | coauthors = Maxim Likhachev, Yaxin Liu, David Furcy
+ | title = [http://portal.acm.org/citation.cfm?id=1017140 Incremental heuristic search in AI]
+ | journal = [[AI Magazine]]
+ | volume = 25
+ | issue = 2
+ | pages = 99–112
+ | year = 2004
+ }}
+
+==Complexity==
+The [[computational complexity theory|time complexity]] of A* depends on the heuristic. In the worst case, the number of nodes expanded is [[exponential time|exponential]] in the length of the solution (the shortest path), but it is [[polynomial time|polynomial]] when the search space is a tree, there is a single goal state, and the heuristic function ''h'' meets the following condition:
+
+
+ | first = Judea
+ | last = Pearl
+ | title = Heuristics: Intelligent Search Strategies for Computer Problem Solving
+ | publisher = Addison-Wesley
+ | year = 1984
+ | isbn = 0-201-05594-5
+ | first = S. J.
+ | last = Russell
+ | coauthors = Norvig, P.
+ | title = [[Artificial Intelligence: A Modern Approach]]
+ | year = 2003
+ | pages = 97–104
+ | isbn = 0-13-790395-2
+ | publisher = Prentice Hall
+ | location = Upper Saddle River, N.J.
+
+==Variants of A*==
+*[[D*]]
+*[[Incremental heuristic search|D* Lite]]
+*[[Any-angle path planning|Field D*]]
+*[[IDA*]]
+*[[Incremental heuristic search|Fringe Saving A* (FSA*)]]
+*[[Incremental heuristic search|Generalized Adaptive A* (GAA*)]]
+*[[Incremental heuristic search|Lifelong Planning A* (LPA*)]]
+*[[Any-angle path planning|Theta*]]
+*[[SMA*]]
+
+==References==
+* {{cite journal
+ | first = P. E.
+ | last = Hart
+ | coauthors = Nilsson, N. J.; Raphael, B.
+ | title = Correction to "A Formal Basis for the Heuristic Determination of Minimum Cost Paths"
+ | journal = [[Association for Computing Machinery|SIGART]] Newsletter
+ | volume = 37
+ | pages = 28–29
+ | year = 1972
+ }}
+* {{cite book
+ | first = N. J.
+ | last = Nilsson
+ | title = Principles of Artificial Intelligence
+ | publisher = Tioga Publishing Company
+ | location = Palo Alto, California
+ | year = 1980
+ | isbn = 0935382011
+ }}
+* {{cite book
+ | first = Judea
+ | last = Pearl
+ | title = Heuristics: Intelligent Search Strategies for Computer Problem Solving
+ | publisher = Addison-Wesley
+ | year = 1984
+ | isbn = 0-201-05594-5
+ }}
+{{Reflist}}
+
+==External links==
+* [http://theory.stanford.edu/~amitp/GameProgramming/ Clear visual A* explanation, with advice and thoughts on path-finding]
+* Variation on A* called [http://www.cs.ualberta.ca/~mmueller/ps/hpastar.pdf Hierarchical Path-Finding A* (HPA*)]
+* [http://code.google.com/p/jianwikis/wiki/AStarAlgorithmForPathPlanning A* Algorithm for Path Planning in Java]
+* [http://www.stackframe.com/software/PathFinder A Java library for path finding with A* and example applet]
+* [http://www.codeproject.com/KB/recipes/fast_astar_2D_algorithm.aspx A fast, generic C# implementation of A* on 2D-Grids]
+* [http://code.google.com/p/a-star-algorithm-implementation A fast, memory efficient C++ implementation of A*]
+* [https://code.google.com/p/straightedge/ StraightEdge] open source java 2D path finding and lighting project focused on performance. Includes applet demos.
+
+{{DEFAULTSORT:A Search Algorithm}}
+[[Category:Graph algorithms]]
+[[Category:Routing algorithms]]
+[[Category:Search algorithms]]
+[[Category:Combinatorial optimization]]
+[[Category:Game artificial intelligence]]
+[[Category:Articles with example pseudocode]]
+
+{{Link GA|de}}
+
+[[ar:خوارزمية البحث بأولوية الأفضل]]
+[[cs:A*]]
+[[de:A*-Algorithmus]]
+[[es:Algoritmo de búsqueda A*]]
+[[fr:Algorithme A*]]
+[[ko:A* 알고리즘]]
+[[it:A*]]
+[[nl:A*-algoritme]]
+[[ja:A*]]
+[[pl:Algorytm A*]]
+[[pt:Algoritmo A*]]
+[[ru:Алгоритм поиска A*]]
+[[fi:A*-algoritmi]]
+[[uk:Алгоритм пошуку A*]]
+[[vi:Giải thuật tìm kiếm A*]]

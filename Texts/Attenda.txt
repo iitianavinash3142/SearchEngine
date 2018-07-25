@@ -1,0 +1,32 @@
+
+
+
+== Business model ==
+Attenda's business model is based upon Attenda M.O. - a shared operations platform that integrates people, process and technology to deliver high availability service levels at a cost that is amortised across Attenda's client base.
+
+== Critical application hosting and cloud services ==
+
+Attenda’s Critical Application Hosting Service covers Enterprise Applications, Web Applications and Messaging & Collaboration systems. Furthermore, Attenda’s IT infrastructure and Operations extend from the computer room and to complete adhering data centre to ITIL ISO 20000 certified IT Service Management System standards. Attenda are also single and multi-tenanted [[Software as a service|SaaS]] providers to [[independent software vendor]]s (ISVs) as well as Cloud (Infrastructure as a Service) platform providers.
+
+
+== Acquisitions ==
+
+
+== Recognition ==
+Attenda is ISO9001, [[ISO/IEC 27001|ISO27001]] and ISO20000 accredited. Attenda is also listed on the ''[[Sunday Times]]'' 2010 Top 100 fast track companies with the fastest growing profit.
+
+
+== References ==
+{{reflist}}
+
+== External links ==
+
+* [http://www.attenda.net Official website]
+* Attenda provides support for the European launch of Microsoft Healthvault[http://www.healthcareitnews.com/news/attenda-provides-support-european-launch-microsoft-healthvault]
+* Attenda becomes Carbonneutral accredited[http://www.carbonneutral.com/about-us/media-centre/press-releases/managed-services-company-attenda-announces-carbonneutral-company-accreditation/]
+
+
+[[Category:Cloud computing vendors]]
+[[Category:VMware]]
+[[Category:Web hosting]]
+[[Category:Cloud computing]]

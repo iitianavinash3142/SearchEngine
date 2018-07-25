@@ -1,0 +1,77 @@
+| name                   = ARX
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| developer              = [[Acorn Computers Ltd]]
+| source_model           = 
+| kernel_type            = [[Microkernel]]
+| supported_platforms    = [[ARM architecture|ARM]]
+| title = Acorn History (untitled)
+| accessdate = 2010-12-26
+| url = http://www.stairwaytohell.com/articles/AU-AcornHistory.html
+| title = Chris's Acorns: Acorn A500 (prototype)
+| accessdate = 2010-12-26
+| url = http://acorn.chriswhy.co.uk/Computers/A500.html
+| family                 = [[Mach-like]]
+| released               = 
+| latest_release_version = 
+| latest_release_date    = 
+| latest_test_version    = 
+| latest_test_date       = 
+| marketing_target       = Business Computing Workstation
+| programmed_in          = [[Modula-2+]]
+| prog_language          = 
+| language               = 
+| updatemodel            = 
+| package_manager        = 
+| working_state          = Historic
+| license                = 
+| website                = 
+}}
+| title = David  Chase Resume (untitled)
+| accessdate = 2010-12-27
+| url = http://homepage.mac.com/dr2chase/resume.html
+| doi = 10.1145/99278.99285
+| volume = 15
+| issue = 6
+| pages = 66–76
+| last = Jordan
+| first = Mick
+| title = An extensible programming environment for Modula-3
+| journal = SIGSOFT Softw. Eng. Notes
+| accessdate = 2009-09-08
+| year = 1990
+| url = http://portal.acm.org/citation.cfm?id=99285
+
+| title = Brian T. Lewis - Resume
+| accessdate = 2010-12-26
+| url = http://pages.sbcglobal.net/btlewis/resume-formatted.html
+| title = Full Acorn Machine List
+| accessdate = 2010-12-27
+| url = http://www.khantazi.org/Archives/MachineLst.html#A500
+
+It was not finished in time to be fitted to the Acorn Archimedes range of computers, which shipped in 1987 with the [[Arthur (operating system)|Arthur]] operating system, derived from the earlier [[Acorn MOS|MOS]] operating system from Acorn's earlier [[8-bit]] [[BBC Micro]] range. Arthur was later superseded by [[RISC OS]].
+
+The Acorn Research Centre was bought out by [[Olivetti]].
+
+See also: [[RISC iX]]
+
+==References==
+
+
+==External links==
+* [http://lists.cloud9.co.uk/pipermail/bbc-micro/2010-January/007795.html ARX features]
+* [http://www.chiark.greenend.org.uk/~theom/riscos/docs/Modula2ARX.txt A Usenet post to comp.sys.acorn by Bruce Cockburn detailing the relationship between ARX and Modula-2]
+* [http://neil.franklin.ch/Usenet/alt.folklore.computers/20010824_Not_A_RISC_By_Thursday A collection of Usenet posts detailing why ARX was abandoned for RISC OS]
+* [http://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252swp.txt History of the addition of the SWP instruction to the ARM3 instruction set]
+
+{{Acorn computers}}
+{{Mach-like}}
+
+[[Category:Acorn operating systems]]
+[[Category:Discontinued operating systems]]
+
+{{operating-system-stub}}
+
+[[es:ARX]]
+[[hu:ARX]]

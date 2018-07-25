@@ -1,0 +1,37 @@
+|title = AGRICOLA
+|image =
+|caption =
+|producer = [[United States Department of Agriculture]]
+|country = [[United States|USA]]
+|history =
+|languages = [[English language|English]]
+|providers = [[United States Department of Agriculture]]
+|cost = Free
+|disciplines = [[Agriculture]]
+|depth = Index, some abstracts
+|formats = Journals, Books, Audiovisual, other
+|temporal = 1600s - present
+|geospatial =
+|number =
+|updates = Daily
+|p_title =
+|p_dates =
+|ISSN =
+|web = http://agricola.nal.usda.gov/
+|titles =  http://riley.nal.usda.gov/nal_display/index.php?info_center=8&tax_level=2&tax_subject=157&topic_id=2010
+}}
+
+
+==Coverage==
+
+
+==External links==
+* [http://riley.nal.usda.gov/nal_display/index.php?info_center=8&tax_level=2&tax_subject=157&topic_id=2010 Journals Indexed in AGRICOLA]
+
+==References==
+
+{{DEFAULTSORT:Agricola}}
+[[Category:Bibliographic databases]]
+[[Category:United States Department of Agriculture]]
+
+

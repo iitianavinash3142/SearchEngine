@@ -1,0 +1,163 @@
+{{unref|date=August 2010}}
+In computing, '''alias''' is a [[Command (computing)|command]] in various [[command line interpreter]]s ([[Shell (computing)|shells]]) such as [[Unix shell]]s, [[4DOS]]/[[4NT]] and [[Windows PowerShell]], which enables a replacement of a word with another string. It is mainly used for abbreviating a system command, or for adding default arguments to a regularly used command. 
+
+An alias will last for the life of the shell session. Regularly used aliases can be set from the shell's configuration file (''~/.cshrc'' or the systemwide ''/etc/csh.cshrc'' for csh, or ''~/.bashrc'' or the systemwide ''/etc/bashrc'' or ''/etc/bash.bashrc'' for bash) so that they will be available upon the start of the corresponding shell session. The alias commands may either be written in the config file directly or [[source (command)|source]]d from a  separate file, typically named .alias (or .alias-bash, .alias-csh, etc., if  multiple shells  may be used).
+
+==Creating aliases==
+
+Aliases can be created by supplying name/value pairs as arguments for the alias command. An example of the [[Bash (Unix shell)|Bash]] shell syntax is:
+
+ alias copy="cp"
+
+The corresponding syntax in the [[C shell]] or [[tcsh]] shell is:
+
+ alias copy "cp"
+
+
+
+ alias cp copy
+
+
+ new-alias ci copy-item
+
+
+==History==
+
+In Unix, aliases were introduced in the [[C shell]] and thus survive in descendent shells such as [[tcsh]] and [[Bash (Unix shell)|bash]].  C shell aliases were strictly limited to one line in a shell language where all complex constructs required more, but still useful for creating simple shortcut commands.  Aliases were absent from the [[Bourne shell]], which had the more powerful facility of functions.  The alias concept was imported into [[Bash (Unix shell)|Bourne Again Shell]] (bash) and the [[Korn shell]] (ksh). Shells such as these, that support both functions and aliases, recommend using functions where possible. Cases where aliases are necessary include the use of chained aliases (bash and ksh).
+
+==Viewing currently defined aliases==
+
+To view defined aliases the following commands can be used:
+
+ alias          # Used without arguments; displays a list of all current aliases
+ alias -p       # Analogous to the above; not available in 4DOS/4NT and PowerShell
+ alias ''myAlias''  # Displays the command for a defined alias
+
+==Overriding aliases==
+
+In Unix shells, if an alias exists for a command, it is possible to override the alias by surrounding the command with quotes or prefixing it with a backslash. For example, consider the following alias definition:
+
+ alias ls='ls -la'
+
+
+ 'ls'
+
+or
+
+ \ls
+
+In the 4DOS/4NT shell it is possible to override an alias by prefixing it with an asterisk.  For example, consider the following alias definition:
+
+ alias dir = *dir /2/p
+
+
+ *dir
+
+==Changing aliases==
+
+
+ set-alias ci cls
+
+
+
+ eset /a cp
+
+
+==Removing aliases==
+
+
+ unalias copy          # Removes the copy alias
+ unalias -a            # The -a switch will remove all aliases; not available in 4DOS/4NT
+ unalias *             # 4DOS/4NT equivalent of `unalias -a` - wildcards are supported
+
+
+ remove-item alias:ci  # Removes the ci alias
+
+==Features==
+===Chaining===
+
+
+The usual syntax is to define the first alias with a trailing space character. For instance, using the two aliases:
+
+ alias list='ls '      # note the trailing space to trigger chaining
+ alias long='-Flas'    # options to ls for a long listing
+
+allows:
+
+
+for a long listing, where "long" is also checked for being an alias.
+
+===Quoting quotes===
+
+To define an alias with single quotes, which itself needs to contain single quotes, you need to use several concatenated quoted strings. For example, to define an alias which would do:
+
+
+You cannot do
+
+
+But you can use single quotes quoted inside double quotes
+
+
+See [http://stackoverflow.com/questions/1250079/bash-escaping-single-quotes-inside-of-single-quoted-strings#1250279 this explanation].
+
+You may also consider using a function instead of an alias.
+
+==Typical aliases==
+
+Some commonly used, but deprecated, aliases in the Bash shell:
+
+ alias ls='ls --color=auto' # use colors
+ alias la='ls -Fa'          # list all files
+ alias ll='ls -Fls'         # long listing format
+ 
+ alias rm='rm -i'           # prompt before overwrite (but dangerous, see [[Rm_(Unix)|Rm]] for a better approach)
+ alias cp='cp -i'           # prompt before overwrite (same general problem as the rm)
+ alias mv='mv -i'           # prompt before overwrite (same general problem as the rm)
+ 
+ alias vi='vim'             # use improved vi editor
+
+Standard aliases of Windows PowerShell include:
+
+ new-alias cd set-location
+ 
+ new-alias ls get-childitem
+ new-alias dir get-childitem
+ 
+ new-alias echo write-output
+ new-alias ps get-process
+ new-alias kill stop-process
+
+==Alternatives==
+
+Aliases should usually be kept simple. Where it would not be simple, the recommendation is usually to use one of the following:
+
+* [[Shell script]]s, which essentially provide the full ability to create new system commands.
+
+
+
+The most common form of aliases, which just add a few options to a command and then include the rest of the command line, can be converted easily to shell functions following this pattern:
+
+ alias ll='ls -Flas'              # long listing, alias
+ ll () { ls -Flas "$@" ; }        # long listing, function
+
+
+ ls () { command ls --color=auto "$@" ; }
+
+== External links ==
+*{{man|cu|alias|SUS|define or display aliases}}
+*[http://www.ss64.com/bash/alias.html Bash man page for alias]
+*[http://www.bellevuelinux.org/alias.html The alias Command] by The Linux Information Project (LINFO)
+
+{{Unix commands}}
+
+[[Category:Standard Unix programs|Alias]]
+[[Category:Unix SUS2008 utilities]]
+[[Category:Windows administration]]
+
+[[cs:Alias (Unix)]]
+[[de:Alias (Unix)]]
+[[es:Alias (unix)]]
+[[fr:Alias (informatique)]]
+[[it:Alias (informatica)]]
+[[pl:Alias (Unix)]]
+[[ru:Alias]]

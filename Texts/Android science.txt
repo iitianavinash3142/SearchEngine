@@ -1,0 +1,32 @@
+
+
+
+
+==Conferences, workshops, and symposia==
+*[http://www.siggraph.org/s2007/presenters/panels/ Uncanny Valley] panel. Siggraph 2007: The 34th International Conference and Exhibition on Computer Graphics and Interactive Techniques. San Diego, August 5–9, 2007.
+*[http://www.androidscience.com Toward Social Mechanisms of Android Science] long symposium at the [http://www.jcss.gr.jp/meetings/ICCS2006/ICCS2006.html Fifth International Conference of the Cognitive Science], July 26, 2006 at Sheraton Vancouver Wall Centre, Vancouver, BC, Canada.
+*[http://www.theuncannyvalley.org Views of the Uncanny Valley], A Humanoids 2005 Workshop, [http://www.humanoidrobots.org/humanoids2005/ IEEE-RAS International Conference on Humanoid Robots], Echopal Tsukuba International Congress Center, Tsukuba, Japan, 5 December 2005.
+*[http://www.androidscience.com/ Toward Social Mechanisms of Android Science] workshop at the [http://www.psych.unito.it/csc/cogsci05/ 27th Annual Conference of the Cognitive Science Society], July 25 and 26, 2005 at Regina Palace Hotel, Stresa, Italy.
+
+==See also==
+{{Portal|Robotics}}
+*[[Android (robot)|Android]]
+*[[Cognitive science]]
+*[[Robot]]
+*[[Human-robot interaction]]
+*[[Uncanny valley]]
+*[[Affective computing]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://informatics.iupui.edu/android/ Android Science Center]
+* [http://www.macdorman.com MacDorman, K.F.] & [http://www.ed.ams.eng.osaka-u.ac.jp Ishiguro, H.] (2006). [http://www.macdorman.com/kfm/writings/pubs/MacDorman2006AndroidScience.pdf The uncanny advantage of using androids in social and cognitive science research]. ''Interaction Studies, 7''(3).
+* [http://www.macdorman.com MacDorman, K. F.], Minato, T., Shimada, M., Itakura, S., [http://www.psy.herts.ac.uk/pub/sjcowley/index.html Cowley, S. J.] & [http://www.ed.ams.eng.osaka-u.ac.jp Ishiguro, H.] (2005). [http://www.macdorman.com/kfm/writings/pubs/MacDormani2005AssessHumanLikenessCogSci.pdf Assessing human likeness by eye contact in an android testbed.] Proceedings of the XXVII Annual Meeting of the Cognitive Science Society. July 21 – 23, 2005. Stresa, Italy.
+* [http://199.246.67.28/exnmedia/exn20050324-android.asf Android Science] segment on the Daily Planet Goes to Japan, the Discovery Channel, March 24, 2005.
+
+{{DEFAULTSORT:Android Science}}
+[[Category:Robotics]]
+
+[[ja:アンドロイドサイエンス]]

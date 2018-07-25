@@ -1,0 +1,8 @@
+
+APS can be also signaled digitally, in the [[CGMS-A]] bit field sent in the [[vertical blanking interval]].
+
+==Sources==
+*Smart Computing Dictionary Entry, ''Analog Protection System'' (2005). http://www.smartcomputing.com/editorial/dictionary/detail.asp?guid=&searchtype=1&DicID=15636&RefType=Dictionary
+*Macrovision, ''Analog Protection System: A Presentation to the Analog Reconversion Discussion Group'' (2003). http://www.eff.org/IP/DMCA/Macrovision_v_321Studios/20030320_Macrovision_APS.pdf
+
+[[Category:Digital rights management]]

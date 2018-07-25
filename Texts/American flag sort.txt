@@ -1,0 +1,12 @@
+
+Note: This works especially well when sorting a byte at a time, using 256 buckets. 
+
+==See also==
+*[[Bucket sort]]
+
+== External links ==
+* {{DADS|American flag sort|americanFlagSort}}
+
+{{sorting}}
+
+[[Category:Sorting algorithms]]

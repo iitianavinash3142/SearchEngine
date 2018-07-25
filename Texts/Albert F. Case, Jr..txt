@@ -1,0 +1,43 @@
+
+== Biography ==
+
+
+
+== Work ==
+Case of the leaders in the development of [[Computer-Aided Software Engineering]] (CASE) technologies and system development methodologies. He also was a major contributor to the ''Spectrum System Development Methodology'', from John D. Toellner Associates, developing the Structured Analysis and Structured Design design tips.
+
+=== Computer-Aided Software Engineering ===
+Nastec Corporation both coined the acronym CASE for [[Computer-Aided Software Engineering]] and launched the ''DesignAid'' analysis and design tool and the ''LifeCycle Manager'' project configuration and management system. For six years, Case served as Nastec's Vice President for Professional Services and Product Management. Case, and his associate [[Vaughn Frick]] developed a second generation structured analysis and design technique based on the Yourdon/Demarco/Constantine Structured Analysis/Structured Design technique. Frick, while working with Case at Nastec Corporation on the development of the PC-based DesignAid product, was the first to specify and teach a comprehensive technique for transforming a structured analysis specification into a structured design.
+
+The revolutionary approach propelled Nastec Corporation into the leadership position in Analysis and Design professional education, and the Professional Services division quickly became not only the largest component of Nastec Corporation, but also the largest provider of [[SA/SD]] education.
+
+Case was among the most prolific public speakers on the subject of CASE during the 1980s, helping launch, among other events, the Computer-Aided Software Engineering Symposium as its keynote speaker for its first two years. Case toured the country, promoting the integration of ''upper CASE'' and ''lower CASE'' with pro-football great and code-generation pioneer [[Fran Tarkenton]], founder of ''Tarkenton Software.''  When Tarkenton Software and Nastec Corporation agreed not to merge, Tarkenton teamed up with [[James Martin (author)|James Martin]] and merged Tarkenton Software into [[KnowledgeWare]], a direct competitor to Nastec.
+
+=== Principles of Computer Aided Software Engineering ===
+Case, also author of the book ''Information Systems Development: Principles of Computer Aided Software Engineering'' (Prentice Hall, 1986), was also a life long student of General Systems Theory (GST) and fascinated by the application of structured analysis and design techniques to the design of entire business operations, not just the information technology subsystems.
+
+At Gartner, Case quickly ascended the analyst ranks, going from the leading Software Engineering analyst to head of its Business Process Reengineering practice - where he could spend full-time applying GST to business design, launching Gartner's e-Business Resource Center, its Vertical Industries practices and ultimately becoming the founder, group vice president and general manager of Gartner's TCO Software division. From there, Case became head of Gartner's IT benchmarking business and president of Gartner's eMetrix business performance management business. During his 13 year tenure at Gartner, Case launched dozens of product and service lines that accounted for over $100 million in revenue to Gartner.
+
+=== Stamford Research ===
+
+== References ==
+{{Reflist}}
+{{BLP sources|date=January 2009}}
+
+== Further reading ==
+* [http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/c/Case_Jr=:Albert_F=.html Case, Albert F., Information Systems Development: Principles of Computer-Aided Software Engineering (CASE)(Prentice Hall, 1986)] at www.informatik.uni-trier.de
+* [http://72.14.209.104/search?q=cache:Zrid83HROp4J:www.iccc-group.com/goldtour/invit_goldratt_tour.pdf+%22albert+f.+case,+jr.%22&hl=en&gl=us&ct=clnk&cd=26 Al Case citation] Dr. Eli Goldratt's Necessary & Sufficient Tour.
+* [http://wotan.liu.edu/docis/dbl/datbas/1985_17_1_35_CSETF.htm "Computer-Aided Software Engineering (CASE): Technology for Improving Software Development Productivity"] Database Journal, Vol 17, Issue 1, pp. 35–43
+
+| NAME              = Case, Albert F. Jr
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = March 2, 1955
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Case, Albert F. Jr}}
+[[Category:1955 births]]
+[[Category:University at Buffalo alumni]]
+[[Category:Living people]]

@@ -1,0 +1,98 @@
+
+==General Idea==
+Auctions take many forms but always satisfy two conditions:
+
+'''(i)''' They may be used to sell any item and so are ''universal'', also
+
+'''(ii)''' The outcome of the auction does not depend on the identity of the bidders; i.e., auctions are ''anonymous''.
+
+Most auctions have the feature that participants submit ''bids'', amounts of money they are willing to pay.  '''Standard''' auctions require that the winner of the auction is the participant with the highest bid.  A '''nonstandard''' auction does not require this (e.g. a lottery).
+
+==Types of auction==
+There are traditionally four types of auction that are used for the allocation of a single item:
+
+* [[First-price sealed-bid auctions]] in which bidders place their bid in a sealed envelope and simultaneously hand them to the auctioneer. The envelopes are opened and the individual with the highest bid wins, paying a price equal to the exact amount that he or she bid.
+* [[sealed second-price auction|Second-price sealed-bid auctions (Vickrey auctions)]] in which bidders place their bid in a sealed envelope and simultaneously hand them to the auctioneer. The envelopes are opened and the individual with the highest bid wins, paying a price equal to the exact amount of the ''second highest''  bid.
+* [[English auction|Open Ascending-bid auctions (English auctions)]] in which the price is steadily raised by the auctioneer with bidders dropping out once the price becomes too high. This continues until there remains only one bidder who wins the auction at the current price.
+* [[Dutch auction|Open Descending-bid auctions (Dutch auctions)]] in which the price starts at a level sufficiently high to deter all bidders and is progressively lowered until a bidder indicates that he is prepared to buy at the current price. He or she wins the auction and pays the price at which they bid.
+
+Most auction theory revolves around these four "standard" auction types.  However, other auction types have also received some academic study, such as:
+
+* [[All-pay auction]]s in which bidders place their bid in a sealed envelope and simultaneously hand them to the auctioneer. The envelopes are opened and the individual with the highest bid wins, paying a price equal to the exact amount that he or she bid. All losing bidders are also required to make a payment to the auctioneer equal to their own bid in an all-pay auction. This auction format is non-standard, but can be used to understand things such as election campaigns (in which bids can be interpreted as campaign spending) or queuing for a scarce commodity (in which your bid is the amount of time for which you are prepared to queue).
+* [[Amsterdam auction|Amsterdam auctions (Amsterdam auctions)]] in which the auction consists of two phases. An open ascending phase, followed by an open descending phase. The descending phase starts with a multitude of the winning price of the ascending phase to deter all bidders. The winner of the ascending phase always gets a percentage revenue of the winning price in that phase. If the winner in the descending phase is the same person, he or she will get a reduction of the highest bid by the percentage of the winning price in the ascending phase.
+* [[Unique bid auction]]s
+* Many [[homogenous item auction]]s, e.g., [[spectrum auction]]s
+* [[Simultaneous multiple-round auction]]s
+* [[Position auction]]s
+*[[Generalized second-price auction]]
+*[[Menu auction]]
+*[[Ascending package auction]]
+
+==Game-theoretic models==
+A game-theoretic auction model is a [[Game theory#Representation of games|mathematical game]] represented by a [[Set (mathematics)|set]] of players, a set of actions ([[Strategy|strategies]]) available to each player, and a payoff [[vector (geometric)|vector]] corresponding to each [[combination]] of strategies.  Generally, the players are the buyer(s) and the seller(s).  The action set of each player is a set of bid [[Function (mathematics)|functions]] or [[reservation price]]s.  Each bid function maps the player's [[Value (economics)|value]] (in the case of a buyer) or [[cost]] (in the case of a seller) to a bid [[price]].  The payoff of each player under a combination of strategies is the [[Expected utility hypothesis|expected utility]] (or [[Expected value|expected]] profit) of that player under that combination of strategies.
+
+Game-theoretic models of auctions and strategic bidding generally fall into either of the following two categories.  In a [[private values auction model|private value model]], each participant (bidder) assumes that each of the [[Competition|competing]] bidders obtains a [[random]] ''private value'' from a [[probability distribution]].  In a [[Common value auction|common value]] model, each participant assumes that any other participant obtains a random signal from a probability distribution common to all bidders.  Usually, but not always, a private values model assumes that the values are [[Statistical independence|independent]] across bidders, whereas a common value model usually assumes that the values are independent up to the common [[parameter]]s of the probability distribution.
+
+[[Image:EnumaElish102.jpg|thumb|100px|right|Ex-post equilibrium in a simple auction market.]]When it is necessary to make explicit assumptions about bidders' value [[Probability distribution|distributions]], most of the published research assumes [[Symmetric game|symmetric]] bidders.  This means that the probability distribution from which the bidders obtain their values (or signals) is identical across bidders.  In a private values model which assumes independence, symmetry implies that the bidders' values are [[I.i.d.|independently and identically distributed (i.i.d.)]].
+
+[[Image:EnumaElish103.jpg|thumb|100px|right|Examples of strategies (bid functions) available to either buyer.]]
+[[Image:EnumaElish001.jpg|thumb|100px|right|Symmetric equilibrium strategy (bid function).]]
+
+
+==Revenue Equivalence==
+
+One of the major findings of Auction Theory is the celebrated Revenue Equivalence Theorem (first proved by Vickrey in 1961 and generalized 20 years later by Myerson, and independently by Riley and Samuelson.), which states that any allocation mechanism/auction in which (i) the bidder with the highest type/signal/value always wins, (ii) the bidder with the lowest possible type/value/signal expects zero surplus, (iii) all bidders are risk neutral and (iv) all bidders are drawn from a strictly increasing and atomless distribution will lead to the same revenue for the seller (and player i of type v can expect the same surplus across auction types).
+
+==Winner's curse==
+
+The [[winner's curse]] is a phenomenon which can occur in ''common value'' settings—when the actual values to the different bidders are unknown but correlated, and the bidders make bidding decisions based on estimated values. In such cases, the winner will tend to be the bidder with the highest estimate, and that winner will frequently have bid too much for the auctioned item.
+
+In an equilibrium of such a game, the winner's curse does not occur because the bidders account for the bias in their bidding strategies. Nonetheless, models of such auctions can help identify the winner's curse.
+
+==JEL Classification==
+  | title = Journal of Economic Literature Classification System
+  | publisher = American Economic Association
+  | url = http://aea-web.org/journal/jel_class_system.html
+
+==Footnotes==
+
+==Further reading==
+* Cassady, R. (1967). Auctions and auctioneering. [[University of California Press]]. An influential early survey.
+
+* Klemperer, P. (Ed.). (1999b). The economic theory of auctions. Edward Elgar. A collection of seminal papers in auction theory.
+
+* Klemperer, P. (1999a). Auction theory: A guide to the literature. Journal of Economic Surveys, 13(3), 227–286. A good modern survey; the first chapter of the preceding book.
+
+* {{cite book|author=Klemperer, Paul|year=2004|title=Auctions: Theory and Practice|publisher=[[Princeton University Press]]|isbn=0-691-11925-2}} [http://www.nuff.ox.ac.uk/users/klemperer/VirtualBook/VirtualBookCoverSheet.asp Draft edition available online]
+
+* {{cite book | last1=Krishna | first1=Vijay | year=2002 | title=Auction theory | location=New York | publisher=[[Elsevier]] | isbn=978-0-124-26297-3}} A very good modern textbook on auction theory.
+
+* {{Cite journal
+  | author = McAfee, R. P. and J. McMillan
+  | title = Auctions and Bidding
+  | journal = [[Journal of Economic Literature]]
+  | volume = 25
+  | pages = 708–47
+  | year = 1987
+
+* Myerson, R. (1981). Optimal auction design. [[Mathematics of Operations Research]], 6(1), 58–73. A seminal paper, introduced revenue equivalence and optimal auctions.
+
+* Riley, J., and Samuelson, W. (1981). Optimal auctions. [[The American Economic Review]], 71(3), 381–392. A seminal paper; published concurrently with Myerson's paper cited above.
+
+* {{cite book | last1=Shoham | first1=Yoav | last2=Leyton-Brown | first2=Kevin | title=Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations | publisher=[[Cambridge University Press]] | isbn=978-0-521-89943-7 | url=http://www.masfoundations.org | year=2009 | location=New York}} A recent textbook; see Chapter 11, which presents auction theory from a computational perspective. [http://www.masfoundations.org/download.html Downloadable free online].
+
+* Vickrey, W. (1961). Counterspeculation, auctions, and competitive sealed tenders. The Journal of Finance, 16(1), 8–37. A seminal paper that introduced second price auctions and performed new analysis of first price.
+
+* Wilson, R. (1987a). Auction theory. In J. Eatwell, M. Milgate, P. Newman (Eds.), [[The New Palgrave Dictionary of Economics]], vol. I. London: Macmillan.
+
+==External links==
+
+* [http://www.gametheory.net/dictionary/Auctions/ Auctions on GameTheory.net]
+
+[[Category:Auction theory| ]]
+[[Category:Game theory]]
+
+[[de:Auktionstheorie]]
+[[el:Θεωρία δημοπρασιών]]
+[[es:Teoría de subasta]]
+[[fr:Théorie des enchères]]

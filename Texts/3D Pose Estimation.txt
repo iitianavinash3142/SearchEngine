@@ -1,0 +1,35 @@
+
+==3D Pose Estimation from an Uncalibrated 2D Camera==
+
+==3D Pose Estimation from a Calibrated 2D Camera==
+
+
+=== Extracting 3D from 2D ===
+Starting with a 2D image, image points are extracted which correspond to corners in an image.  The projection rays from the image points are reconstructed from the 2D points so that the 3D points, which must be incident with the reconstructed rays, can be determined.
+
+===Pseudocode===
+The algorithm for determining pose estimation is based on the [[Iterative Closest Point]] algorithm. The main idea is to determine the correspondences between 2D image features and points on the 3D model curve.  
+
+The above algorithm does not account for images containing an object that is partially occluded.  The following algorithm assumes that all contours are rigidly coupled, meaning the pose of one contour defines the pose of another contour.
+
+
+
+== Estimating Pose Through Comparison ==
+
+== Notes ==
+{{reflist|2}}
+
+==See also==
+*[[homography]]
+*[[camera calibration]]
+
+== References ==
+*Rosenhahn, B. "Foundations about 2D-3D Pose Estimation."
+*Rosenhahn, B. "Pose Estimation of 3D Free-form Contours in Conformal Geometry."
+*Athitsos, V. "Estimating 3D Hand Pose from a Cluttered Image."
+
+==External links==
+*[http://www.ks.informatik.uni-kiel.de/modules.php?name=Projekte&func=hp&prid=6] Further readings on various Computer Vision topics as well as more information on 3D pose estimation
+
+[[Category:Computer vision]]
+[[Category:Geometry in computer vision]]

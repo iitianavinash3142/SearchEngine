@@ -1,0 +1,615 @@
+Instruction Sets:
+Instruction Sets:
+
+Addressing Modes and Formats
+
+Addressing Modes
+
+• Immediate
+• Direct
+• Indirect
+• Register
+• Register Indirect
+• Register Indirect
+• Displacement (Indexed) 
+• Stack
+
+Example Register Organizations
+
+Immediate Addressing
+
+• Operand is part of instruction
+• Operand = address field
+• e.g. ADD 5
+
+—Add 5 to contents of accumulator
+—5 is operand
+—5 is operand
+
+• No memory reference to fetch data
+• Fast
+• Limited range
+
+Immediate Addressing Diagram
+
+Instruction
+
+Opcode
+
+Operand
+
+Direct Addressing
+
+• Address field contains address of operand
+• Effective address (EA) = address field (A)
+• e.g.  ADD A
+
+—Add contents of cell A to accumulator
+—Look in memory at address A for operand
+—Look in memory at address A for operand
+
+• Single memory reference to access data
+• No additional calculations to work out 
+
+effective address
+
+• Limited address space
+
+Direct Addressing Diagram
+
+Instruction
+
+Opcode
+
+Address A
+
+Memory
+
+Operand
+
+Indirect Addressing (1)
+
+• Memory cell pointed to by address field 
+contains the address of (pointer to) the 
+operand
+• EA = (A)
+
+—Look in A, find address (A) and look there for 
+
+operand
+operand
+
+• e.g. ADD (A)
+
+—Add contents of cell pointed to by contents of 
+
+A to accumulator
+
+Indirect Addressing (2)
+
+• Large address space 
+• 2n where n = word length
+• May be nested, multilevel, cascaded
+
+—e.g. EA = (((A)))
+
+• Multiple memory accesses to find operand
+• Multiple memory accesses to find operand
+• Hence slower
+
+Indirect Addressing Diagram
+
+Instruction
+
+Opcode
+
+Address A
+
+Memory
+
+Pointer to operand
+
+Operand
+
+Register Addressing (1)
+
+• Operand is held in register named in 
+
+address filed
+
+• EA = R
+• Limited number of registers
+• Very small address field needed 
+• Very small address field needed 
+
+—Shorter instructions
+—Faster instruction fetch
+
+Register Addressing (2)
+
+• No memory access
+• Very fast execution
+• Very limited address space
+• Multiple registers helps performance
+
+—Requires good assembly programming or 
+—Requires good assembly programming or 
+
+compiler writing
+
+—N.B. C programming 
+
+– register int a;
+
+• c.f. Direct addressing
+
+Register Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register Address R
+
+Registers
+
+Operand
+
+Register Indirect Addressing
+
+• C.f. indirect addressing
+• EA = (R)
+• Operand is in memory cell pointed to by 
+
+contents of register R
+
+• Large address space (2n)
+• Large address space (2 )
+• One fewer memory access than indirect 
+
+addressing
+
+Register Indirect Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register Address R
+
+Memory
+
+Registers
+
+Pointer to Operand
+
+Operand
+
+Displacement Addressing
+
+• EA = A + (R)
+• Address field hold two values
+
+—A = base value
+—R = register that holds displacement
+—or vice versa
+
+Displacement Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register R
+
+Address A
+
+Registers
+
+Memory
+
+Pointer to Operand
+
++
+
+Operand
+
+Relative Addressing
+
+• A version of displacement addressing
+• R = Program counter, PC
+• EA = A + (PC)
+• i.e. get operand from A cells from current 
+
+location pointed to by PC
+location pointed to by PC
+
+• c.f locality of reference & cache usage
+
+Base-Register Addressing
+
+• A holds displacement
+• R holds pointer to base address
+• R may be explicit or implicit
+• e.g. segment registers in 80x86
+
+Indexed Addressing
+
+• A = base
+• R = displacement
+• EA = A + R
+• Good for accessing arrays
+
+—EA = A + R
+—EA = A + R
+—R++
+
+Combinations
+
+• Postindex: indexing is performed after the 
+
+indirection
+—EA = (A) + (R)
+
+• Preindex: indexing is performed before 
+
+the indirection
+the indirection
+—EA = (A+(R))
+
+• Autoindexing
+—EA = A + (R)
+—(R) = (R) +1
+
+Stack Addressing
+
+• Operand is (implicitly) on top of stack
+• e.g. 
+
+—ADD Pop top two items from stack
+
+and add
+
+Instruction Formats
+
+• Layout of bits in an instruction
+• Includes opcode
+• Includes (implicit or explicit) operand(s)
+• Usually more than one instruction format 
+
+in an instruction set
+in an instruction set
+
+Instruction Length
+
+• Affected by and affects:
+
+—Memory size
+—Memory organization
+—Bus structure
+—CPU complexity
+—CPU speed
+—CPU speed
+
+• Trade off between powerful instruction 
+
+repertoire and saving space
+
+Allocation of Bits
+
+• Number of addressing modes
+• Number of operands
+• Register versus memory
+• Number of register sets
+• Address range
+• Address range
+• Address granularity
+
+Instruction Sets:
+Instruction Sets:
+
+Addressing Modes and Formats
+
+Addressing Modes
+
+• Immediate
+• Direct
+• Indirect
+• Register
+• Register Indirect
+• Register Indirect
+• Displacement (Indexed) 
+• Stack
+
+Example Register Organizations
+
+Immediate Addressing
+
+• Operand is part of instruction
+• Operand = address field
+• e.g. ADD 5
+
+—Add 5 to contents of accumulator
+—5 is operand
+—5 is operand
+
+• No memory reference to fetch data
+• Fast
+• Limited range
+
+Immediate Addressing Diagram
+
+Instruction
+
+Opcode
+
+Operand
+
+Direct Addressing
+
+• Address field contains address of operand
+• Effective address (EA) = address field (A)
+• e.g.  ADD A
+
+—Add contents of cell A to accumulator
+—Look in memory at address A for operand
+—Look in memory at address A for operand
+
+• Single memory reference to access data
+• No additional calculations to work out 
+
+effective address
+
+• Limited address space
+
+Direct Addressing Diagram
+
+Instruction
+
+Opcode
+
+Address A
+
+Memory
+
+Operand
+
+Indirect Addressing (1)
+
+• Memory cell pointed to by address field 
+contains the address of (pointer to) the 
+operand
+• EA = (A)
+
+—Look in A, find address (A) and look there for 
+
+operand
+operand
+
+• e.g. ADD (A)
+
+—Add contents of cell pointed to by contents of 
+
+A to accumulator
+
+Indirect Addressing (2)
+
+• Large address space 
+• 2n where n = word length
+• May be nested, multilevel, cascaded
+
+—e.g. EA = (((A)))
+
+• Multiple memory accesses to find operand
+• Multiple memory accesses to find operand
+• Hence slower
+
+Indirect Addressing Diagram
+
+Instruction
+
+Opcode
+
+Address A
+
+Memory
+
+Pointer to operand
+
+Operand
+
+Register Addressing (1)
+
+• Operand is held in register named in 
+
+address filed
+
+• EA = R
+• Limited number of registers
+• Very small address field needed 
+• Very small address field needed 
+
+—Shorter instructions
+—Faster instruction fetch
+
+Register Addressing (2)
+
+• No memory access
+• Very fast execution
+• Very limited address space
+• Multiple registers helps performance
+
+—Requires good assembly programming or 
+—Requires good assembly programming or 
+
+compiler writing
+
+—N.B. C programming 
+
+– register int a;
+
+• c.f. Direct addressing
+
+Register Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register Address R
+
+Registers
+
+Operand
+
+Register Indirect Addressing
+
+• C.f. indirect addressing
+• EA = (R)
+• Operand is in memory cell pointed to by 
+
+contents of register R
+
+• Large address space (2n)
+• Large address space (2 )
+• One fewer memory access than indirect 
+
+addressing
+
+Register Indirect Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register Address R
+
+Memory
+
+Registers
+
+Pointer to Operand
+
+Operand
+
+Displacement Addressing
+
+• EA = A + (R)
+• Address field hold two values
+
+—A = base value
+—R = register that holds displacement
+—or vice versa
+
+Displacement Addressing Diagram
+
+Instruction
+
+Opcode
+
+Register R
+
+Address A
+
+Registers
+
+Memory
+
+Pointer to Operand
+
++
+
+Operand
+
+Relative Addressing
+
+• A version of displacement addressing
+• R = Program counter, PC
+• EA = A + (PC)
+• i.e. get operand from A cells from current 
+
+location pointed to by PC
+location pointed to by PC
+
+• c.f locality of reference & cache usage
+
+Base-Register Addressing
+
+• A holds displacement
+• R holds pointer to base address
+• R may be explicit or implicit
+• e.g. segment registers in 80x86
+
+Indexed Addressing
+
+• A = base
+• R = displacement
+• EA = A + R
+• Good for accessing arrays
+
+—EA = A + R
+—EA = A + R
+—R++
+
+Combinations
+
+• Postindex: indexing is performed after the 
+
+indirection
+—EA = (A) + (R)
+
+• Preindex: indexing is performed before 
+
+the indirection
+the indirection
+—EA = (A+(R))
+
+• Autoindexing
+—EA = A + (R)
+—(R) = (R) +1
+
+Stack Addressing
+
+• Operand is (implicitly) on top of stack
+• e.g. 
+
+—ADD Pop top two items from stack
+
+and add
+
+Instruction Formats
+
+• Layout of bits in an instruction
+• Includes opcode
+• Includes (implicit or explicit) operand(s)
+• Usually more than one instruction format 
+
+in an instruction set
+in an instruction set
+
+Instruction Length
+
+• Affected by and affects:
+
+—Memory size
+—Memory organization
+—Bus structure
+—CPU complexity
+—CPU speed
+—CPU speed
+
+• Trade off between powerful instruction 
+
+repertoire and saving space
+
+Allocation of Bits
+
+• Number of addressing modes
+• Number of operands
+• Register versus memory
+• Number of register sets
+• Address range
+• Address range
+• Address granularity
+
+

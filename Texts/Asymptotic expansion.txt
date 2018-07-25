@@ -1,0 +1,57 @@
+
+constitutes an '''asymptotic scale''' if for every ''n'',
+or
+If one or the other holds for all ''N'', then we write
+See [[asymptotic analysis]] and [[big O notation]] for the notation.
+
+The most common type of asymptotic expansion is a power series in either positive
+or negative powers. Methods of generating such expansions include the [[Euler–Maclaurin summation formula]] and
+integral transforms such as the [[Laplace transform|Laplace]] and [[Mellin transform|Mellin]] transforms. Repeated integration by parts will often lead to an asymptotic expansion. 
+
+Since a ''convergent'' [[Taylor series]] fits the definition of asymptotic expansion as
+
+
+==Examples of asymptotic expansions==
+
+* [[Gamma function]]
+
+
+* [[Exponential integral]]
+
+
+* [[Riemann zeta function]]
+
+
+* [[Error function]]
+
+
+==Detailed example==
+Asymptotic expansions often occur when an ordinary series is used in a formal expression that forces the taking of values outside of its domain of convergence. Thus, for example, one may start with the ordinary series 
+
+
+
+
+The integral on the left hand side, understood as a [[Cauchy principal value]], can be expressed
+in terms of the [[exponential integral]].  The integral on the right hand side may be recognized as the
+[[gamma function]]. Evaluating both, one obtains the asymptotic expansion
+
+
+
+==References==
+* Bleistein, N. and Handlesman, R., ''Asymptotic Expansions of Integrals'', Dover, New York, 1975
+* [[Arthur Erdélyi|A. Erdélyi]], ''Asymptotic Expansions'', Dover, New York, 1955
+* [[G. H. Hardy|Hardy, G. H.]], ''Divergent Series'', Oxford University Press, 1949
+* Paris, R. B. and Kaminsky, D., ''Asymptotics and Mellin-Barnes Integrals'', Cambridge University Press, 2001
+* [[E. T. Whittaker|Whittaker, E. T.]] and Watson, G. N., ''A Course in Modern Analysis'', fourth edition, Cambridge University Press, 1963
+
+[[Category:Mathematical analysis]]
+[[Category:Asymptotic analysis]]
+[[Category:Mathematical series]]
+
+[[cs:Asymptotická řada]]
+[[de:Asymptotische Folge]]
+[[es:Serie asintótica]]
+[[fr:Développement asymptotique]]
+[[it:Sviluppo asintotico]]
+[[hu:Aszimptotikus sor]]
+[[ja:漸近展開]]

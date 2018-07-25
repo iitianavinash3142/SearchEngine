@@ -1,0 +1,147 @@
+In [[physical cosmology]], [[astronomy]] and [[celestial mechanics]], '''anti-gravity''' is the idea of creating a place or object that is free from the force of [[gravity]]. It does not refer to the lack of weight under gravity experienced in [[free fall]] or [[orbit]], nor to balancing the force of gravity with some other force, such as electromagnetism or aerodynamic lift.
+
+Instead, anti-gravity requires that the fundamental causes of the force of gravity be made either not present or not applicable to the place or object through some kind of technological intervention. Anti-gravity is a recurring concept in [[science fiction]], particularly in the context of [[spacecraft propulsion]]. The concept was first introduced formally as "[[Cavorite]]" in [[H. G. Wells]]' ''[[The First Men in the Moon]]'', and has been a favorite item of imaginary technology since that day.
+
+In the first mathematically accurate description of gravity, [[Newton's law of universal gravitation]], gravity was an external force transmitted by unknown means. However in the early part of the 20th century Newton's model was replaced by the more general and complete description known as [[general relativity]]. In general relativity, gravity is not a force in the traditional sense of the word, but the result of the geometry of space itself. These geometrical solutions always cause attractive "forces". Under general relativity, anti-gravity is highly unlikely, except under contrived circumstances that are regarded as unlikely or impossible. The term "anti-gravity" is also sometimes used to refer to hypothetical [[reactionless propulsion]] drives based on certain solutions to general relativity, although these do not oppose gravity as such.
+
+
+
+==Hypothetical solutions==
+====Gravity shields====
+{{main|Gravitational shielding}}
+One might consider the results of placing such a substance under one-half of a wheel on a shaft. The side of the wheel above the substance would have no weight, while the other side would. This would cause the wheel to continually "fall" toward the side above the plate. This motion could be harnessed to produce power for free, a clear violation of the [[first law of thermodynamics]]. More generally, it follows from [[Gauss's law]] that static inverse-square fields (such as Earth's gravitational field) cannot be blocked (magnetism is static, but is inverse-cube). Under general relativity, the entire concept is something of a [[non sequitur (logic)|non-sequitur]].
+
+
+====General relativity research in the 1950s====
+{{Main|United States gravity control propulsion research (1955–1974)}}
+
+General relativity was introduced in the 1910s, but development of the theory was greatly slowed by a lack of suitable mathematical tools. Although it appeared that anti-gravity was outlawed under general relativity, there were a number of efforts to study potential solutions that allowed anti-gravity-type effects.
+
+
+
+Military support for anti-gravity projects was terminated by the [[Mansfield Amendment]] of 1973, which restricted [[United States Department of Defense|Department of Defense]] spending to only the areas of scientific research with explicit military applications. The Mansfield Amendment was passed specifically to end long-running projects that had little to show for their efforts.
+
+====Negative mass====
+Under general relativity, gravity is the result of following a spatial geometry (change in the normal shape of space) caused by local mass-energy. This theory holds that it is the altered shape of space, deformed by massive objects, that causes 'gravity', which is actually a property of deformed space rather than being a true force. Although the equations cannot produce a "negative geometry" normally, it is possible to do so using a "negative mass". The same equations do not, of themselves, rule out the existence of negative mass.
+
+
+Every [[point mass]] attracts every other point mass by a [[force]] pointing along the [[line (mathematics)|line]] intersecting both points. The force is [[proportionality (mathematics)|proportional]] to the [[product (mathematics)|product]] of the two [[mass]]es and inversely proportional to the [[square (algebra)|square]] of the distance between the point masses:
+where:
+*''G'' is the [[gravitational constant]],
+*''r'' is the distance between the two point masses.
+
+
+The [[Standard Model]] of particle physics, which describes all presently known forms of matter, does not include negative mass. Although cosmological [[dark matter]] may consist of particles outside the Standard Model whose nature is unknown, their mass is ostensibly known - since they were postulated from their gravitational effects on surrounding objects, which implies their mass is positive. (The proposed cosmological [[dark energy]], on the other hand, is more complicated, since according to general relativity the effects of both its energy density and its negative pressure contribute to its gravitational effect.)
+
+====Fifth force====
+Under general relativity any form of energy couples with spacetime to create the geometries that cause gravity. A longstanding question was whether or not these same equations applied to [[antimatter]]. The issue was considered solved in 1960 with the development of [[CPT symmetry]], which demonstrated that antimatter follows the same laws of physics as "normal" matter, and therefore has positive energy content and also causes (and reacts to) gravity like normal matter.
+
+For much of the later quarter of the 20th century, the physics community has been involved in an attempt to produce a [[unified field theory]], a single physical theory that explains the four fundamental forces: gravity, electromagnetism, and the strong and weak nuclear forces. Scientists have made progress in [[grand unification theory|unifying the three quantum forces]], but gravity has remained "the problem" in every attempt. This has not stopped any number of such attempts being made, however.
+
+
+====General-relativistic "warp drives"====
+
+====Breakthrough Propulsion Physics Program====
+During the close of the twentieth century [[NASA]] provided funding for the [[Breakthrough Propulsion Physics Program]] (BPP) from 1996 through 2002. This program studied a number of "far out" designs for space propulsion that were not receiving funding through normal university or commercial channels. Anti-gravity-like concepts were investigated under the name "diametric drive". The work of the BPP program continues in the independent, non-NASA affiliated [http://www.tauzero.aero/ Tau Zero Foundation].
+
+==Empirical claims and commercial efforts==
+Anti-gravity devices are a common invention in the "alt" field, often requiring a completely new physics framework in order to work. Most of these devices rather obviously do not work, and are often parts of grander [[conspiracy theory|conspiracy theories]]. However there have also been a number of commercial attempts to build such devices as well, and a small number of reports of anti-gravity-like effects in the scientific literature. As of 2007, none of the examples that follow are accepted as genuine, reproducible examples of practically applicable anti-gravity, at least by the larger physics community.
+
+====Gyroscopic devices====
+[[Image:H W Wallace force field figure 4.png|thumb|350px|A "kinemassic field" generator from {{US patent|3626605}}: Method and apparatus for generating a secondary gravitational force field.]]
+
+
+
+
+====Thomas Townsend Brown's gravitator====
+During the 1920s [[Thomas Townsend Brown]], a high-voltage experimenter, produced a device he called the "gravitator" which he claimed used an unknown force to produce anti-gravity effects by applying high voltages to materials with high [[dielectric]] constants. Although it was claimed that the device operated outside of [[working mass]], Brown abandoned this work and moved on to produce a series of successful high-voltage devices in the following years.
+
+The [[Biefeld–Brown effect]] nevertheless lives on. A 1956 analysis by the Gravity Research Group and by a technical writer, under the pen name of Intel (1956), claimed the Biefeld–Brown effect was the primary theory tested by the aerospace firms in the 1950s, although it should be noted that "Intel" is an unreliable witness in this respect. It has remained a constant theme in the [[UFO]] field, and has recently been a topic of some discussion in this field under the name [[ionocraft|lifter]]s. There appears to be a general understanding that the lifters require a working fluid, air specifically ([[ion wind]]), and that they do not demonstrate new physics. This was demonstrated on the American television show [[Mythbusters]], when the hosts were unable to reproduce the lifting effect with the device operated inside of a vacuum chamber.
+
+====Gravitoelectric coupling====
+The Russian researcher [[Eugene Podkletnov]] claims to have discovered experimenting with [[superconductor]]s in 1995, that a fast rotating superconductor reduces the gravitational effect.
+
+
+====Recent progress====
+
+====Tajmar et al. (2006 & 2007 & 2008)====
+
+| url = http://www.ringlaser.org.nz/papers/SuperFrameDragging2007.pdf
+| year = 2007 | month = July
+| title = Experiment to Detect Frame Dragging in a Lead Superconductor
+| accessdate = 2007-10-19
+| first1 = R.D. | last1 = Graham
+| first2 = R.B. | last2 = Hurst
+| first3 = R.J. | last3 = Thirkettle
+| first4 = C.H. | last4 = Rowe
+
+==Conventional effects that mimic anti-gravity effects==
+*[[Magnetic levitation]] suspends an object against gravity by use of [[electromagnetism|electromagnetic]] forces. While visually impressive, gravitation itself functions normally in such devices. Various alleged anti-gravity devices may in reality work by [[electromagnetism]].
+
+*A [[tidal force]] causes objects to move along diverging paths near a massive body (such as a [[planet]] or [[star]]), producing effects that seem like repulsion or disruptive forces when observed locally. This is not anti-gravity. In Newtonian mechanics, the tidal force is the effect of the larger object's gravitational force being different at the differing locations of the diverging bodies. Equivalently, in Einsteinian gravity, the tidal force is the effect of the diverging bodies following different paths in the negatively [[curvature|curved]] spacetime around the larger body.
+
+*Large amounts of normal matter can be used to produce a gravitational field that compensates for the effects of another gravitational field, though the entire assembly will still be attracted to the source of the larger field. Physicist [[Robert Forward|Robert L. Forward]] proposed using lumps of [[degenerate matter]] to locally compensate for the tidal forces near a [[neutron star]].
+
+*[[Ionocraft]], or sometimes referred to as "Lifters" have been claimed to defy gravity, but in fact they use accelerated ions which have been stripped from the air around them to produce thrust. The thrust produced by one of these toys is not enough to lift its own power supply. Specifically, a special type of [[electrohydrodynamic thruster]] uses the [[Biefeld–Brown effect]] to hover.
+
+*[[Muscle Pass]], magical technique.
+
+==See also==
+*[[Gravitational interaction of antimatter]]
+*[[Gravitational induction]]
+*[[Artificial gravity]]
+*[[Burkhard Heim]]
+*[[Exotic matter]]
+*[[Heim Theory]]
+*[[Searl Effect Generator]]
+*[[Hutchison effect]]
+*[[Dean drive]]
+*The [[spindizzy]] drive in the [[science fiction]] novels of [[James Blish]]
+*[[Electrostatic levitation]]
+*[[Magnetic levitation]]
+*[[Casimir effect]]
+*[[Apergy]]
+*[[Viktor Grebennikov]]
+*[[Clinostat]]
+
+==References==
+{{reflist|2}}
+{{refbegin}}
+*Cady, W. M. (1952, September 15). "Thomas Townsend Brown: Electro-Gravity Device" (File 24-185). Pasadena, CA: Office of Naval Research. Public access to the report was authorized on October 1, 1952.
+*Li, N., & Torr, D. (1991). ''Physical Review'', '''43D''', 457.
+*Li, N., & Torr, D. (1992a). ''Physical Review'', '''46B''', 5489.
+*Li, N., & Torr, D. (1992b). ''Bulletin of the American Physical Society'', '''37''', 441.
+{{refend}}
+
+==External links==
+{{Sister project links|Anti-gravity}}
+*[http://gltrs.grc.nasa.gov/reports/2006/TM-2006-214390.pdf Responding to Mechanical Antigravity], a NASA paper debunking a wide variety of gyroscopic (and related) devices
+*[http://www.gravitation.org/institute_of_gravity_research/institute_of_gravity_research.html Göde Scientific Foundation]
+
+{{DEFAULTSORT:Anti-Gravity}}
+[[Category:Anti-gravity| ]]
+[[Category:General relativity]]
+[[Category:History of physics]]
+[[Category:History of science and technology in the United States]]
+[[Category:Historiography of science]]
+[[Category:Science fiction themes]]
+[[Category:Fringe physics]]
+[[Category:Pseudophysics]]
+
+[[ar:ثقالة مضادة]]
+[[da:Antigravitation]]
+[[de:Antigravitation]]
+[[el:Αντιβαρύτητα]]
+[[es:Antigravedad]]
+[[fr:Antigravité]]
+[[ko:반중력]]
+[[it:Antigravità]]
+[[nl:Antizwaartekracht]]
+[[ja:反重力]]
+[[no:Antigravitasjon]]
+[[pl:Antygrawitacja]]
+[[pt:Antigravidade]]
+[[ru:Антигравитация]]
+[[fi:Antigravitaatio]]
+[[uk:Антигравітація]]
+[[ur:ضد ثقل]]

@@ -1,0 +1,193 @@
+[[File:1-over-x-plus-x abs.svg|right|thumb|200px|The graph of a function with a horizontal, vertical, and oblique asymptote.]] 
+
+[[File:Asymptote02.png|right|thumb|200px|A curve intersecting an asymptote infinitely many times.]]
+
+
+For curves given by the graph of a function {{nowrap|1=''y'' = ''&fnof;''(''x'')}}, there are potentially three kinds of asymptotes: ''horizontal'', ''vertical'' and ''oblique'' asymptotes.  Horizontal asymptotes are horizontal lines that the graph of the function approaches as ''x'' tends to {{nowrap|+&infin; or &minus;&infin;.}}  Vertical asymptotes are vertical lines near which the function grows without bound.
+
+
+==A simple example==
+The idea that a curve may come arbitrarily close to a line without actually becoming the same may seem counter to everyday experience. The representations of a line and a curve as marks on a piece of paper or as pixels on a computer screen have a positive width. So if they were to be extended far enough they would seem to merge together, at least as far as the eye could discern. But these are physical representations of the corresponding mathematical entities; the line and the curve are idealized concepts whose width is 0 (see [[Line (geometry)|Line]]). Therefore the understanding of the idea of an asymptote requires an effort of reason rather than experience.
+
+
+==Asymptotes of functions==
+The asymptotes most commonly encountered in the study of [[calculus]] are of curves of the form {{nowrap|1=''y'' = ''&fnof;''(''x'')}}. These can be computed using [[limit (mathematics)|limits]] and classified into ''horizontal'', ''vertical'' and ''oblique'' asymptotes depending on its orientation with respect to the ''X''-axis. Horizontal asymptotes are horizontal lines that the graph of the function approaches as ''x'' tends to +∞ or &minus;∞. As the name indicate they are parallel to the ''X''-axis. Vertical asymptotes are vertical lines (perpendicular to the ''X''-axis) near which the function grows without bound. Oblique asymptotes are diagonal lines so that the difference between the curve and the line approaches 0 as ''x'' tends to +∞ or &minus;∞. More general type of asymptotes can be defined in this case.
+
+===Vertical asymptotes===
+
+For example, if ƒ(''x'') = ''x''/(''x''-1), the numerator approaches 1 and the denominator approaches 0 as ''x'' approaches 1. So 
+and the curve has a vertical asymptote of ''x''=1. -->
+
+The function ''ƒ''(''x'') may or may not be defined at ''a'', and its precise value at the point ''x'' = ''a'' does not affect the asymptote.  For example, for the function
+
+
+
+===Horizontal asymptotes===
+
+''Horizontal asymptotes'' are horizontal lines that the graph of the function approaches as {{nowrap|''x'' &rarr; ±&infin;}}.  The horizontal line ''y'' = ''c'' is a horizontal asymptote of the function ''y'' = ''ƒ''(''x'') if
+In the first case, ''ƒ''(''x'') has ''y'' = ''c'' as asymptote when ''x'' tends to &minus;∞, and in the second that ''ƒ''(''x'') has ''y'' = ''c'' as an asymptote as ''x'' tends to +∞
+
+For example the arctangent function satisfies 
+
+
+So the line {{nowrap|1=''y'' = &minus;&pi;/2}} is a horizontal tangent for the arctangent when ''x'' tends to &minus;∞, and {{nowrap|1=''y'' = &pi;/2}} is a horizontal tangent for the arctangent when ''x'' tends to +∞.
+
+
+
+===Oblique asymptotes===
+When a linear asymptote is not parallel to the ''x''- or ''y''-axis, it is called an ''oblique asymptote'' or ''slant asymptote''. A function ''f''(''x'') is asymptotic to the straight line {{nowrap|1=''y'' = ''mx'' + ''n''}} (''m'' ≠ 0) if
+
+
+In the first case the line {{nowrap|1=''y'' = ''mx'' + ''n''}} is an oblique asymptote of ''ƒ''(''x'') when ''x'' tends to +∞, and in the second case the line {{nowrap|1=''y'' = ''mx'' + ''n''}} is an oblique asymptote of ''ƒ(x)'' when ''x'' tends to &minus;∞
+
+An example is ƒ(''x'') = ''x''&minus;1/''x'', which has the oblique asymptote ''y'' = ''x'' (''m'' = 1, ''n'' = 0) as seen in the limits
+
+== Elementary methods for identifying asymptotes ==
+Asymptotes of many elementary functions can be found without the explicit use of limits (although the derivations of such methods typically use limits).
+
+===General computation of oblique asymptotes for functions===
+
+The oblique asymptote, for the function ''f''(''x''), will be given by the equation ''y''=''mx''+''n''. The value for ''m'' is computed first and is given by
+
+
+
+Having ''m'' then the value for ''n'' can be computed by
+
+
+where ''a'' should be the same value used before. If this limit fails to exist then there is no oblique asymptote in that direction, even should limit defining ''m'' exist. Otherwise {{nowrap|1=''y'' = ''mx'' + ''n''}} is the oblique asymptote of ''ƒ''(''x'') as ''x'' tends to ''a''.
+
+
+
+so that {{nowrap|1=''y'' = 2''x'' + 3}} is the asymptote of ''ƒ''(''x'') when ''x'' tends to +∞. The function {{nowrap|1=''&fnof;''(''x'') = ln ''x''}} has
+
+
+
+So {{nowrap|1=''y'' = ln ''x''}} does not have an asymptote when ''x'' tends to +∞.
+
+=== Asymptotes for rational functions ===
+A [[rational function]] has at most one horizontal asymptote or oblique (slant) asymptote, and possibly many vertical asymptotes.
+
+The [[Degree of a polynomial|degree]] of the numerator and degree of the denominator determine whether or not there are any horizontal or oblique asymptotes. The cases are tabulated below, where deg(numerator) is the degree of the numerator, and deg(denominator) is the degree of the denominator.
+
+{| class="wikitable"
+|+ Table listing the cases of horizontal and oblique asymptotes for rational functions
+|-
+! asymptotes
+! example asymptote
+|-
+| ''y'' = 0
+|-
+| = 0
+| ''y'' = the ratio of leading coefficients
+|-
+| = 1
+| ''y'' = the quotient, in the [[Polynomial long division|long division]] of the fraction
+|-
+| > 1
+| none
+|}
+
+The vertical asymptotes occur only when the denominator is zero (If both the numerator and denominator are zero, the multiplicities of the zero are compared). For example, the following function has vertical asymptotes at ''x'' = 0, and ''x'' = 1, but not at ''x'' = 2.
+
+==== Oblique asymptotes of rational functions ====
+
+When the numerator of a rational function has degree exactly one greater than the denominator, the function has an oblique (slant) asymptote. The asymptote is the polynomial term after [[Polynomial long division|dividing]] the numerator and denominator. This phenomenon occurs because when dividing the fraction, there will be a linear term, and a remainder. For example, consider the function 
+shown to the right. As the value of ''x'' increases, ''f'' approaches the asymptote ''y'' = ''x''. This is because the other term, ''y'' = 1/(''x''+1) becomes smaller.
+
+If the degree of the numerator is more than 1 larger than the degree of the denominator, and the denominator does not divide the numerator, there will be a nonzero remainder that goes to zero as ''x'' increases, but the quotient will not be linear, and the function does not have an oblique asymptote.
+
+=== Transformations of known functions ===
+* If ''x''=''a'' is a vertical asymptote of ''f''(''x''), then ''x''=''a''+''h'' is a vertical asymptote of ''f''(''x''-''h'')
+* If ''y''=''c'' is a horizontal asymptote of ''f''(''x''), then ''y''=''c''+''k'' is a horizontal asymptote of ''f''(''x'')+''k''
+
+If a known function has an asymptote, then the [[Homothetic transformation|scaling]] of the function also have an asymptote.
+
+* If ''y''=''ax''+''b'' is an asymptote of ''f''(''x''), then ''y''=''cax''+''cb'' is an asymptote of ''cf''(''x'')
+
+== General definition ==
+
+
+For example, the upper right branch of the curve ''y'' = 1/''x'' can be defined parametrically as ''x'' = ''t'', ''y'' = 1/''t'' (where ''t''>0). First, ''x'' → ∞ as ''t'' → ∞ and the distance from the curve to the ''x''-axis is 1/''t'' which approaches 0 as ''t'' → ∞. Therefore the ''x''-axis is an asymptote of the curve. Also, ''y'' → ∞ as ''t'' → 0 from the right, and the distance between the curve and the ''y''-axis is ''t'' which approaches 0 as ''t'' → 0. So the ''y''-axis is also an asymptote. A similar argument shows that the lower left branch of the curve also has the same two lines as asymptotes.
+
+if γ(''t'') is a change of parameterization then the distance becomes
+which tends to zero simultaneously as the previous expression.
+
+An important case is when the curve is the [[Graph of a function|graph]] of a [[real function]] (a function of one real variable and returning real values). The graph of the function ''y'' = ''ƒ''(''x'') is the set of points of the plane with coordinates (''x'',''ƒ''(''x'')). For this, a parameterization is
+This parameterization is to be considered over the open intervals (''a'',''b''), where ''a'' can be &minus;∞ and ''b'' can be +∞.
+
+
+==Curvilinear asymptotes==
+
+For example, the function
+
+== Asymptotes and curve tracing ==
+
+==Algebraic curves==
+[[File:Folium Of Descartes.svg|thumb|right|A [[cubic curve]], [[Folium of descartes|the folium of Descartes]] (solid) with a single real asymptote (dashed).]]
+
+A plane curve of degree ''n'' intersects its asymptote at most at ''n''&minus;2 other points.  Generically, by [[Bezout's theorem]], a curve will intersect its asymptote at exactly this number of other points, as the intersection at infinity is of multiplicity two.  For a [[conic]], there are a pair of lines that do not intersect the conic at any complex point: these are the two asymptotes of the conic.
+
+A plane algebraic curve is defined by an equation of the form ''P''(''x'',''y'') = 0 where ''P'' is a polynomial of degree ''n''
+
+==Other uses of the term==
+{{col-begin}}
+{{col-2}}
+The hyperbolas
+have asymptotes 
+The equation for the union of these two lines is
+{{col-2}}
+Similarly, the [[hyperboloid]]s
+
+
+The distance between the hyperboloid and cone approaches 0 as the distance from the origin approaches infinity.
+{{col-end}}
+
+==See also==
+* [[Asymptotic analysis]]
+* [[Asymptotic curve]]
+* [[Big O notation]]
+
+==References==
+General references:
+* {{springer|id=A/a013610|title=Asymptote|first=L.P.|last=Kuptsov}}
+Specific references:
+{{reflist|2}}
+
+==External links==
+* {{planetmath reference|id=6100|title=Asymptote}}
+* [http://www.sciencemuseum.org.uk/images/I046/10314748.aspx Hyperboloid and Asymptotic Cone, string surface model, 1872] from the [[Science Museum (London)|Science Museum]]
+
+[[Category:Mathematical analysis]]
+[[Category:Analytic geometry]]
+
+[[bg:Асимптота]]
+[[ca:Asímptota]]
+[[cs:Asymptota]]
+[[da:Asymptote]]
+[[de:Asymptote]]
+[[es:Asíntota]]
+[[eo:Asimptoto]]
+[[fr:Asymptote]]
+[[ko:점근선]]
+[[io:Asimptoto]]
+[[is:Aðfella]]
+[[it:Asintoto]]
+[[he:אסימפטוטה]]
+[[lv:Asimptota]]
+[[lt:Asimptotė]]
+[[hu:Aszimptota]]
+[[mk:Асимптота]]
+[[nl:Asymptoot]]
+[[ja:漸近線]]
+[[no:Asymptote]]
+[[pl:Asymptota]]
+[[pt:Assímptota]]
+[[ro:Asimptotă]]
+[[ru:Асимптота]]
+[[sk:Asymptota]]
+[[sl:Asimptota]]
+[[sr:Асимптота]]
+[[fi:Asymptootti]]
+[[sv:Asymptot]]
+[[tr:Sonuşmaz]]
+[[uk:Асимптота]]

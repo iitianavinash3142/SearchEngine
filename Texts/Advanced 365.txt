@@ -1,0 +1,72 @@
+
+ | company_name     = Advanced 365 (formerly Business Systems Group
+ | logo             = [[Image:Advanced365logo.png|200px]]
+ | foundation       = Incorporated in 1987
+ | parent	    = Advanced Computer Software PLC (AIM:ASW)
+ | location         = [[London]], [[United Kingdom|UK]]
+ | industry         = IT Managed Services
+ | products         = [[Managed Services]], [[IT Outsourcing]], [[Software as a Service]], [[Cloud Computing]], [[Software Development]], [[Business Intelligence]].
+ | homepage         = [http://www.bsg.co.uk www.bsg.co.uk]
+
+ }}
+
+'''Advanced 365''' rebranded from '''Business Systems Group Ltd (BSG)''' in November 2010 and provides outsourced IT managed services, software development and business intelligence services to the commercial, not for profit, health and public sector markets.
+
+==Operations==
+
+==History==
+
+'''1987'''
+
+Business Systems Group formed by Phil Buckingham and Nick Gerard.
+
+'''2000'''
+
+Floated on the London Stock Exchange as Business Systems Group Holdings Plc July as a constituent of the TechMark Index, raising £15m to finance the ongoing development of the group. Nick Gerard becomes CEO of the new Plc.
+
+'''2001'''
+
+
+[[Image:Bsg-logo.jpg|200px|right|thumb|Historic BSG logo 1990-2010]]'''2004'''
+
+
+'''2008'''
+
+Appoint Vin Murria as Non Executive Chairman
+
+'''2009'''
+
+BSG acquired by Advanced Computer Software Plc to focus on managed services, application development and [[SaaS]].
+Neil Cross announced as Managing Director, Nick Gerard becomes Executive Chairman.
+
+'''2010'''
+
+BSG rebranded to Advanced 365 taking on the branding of its parent company
+
+==Awards, accreditations and memberships==
+
+* [[ISO27001]], Information Security Management System accredited.
+* [[ISO 14001]], Environmental Management System accredited.
+* [[ISO9001]], Quality Assurance accredited.
+* Microsoft Gold Certified Partner with 6 Competencies across their two main focus areas of application development solutions and core IT systems infrastructure.
+
+==See also==
+* [[Managed Services]]
+* [[IT Outsourcing]]
+* [[Software as a Service]] (SaaS)
+* [[Cloud computing]]
+* [[Software Development]]
+* [[Business Intelligence]]
+* [[Advanced Business Solutions]]
+* [[Advanced Health & Care]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.bsg.co.uk Advanced 365 website]
+* [http://blogs.bsg.co.uk/SitePages/Home.aspx BSG blog]
+* [http://www.advancedcomputersoftware.com/ Advanced Computer Software Plc website]
+
+[[Category:Services management and marketing]]
+[[Category:Cloud computing]]

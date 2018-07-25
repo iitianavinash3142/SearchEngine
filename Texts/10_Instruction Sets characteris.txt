@@ -1,0 +1,2261 @@
+Instruction Sets:
+Instruction Sets:
+
+Characteristics and Functions
+
+CPU Internal Structure
+
+Registers
+
+• CPU must have some working space 
+
+(temporary storage)
+
+• Called registers
+• Number and function vary between 
+
+processor designs
+
+• One of the major design decisions
+• Top level of memory hierarchy
+
+User Visible Registers
+
+• General Purpose
+• Data
+• Address
+• Condition Codes
+
+How Many GP Registers?
+
+• Between 8 - 32
+• Fewer = more memory references
+• More does not reduce memory references 
+
+and takes up processor space
+
+• Large enough to hold full address
+• Large enough to hold full address
+• Large enough to hold full word
+• Often possible to combine two data 
+
+registers
+—C programming
+—double int a;
+—long int a;
+
+Control & Status Registers
+
+• Program Counter
+• Instruction Decoding Register
+• Memory Address Register
+• Memory Buffer Register
+
+Condition Code Registers
+
+• Sets of individual bits
+
+—e.g. result of last operation was zero
+
+• Can be read (implicitly) by programs
+
+—e.g. Jump if zero
+
+• Can not (usually) be set by programs
+• Can not (usually) be set by programs
+• Needs for conditional instructions
+
+Program Status Word
+
+• A set of bits
+• Includes Condition Codes
+• Sign of last result
+• Zero
+• Carry
+• Carry
+• Equal
+• Overflow
+• Interrupt enable/disable
+• Supervisor
+
+Function of Control Unit
+
+• For each operation a unique code is 
+
+provided
+—e.g. ADD, MOVE
+
+• A hardware segment accepts the code and 
+
+issues the control signals
+
+What is an Instruction Set?
+
+• The complete collection of instructions 
+
+that are understood by a CPU
+
+• Machine Code
+
+—Binary
+
+• Usually represented by assembly codes
+
+Elements of an Instruction
+
+• Operation code (Op code)
+
+—Do this
+
+• Source Operand reference
+
+—To this
+
+• Result Operand reference
+• Result Operand reference
+
+—Put the answer here
+
+• Next Instruction Reference
+
+—When you have done that, do this...
+
+Instruction Cycle
+
+• Two steps:
+
+—Fetch
+—Execute
+
+Instruction Cycle State Diagram
+
+Instruction Cycle with Interrupts
+
+Instruction Cycle (with Interrupts) -
+State Diagram
+
+Instruction Representation
+
+• In machine code each instruction has a 
+
+unique bit pattern
+
+• For human consumption (well, 
+
+programmers anyway) a symbolic 
+representation is used
+—e.g. ADD, SUB, LOAD
+—e.g. ADD, SUB, LOAD
+
+• Operands can also be represented in this 
+
+way
+—ADD A,B
+
+Simple Instruction Format
+
+Instruction Types
+
+• Data processing
+• Data storage (main memory)
+• Data movement (I/O)
+• Program flow control 
+
+Number of Addresses (a)
+
+• 3 addresses
+
+—Operand 1, Operand 2, Result
+—a = b + c;
+—May be a forth - next instruction (usually 
+
+implicit)
+
+—Not common
+—Not common
+—Needs very long words to hold everything
+
+Number of Addresses (b)
+
+• 2 addresses
+
+—One address doubles as operand and result
+—a = a + b
+—Reduces length of instruction
+—Requires some extra work
+
+– Temporary storage to hold some results
+– Temporary storage to hold some results
+
+Number of Addresses (c)
+
+• 1 address
+
+—Implicit second address
+—Usually a register (accumulator)
+—Common on early machines
+
+Number of Addresses (d)
+
+Number of Addresses (e)
+
+• 0 (zero) addresses
+
+—All addresses implicit
+—Uses a stack
+—e.g. push a
+push b
+—
+add
+—
+—
+add
+pop c
+—
+
+—c = a + b
+
+How Many Addresses
+
+• More addresses
+
+—More complex instructions
+—More registers
+
+– Inter-register operations are quicker
+
+—Fewer instructions per program
+
+• Fewer addresses
+• Fewer addresses
+
+—Less complex instructions
+—More instructions per program
+—Faster fetch/execution of instructions
+
+Design Decisions (1)
+
+• Operation repertoire
+
+—How many ops?
+—What can they do?
+—How complex are they?
+
+• Data types
+• Instruction formats
+
+—Length of op code field
+—Number of addresses
+
+Design Decisions (2)
+
+• Registers
+
+—Number of CPU registers available
+—Which operations can be performed on which 
+
+registers?
+
+• Addressing modes
+
+Types of Operand
+
+• Addresses
+• Numbers
+
+—Integer/floating point
+
+• Characters
+—ASCII etc.
+—ASCII etc.
+
+• Logical Data
+—Bits or flags
+
+Specific Data Types
+
+• General - arbitrary binary contents
+• Integer - single binary value
+• Ordinal - unsigned integer
+• Unpacked BCD - One digit per byte
+• Packed BCD - 2 BCD digits per byte
+• Packed BCD - 2 BCD digits per byte
+• Near Pointer - 32 bit offset within 
+
+segment
+
+• Bit field
+• Byte String
+• Floating Point
+
+Types of Operation
+
+• Data Transfer
+• Arithmetic
+• Logical
+• Conversion
+• I/O• I/O
+• System Control
+• Transfer of Control
+
+Data Transfer
+
+• Specify
+
+—Source
+—Destination
+—Amount of data
+
+• May be different instructions for different 
+
+movements
+movements
+—e.g. IBM 370
+
+• Or one instruction and different addresses
+
+—e.g. VAX
+
+Arithmetic
+
+• Add, Subtract, Multiply, Divide
+• Signed Integer
+• Floating point 
+• May include
+
+—Increment (a++)
+—Increment (a++)
+—Decrement (a--)
+—Negate (-a)
+
+Shift and Rotate Operations
+
+SHR
+
+SHL
+
+ASRASR
+
+ASL
+
+ROR
+
+ROL
+
+Logical
+
+• Bitwise operations
+• AND, OR, NOT
+
+Input/Output
+
+• May be specific instructions
+• May be done using data movement 
+
+instructions (memory mapped)
+
+• May be done by a separate controller 
+
+(DMA)
+
+Systems Control
+
+• Privileged instructions
+• CPU needs to be in specific state 
+• For operating systems use
+
+Transfer of Control
+
+• Branch
+
+—e.g. branch to x if result is zero
+
+• Skip
+
+—e.g. increment and skip if zero
+—ISZ Register1
+—Branch xxxx
+—ADD A
+
+• Subroutine call
+
+—c.f. interrupt call
+
+Branch Instruction
+
+Nested Procedure Calls
+
+Byte Order
+
+• What order do we read numbers that 
+
+occupy more than one byte
+
+• e.g. (numbers in hex to make it easy to 
+
+read)
+
+• 12345678 can be stored in 4x8bit 
+
+locations as follows
+locations as follows
+
+Byte Order (example)
+
+• Address
+• 184
+• 185
+• 186
+• 187
+• 187
+
+Value (1)
+12
+34
+56
+78
+78
+
+Value(2)
+78
+56
+34
+12
+12
+
+• i.e. read top down or bottom up?
+
+Byte Order Names
+
+• The problem is called Endian
+• The system on the right has the least 
+
+significant byte in the lowest address
+—This is called little-endian
+
+• The system on the left has the least  
+significant byte in the highest address
+significant byte in the highest address
+—This is called big-endian
+
+Example of C Data Structure
+
+Alternative View of Memory Map
+
+Standard…What Standard?
+
+• Pentium (80x86), VAX are little-endian
+• IBM 370, Moterola 680x0 (Mac), and most 
+
+RISC  are big-endian
+• Internet is big-endian
+
+Instruction Sets:
+Instruction Sets:
+
+Characteristics and Functions
+
+CPU Internal Structure
+
+Registers
+
+• CPU must have some working space 
+
+(temporary storage)
+
+• Called registers
+• Number and function vary between 
+
+processor designs
+
+• One of the major design decisions
+• Top level of memory hierarchy
+
+User Visible Registers
+
+• General Purpose
+• Data
+• Address
+• Condition Codes
+
+How Many GP Registers?
+
+• Between 8 - 32
+• Fewer = more memory references
+• More does not reduce memory references 
+
+and takes up processor space
+
+• Large enough to hold full address
+• Large enough to hold full address
+• Large enough to hold full word
+• Often possible to combine two data 
+
+registers
+—C programming
+—double int a;
+—long int a;
+
+Control & Status Registers
+
+• Program Counter
+• Instruction Decoding Register
+• Memory Address Register
+• Memory Buffer Register
+
+Condition Code Registers
+
+• Sets of individual bits
+
+—e.g. result of last operation was zero
+
+• Can be read (implicitly) by programs
+
+—e.g. Jump if zero
+
+• Can not (usually) be set by programs
+• Can not (usually) be set by programs
+• Needs for conditional instructions
+
+Program Status Word
+
+• A set of bits
+• Includes Condition Codes
+• Sign of last result
+• Zero
+• Carry
+• Carry
+• Equal
+• Overflow
+• Interrupt enable/disable
+• Supervisor
+
+Function of Control Unit
+
+• For each operation a unique code is 
+
+provided
+—e.g. ADD, MOVE
+
+• A hardware segment accepts the code and 
+
+issues the control signals
+
+What is an Instruction Set?
+
+• The complete collection of instructions 
+
+that are understood by a CPU
+
+• Machine Code
+
+—Binary
+
+• Usually represented by assembly codes
+
+Elements of an Instruction
+
+• Operation code (Op code)
+
+—Do this
+
+• Source Operand reference
+
+—To this
+
+• Result Operand reference
+• Result Operand reference
+
+—Put the answer here
+
+• Next Instruction Reference
+
+—When you have done that, do this...
+
+Instruction Cycle
+
+• Two steps:
+
+—Fetch
+—Execute
+
+Instruction Cycle State Diagram
+
+Instruction Cycle with Interrupts
+
+Instruction Cycle (with Interrupts) -
+State Diagram
+
+Instruction Representation
+
+• In machine code each instruction has a 
+
+unique bit pattern
+
+• For human consumption (well, 
+
+programmers anyway) a symbolic 
+representation is used
+—e.g. ADD, SUB, LOAD
+—e.g. ADD, SUB, LOAD
+
+• Operands can also be represented in this 
+
+way
+—ADD A,B
+
+Simple Instruction Format
+
+Instruction Types
+
+• Data processing
+• Data storage (main memory)
+• Data movement (I/O)
+• Program flow control 
+
+Number of Addresses (a)
+
+• 3 addresses
+
+—Operand 1, Operand 2, Result
+—a = b + c;
+—May be a forth - next instruction (usually 
+
+implicit)
+
+—Not common
+—Not common
+—Needs very long words to hold everything
+
+Number of Addresses (b)
+
+• 2 addresses
+
+—One address doubles as operand and result
+—a = a + b
+—Reduces length of instruction
+—Requires some extra work
+
+– Temporary storage to hold some results
+– Temporary storage to hold some results
+
+Number of Addresses (c)
+
+• 1 address
+
+—Implicit second address
+—Usually a register (accumulator)
+—Common on early machines
+
+Number of Addresses (d)
+
+Number of Addresses (e)
+
+• 0 (zero) addresses
+
+—All addresses implicit
+—Uses a stack
+—e.g. push a
+push b
+—
+add
+—
+—
+add
+pop c
+—
+
+—c = a + b
+
+How Many Addresses
+
+• More addresses
+
+—More complex instructions
+—More registers
+
+– Inter-register operations are quicker
+
+—Fewer instructions per program
+
+• Fewer addresses
+• Fewer addresses
+
+—Less complex instructions
+—More instructions per program
+—Faster fetch/execution of instructions
+
+Design Decisions (1)
+
+• Operation repertoire
+
+—How many ops?
+—What can they do?
+—How complex are they?
+
+• Data types
+• Instruction formats
+
+—Length of op code field
+—Number of addresses
+
+Design Decisions (2)
+
+• Registers
+
+—Number of CPU registers available
+—Which operations can be performed on which 
+
+registers?
+
+• Addressing modes
+
+Types of Operand
+
+• Addresses
+• Numbers
+
+—Integer/floating point
+
+• Characters
+—ASCII etc.
+—ASCII etc.
+
+• Logical Data
+—Bits or flags
+
+Specific Data Types
+
+• General - arbitrary binary contents
+• Integer - single binary value
+• Ordinal - unsigned integer
+• Unpacked BCD - One digit per byte
+• Packed BCD - 2 BCD digits per byte
+• Packed BCD - 2 BCD digits per byte
+• Near Pointer - 32 bit offset within 
+
+segment
+
+• Bit field
+• Byte String
+• Floating Point
+
+Types of Operation
+
+• Data Transfer
+• Arithmetic
+• Logical
+• Conversion
+• I/O• I/O
+• System Control
+• Transfer of Control
+
+Data Transfer
+
+• Specify
+
+—Source
+—Destination
+—Amount of data
+
+• May be different instructions for different 
+
+movements
+movements
+—e.g. IBM 370
+
+• Or one instruction and different addresses
+
+—e.g. VAX
+
+Arithmetic
+
+• Add, Subtract, Multiply, Divide
+• Signed Integer
+• Floating point 
+• May include
+
+—Increment (a++)
+—Increment (a++)
+—Decrement (a--)
+—Negate (-a)
+
+Shift and Rotate Operations
+
+SHR
+
+SHL
+
+ASRASR
+
+ASL
+
+ROR
+
+ROL
+
+Logical
+
+• Bitwise operations
+• AND, OR, NOT
+
+Input/Output
+
+• May be specific instructions
+• May be done using data movement 
+
+instructions (memory mapped)
+
+• May be done by a separate controller 
+
+(DMA)
+
+Systems Control
+
+• Privileged instructions
+• CPU needs to be in specific state 
+• For operating systems use
+
+Transfer of Control
+
+• Branch
+
+—e.g. branch to x if result is zero
+
+• Skip
+
+—e.g. increment and skip if zero
+—ISZ Register1
+—Branch xxxx
+—ADD A
+
+• Subroutine call
+
+—c.f. interrupt call
+
+Branch Instruction
+
+Nested Procedure Calls
+
+Byte Order
+
+• What order do we read numbers that 
+
+occupy more than one byte
+
+• e.g. (numbers in hex to make it easy to 
+
+read)
+
+• 12345678 can be stored in 4x8bit 
+
+locations as follows
+locations as follows
+
+Byte Order (example)
+
+• Address
+• 184
+• 185
+• 186
+• 187
+• 187
+
+Value (1)
+12
+34
+56
+78
+78
+
+Value(2)
+78
+56
+34
+12
+12
+
+• i.e. read top down or bottom up?
+
+Byte Order Names
+
+• The problem is called Endian
+• The system on the right has the least 
+
+significant byte in the lowest address
+—This is called little-endian
+
+• The system on the left has the least  
+significant byte in the highest address
+significant byte in the highest address
+—This is called big-endian
+
+Example of C Data Structure
+
+Alternative View of Memory Map
+
+Standard…What Standard?
+
+• Pentium (80x86), VAX are little-endian
+• IBM 370, Moterola 680x0 (Mac), and most 
+
+RISC  are big-endian
+• Internet is big-endian
+
+Instruction Sets:
+Instruction Sets:
+
+Characteristics and Functions
+
+CPU Internal Structure
+
+Registers
+
+• CPU must have some working space 
+
+(temporary storage)
+
+• Called registers
+• Number and function vary between 
+
+processor designs
+
+• One of the major design decisions
+• Top level of memory hierarchy
+
+User Visible Registers
+
+• General Purpose
+• Data
+• Address
+• Condition Codes
+
+How Many GP Registers?
+
+• Between 8 - 32
+• Fewer = more memory references
+• More does not reduce memory references 
+
+and takes up processor space
+
+• Large enough to hold full address
+• Large enough to hold full address
+• Large enough to hold full word
+• Often possible to combine two data 
+
+registers
+—C programming
+—double int a;
+—long int a;
+
+Control & Status Registers
+
+• Program Counter
+• Instruction Decoding Register
+• Memory Address Register
+• Memory Buffer Register
+
+Condition Code Registers
+
+• Sets of individual bits
+
+—e.g. result of last operation was zero
+
+• Can be read (implicitly) by programs
+
+—e.g. Jump if zero
+
+• Can not (usually) be set by programs
+• Can not (usually) be set by programs
+• Needs for conditional instructions
+
+Program Status Word
+
+• A set of bits
+• Includes Condition Codes
+• Sign of last result
+• Zero
+• Carry
+• Carry
+• Equal
+• Overflow
+• Interrupt enable/disable
+• Supervisor
+
+Function of Control Unit
+
+• For each operation a unique code is 
+
+provided
+—e.g. ADD, MOVE
+
+• A hardware segment accepts the code and 
+
+issues the control signals
+
+What is an Instruction Set?
+
+• The complete collection of instructions 
+
+that are understood by a CPU
+
+• Machine Code
+
+—Binary
+
+• Usually represented by assembly codes
+
+Elements of an Instruction
+
+• Operation code (Op code)
+
+—Do this
+
+• Source Operand reference
+
+—To this
+
+• Result Operand reference
+• Result Operand reference
+
+—Put the answer here
+
+• Next Instruction Reference
+
+—When you have done that, do this...
+
+Instruction Cycle
+
+• Two steps:
+
+—Fetch
+—Execute
+
+Instruction Cycle State Diagram
+
+Instruction Cycle with Interrupts
+
+Instruction Cycle (with Interrupts) -
+State Diagram
+
+Instruction Representation
+
+• In machine code each instruction has a 
+
+unique bit pattern
+
+• For human consumption (well, 
+
+programmers anyway) a symbolic 
+representation is used
+—e.g. ADD, SUB, LOAD
+—e.g. ADD, SUB, LOAD
+
+• Operands can also be represented in this 
+
+way
+—ADD A,B
+
+Simple Instruction Format
+
+Instruction Types
+
+• Data processing
+• Data storage (main memory)
+• Data movement (I/O)
+• Program flow control 
+
+Number of Addresses (a)
+
+• 3 addresses
+
+—Operand 1, Operand 2, Result
+—a = b + c;
+—May be a forth - next instruction (usually 
+
+implicit)
+
+—Not common
+—Not common
+—Needs very long words to hold everything
+
+Number of Addresses (b)
+
+• 2 addresses
+
+—One address doubles as operand and result
+—a = a + b
+—Reduces length of instruction
+—Requires some extra work
+
+– Temporary storage to hold some results
+– Temporary storage to hold some results
+
+Number of Addresses (c)
+
+• 1 address
+
+—Implicit second address
+—Usually a register (accumulator)
+—Common on early machines
+
+Number of Addresses (d)
+
+Number of Addresses (e)
+
+• 0 (zero) addresses
+
+—All addresses implicit
+—Uses a stack
+—e.g. push a
+push b
+—
+add
+—
+—
+add
+pop c
+—
+
+—c = a + b
+
+How Many Addresses
+
+• More addresses
+
+—More complex instructions
+—More registers
+
+– Inter-register operations are quicker
+
+—Fewer instructions per program
+
+• Fewer addresses
+• Fewer addresses
+
+—Less complex instructions
+—More instructions per program
+—Faster fetch/execution of instructions
+
+Design Decisions (1)
+
+• Operation repertoire
+
+—How many ops?
+—What can they do?
+—How complex are they?
+
+• Data types
+• Instruction formats
+
+—Length of op code field
+—Number of addresses
+
+Design Decisions (2)
+
+• Registers
+
+—Number of CPU registers available
+—Which operations can be performed on which 
+
+registers?
+
+• Addressing modes
+
+Types of Operand
+
+• Addresses
+• Numbers
+
+—Integer/floating point
+
+• Characters
+—ASCII etc.
+—ASCII etc.
+
+• Logical Data
+—Bits or flags
+
+Specific Data Types
+
+• General - arbitrary binary contents
+• Integer - single binary value
+• Ordinal - unsigned integer
+• Unpacked BCD - One digit per byte
+• Packed BCD - 2 BCD digits per byte
+• Packed BCD - 2 BCD digits per byte
+• Near Pointer - 32 bit offset within 
+
+segment
+
+• Bit field
+• Byte String
+• Floating Point
+
+Types of Operation
+
+• Data Transfer
+• Arithmetic
+• Logical
+• Conversion
+• I/O• I/O
+• System Control
+• Transfer of Control
+
+Data Transfer
+
+• Specify
+
+—Source
+—Destination
+—Amount of data
+
+• May be different instructions for different 
+
+movements
+movements
+—e.g. IBM 370
+
+• Or one instruction and different addresses
+
+—e.g. VAX
+
+Arithmetic
+
+• Add, Subtract, Multiply, Divide
+• Signed Integer
+• Floating point 
+• May include
+
+—Increment (a++)
+—Increment (a++)
+—Decrement (a--)
+—Negate (-a)
+
+Shift and Rotate Operations
+
+SHR
+
+SHL
+
+ASRASR
+
+ASL
+
+ROR
+
+ROL
+
+Logical
+
+• Bitwise operations
+• AND, OR, NOT
+
+Input/Output
+
+• May be specific instructions
+• May be done using data movement 
+
+instructions (memory mapped)
+
+• May be done by a separate controller 
+
+(DMA)
+
+Systems Control
+
+• Privileged instructions
+• CPU needs to be in specific state 
+• For operating systems use
+
+Transfer of Control
+
+• Branch
+
+—e.g. branch to x if result is zero
+
+• Skip
+
+—e.g. increment and skip if zero
+—ISZ Register1
+—Branch xxxx
+—ADD A
+
+• Subroutine call
+
+—c.f. interrupt call
+
+Branch Instruction
+
+Nested Procedure Calls
+
+Byte Order
+
+• What order do we read numbers that 
+
+occupy more than one byte
+
+• e.g. (numbers in hex to make it easy to 
+
+read)
+
+• 12345678 can be stored in 4x8bit 
+
+locations as follows
+locations as follows
+
+Byte Order (example)
+
+• Address
+• 184
+• 185
+• 186
+• 187
+• 187
+
+Value (1)
+12
+34
+56
+78
+78
+
+Value(2)
+78
+56
+34
+12
+12
+
+• i.e. read top down or bottom up?
+
+Byte Order Names
+
+• The problem is called Endian
+• The system on the right has the least 
+
+significant byte in the lowest address
+—This is called little-endian
+
+• The system on the left has the least  
+significant byte in the highest address
+significant byte in the highest address
+—This is called big-endian
+
+Example of C Data Structure
+
+Alternative View of Memory Map
+
+Standard…What Standard?
+
+• Pentium (80x86), VAX are little-endian
+• IBM 370, Moterola 680x0 (Mac), and most 
+
+RISC  are big-endian
+• Internet is big-endian
+
+Instruction Sets:
+Instruction Sets:
+
+Characteristics and Functions
+
+CPU Internal Structure
+
+Registers
+
+• CPU must have some working space 
+
+(temporary storage)
+
+• Called registers
+• Number and function vary between 
+
+processor designs
+
+• One of the major design decisions
+• Top level of memory hierarchy
+
+User Visible Registers
+
+• General Purpose
+• Data
+• Address
+• Condition Codes
+
+How Many GP Registers?
+
+• Between 8 - 32
+• Fewer = more memory references
+• More does not reduce memory references 
+
+and takes up processor space
+
+• Large enough to hold full address
+• Large enough to hold full address
+• Large enough to hold full word
+• Often possible to combine two data 
+
+registers
+—C programming
+—double int a;
+—long int a;
+
+Control & Status Registers
+
+• Program Counter
+• Instruction Decoding Register
+• Memory Address Register
+• Memory Buffer Register
+
+Condition Code Registers
+
+• Sets of individual bits
+
+—e.g. result of last operation was zero
+
+• Can be read (implicitly) by programs
+
+—e.g. Jump if zero
+
+• Can not (usually) be set by programs
+• Can not (usually) be set by programs
+• Needs for conditional instructions
+
+Program Status Word
+
+• A set of bits
+• Includes Condition Codes
+• Sign of last result
+• Zero
+• Carry
+• Carry
+• Equal
+• Overflow
+• Interrupt enable/disable
+• Supervisor
+
+Function of Control Unit
+
+• For each operation a unique code is 
+
+provided
+—e.g. ADD, MOVE
+
+• A hardware segment accepts the code and 
+
+issues the control signals
+
+What is an Instruction Set?
+
+• The complete collection of instructions 
+
+that are understood by a CPU
+
+• Machine Code
+
+—Binary
+
+• Usually represented by assembly codes
+
+Elements of an Instruction
+
+• Operation code (Op code)
+
+—Do this
+
+• Source Operand reference
+
+—To this
+
+• Result Operand reference
+• Result Operand reference
+
+—Put the answer here
+
+• Next Instruction Reference
+
+—When you have done that, do this...
+
+Instruction Cycle
+
+• Two steps:
+
+—Fetch
+—Execute
+
+Instruction Cycle State Diagram
+
+Instruction Cycle with Interrupts
+
+Instruction Cycle (with Interrupts) -
+State Diagram
+
+Instruction Representation
+
+• In machine code each instruction has a 
+
+unique bit pattern
+
+• For human consumption (well, 
+
+programmers anyway) a symbolic 
+representation is used
+—e.g. ADD, SUB, LOAD
+—e.g. ADD, SUB, LOAD
+
+• Operands can also be represented in this 
+
+way
+—ADD A,B
+
+Simple Instruction Format
+
+Instruction Types
+
+• Data processing
+• Data storage (main memory)
+• Data movement (I/O)
+• Program flow control 
+
+Number of Addresses (a)
+
+• 3 addresses
+
+—Operand 1, Operand 2, Result
+—a = b + c;
+—May be a forth - next instruction (usually 
+
+implicit)
+
+—Not common
+—Not common
+—Needs very long words to hold everything
+
+Number of Addresses (b)
+
+• 2 addresses
+
+—One address doubles as operand and result
+—a = a + b
+—Reduces length of instruction
+—Requires some extra work
+
+– Temporary storage to hold some results
+– Temporary storage to hold some results
+
+Number of Addresses (c)
+
+• 1 address
+
+—Implicit second address
+—Usually a register (accumulator)
+—Common on early machines
+
+Number of Addresses (d)
+
+Number of Addresses (e)
+
+• 0 (zero) addresses
+
+—All addresses implicit
+—Uses a stack
+—e.g. push a
+push b
+—
+add
+—
+—
+add
+pop c
+—
+
+—c = a + b
+
+How Many Addresses
+
+• More addresses
+
+—More complex instructions
+—More registers
+
+– Inter-register operations are quicker
+
+—Fewer instructions per program
+
+• Fewer addresses
+• Fewer addresses
+
+—Less complex instructions
+—More instructions per program
+—Faster fetch/execution of instructions
+
+Design Decisions (1)
+
+• Operation repertoire
+
+—How many ops?
+—What can they do?
+—How complex are they?
+
+• Data types
+• Instruction formats
+
+—Length of op code field
+—Number of addresses
+
+Design Decisions (2)
+
+• Registers
+
+—Number of CPU registers available
+—Which operations can be performed on which 
+
+registers?
+
+• Addressing modes
+
+Types of Operand
+
+• Addresses
+• Numbers
+
+—Integer/floating point
+
+• Characters
+—ASCII etc.
+—ASCII etc.
+
+• Logical Data
+—Bits or flags
+
+Specific Data Types
+
+• General - arbitrary binary contents
+• Integer - single binary value
+• Ordinal - unsigned integer
+• Unpacked BCD - One digit per byte
+• Packed BCD - 2 BCD digits per byte
+• Packed BCD - 2 BCD digits per byte
+• Near Pointer - 32 bit offset within 
+
+segment
+
+• Bit field
+• Byte String
+• Floating Point
+
+Types of Operation
+
+• Data Transfer
+• Arithmetic
+• Logical
+• Conversion
+• I/O• I/O
+• System Control
+• Transfer of Control
+
+Data Transfer
+
+• Specify
+
+—Source
+—Destination
+—Amount of data
+
+• May be different instructions for different 
+
+movements
+movements
+—e.g. IBM 370
+
+• Or one instruction and different addresses
+
+—e.g. VAX
+
+Arithmetic
+
+• Add, Subtract, Multiply, Divide
+• Signed Integer
+• Floating point 
+• May include
+
+—Increment (a++)
+—Increment (a++)
+—Decrement (a--)
+—Negate (-a)
+
+Shift and Rotate Operations
+
+SHR
+
+SHL
+
+ASRASR
+
+ASL
+
+ROR
+
+ROL
+
+Logical
+
+• Bitwise operations
+• AND, OR, NOT
+
+Input/Output
+
+• May be specific instructions
+• May be done using data movement 
+
+instructions (memory mapped)
+
+• May be done by a separate controller 
+
+(DMA)
+
+Systems Control
+
+• Privileged instructions
+• CPU needs to be in specific state 
+• For operating systems use
+
+Transfer of Control
+
+• Branch
+
+—e.g. branch to x if result is zero
+
+• Skip
+
+—e.g. increment and skip if zero
+—ISZ Register1
+—Branch xxxx
+—ADD A
+
+• Subroutine call
+
+—c.f. interrupt call
+
+Branch Instruction
+
+Nested Procedure Calls
+
+Byte Order
+
+• What order do we read numbers that 
+
+occupy more than one byte
+
+• e.g. (numbers in hex to make it easy to 
+
+read)
+
+• 12345678 can be stored in 4x8bit 
+
+locations as follows
+locations as follows
+
+Byte Order (example)
+
+• Address
+• 184
+• 185
+• 186
+• 187
+• 187
+
+Value (1)
+12
+34
+56
+78
+78
+
+Value(2)
+78
+56
+34
+12
+12
+
+• i.e. read top down or bottom up?
+
+Byte Order Names
+
+• The problem is called Endian
+• The system on the right has the least 
+
+significant byte in the lowest address
+—This is called little-endian
+
+• The system on the left has the least  
+significant byte in the highest address
+significant byte in the highest address
+—This is called big-endian
+
+Example of C Data Structure
+
+Alternative View of Memory Map
+
+Standard…What Standard?
+
+• Pentium (80x86), VAX are little-endian
+• IBM 370, Moterola 680x0 (Mac), and most 
+
+RISC  are big-endian
+• Internet is big-endian
+
+Instruction Sets:
+Instruction Sets:
+
+Characteristics and Functions
+
+CPU Internal Structure
+
+Registers
+
+• CPU must have some working space 
+
+(temporary storage)
+
+• Called registers
+• Number and function vary between 
+
+processor designs
+
+• One of the major design decisions
+• Top level of memory hierarchy
+
+User Visible Registers
+
+• General Purpose
+• Data
+• Address
+• Condition Codes
+
+How Many GP Registers?
+
+• Between 8 - 32
+• Fewer = more memory references
+• More does not reduce memory references 
+
+and takes up processor space
+
+• Large enough to hold full address
+• Large enough to hold full address
+• Large enough to hold full word
+• Often possible to combine two data 
+
+registers
+—C programming
+—double int a;
+—long int a;
+
+Control & Status Registers
+
+• Program Counter
+• Instruction Decoding Register
+• Memory Address Register
+• Memory Buffer Register
+
+Condition Code Registers
+
+• Sets of individual bits
+
+—e.g. result of last operation was zero
+
+• Can be read (implicitly) by programs
+
+—e.g. Jump if zero
+
+• Can not (usually) be set by programs
+• Can not (usually) be set by programs
+• Needs for conditional instructions
+
+Program Status Word
+
+• A set of bits
+• Includes Condition Codes
+• Sign of last result
+• Zero
+• Carry
+• Carry
+• Equal
+• Overflow
+• Interrupt enable/disable
+• Supervisor
+
+Function of Control Unit
+
+• For each operation a unique code is 
+
+provided
+—e.g. ADD, MOVE
+
+• A hardware segment accepts the code and 
+
+issues the control signals
+
+What is an Instruction Set?
+
+• The complete collection of instructions 
+
+that are understood by a CPU
+
+• Machine Code
+
+—Binary
+
+• Usually represented by assembly codes
+
+Elements of an Instruction
+
+• Operation code (Op code)
+
+—Do this
+
+• Source Operand reference
+
+—To this
+
+• Result Operand reference
+• Result Operand reference
+
+—Put the answer here
+
+• Next Instruction Reference
+
+—When you have done that, do this...
+
+Instruction Cycle
+
+• Two steps:
+
+—Fetch
+—Execute
+
+Instruction Cycle State Diagram
+
+Instruction Cycle with Interrupts
+
+Instruction Cycle (with Interrupts) -
+State Diagram
+
+Instruction Representation
+
+• In machine code each instruction has a 
+
+unique bit pattern
+
+• For human consumption (well, 
+
+programmers anyway) a symbolic 
+representation is used
+—e.g. ADD, SUB, LOAD
+—e.g. ADD, SUB, LOAD
+
+• Operands can also be represented in this 
+
+way
+—ADD A,B
+
+Simple Instruction Format
+
+Instruction Types
+
+• Data processing
+• Data storage (main memory)
+• Data movement (I/O)
+• Program flow control 
+
+Number of Addresses (a)
+
+• 3 addresses
+
+—Operand 1, Operand 2, Result
+—a = b + c;
+—May be a forth - next instruction (usually 
+
+implicit)
+
+—Not common
+—Not common
+—Needs very long words to hold everything
+
+Number of Addresses (b)
+
+• 2 addresses
+
+—One address doubles as operand and result
+—a = a + b
+—Reduces length of instruction
+—Requires some extra work
+
+– Temporary storage to hold some results
+– Temporary storage to hold some results
+
+Number of Addresses (c)
+
+• 1 address
+
+—Implicit second address
+—Usually a register (accumulator)
+—Common on early machines
+
+Number of Addresses (d)
+
+Number of Addresses (e)
+
+• 0 (zero) addresses
+
+—All addresses implicit
+—Uses a stack
+—e.g. push a
+push b
+—
+add
+—
+—
+add
+pop c
+—
+
+—c = a + b
+
+How Many Addresses
+
+• More addresses
+
+—More complex instructions
+—More registers
+
+– Inter-register operations are quicker
+
+—Fewer instructions per program
+
+• Fewer addresses
+• Fewer addresses
+
+—Less complex instructions
+—More instructions per program
+—Faster fetch/execution of instructions
+
+Design Decisions (1)
+
+• Operation repertoire
+
+—How many ops?
+—What can they do?
+—How complex are they?
+
+• Data types
+• Instruction formats
+
+—Length of op code field
+—Number of addresses
+
+Design Decisions (2)
+
+• Registers
+
+—Number of CPU registers available
+—Which operations can be performed on which 
+
+registers?
+
+• Addressing modes
+
+Types of Operand
+
+• Addresses
+• Numbers
+
+—Integer/floating point
+
+• Characters
+—ASCII etc.
+—ASCII etc.
+
+• Logical Data
+—Bits or flags
+
+Specific Data Types
+
+• General - arbitrary binary contents
+• Integer - single binary value
+• Ordinal - unsigned integer
+• Unpacked BCD - One digit per byte
+• Packed BCD - 2 BCD digits per byte
+• Packed BCD - 2 BCD digits per byte
+• Near Pointer - 32 bit offset within 
+
+segment
+
+• Bit field
+• Byte String
+• Floating Point
+
+Types of Operation
+
+• Data Transfer
+• Arithmetic
+• Logical
+• Conversion
+• I/O• I/O
+• System Control
+• Transfer of Control
+
+Data Transfer
+
+• Specify
+
+—Source
+—Destination
+—Amount of data
+
+• May be different instructions for different 
+
+movements
+movements
+—e.g. IBM 370
+
+• Or one instruction and different addresses
+
+—e.g. VAX
+
+Arithmetic
+
+• Add, Subtract, Multiply, Divide
+• Signed Integer
+• Floating point 
+• May include
+
+—Increment (a++)
+—Increment (a++)
+—Decrement (a--)
+—Negate (-a)
+
+Shift and Rotate Operations
+
+SHR
+
+SHL
+
+ASRASR
+
+ASL
+
+ROR
+
+ROL
+
+Logical
+
+• Bitwise operations
+• AND, OR, NOT
+
+Input/Output
+
+• May be specific instructions
+• May be done using data movement 
+
+instructions (memory mapped)
+
+• May be done by a separate controller 
+
+(DMA)
+
+Systems Control
+
+• Privileged instructions
+• CPU needs to be in specific state 
+• For operating systems use
+
+Transfer of Control
+
+• Branch
+
+—e.g. branch to x if result is zero
+
+• Skip
+
+—e.g. increment and skip if zero
+—ISZ Register1
+—Branch xxxx
+—ADD A
+
+• Subroutine call
+
+—c.f. interrupt call
+
+Branch Instruction
+
+Nested Procedure Calls
+
+Byte Order
+
+• What order do we read numbers that 
+
+occupy more than one byte
+
+• e.g. (numbers in hex to make it easy to 
+
+read)
+
+• 12345678 can be stored in 4x8bit 
+
+locations as follows
+locations as follows
+
+Byte Order (example)
+
+• Address
+• 184
+• 185
+• 186
+• 187
+• 187
+
+Value (1)
+12
+34
+56
+78
+78
+
+Value(2)
+78
+56
+34
+12
+12
+
+• i.e. read top down or bottom up?
+
+Byte Order Names
+
+• The problem is called Endian
+• The system on the right has the least 
+
+significant byte in the lowest address
+—This is called little-endian
+
+• The system on the left has the least  
+significant byte in the highest address
+significant byte in the highest address
+—This is called big-endian
+
+Example of C Data Structure
+
+Alternative View of Memory Map
+
+Standard…What Standard?
+
+• Pentium (80x86), VAX are little-endian
+• IBM 370, Moterola 680x0 (Mac), and most 
+
+RISC  are big-endian
+• Internet is big-endian
+
+

@@ -1,0 +1,27 @@
+
+==Features==
+The Advection Upstream Splitting Method has many features. The main features are:
+*accurate capturing of shock and contact discontinuities
+*entropy-satisfying solution
+*positivity-preserving solution
+*algorithmic simplicity (not requiring explicit eigen-structure of the flux Jacobian matrices) and straightforward extension to additional conservation laws
+*free of “carbuncle” phenomena
+*uniform accuracy and convergence rate for all Mach numbers.
+Since the method does not specifically require eigenvectors, it is especially attractive for the system whose eigen-structure is not known explicitly, as the case of two-fluid equations for multiphase flow.
+
+==Applications==
+
+==References==
+
+==See also==
+*[[Euler equations]]
+*[[Finite volume method]]
+*[[Flux limiter]]
+*[[Godunov's theorem]]
+*[[High resolution scheme]]
+*[[Numerical method of lines]]
+*[[Sergei K. Godunov]]
+*[[Total variation diminishing]]
+
+{{DEFAULTSORT:Ausm}}
+[[Category:Fluid dynamics]]

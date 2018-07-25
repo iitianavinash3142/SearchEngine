@@ -1,0 +1,132 @@
+| name                   = Arena
+| logo                   = [[Image:ArenaLogo.gif]]
+| screenshot             = [[Image:Arena (web browser) screenshot.png|180px]]
+| caption                = Arena on http://www.gnu.org
+| latest release date    = {{release date and age|1998|11|25}}
+| platform               =
+| language               = English
+| programming language   = [[C (programming language)|C]]
+| genre                  = [[web browser]], web [[authoring system|authoring tool]]
+| discontinued           = yes
+}}
+
+
+
+==History==
+
+
+
+
+===W3C pre-Beta===
+
+===W3C Beta-1===
+
+===W3C Beta-2===
+W3C Arena:
+W3C's:
+ +======+     HTTP       +======+    +======+    +======+
+ |Server|--------------->|Buffer|--->|Frame |--->|X11R6 |
+ +======+ |              +======+ |  +======+ |  +======+
+          |                       |           |
+      +---+----+  +--------+  +---+----+  +---+------+
+      | libwww |  |  code  |  | HTML   |  | drawing  |
+      |        |  |  conv  |  | parser |  | routine  |
+      +---+----+  +---+----+  +---+----+  +---+------+
+OMRON's:  |           |           |           |
+ +======+ |  +======+ |  +======+ |  +======+ |  +======+
+ |Server|----|TmpBuf|--->|Buffer|--->|Frame |--->|X11R6 |
+ +======+    +======+    +======+    +======+    +======+
+         HTTP            Internal
+                         CharCode
+
+===W3C Beta-3===
+
+===Yggdrasil phase===
+[[Image:Arena.3.62-1.png|thumb|The latest Arena 0.3.62-1 build on its start page.]]
+
+
+==Features==
+[[Image:Arena math fig3-12.gif|thumb|Arena .93 rendering HTML3 math.]]
+[[Image:Arenahtml3math.gif|thumb|HTML3 math in unreleased W3C Arena v1.0b]]
+Arena supported the following features:
+
+==Technical==
+
+===Version numbering===
+Arena has three different systems for the [[Software versioning|version numbering]].
+The W3C pre-beta phase uses a system of numbers up to 0.99, which indicated that these builds were in [[Software release life cycle#Alpha|alpha]]-quality and the browser could have new features.
+The beta phase changed the version numbering to a system consisting of the word "Beta-" beta followed by a number. After the beta-phase, the final product would have the version 1.0.
+
+==Criticism==
+
+
+
+
+
+==Screenshots==
+{{Gallery
+|title=Screenshots of the unreleased development of the W3C Arena version 1.0a
+|File:Arena figure.gif|HTML+ document rendered
+|File:Arena Form.gif|HTML form
+|File:Arena table2.gif|HTML+ table
+|File:Arena table3.gif|HTML3.1 and math
+|File:Arena table1.gif|HTML3.0 table
+}}
+
+==Timeline of releases==
+{{Wide image-noborder|Arena browser Timeline.svg|1800px||100%}}
+
+==Notes==
+{{Reflist|group=note}} 
+
+==References==
+{{Reflist|2}}
+
+==Bibliography==
+* {{cite web|url=http://slackware.oregonstate.edu/slackware-3.3/docs/XFree86-HOWTO|title=The Linux XFree86 HOWTO|last=Raymond|first=Eric S.|date=26 March 1997|accessdate=7 June 2010}}
+* {{cite book|last=Ford|first=Andrew|title=Spinning the web: how to provide information on the Internet|url=http://books.google.com/books?id=LWjbAAAAMAAJ|accessdate=9 June 2010|year=1995|publisher=International Thomson Pub.|page=6}}
+* {{cite book|last1=Raggett|first1=Dave|last2=Lam|first2=Jenny|last3=Alexander|first3=Ian|title=HTML 3: electronic publishing on the World Wide Web|url=http://books.google.com/books?id=cZMnAAAAMAAJ|accessdate=9 June 2010|date=1996-04|publisher=Addison-Wesley|isbn=9780201876932}}
+* {{cite book|last=Flynn|first=Peter|title=The World Wide Web handbook: a guide for users, authors, and publishers|url=http://books.google.com/books?id=dgFTAAAAMAAJ|accessdate=9 June 2010|year=1995|publisher=International Thomson Computer Press|isbn=9781850322054}}
+
+==Further reading==
+* {{cite book|last1=Ball|first1=Bill|last2=Smoogen|first2=Stephen|title=Sams' teach yourself Linux in 24 hours|url=http://books.google.com/books?id=iUv0pX29EAMC|accessdate=4 June 2010|date=1998-03|publisher=Sams Pub.|isbn=9780672311628|page=202}}
+* {{cite book|last=Kressin|first=Mark|title=The Internet and the World Wide Web: a time-saving guide for new users|url=http://books.google.com/books?id=zHzyAAAAMAAJ|accessdate=4 June 2010|date=1997-01-15|publisher=Prentice Hall PTR|isbn=9780134937434}}
+
+==External links==
+{{Portal|Free software}}
+*[http://www.w3.org/Arena/tour/contents.html A Quick Review of HTML 3.0]
+*[http://everything2.com/user/WWWWolf/writeups/arena Arena (web browser)], [[Everything2]]
+*style sheet documentation
+**[http://www.w3.org/Arena/style97/context.html Demo that described style sheet implementation status in Arena 0.97e]
+**[http://www.w3.org/Arena/style98/implementation Notes on the Arena 0.98 style sheet implementation]
+**[http://www.w3.org/Arena/style-beta-1/implementation.html Notes on the Arena beta-1 style sheet implementation]
+**[http://www.w3.org/Arena/style-beta-2/implementation Notes on the Arena beta-2 style sheet implementation]
+
+===W3C related===
+*[http://www.w3.org/Arena/ W3C - Welcome to Arena (old official site)]
+*[http://www.w3.org/Arena/source-beta3 W3C latest build beta-3b source code download]
+*[http://www.w3.org/Arena/source-beta2 W3C beta 2 source code]
+*[http://www.w3.org/Arena/source W3C beta 1 source code]
+
+===Yggdrasil===
+*[http://web.archive.org/web/20030228182634/www.yggdrasil.com/Products/Arena/knownbugs.html Yggdrasil's bug list] (some bugs were not in the W3C builds)
+*[http://archive.debian.net/en/potato/i386/arena 0.3.62-1 source code and final binaries download]
+*[http://archive.debian.net/hu/slink/arena 0.3.61-5 source code and binaries download]
+*[http://archive.debian.net/sv/hamm/arena 0.3.60-1 source code and binaries download]
+
+{{Good article}}
+{{gopher clients}}
+{{Earlybrowsers}}
+{{W3C standards}}
+{{HTML editors}}
+
+{{DEFAULTSORT:Arena (Web Browser)}}
+[[Category:Free web browsers]]
+[[Category:1993 software]]
+[[Category:Discontinued web browsers]]
+[[Category:World Wide Web Consortium]]
+[[Category:Free software programmed in C]]
+[[Category:Wikipedia articles with ASCII art]]
+[[Category:Gopher clients]]
+[[Category:Usenet clients]]
+

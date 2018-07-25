@@ -1,0 +1,34 @@
+
+
+The A2100 satellite system was developed by a [[Skunk Works]] team at the Astro Space East Windsor, New Jersey facility.  A group of design Architects, including Brian Stewart, John Close, Pete Wise and Keith Davies delivered a flexible common bus with substantially fewer components, lower spacecraft weight, and reduced customer delivery time.  Jim Wilson led a team from GE's corporate r&d lab located in Niskayuna, NY, which helped with several technology underpinnings which advanced the A2100 design.
+
+
+
+The A2100 series is modular and can be configured in different sizes: 
+
+*A2100A = 1 to 4 [[kW]] 
+*A2100AX = 4 to x kW 
+*A2100AXS: enhanced A2100AX 
+*A2100AXX : stretched version for mobile communications 
+*Additionally there is an A2100M version, which fulfills military requirements.
+
+
+*[[SES Americom]]
+*[[SES Astra]]
+*[[SES New Skies]]
+*[[Dish Network]]
+*[[ACeS]]
+*[[Telesat]]
+*[[Cablevision]]
+*[[JSAT Corporation]]
+
+==References==
+{{reflist}}
+
+{{Lockheed Martin}}
+
+[[Category:Communications satellite models]]
+[[Category:Unmanned vehicles]]
+[[Category:Satellite platforms]]
+
+[[de:A2100]]

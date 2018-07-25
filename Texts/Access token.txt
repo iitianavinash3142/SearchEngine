@@ -1,0 +1,30 @@
+In [[Microsoft Windows]] [[operating system]]s, an '''access token''' contains the security information for a [[login session]] and identifies the [[user (computing)|user]], the user's groups, and the user's privileges.
+
+==Overview==
+
+
+==Types of tokens==
+There are two types of tokens:
+;Primary token: Primary tokens can only be associated to [[Process (computing)|processes]], and they represent a process's security subject. The creation of primary tokens and their association to processes are both privileged operations, requiring two different privileges in the name of [[privilege separation]] - the typical scenario sees the authentication service creating the token, and a logon service associating it to the user's [[operating system shell]]. Processes initially inherit a copy of the parent process's primary token. Impersonation tokens can only be associated to [[thread (computer science)|threads]], and they represent a ''client'' process's security subject. Impersonation tokens are usually created and associated to the current thread implicitly, by [[Inter-process communication|IPC]] mechanisms such as DCE [[Remote procedure call|RPC]], [[Dynamic Data Exchange|DDE]] and [[named pipe]]s.
+
+;Impersonation token: Impersonation is a security concept unique to Windows NT, that allows a server application to temporarily "be" the client in terms of access to secure objects. Impersonation has three possible levels: ''identification'', letting the server inspect the client's identity, ''impersonation'', letting the server act on behalf of the client, and ''delegation'', same as impersonation but extended to remote systems to which the server connects (through the preservation of credentials). The client can choose the maximum impersonation level (if any) available to the server as a connection parameter. Delegation and impersonation are privileged operations (impersonation initially wasn't, but historical carelessness in the implementation of client [[application programming interface|API]]s failing to restrict the default level to "identification", letting an unprivileged server impersonate an unwilling privileged client, called for it).
+
+==Contents of a token==
+A token is composed of various fields, including but not limited to:
+* an identifier.
+* the identifier of the associated logon session. The session is maintained by the authentication service, and is populated by the authentication packages with a collection of all the information ([[credentials]]) the user provided when logging in. Credentials are used to access remote systems without the need for the user to re-authenticate ([[single sign-on]]), provided that all the systems involved share an authentication authority (e.g. a [[Kerberos (protocol)|Kerberos]] ticket server)
+* the user identifier. This field is the most important and it's strictly read-only.
+* the identifiers of groups the user (or, more precisely, the subject) is part of. Group identifiers cannot be deleted, but they can be disabled. At most one of the groups is designated as the ''session id'', a volatile group representing the logon session, allowing access to volatile objects associated to the session, such as the display.
+* the restricting group identifiers (optional). This additional set of groups doesn't grant additional access, but further restricts it: access to an object is only allowed if it's allowed ''also'' to one of these groups. Restricting groups cannot be deleted nor disabled. Restricting groups are a recent addition, and they are used in the implementation of [[sandbox (security)|sandboxes]].
+* the default owner, primary group and ACL for objects created by the subject associated to the token.
+
+==References==
+{{Reflist}}
+
+{{Windows Components}}
+
+{{DEFAULTSORT:Access Token}}
+[[Category:Computer security]]
+[[Category:Microsoft Windows security technology]]
+
+[[id:Access token]]

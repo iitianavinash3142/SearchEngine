@@ -1,0 +1,36 @@
+|title = ASPicDB
+|logo =[[File:Database.png]]
+|description =  [[alternative splicing]] prediction.
+|scope = 
+|organism = [[Homo sapiens]]
+|center = University of Bologna
+|laboratory = Biocomputing Group
+|author =
+|pmid = PMID 21051348
+|released = 2008
+|standard = 
+|format = 
+|url = http://www.caspur.it/ASPicDB/
+|download = 
+|webservice = 
+|sql = 
+|sparql = 
+|webapp = 
+|standalone = 
+|license = 
+|versioning = 
+|frequency = 
+|curation = 
+|bookmark =
+==References==
+==See also==
+* [[Alternative splicing]]
+* [[Alternative splicing annotation project]]
+
+==External links==
+*http://www.caspur.it/ASPicDB/
+
+{{Biodatabase-stub}}
+
+[[Category:Gene expression]]
+[[Category:Spliceosome]]

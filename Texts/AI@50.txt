@@ -1,0 +1,138 @@
+
+While sponsored by [[Dartmouth College]], [[General Electric]], and the [[Frederick Whittemore Foundation]], a $200,000 grant from the [[DARPA|Defense Advanced Research Projects Agency (DARPA)]] called for a report of the proceedings that would:
+
+* Analyze progress on AI's original challenges during the first 50 years, and assess whether the challenges were "easier" or "harder" than originally thought and, why
+
+* Document what the AI@50 participants believe are the major research and development challenges facing this field over the next 50 years, and identify what breakthroughs will be needed to meet those challenges
+
+
+| volume = 27 | issue = 4 | pages = 87–91 | last = Moor | first = James | title = The Dartmouth College Artificial Intelligence Conference: The Next Fifty Years| journal = AI Magazine | year = 2006| url = http://www.aaai.org/ojs/index.php/aimagazine/article/view/1911/1809
+
+== Conference Program and links to published papers ==
+
+* [[James Moor]], conference Director, Introduction
+* [[Carey Heckman]], Tonypandy and the Origins of Science
+
+=== AI: Past, Present, Future ===
+
+* [[John McCarthy (computer scientist)|John McCarthy]], What Was Expected, What We Did, and AI Today 
+* [[Marvin Minsky]], [[The Emotion Machine]]
+
+=== The Future Model of Thinking ===
+
+* [[Ron Brachman]] and [[Hector Levesque]],  A Large Part of Human Thought
+* [[David Mumford]], What is the Right Model for 'Thought'?
+
+=== The Future of Network Models ===
+
+* [[Geoffrey Hinton]] & [[Simon Osindero]], From Pandemonium to Graphical Models and Back Again
+* [[Rick Granger]], From Brain Circuits to Mind Manufacture
+
+=== The Future of Learning & Search ===
+
+* [[Oliver Selfridge]], Learning and Education for Software: New Approaches in Machine Learning 
+* [[Leslie Pack Kaelbling]], Learning to be Intelligent  
+* [[Peter Norvig]], Web Search as a Product of and Catalyst for AI
+
+=== The Future of AI ===
+
+* [[Rod Brooks]], Intelligence and Bodies 
+* [[Nils Nilsson (researcher)|Nils Nilsson]], Routes to the Summit
+* [[Eric Horvitz]], In Pursuit of Artificial Intelligence: Reflections on Challenges and Trajectories
+
+=== The Future of Vision ===
+
+* [[Eric Grimson]], Intelligent Medical Image Analysis: Computer Assisted Surgery and Disease Monitoring
+* [[Takeo Kanade]], Artificial Intelligence Vision: Progress and Non-Progress 
+* [[Terry Sejnowski]], A Critique of Pure Vision
+
+=== The Future of Reasoning ===
+
+* [[Alan Bundy]], Constructing, Selecting and Repairing Representations of Knowledge 
+* [[Edwina Rissland]], The Exquisite Centrality of Examples
+* [[Bart Selman]], The Challenge and Promise of Automated Reasoning
+
+=== The Future of Language and Cognition ===
+
+* [[Trenchard More]] The Birth of Array Theory and Nial 
+* [[Eugene Charniak]], Why Natural Language Processing is Now Statistical Natural Language Processing 
+
+=== The Future of the Future ===
+
+* [[George Cybenko]], The Future Trajectory of AI 
+* [[Charles Holland]], DARPA's Perspective
+
+=== AI and Games ===
+
+* [[Jonathan Schaeffer]], Games as a Test-bed for Artificial Intelligence Research" 
+* [[Danny Kopec]], Chess and AI 
+* [[Shay Bushinsky]], Principle Positions in Deep Junior's Development
+
+=== Future Interactions with Intelligent Machines ===
+
+* [[Daniela Rus]], Making Bodies Smart 
+* [[Sherry Turkle]], From Building Intelligences to Nurturing Sensibilities
+
+=== Selected Submitted Papers: Future Strategies for AI ===
+
+
+=== Selected Submitted Papers: Future Possibilities for AI ===
+
+
+== References ==
+
+
+== External links ==
+* [http://www.dartmouth.edu/%7Eai50/homepage.html Dartmouth Artificial Intelligence Conference: The Next Fifty Years], conference Web site
+* [[Peter Norvig]], [http://pn.smugmug.com/Other-Events/AI50-Dartmouth-Conference/ Pictures from AI@50]
+
+=== Notes and comments ===
+
+* Meg Houston Maker [http://www.engagingexperience.com/], conference notes:
+
+* AI@50 Opening [http://www.engagingexperience.com/2006/07/ai50_opening.html] 
+
+* AI — Past, Present Future [http://www.engagingexperience.com/2006/07/ai50_ai_past_pr.html] — Brief abstracts of papers by John McCarthy and [[Marvin Minsky]]
+
+:* The Future Model of Thinking [http://www.engagingexperience.com/2006/07/ai50_the_future.html] — Brief abstracts of papers by [[Ron Brachman]] , [[David Mumford]], and [[Stuart Russell]]
+
+:* The Future of Network Models [http://www.engagingexperience.com/2006/07/ai50_the_future_1.html] — Brief abstracts of papers by [[Geoffrey Hinton]] and [[Simon Odinero]], and [[Rick Granger]]
+
+:* The Future of Learning and Search [http://www.engagingexperience.com/2006/07/ai50_the_future_2.html] — Brief abstracts of papers by [[Oliver Selfridge]], [[Ray Solomonoff]], [[Leslie Pack Kaelbling]], and [[Peter Norvig]]
+
+:* The Future of AI [http://www.engagingexperience.com/2006/07/ai50_the_future_3.html] — Brief abstracts of papers by [[Rod Brooks]], [[Nils Nilsson (researcher)|Nils Nilsson]], [[Eric Horvitz]]
+
+:* The Future of Vision [http://www.engagingexperience.com/2006/07/ai50_the_future_4.html] — Brief abstracts of papers by [[Eric Grimson]], [[Takeo Kanade]], and [[Terry Sejnowski]]
+
+:* The Future of Reasoning [http://www.engagingexperience.com/2006/07/ai50_the_future_5.html] :* Brief abstracts of papers by [[Alan Bundy]], [[Edwina Rissland]], and [[Bart Selman]]
+
+:* The Future of Language and Cognition [http://www.engagingexperience.com/2006/07/ai50_the_future_6.html] — Brief abstracts of papers by [[Trenchard More]], [[Eugene Charniak]], and [[Pat Langley]]
+
+:* The Future of the Future [http://www.engagingexperience.com/2006/07/ai50_the_future_7.html] :* Brief abstract of [[Ray Kurzweil]]'s paper
+
+:* AI and Games [http://www.engagingexperience.com/2006/07/ai50_ai_and_gam.html] — Brief abstracts of papers by [[Jonathan Schaeffer]] and [[Danny Kopec]]
+
+:* Future Interactions with Intelligent Machines [http://www.engagingexperience.com/2006/07/ai50_future_int.html] — Brief abstracts of papers by [[Daniela Rus]] and [[Sherry Turkle]]
+
+:* Selected Submitted Papers: Future Strategies for AI [http://www.engagingexperience.com/2006/07/ai50_selected_s.html] — Brief abstracts of papers by [[J. Storrs Hall]] and [[Selmer Bringsjord]]
+
+:* Selected Submitted Papers: Future Possibilities for AI [http://www.engagingexperience.com/2006/07/ai50_selected_s_1.html] — Brief abstracts of papers by [[Eric Steinhart]], [[C. T. A. Schmidt]], and [[Michael Anderson]]{{dn}} and [[Susan Leigh Anderson]]
+
+:* First Polling Question [http://www.engagingexperience.com/2006/07/ai50_first_poll.html]
+
+:* Second Polling Question [http://www.engagingexperience.com/2006/07/ai50_second_pol.html]
+
+:* Third Polling Question [http://www.engagingexperience.com/2006/07/ai50_third_poll.html]
+
+:* Fourth Polling Question [http://www.engagingexperience.com/2006/07/ai50_fourth_pol.html]
+
+:* Fifth Polling Question [http://www.engagingexperience.com/2006/07/ai50_fifth_poll.html]
+
+:* Sixth Polling Question [http://www.engagingexperience.com/2006/07/ai50_sixth_poll.html] and [http://engaging.typepad.com/my_weblog/2006/07/ai50_sixth_poll_1.html]
+
+:* Final Polling Question [http://www.engagingexperience.com/2006/07/ai50_final_poll.html]
+{{Dartmouth College}}
+
+{{DEFAULTSORT:Ai@50}}
+[[Category:Artificial intelligence conferences]]
+[[Category:Dartmouth College history]]

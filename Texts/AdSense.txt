@@ -1,0 +1,196 @@
+| name = AdSense
+| logo = [[Image:Google Adsense logo.png]]
+| caption =
+| developer = [[Google Inc.]]
+| latest_release_version =
+| latest_release_date =
+| latest_preview_version =
+| latest_preview_date =
+| operating_system = [[Cross-platform]] (web-based application)
+| genre = [[Online advertising]]
+| license =
+| website = [http://www.google.com/adsense http://www.google.com/adsense]
+}}
+
+
+==Overview==
+{{Ref improve section|date=September 2010}}
+
+Google uses its [[Internet search]] technology to serve advertisements based on website content, the user's geographical location, and other factors. Those wanting to advertise with Google's targeted advertisement system may enroll through [[AdWords]]. AdSense has become a popular method of placing advertising on a website because the advertisements are less intrusive than most [[banner ads|banners]], and the content of the advertisements is often relevant to the website.
+
+Many websites use AdSense to monetize their content; it is the most popular advertising network. AdSense has been particularly important for delivering advertising revenue to small websites that do not have the resources for developing advertising sales programs and sales people. To fill a website with advertisements that are relevant to the topics discussed, webmasters implement a brief script on the websites' pages. Websites that are content-rich have been very successful with this advertising program, as noted in a number of publisher case studies on the AdSense website.
+
+Some webmasters invest significant effort into maximizing their own AdSense income. They do this in three ways:{{Citation needed|date=June 2008}}
+# They use a wide range of [[Web traffic|traffic]]-generating techniques, including but not limited to [[online advertising]].
+# They build valuable content on their websites that attracts AdSense advertisements, which pay out the most when they are clicked.
+# They use text content on their websites that encourages visitors to click on advertisements. Note that Google prohibits webmasters from using phrases like "Click on my AdSense ads" to increase click rates. The phrases accepted are "Sponsored Links" and "Advertisements".
+
+
+==History==
+
+
+In 2009, Google AdSense announced that it would now be offering new features, including the ability to "enable multiple networks to display ads".
+
+==Types==
+===AdSense for Feeds===
+
+AdSense for Feeds works by inserting images into a feed. When the image is displayed by a RSS reader or Web browser, Google writes the advertising content into the image that it returns. The advertisement content is chosen based on the content of the feed surrounding the image. When the user clicks the image, he or she is redirected to the advertiser's website in the same way as regular AdSense advertisements.
+
+AdSense for Feeds remained in its beta state until August 15, 2008, when it became available to all AdSense users.
+
+===AdSense for search===
+
+===AdSense for mobile content===
+AdSense for mobile content allows publishers to generate earnings from their [[mobile website]]s using targeted Google advertisements. Just like AdSense for content, Google matches advertisements to the content of a website — in this case, a mobile website.
+
+===AdSense for domains===
+Adsense for domains allows advertisements to be placed on domain names that have not been developed. 
+This offers domain name owners a way to monetize domain names that are otherwise dormant.
+Adsense for domains is currently being offered to some users, with plans to make it available to all in stages.
+
+
+===AdSense for video===
+
+==XHTML compatibility==
+As of September 2007, the [[HTML]] code for the AdSense search box does not validate as [[XHTML]], and does not follow modern principles of website design because of its use of
+
+
+
+The terms of the AdSense program forbid its [[affiliates]] from modifying the code, thus preventing these participants from having valid XHTML websites.
+
+
+==How AdSense works==
+* The webmaster inserts the AdSense JavaScript code into a webpage.
+* Each time this page is visited, the JavaScript code uses inlined [[JSON]] to display content fetched from Google's servers.
+* For [[:Contextual advertising|contextual advertisements]], Google's servers use a [[cache]] of the page to determine a set of high-value [[Keyword (Internet search)|keywords]]. If keywords have been cached already, advertisements are served for those keywords based on the AdWords bidding system. (More details are described in the [http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PG01&s1=20040059708&OS=20040059708&RS=20040059708 AdSense patent].)
+|url=http://adwords.google.com/support/bin/answer.py?answer=54411&topic=13175
+|title=Google AdSense Help Center: What are CPM ads?
+|date=2007-12-29
+|url=http://www.google.com/ads/sitetargeted.html
+|title=Google AdWords: All About Site-Targeted Ads
+|date=2007-12-29
+|url=https://www.google.com/adsense/support/bin/answer.py?answer=25890&topic=11724
+|title=Google AdSense Help Center: What is the referrals feature?
+|date=2007-12-29
+{{cite journal
+  | title = Google yanks AdSense referral program, offers shoddy surrogate
+  | journal = blog.anta.net
+  | date = 2008-07-01
+  | url = http://blog.anta.net/2008/07/01/google-yanks-adsense-referral-program-offers-shoddy-surrogate/
+  | issn = 1797-1993
+  | accessdate = 2008-07-01 }}
+* [[#AdSense for search|Search advertisements]] are added to the list of results after the visitor performs a search.
+* Because the JavaScript is sent to the Web browser when the page is requested, it is possible for other website owners to copy the JavaScript code into their own webpages. To protect against this type of fraud, AdSense customers can specify the pages on which advertisements should be shown. AdSense then ignores clicks from pages other than those specified.
+
+==Abuse==
+Some webmasters create websites tailored to lure searchers from Google and other engines onto their AdSense website to make money from clicks. These "zombie" websites often contain nothing but a large amount of interconnected, automated content (e.g., a directory with content from the [[Open Directory Project]], or [[scraper site|scraper websites]] relying on RSS feeds for content). Possibly the most popular form of such "AdSense farms" are [[splog]]s (spam blogs), which are centered around known high-paying keywords. Many of these websites use content from other websites, such as [[Wikipedia]], to attract visitors. These and related approaches are considered to be search engine [[Spam (electronic)|spam]] and can be reported to Google. {{Citation needed|date=May 2009}}
+
+A [[Scraper site#Made for AdSense|Made for AdSense]] (MFA) website or webpage has little or no content, but is filled with advertisements so that users have no choice but to click on advertisements. Such pages were tolerated in the past, but due to complaints, Google now disables such accounts.
+
+
+==Criticism==
+|url=http://www.wired.com/wired/archive/14.01/fraud.html
+|title=How click fraud could swallow the internet|publisher=[[Wired (magazine)|Wired]]
+|author=[[Charles C. Mann]]
+
+To help prevent click fraud, AdSense publishers can choose from a number of click-tracking programs.{{Citation needed|date=October 2007}} These programs display detailed information about the visitors who click on the AdSense advertisements. Publishers can use this to determine whether or not they have been a victim of click fraud. There are a number of commercial tracking scripts available for purchase.
+
+|url=http://lembingley.computing.co.uk/2007/02/google-keeps-co.html
+|title=Google keeps on coining it in|publisher=[[IT Week]]
+|date=2007-02-01
+|author=Lem Bingley
+|url=https://www.google.com/adsense/support/bin/answer.py?answer=9905
+|title=When do I get paid?
+|publisher=Google AdSense Help Center
+but many micro content providers {{Citation needed|date=July 2008}} require a long time—years in some cases—to build up this much AdSense revenue. However, Google will pay all earned revenue greater than US$10 when an AdSense account is closed and not disabled.
+
+Many website owners complain that their AdSense accounts have been disabled just before they were supposed to receive their first paycheck from Google. Google claims accounts have been disabled due to click fraud or forbidden content, but have offered no proof of this. An automated email is sent to the publisher's owner which offers no reasoning, or options but a link to file an appeal. In the email, Google states that "Because we have a
+responsibility to protect our AdWords advertisers from inflated costs due to invalid activity, we've found it necessary to disable your AdSense
+|title=Disabled Account FAQ - AdSense Help
+
+|url=https://www.google.com/adsense/support/bin/answer.py?hl=en&answer=105957 
+|title=Adult content
+|url=https://www.google.com/adsense/support/bin/answer.py?answer=48182&sourceid=aso&subid=ww-ww-et-asui&medium=link
+|title=Google AdSense Program Policies
+|date=2007-12-29
+
+|url=http://blog.colnect.com/2009/02/be-careful-when-using-both-adsense.html
+|title=BE CAREFUL when using both AdSense + AdWords by Google
+|date=2009-02-19
+
+|url=http://www.businessinsider.com/googles-worst-ads-ever-2009-8
+|title=Google's Worst Ads Ever (GOOG)
+|date=2009-08-20
+
+
+==See also==
+* ''[[The AdSense Code]]'' (book)
+* [[Google AdWords]]
+* [[List of Google products]]
+* [[Pay per play]]
+* [[Scraper site|Scraper website]]
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://www.adsense.com/ Google AdSense]
+* [http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PG01&s1=20040059708&OS=20040059708&RS=20040059708 Google AdSense patent application]
+* [http://adsense.blogspot.com/ Inside AdSense] — Google's official weblog on AdSense
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
+    | is not a collection of links nor should it be used for advertising. |
+    |                                                                     |
+    |           Excessive or inappropriate links WILL BE DELETED.         |
+    | See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details.  |
+    |                                                                     |
+    | If there are already plentiful links, please propose additions or   |
+    | replacements on this article's discussion page, or submit your link |
+    | to the relevant category at the Open Directory Project (dmoz.org)   |
+    | and link back to that category using the {{dmoz}} template.         |
+    ======================= {{No more links}} =============================-->
+
+{{Google Inc.}}
+
+{{DEFAULTSORT:Adsense}}
+[[Category:Google services]]
+[[Category:Internet advertising services and affiliate networks]]
+[[Category:Web 2.0]]
+[[Category:Internet marketing]]
+[[Category:1998 establishments]]
+
+[[ar:جوجل أدسنس]]
+[[bn:অ্যাডসেন্স]]
+[[be-x-old:Google AdSense]]
+[[ca:AdSense]]
+[[cs:Google AdSense]]
+[[da:Google AdSense]]
+[[de:Google AdSense]]
+[[es:AdSense]]
+[[eu:AdSense]]
+[[fa:گوگل ادسنس]]
+[[fr:AdSense]]
+[[gl:AdSense]]
+[[ko:애드센스]]
+[[hi:गूगल ऐडसेन्स]]
+[[id:AdSense]]
+[[it:AdSense]]
+[[he:Google AdSense]]
+[[kn:ಗೂಗಲ್ ಆಡ್ಸೆನ್ಸ್]]
+[[hu:AdSense]]
+[[arz:ادسنس]]
+[[ms:AdSense]]
+[[nl:Google AdSense]]
+[[ja:Google AdSense]]
+[[no:AdSense]]
+[[nn:AdSense]]
+[[pl:Google AdSense]]
+[[pt:AdSense]]
+[[ru:AdSense]]
+[[sk:Google Adsense]]
+[[fi:AdSense]]
+[[sv:AdSense]]
+[[th:กูเกิล แอดเซนส์]]
+[[tr:AdSense]]
+[[uk:Google AdSense]]
+[[ur:گوگل ایڈسینس]]
+[[vi:AdSense]]

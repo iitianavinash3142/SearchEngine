@@ -1,0 +1,77 @@
+
+In addition, since the behaviors of a given DEVS model needs to define how the state transition change both when time is passed by and when an event occurs, it has been described by a much general formalism, called General System [[Behavior_of_DEVS#References|[ZPK00]]]. In this article, we use a sub-class of General System formalism, called [[Timed Event System]] instead. 
+
+Depending on how to define the total state and its external state transition function of [[DEVS]], two ways to define the behavior of a [[DEVS]] model using [[Timed Event System]]. 
+Since [[Behavior of Coupled DEVS|behavior of a Coupled DEVS]] model is defined as an [[DEVS#Atomic_DEVS|Atomic DEVS]] model, behavior of Coupled DEVS class is defined by [[Timed Event System]].
+
+== View 1: Total States = States * Elapsed Times ==
+Suppose that a [[DEVS]] model,
+
+
+Then the [[DEVS]] model,
+
+
+\Delta(q, \omega)= 
+\begin{cases}
+(\delta_{ext}(s,t_e,x), 0)& \textrm{if } ~s \in S\\
+(illegal, t_e)& \textrm{otherwise}.
+\end{cases}
+
+\Delta(q, \omega)= 
+\begin{cases}
+(\delta_{int}(s), 0)& \textrm{if } ~s \in S, t_e = ta(s), y = \lambda(s)\\
+(illegal, t_e)& \textrm{otherwise}.
+\end{cases}
+
+
+Computer algorithms to simulate this view of behavior are available at [[Simulation Algorithms for Atomic DEVS]].
+
+== View 2: Total States = States * Lifespans * Elapsed Times  ==
+Suppose that a [[DEVS]] model,
+
+
+
+
+\Delta(q, \omega)= 
+\begin{cases}
+(s', ta(s'), 0)& \textrm{if } ~s \in S, \delta_{ext}(s,t_s,t_e,x)=(s',1)\\
+(s', t_s, t_e)& \textrm{if } ~s \in S, \delta_{ext}(s,t_s,t_e,x)=(s',0)\\
+(s, t_s, t_e)& \textrm{otherwise}.
+\end{cases}
+
+\Delta(q, \omega)= 
+\begin{cases}
+(s', ta(s'),0)& \textrm{if } ~s \in S, t_e = t_s, y = \lambda(s), \delta_{int}(s)=s'\\
+(illegal, \infty, t_e)& \textrm{otherwise}.
+\end{cases}
+
+Computer algorithms to simulate this view of behavior are available at [[Simulation Algorithms for Atomic DEVS]].
+
+== Comparison of View1 and View2 ==
+=== Features of View1 ===
+
+
+
+
+=== Features of View2 ===
+
+
+  
+
+==See also==
+*[[DEVS]]
+
+*[[Behavior of Coupled DEVS]]
+
+*[[Simulation Algorithms for Atomic DEVS]]
+
+*[[Simulation Algorithms for Coupled DEVS]]
+
+== References ==
+* [Zeigler76] {{cite book|author = Bernard Zeigler | year = 1976| title = Theory of Modeling and Simulation| publisher = Wiley Interscience, New York  | id = |edition=first}}
+* [Zeigler84] {{cite book|author = Bernard Zeigler | year = 1984| title = Multifacetted Modeling and Discrete Event Simulation | publisher = Academic Press, London; Orlando | id = ISBN 978-0127784502  }}
+* [ZKP00] {{cite book|author = Bernard Zeigler, Tag Gon Kim, Herbert Praehofer| year = 2000| title = Theory of Modeling and Simulation| publisher = Academic Press, New York  | id= ISBN 978-0127784557 |edition=second}}
+* [HZ06] M. H. Hwang and B. P. Zeigler, ``A Reachable Graph  of Finite and Deterministic  DEVS Networks``, ''Proceedings of 2006 DEVS Symposium'', pp48-56, Huntsville, Alabama, USA, (Available at http://www.acims.arizona.edu and http://moonho.hwang.googlepages.com/publications)
+* [HZ07] M.H. Hwang and B.P. Zeigler, ``Reachability Graph of Finite & Deterministic DEVS``, IEEE Transactions on Automation Science and Engineering, Volume 6, Issue 3, 2009, pp.454-467, http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?isnumber=5153598&arnumber=5071137&count=19&index=7
+
+[[Category:Automata theory]]

@@ -1,0 +1,85 @@
+| name = Avizo
+| logo = [[Image:Logo Avizo.png|border|220px]]
+| screenshot = 
+| caption = 
+| developer = [http://vsg3d.com VSG - Visualization Sciences Group] |
+| latest_release_version = 6.3 |
+| latest_release_date = Nov 02, 2010 |
+| operating_system = [[Linux]], [[Mac OS X]], [[Microsoft Windows]]
+| genre = [[Visualization (graphic)|Visualization and analysis software]] |
+| license = [[Proprietary software|Proprietary]] |
+| website = [http://www.avizo3d.com/ www.vsg3d.com] |
+}}
+
+'''Avizo''' (pronounce: ‘a-VEE-zo’) is a general-purpose commercial software application for scientific and industrial [[data visualization]] and analysis.
+
+Avizo is developed by '''VSG - Visualization Sciences Group''' and was originally designed and developed by the Visualization and Data Analysis Group at Zuse-Institute Berlin (ZIB) under the name amira. Avizo was commercially released in November 2007.
+
+== Overview ==
+[[Image:Avizo GUI.jpg|240px|thumbnail|right|Avizo Graphical user interface]]
+[[Image:Avizo-fire GUI.png|240px|thumbnail|right|Metallic foam quantification]]
+[[Image:3dReconstruct Mechanical Part.png|240px|thumbnail|right|3D image-based meshing for CFD/FEA analysis of a mechanical part]]
+[[Image:Avizo-earth GUI.jpg|240px|thumbnail|right|Geosciences data visualization]]
+Avizo is a [[software application]] which enables users to perform [[interactive visualization]] and computation on 3D data sets.   
+The Avizo interface is modelled on the [[visual programming]].  Users manipulate data and module components, organized in an interactive graph representation (called Pool), or in a [[Tree view]]. Data and modules can be interactively connected together, and controlled with several parameters, creating a visual processing network whose output is displayed in a 3D viewer.
+
+With this interface, complex data can be interactively explored and analyzed by applying a controlled sequence of computation and display processes resulting into a meaningful visual representation and associated derived data.
+
+== Features==
+'''Data Import: '''
+* Geometric models (such as point sets, line sets, surfaces, grids)
+* Molecular data
+*Well logs
+ 
+'''2D / 3D Data Visualization: '''
+*Visualization of sections, through various slicing and clipping methods
+*[[Polygon mesh|Polygonal meshes]]
+* Scalar fields, Vector fields, Tensor representations, [[Flow visualization]] (Illuminated Streamlines, Stream Ribbons)
+
+*2D/3D Alignment of image slices, [[Image registration]]
+*Image filtering
+*Mathematical Morphology (erode, dilate, open, close, tophat)
+*Watershed Transform, Distance Transform
+*[[Image segmentation]]
+
+*Generation of Tetrahedral Grids
+*Surface Reconstruction from [[point cloud]]s
+*Surface Model Simplification
+
+*Analysis spreadsheet and charting
+
+*From 3D imaging modalities (CT, micro-CT, MRI, etc.)
+*Surface and volume meshes generation
+*Export to FEA and CFD solvers for simulation
+*Post-processing for simulation analysis
+
+'''Presentation,  Automation: '''
+*[[TCL]] Scripting, C++ extension [[API]] 
+
+Avizo is based on [[Open Inventor]] by VSG [[Computer graphics|3D Graphics]] [[SDK]].
+
+==Applications==
+Avizo has been designed to support different types of applications and workflows. 
+It is a versatile and customizable [[Visualization (computer graphics)|visualization]] tool used in various application fields, such as:
+*[[Scientific visualization]], physics, chemistry
+*[[Astrophysics]]
+
+== References ==
+{{reflist}}
+
+==External links==
+*[http://www.avizo3d.com/ Official  VSG – Visualization Sciences Group website]
+*[http://www.mc3dviz.com/avizo-forum/ Official Avizo forum ]
+*[http://www.youtube.com/user/Avizo3D Avizo videos]
+
+{{DEFAULTSORT:Avizo (Software)}}
+[[Category:Data visualization software]]
+[[Category:Image processing]]
+[[Category:Science software]]
+[[Category:3D graphics software]]
+[[Category:Computational fluid dynamics]]
+[[Category:Graphics software]]
+[[Category:Molecular modelling software]]
+[[Category:Physics software]]
+[[Category:Molecular dynamics software]]
+[[Category:Earth sciences graphics software]]

@@ -1,0 +1,51 @@
+| name           = ARKive - Images of Life on Earth
+| logo           = [[Image:ARKive-logo.jpg|260px]]
+| screenshot     = [[Image:Arkivescreenshot.jpg|260px]]
+| caption        = 
+| url            = [http://www.arkive.org www.arkive.org]
+| commercial     = 
+| type           = [[Encyclopedia]]
+| language       = [[English language|English]]
+| registration   = 
+| owner          = 
+| launch date    = 2003-05-01
+| current status = 
+| author         = [[Wildscreen]], [[Christopher Parsons]] and [[David Attenborough]]
+| alexa          = 
+}}
+'''ARKive''' is a global initiative to locate and gather [[films]], [[photographs]] and [[sound|audio]] [[recordings]] of the world's [[species]] into one centralised [[digital]] [[library]] for the benefit of present and future [[generations]]. As such, it is sometimes described as the new [[Noah’s Ark]], or the Noah’s Ark of the online era.
+
+==History==
+
+[[Image:David Attenborough.jpg|thumb|260px|left|[[David Attenborough]] and the ARKive]]
+
+He believed the records could be a powerful force in building environmental awareness by bringing [[scientific]] names to life. He also saw their [[film preservation|preservation]] as an important educational resource and conservation tool, not least because extinction rates and habitat destruction could mean that images and sounds might be the only legacy of some species’ existence.
+
+His vision of a permanent, accessible, refuge for audio-visual wildlife material won almost immediate support from many of the world’s major broadcasters; leading film and photographic libraries, international conservation organisations and academic institutes. 
+
+
+The ARKive project is an initiative of [[Wildscreen]], a UK-registered educational charity, based in [[Bristol]], and working globally to increase the public’s understanding and appreciation of biodiversity, through the power of wildlife imagery.
+
+==See also==
+
+*[[Catalogue of Life]]
+*[[Encyclopedia of Life]]
+*[[List of online encyclopedias]]
+*[[Macroscopic Observatory]]
+*[[Nature documentary]]
+
+==References==
+
+
+==External links==
+* [http://www.arkive.org Official ARKive site.]
+* [http://www.wildscreen.org Official Wildscreen site.]
+
+{{DEFAULTSORT:Arkive}}
+[[Category:Scientific classification]]
+[[Category:Virtual museums]]
+[[Category:Online encyclopedias]]
+[[Category:Biological databases]]
+
+[[af:ARKive]]
+[[ca:ARKive]]

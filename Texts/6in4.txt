@@ -1,0 +1,26 @@
+
+There are similarly named methods, namely [[6to4]] or [[6over4]], which describe a different mechanism. The method [[6to4]] makes use of proto-41 too, but instead of static configuration of the endpoints, the endpoint IPv4 address information is derived from the IPv6 addresses within the IPv6 packet header.
+
+==Network address translators (NAT)==
+When an endpoint of a 6in4 tunnel is behind a [[Network Address Translation|NAT]], one can in some cases still make use of the [[DMZ (computing)|DMZ]] feature of a NAT router. The NAT router will then forward all incoming proto-41 packets to the configured host, thus making the tunnel work. Some NAT devices even allow transparent operation of 6in4.
+
+==Dynamic 6in4 tunnels and heartbeat==
+
+==Security issues==
+The 6in4 protocol has no security features, thus one can easily inject IPv6 packets by [[IP_address_spoofing|spoofing]] the source IPv4 address of a tunnel endpoint and sending it to the other endpoint. This problem can partially be solved by implementing [[network ingress filtering]] or with [[IPsec]]. Another solution is to use a secure protocol such as [[AYIYA]] or other tunneling methods that compute digital signatures for each packet thus facilitating verification of packet authenticity.
+
+
+==References==
+* RFC 1933, Transition Mechanisms for IPv6 Hosts and Routers, R. Gilligan and E. Nordmark, [[1996]]
+{{refs}}
+
+==External links==
+*[http://www.sixxs.net/faq/connectivity/?faq=ossetup How do I configure my machine to setup an IPv6 in IPv4 tunnel]
+*[http://wiki.debian.org/DebianIPv6 6in4 and other tunnel setups on Debian]
+*[http://www.cs.bell-labs.com/magic/man2html/8/6in4 6in4 setup on Plan9 OS]
+
+[[Category:Tunneling protocols]]
+[[Category:IPv6 transition technologies]]
+[[Category:Network protocols]]
+
+[[fr:6in4]]

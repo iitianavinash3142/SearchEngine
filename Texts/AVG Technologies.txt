@@ -1,0 +1,84 @@
+ | name             = AVG Technologies
+ | formerly         = Grisoft
+ | logo             = [[File:Avglogo.PNG|75px|AVG Logo]][[File:AVG wordmark.png|100px|AVG Wordmark]]
+ | type             = [[privately held company|Private]]
+ | genre            =
+ | foundation       = [[Czech Republic]] (1991)
+ | location_city    = [[Brno]]
+ | location_country = [[Czech Republic]]
+ | area_served      = Worldwide
+ | industry         = [[Computer software]]
+ | products         = [[Antivirus software]]
+ | services         =
+ | revenue          =
+ | operating_income =
+ | net_income       =
+ | owner            =
+ | num_employees    = 663 worldwide
+ | divisions        =
+ | subsid           =
+ | slogan           = ''Tough on threats. Easy on you.''
+ | homepage         = [http://www.avg.com/ www.avg.com]
+ | footnotes        =
+ | intl             =
+}}
+
+'''AVG Technologies''' (formerly named '''Grisoft''') is a [[privately held company|privately-held]] [[Czech Republic|Czech]] [[Company (law)|company]] formed in 1991 by Jan Gritzbach and Tomas Hofer, with corporate offices in [[Europe]] and the [[United States]]. The company specializes in computer security [[Computer software|software]]. 
+
+==Products==
+{{main|AVG (software)}}
+===Home security===
+* AVG Anti-Virus 2011 (AVG Anti-Virus, Anti-Spyware, Anti-Rootkit, Web Shield, LinkScanner)
+* AVG Internet Security 2011 (as above plus Firewall, Anti-Spam, PC Tune Up and Identity Protection and System Tools)
+* AVG PC Tuneup 2011
+
+===Business security===
+* AVG Anti-Virus Business Edition 2011 (Networkable AVG Anti-Virus and Firewall with AVGADMIN, built in Rescue CD)
+* AVG Internet Security Business Edition 2011 (Networkable AVG Anti-Virus, Anti-Spyware, Firewall and Anti-Spam with AVGADMIN, Identity Protection, built in Rescue CD, Server level Anti-Spam)
+* AVG File Server Edition 2011
+* AVG E-mail Server Edition 2011
+* AVG Linux Server Edition
+
+===Others===
+* AVG Anti-Virus Free Edition 2011 (Free anti-virus, anti-spyware and LinkScanner software. Fewer features than the paid versions.)
+* AVG Anti-Virus Free Edition for Linux
+* AVG LinkScanner Free Edition 2011 (for Windows and Mac)
+* DroidSecurity Antivirus Free for Android Devices
+* DroidSecurity Antivirus Pro for Android Devices
+
+==History==
+
+
+
+
+
+
+
+
+
+===Partnerships===
+
+
+==See also==
+*[[AVG (software)]]
+
+== References ==
+{{reflist}}
+
+==External links==
+*[http://www.avg.com AVG Technologies] - Official site and AVG download centre.
+*[http://blogs.avg.com AVG Blog] - Official AVG Blogs.
+*[http://www.droidsecurity.com DroidSecurity] Antivirus and Security Apps for Android Devices
+
+{{DEFAULTSORT:Avg Technologies}}
+[[Category:Software companies of the Czech Republic]]
+[[Category:Companies established in 1991]]
+[[Category:Privately held companies]]
+[[Category:Computer security software companies]]
+
+[[cs:AVG Technologies]]
+[[es:AVG Technologies]]
+[[ja:AVG Technologies]]
+[[pl:Grisoft]]
+[[pt:AVG Technologies]]
+[[ro:AVG Technologies]]

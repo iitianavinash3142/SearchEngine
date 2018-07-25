@@ -1,0 +1,46 @@
+|name                   = Alchemy CATALYST
+|logo                   = [[Image:CATALYST.jpg]]
+|developer              = Alchemy Software Developer Limited
+|| latest_release_version = Alchemy CATALYST 9.0
+|website                =http://www.alchemysoftware.ie
+}}
+{{Orphan|date=July 2009}}
+'''Alchemy CATALYST''' is a software [[Internationalization and localization|localisation]] suite which is developed by Alchemy Software Development Limited.
+
+==History==
+
+==Alchemy CATALYST 8.0==
+
+===Alchemy Experts===
+Alchemy Experts are automation processes designed to omit repetitive tasks within the localisation process. The following are experts found in Alchemy Catalyst:
+#	'''Validate Expert''': This expert detects,locates and fixes common errors that can occur in the localisation procedure such as incorrect spellings and truncated text.The Runtime Validate Expert which accompanies the Validate Expert in the Localizer Edition and Developer/Pro Editions allows the user to carry out this process while the software is running.
+#	'''Visual Comparison Expert''': This is used to compare the changes in two application files and detect missing resources.
+#	'''Leverage Expert''': This allows the user to reuse TM files using Alchemy CATALYST'S ezMatch [[translation memory]] technology.  These files are stored in .ttk, .tmx and .tmx format.
+#       '''Layout Manager''': The Layout Manager allows the user to automatically create localised layouts by resizing controls,dialogs and buttons ensuring that any text that has expanded during the [[translation]] process will fit appropriately on the user interface.
+#       '''Analysis Expert''': This expert allows the user to perform an analysis of the project to determine the actual parts that need to be translated ensuring reduced costs.  It does this by determining the amount of fuzzy-matches which can be re-used,counting the number of words which are repeated throughout and counting the number of matching segments which occur between the TTK project files and the [[translation memory]].  All numerical data and keyword matches which are found through carrying out the analysis are omitted meaning the user only has to pay for content that needs to be translated.
+#      ''' Update Expert''': This updates files by replacing application files with their revised editions.[[Translation]] leverage is also carried out during this procss.
+
+=== Version 8.0 Supported software and content formats===
+*  All Microsoft Desktop Development Platforms: 9x, NT, 2000, XP, Win32, Winx64, VISTA, RC, RESX, .NET Binaries(1.x and 2.0), Visual Basic.NET
+* Online Help Systems: Doc-2-Help, RoboHelp, MadCap Flare
+* Mobile Computing Platforms: Windows CE, Symbian, EPOC
+* Java Platforms: [[Java EE]], [[Java SE]], [[Java ME]]
+* Content Files: HTML (and all derivatives PHP, ASP, JSP), XHTML, XML (including derivative ASP.NET, ASP, JSP and XSL), MS Excel, DITA 1.0
+
+===Editions===
+*''Alchemy CATALYST 8.0 Developer/ Pro Edition''
+This edition is used by large companies handling projects which are being translated into different languages simultaneously. Companies which are employing large teams of translators to carry out projects are provided with Alchemy Translator /Lite licenses for free so that they can expand freely when their business load increases. This edition contains 8 experts.
+
+*''Alchemy CATALYST  8.0 Localizer Edition: '' 
+
+This edition is used by [[software]] development companies who require a tool that allows the user to visually localise content. This edition contains 6 experts.
+
+*''Alchemy CATALYST 8.0 Translator/Pro Edition: ''
+
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.alchemysoftware.ie] - Official Alchemy CATALYST  website
+

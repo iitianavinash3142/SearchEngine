@@ -1,0 +1,67 @@
+
+== Definition ==
+
+
+
+* the value of the operation is unchanged, when applied to all [[Tuple#Formal_definitions|ordered tuple]]s constructed by [[Even and odd permutations|even permutation]] of the elements of a fixed one.
+
+
+
+
+
+== Properties ==
+
+
+
+
+
+
+== Examples ==
+Anticommutative operators include:
+* [[Subtraction]]
+* [[Cross product]]
+* [[Lie algebra]]
+* [[Lie ring]]
+
+==See also== 
+* [[Commutativity]]
+* [[Commutator]]
+* [[exterior algebra]]
+* [[Operation (mathematics)]]
+* [[Symmetry in mathematics]]
+* [[Particle statistics]] (for anticommutativity in physics).
+
+== References ==
+*{{Citation
+ | last = Bourbaki
+ | first = Nicolas
+ | author-link = Nicolas Bourbaki
+ | title = Algebra. Chapters 1-3
+ | place = [[Berlin]]-[[Heidelberg]]-[[New York]]
+ | publisher = [[Springer-Verlag]]
+ | year = 1989
+ | isbn = 3-540-64243-9}}. See chapter III, "''[[Tensor algebra]]s, [[exterior algebra]]s, [[symmetric algebra]]s''".
+
+== External links ==
+{{Wiktionary}}
+*{{MathWorld 
+|title=Anticommutative 
+|urlname=Anticommutative}} 
+*{{springer
+| title= Anti-commutative algebra
+| id= A/a012580
+| last= Gainov
+| first= A.T.
+| author-link= 
+}} 
+
+[[Category:Abstract algebra]]
+[[Category:Binary operations|*Anticommutativity]]
+
+[[ca:Anticommutativitat]]
+[[es:Anticonmutatividad]]
+[[hu:Antikommutativitás]]
+[[pt:Anticomutatividade]]
+[[ru:Антикоммутативность]]
+[[sr:Антикомутативност]]
+[[sh:Antikomutativnost]]

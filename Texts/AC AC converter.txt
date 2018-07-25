@@ -1,0 +1,26 @@
+
+An '''AC/AC converter''' converts an [[Alternating current|AC]] [[waveform]] such as the mains supply, to another AC waveform, where the output voltage and frequency can be set arbitrarily.
+
+AC/AC converters can be categorized into 
+* Converters with a DC-link.
+* [[Cycloconverter]]s
+* Hybrid Matrix Converters.
+* Matrix Converters.
+As shown in Fig 1.
+For such AC-AC conversion today typically converter systems with a voltage (Fig. 2) or current (Fig. 3) DC-link are employed. For the voltage DC-link, the mains coupling could be implemented by a diode bridge. To accomplish braking operation of a motor, a braking resistor must be placed in the DC-link. Alternatively, an anti-parallel thyristor bridge must be provided on the mains side for feeding back energy into the mains. The disadvantages of this solution are the relatively high mains distortion and high reactive power requirements (especially during inverter operation). 
+
+An AC/AC converter with approximately sinusoidal input currents and bidirectional power flow can be realized by coupling a PWM rectifier and a PWM inverter to the DC-link. The DC-link quantity is then impressed by an energy storage element that is common to both stages, which is a capacitor C for the voltage DC-link or an inductor L for the current DC-link. The PWM rectifier is controlled in a way that a sinusoidal mains current is drawn, which is in phase or anti-phase (for energy feedback) with the corresponding mains phase voltage. 
+
+Due to the DC-link storage element, there is the advantage that both converter stages are to a large extent decoupled for control purposes. Furthermore, a constant, mains independent input quantity exists for the PWM inverter stage, which results in high utilization of the converter’s power capability. On the other hand, the DC-link energy storage element has a relatively large physical volume, and when electrolytic capacitors are used, in the case of a voltage DC-link, there is potentially a reduced system lifetime. 
+
+In order to achieve higher power density and reliability, it is makes sense to consider Matrix Converters that achieve three-phase AC/AC conversion without any intermediate energy storage element. Conventional Direct Matrix Converters (Fig. 4) perform voltage and current conversion in one single stage. 
+
+A [[cycloconverter]] constructs an output, variable-frequency, approximately sinusoid waveform by switching segments of the input waveform to the output; there is no intermediate DC link.  With switching elements such as [[SCR]]s, the output frequency must be lower than the input. Very large cycloconverters (on the order of 10 MW) are manufactured for compressor and wind-tunnel drives, or for variable-speed applications such as [[cement]] kilns.   
+
+There is the alternative option of indirect energy conversion by employing the Indirect Matrix Converter (Fig. 5) or the Sparse Matrix Converter which was invented by Prof. Johann W. Kolar from the ETH Zurich. As with the DC-link based systems (Fig. 2 and Fig. 3), separate stages are provided for voltage and current conversion, but the DC-link has no intermediate storage element. Generally, by employing matrix converters, the storage element in the DC-link is eliminated at the cost of a larger number of semiconductors. Matrix converters are often seen as a future concept for variable speed drives technology, but despite intensive research over the decades they have until now only achieved low industrial penetration. The reason for this could be the higher complexity in modulation and analysis effort. 
+
+==References==
+{{Reflist}}
+
+[[Category:Electronic circuits]]
+[[Category:Electrical power conversion]]

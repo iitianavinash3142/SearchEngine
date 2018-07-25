@@ -1,0 +1,13 @@
+In [[statistical hypothesis testing]], 
+the '''alternative hypothesis''' (or '''maintained hypothesis''' or '''research hypothesis''') and the [[null hypothesis]] are the two rival hypotheses which are compared by a [[statistical hypothesis testing|statistical hypothesis test]]. An example might be where water quality in a stream has been observed over many years and a test is made of the null hypothesis that there is no change in quality between the first and second halves of the data against the alternative hypothesis that the quality is poorer in the second half of the record.
+
+
+== References ==
+{{reflist}}
+
+{{Statistics}}
+
+[[Category:Hypothesis testing]]
+[[Category:Statistical inference]]
+
+[[eo:Alternativa hipotezo]]

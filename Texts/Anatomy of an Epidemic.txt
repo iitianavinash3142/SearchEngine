@@ -1,0 +1,64 @@
+| name             = Anatomy of an Epidemic
+| title_orig       = Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs and the Astonishing Rise of Mental Illness in America
+| translator       = 
+| image            = [[File:Anatomy of an Epidemic-cover.jpg|alt=Bright red book cover with black and white illustration of a human head from the eyes up, with dotted lines dividing up the brain. Each section is labeled with the name of a drug: "lithium", "ritalin", "zyprexa", "wellbutrin", "xanax", "klonopin", "risperdal", "tegretol", "lamictal", and "prozac". White title "Anatomy of an Epidemic" and "Magic Bullets, Psychiatric Drugs and the Astonishing Rise of Mental Illness in America" and "by Robert Whitaker, author of Mad in America"|200px]]
+| image_caption    = 
+| author           = [[Robert Whitaker (author)|Robert Whitaker]]
+| illustrator      = 
+| cover_artist     = 
+| country          = 
+| language         = 
+| series           = 
+| subject          = 
+| genre            = 
+| publisher        = [[Crown Publishing Group]]
+| pub_date         = 2010
+| english_pub_date = 
+| media_type       = 
+| pages            = 
+| isbn             = 978-0-307-45241-2
+| dewey=616.89
+| congress=
+| oclc             = 
+| preceded_by      = 
+| followed_by      = 
+}}
+
+==Synopsis==
+===Magic bullets===
+[[File:SSDI-SSI-1987-2003.png|thumb|left|alt=Chart showing increase (in red) over baseline (in blue) between 1987 and 2003|Number of Americans who received [[Social Security Disability Insurance|SSDI]] and [[Supplemental Security Income|SSI]] for mental disability in 1987 (blue) when [[Eli Lilly and Company]] introduced the antidepressive drug [[Prozac]], compared to 2003 (red).]]
+
+===Psychiatric drugs===
+
+
+
+===Children===
+
+==Review of data and statistics==
+
+==Reception and media coverage==
+{{expand section|what the reviews said|date=November 2010}}
+
+
+==Controversy==
+
+==See also==
+* ''[[Mad in America]]''
+
+==Notes==
+{{reflist|2}}
+
+==References==
+*{{cite book|author=Whitaker, Robert|authorlink=Robert Whitaker (author)|title=Anatomy of an Epidemic: Magic Bullets, Psychiatric Drugs and the Astonishing Rise of Mental Illness in America|publisher=Crown (Random House)|date=April 13, 2010|isbn=978-0-307-45241-2}}
+
+==External links==
+* [http://www.madinamerica.com/madinamerica.com/Anatomy%20of%20an%20Epidemic.html Book home page] at author's site, Mad in America
+* Author keynote at [http://power2u.org/alternatives2010/index.html Alternatives 2010] (funded by the Substance Abuse & Mental Health Services Administration of the U.S. Department of Health and Human Services)
+:* [http://www.youtube.com/watch?v=5iUssGIKnTs Part One]
+:* [http://www.youtube.com/watch?v=iVt-hz5PdeQ Part Two]
+:* [http://www.youtube.com/watch?v=BjreMNu4Jzk Part Three]
+:* [http://www.youtube.com/watch?v=g4mtfkasPp8 Part Four]
+
+{{DEFAULTSORT:Anatomy Of An Epidemic}}
+[[Category:2010 books]]
+[[Category:American non-fiction books]]

@@ -1,0 +1,20 @@
+
+==Implementations==
+
+[[Charles H. Lindsey]] has another ALGOL 68 implementation called ALGOL 68S for [[Sun3]], Sun [[Sparc]] (under [[SunOS]] 4.1), Sun Sparc (under [[Solaris (operating system)|Solaris]] 2), [[Atari ST]] (under [[Atari ST|GEMDOS]]) and [[Acorn Archimedes]] (under [[RISCOS]]), c.f. [http://www.cs.man.ac.uk/~chl#ALGOL%2068]
+
+==Chief differences from ALGOL 68==
+* no '''union'''
+* no '''flex''' but '''string'''s are handled specially
+* no arrays inside structures (but references to arrays would be allowed) and a similar restriction on arrays of arrays (multidimensional arrays are nonetheless permitted)
+* limitations on use of '''long''' and '''short''' to facilitate implementation on small computers
+* no '''heap'''
+* no parallel processing
+* restrictions on the order of declaration and other small syntactic differences to make single pass compilation possible
+* no '''format'''s
+
+==References==
+
+{{DEFAULTSORT:Algol 68s}}
+[[Category:ALGOL 68 implementation|Subset]]
+

@@ -1,0 +1,50 @@
+
+==History==
+Whilst the academic study of trust relationships and systems has long been the forte of [[intelligence services]] such as the [[United States|American]] [[NSA]], the growth of the internet in the [[1990s]] and the contemporary declassification of related knowledge allowed for greater public discussion of the potential for anonymous banking services by groups such as the [[Cryptoanarchy|cryptoanarchists]] and [[cypherpunks]].  
+
+==Implemented systems==
+Examples of anonymous internet banking services and software that have already been implemented include:
+*[[eCache]]: an anonymous bank operating over the [[Tor (anonymity network)|Tor]] network.
+*[[Bitcoin]]: distributed [[P2P]] cryptocurrency.
+*[[Pecunix]]: an (optionally?) anonymous digital gold currency.
+*[[Yodelbank]]: an anonymous bank built on top of various digital gold currencies which ended operations during November 2005.
+*[[Open Transactions]]: Open-source software, including a library, server, and test client, implementing untraceable digital cash and anonymous numbered accounts.
+
+==The underlying mathematics==
+
+
+
+
+
+\begin{align}
+R''' & = (w^e*R')^d \pmod n \\
+     & = (w^e*R^e)^d \pmod n \\
+     & = (w*R)^{ed} \pmod n  \\
+     & = w * R \pmod n\\
+\end{align}
+
+
+Different public keys can be used for different denominations of currency so this system doesn't take appreciably longer for large transactions.
+
+Note that if neither Alice nor Bob wishes the bank to know that they performed a transaction with each other, then it is hard for the bank to find out.  However, in order to ensure this is the case many people need to be making transactions at the same time.  Otherwise the bank can figure it out by the timing of the transactions, using [[traffic analysis]].
+
+==See also==
+*[[Bearer bond]]
+*[[Blind signature]]
+*[[Electronic money]]
+*[[Itex]]
+*[[Online banking]]
+*[[Ripple monetary system]]
+*[[RSA]]
+
+==External links==
+*[http://wiki.github.com/FellowTraveler/Open-Transactions/ Open Transactions] - Open-source software, including library, server, and client, providing untraceable digital cash and anonymous numbered accounts.
+*[http://orlingrabbe.com/dmt1.htm The Digital Monetary Trust, Part 1] - Anonymous banking based on cryptography, not bankers & lawyers.
+*[http://orlingrabbe.com/dmt2.htm The Digital Monetary Trust, Part 2] - The mathematical details of the anonymous banking system.
+*[[David Chaum]]'s [http://www.chaum.com/articles/Achieving_Electronic_Privacy.htm Scientific American article on Achieving Electronic Privacy]
+*[http://osaka.law.miami.edu/~froomkin/articles/tcmay.htm Untraceable Digital Cash, Information Markets, and BlackNet] by [[Timothy C. May]]
+
+[[Category:Banking]]
+[[Category:Anonymity networks]]
+[[Category:Financial cryptography]]
+[[Category:Crypto-anarchism]]

@@ -1,0 +1,101 @@
+
+|url=http://www.opensource.org/history
+|title=History of the OSI
+|author=Michael Tiemann
+|date=2006-09-19
+|url=http://archive.salon.com/21st/feature/1998/08/cov_31feature2.html
+|title=The Saint of Free Software (page 2)
+|quote=Stallman hadn't been invited to the first such gathering of "open source" leaders, a "free software summit" held in April...
+
+Each of the terms "free software" and "open source software" has fans and critics. Partly because of the failure to adopt one specific term, other terms have been proposed.  These include "Software Libre" (or libre software), "FLOSS" (Free/Libre/Open Source Software), and "FOSS" (or F/OSS, [[Free and open source software|Free and Open Source Software]]). These terms share almost identical licence criteria and development practices.
+
+== FOSS and F/OSS ==
+
+{{Main|Free and open source software}}
+|url=http://groups.google.com/group/comp.sys.amiga.games/msg/4a192ea899e10c55
+
+== FLOSS ==
+
+
+Unlike "libre software", which aimed to solve the ambiguity problem, "FLOSS" aimed to avoid taking sides in the debate over whether it was better to say "free software" or to say "open source software".
+
+Proponents of the term point out that parts of the FLOSS acronym can be translated into other languages, with for example the "F" representing ''free'' (English) or ''frei'' (German), and the "L" representing ''libre'' (Spanish or French), ''livre'' (Portuguese), or ''libero'' (Italian), and so on. However, this term is not often used in official, non-English, documents, since the words in these languages for "free as in freedom" do not have the ambiguity problem of English's "free".
+
+
+
+== Software Libre==
+
+
+==Non-English terms in anglophone regions==
+
+|url=http://www.fsf.org.in/
+|title=FSF-India's homepage
+|quote=Think of it as swatantra software
+
+|url=http://archives.free.net.ph/message/20020628.083546.ed5f57f6.en.html
+|title=Re: Free Software, some thoughts
+|quote=My suspicion is that if RMS were Filipino, he would have used Malayang Software to avoid the confusion regarding economics v. liberty.
+
+==Ownership and attachments==
+
+|url=http://tess2.uspto.gov/
+|title=Trademark Electronic Search System (TESS)
+|quote=(Direct link not possible, site search required) Word Mark: OSI CERTIFIED ... Goods and Services: (ABANDONED) IC A . US A . G & S: software licensed under open source licenses. ... Serial Number: 76020694 ... Owner: (APPLICANT) Open Source Initiative ... Live/Dead Indicator: DEAD
+
+|title=Why “Open Source” misses the point of Free Software
+|author=FSF
+|url=http://www.gnu.org/philosophy/open-source-misses-the-point.html
+|quote=Nearly all open source software is free software; the two terms describe almost the same category of software.
+|url=http://perens.com/works/speeches/InnovationGoesPublic/Speech/1.html
+|title=Innovation Goes Public
+|quote=(javascript slide #3)When I say "Open Source", I mean the same thing as Free Software.
+
+All of the terms are used interchangeably, the choice of which to use is mostly political (wanting to support a certain group) or practical (thinking that one term is the clearest).
+
+==Licenses==
+
+The [[Free Software Foundation]] and the [[Open Source Initiative]] each publish lists of licenses that they accept as complying with their definitions of free software and open source software respectively.
+
+*[[List of FSF approved software licenses]]
+*[[List of OSI approved software licenses]]
+
+
+There is also a class of software that is covered by the names discussed in this article, but which doesn't have a licence: software for which the source code is in the [[public domain]].  The use of such source code, and therefore the executable version, is not restricted by copyright and therefore does not need a [[free software licence]] to make it free software.
+
+==See also==
+{{Portal|Free software}}
+
+*[[Free software community]]
+*[[Free software movement]]
+*[[GNU/Linux naming controversy]]
+*[[History of free software]]
+*[[Open source vs. closed source]]
+*[[Permissive free software licences]]
+*[[Software wars]]
+
+==References==
+{{Reflist|2}}
+
+==External links==
+*Hancock, Terry. [http://www.freesoftwaremagazine.com/columns/jargon_freedom_60_words_and_phrases_context  "The Jargon of Freedom: 60 Words and Phrases with Context"] [[Free Software Magazine]]. 2010-20-24
+*[http://opensource.mit.edu/papers/berry1.pdf Berry, D M (2004). The Contestation of Code: A Preliminary Investigation into the Discourse of the Free Software and Open Software Movement, Critical Discourse Studies, Volume 1(1).]
+*[http://www.slackbook.org/html/introduction-opensource.html Differences between open source and free software] as interpreted by [[Slackware]]
+*[http://freeopensourcesoftware.org/ FreeOpenSourceSoftware.org Wiki] (same as FreeLibreOpenSourceSoftware.org)
+*[http://www.fsf.org/licensing/essays/fs-translations.html FSF's suggested translations of free software to languages other than English]
+*[http://linux.omnipotent.net/article.php?article_id=12503 John Stanforth, an Open Source proponent, on the differences between the Open Source Initiative and the Free Software Foundation.]
+
+{{FLOSS}}
+
+{{DEFAULTSORT:Alternative Terms For Free Software}}
+[[Category:Free software culture and documents]]
+[[Category:Naming controversies]]
+
+[[ceb:FOSS]]
+[[da:FOSS]]
+[[de:Free/Libre Open Source Software]]
+[[fr:Free/Libre Open Source Software]]
+[[it:Software Free/Libero/Open-Source]]
+[[nl:Free and Open Source Software]]
+[[no:FOSS]]
+[[pl:FLOSS]]
+[[ru:FLOSS]]

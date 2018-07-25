@@ -1,0 +1,80 @@
+|name = A Richard Newton
+|caption = Arthur Richard Newton (1951-2007)
+|birth_date = {{birth date|1951|7|1|df=y}} 
+|birth_place =  Gardenvale, [[Australia]]
+|residence = [[Image:Flag of Australia.svg|20px|]] [[Australia]], [[Image:Flag of the United States.svg|20px|]] [[USA]]  
+|nationality = [[Image:Flag of Australia.svg|20px|]] [[Australia]]n, [[Image:Flag of the United States.svg|20px|]] [[United States|American]]  
+|death_date = {{death date and age|2007|1|2|1951|7|1|df=y}}
+|death_place = [[San Francisco]], [[USA]]
+|field = [[Electronic Engineering|Electronic Engineer]]
+|work_institution = [[University of California Berkeley]]
+|doctoral_advisor = [[Donald Pederson|Donald O. Pederson]]
+|prizes = Kauffman Award
+|footnotes = 
+}}
+'''Arthur Richard Newton''' ([[Melbourne]], [[Victoria (Australia)|Victoria]], [[Australia]], 1 July 1951 &ndash; 2 January 2007) was the dean of the [[University of California, Berkeley]] [[UC Berkeley College of Engineering|College of Engineering]]. 
+
+Newton was educated at the [[University of Melbourne]] and received a [[Bachelor of Engineering|BE]] in 1973 and [[Master's degree|M.Eng.Sci]] in 1975.  He worked at Berkeley from 1975 on [[SPICE]] (Simulation Program with Integrated Circuit Emphasis), developed initially by Larry Nagel and [[Donald Pederson]] to analyze and design complex electronic circuitry with speed and accuracy. It is claimed that nearly all electronic chips now use SPICE or a derivative.
+
+University of California, Berkeley awarded Newton a [[Ph.D]] in 1978 and he was appointed to the Engineering Faculty a few months later.  He was appointed assistant professor in 1978, associate professor in 1982 and full professor in the Department of Electrical Engineering and Computer Sciences in 1985.  He chaired of department from 1999 to 2000, and was dean of the College of Engineering and the Roy W. Carlson Professor of Engineering from 2000 until his death.
+
+
+  | title =A. Richard Newton, UC Berkeley dean of engineering and a visionary leader in the technology industry, dies at 55
+  | publisher =[[University of California, Berkeley]]
+  | url =http://www.berkeley.edu/news/media/releases/2007/01/04_newton.shtml
+  | title =Professor A. Richard Newton 
+  | publisher =[[University of California, Berkeley]]
+  | url =http://www.eecs.berkeley.edu/~newton/newton.html
+{{cite news 
+  | title =Technology pioneer dies
+  | publisher =[[The Sydney Morning Herald]]
+  | date =2007-01-06
+  | url =http://www.smh.com.au/news/world/technology-pioneer-dies/2007/01/06/1167777311067.html
+
+  | title =Newton Professorship established to honor late Berkeley Engineering Dean
+  | publisher =EDACafe.com
+  | date =2007-02-08
+  | url =http://www10.edacafe.com/nbc/articles/view_article.php?articleid=351323&page_no=1
+
+==Awards and recognition==
+
+  | title =Honoris Causa Degrees of The University of Melbourne
+  | publisher =[[University of Melbourne]]
+  | url =http://www.unimelb.edu.au/ExecServ/honcausa/recipien.htm#distinguised
+  | title = Richard Newton, engineering dean and technology visionary, dies at 55
+  | publisher = [[University of California, Berkeley]]
+  | url = http://www.berkeley.edu/news/media/releases/2007/01/04_newton.shtml
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.eecs.berkeley.edu/~newton/Presentations/ Selected presentations and papers by Richard Newton and articles about him.] List provided by [[UC Berkeley College of Engineering]]
+* [http://www.eecs.berkeley.edu/~newton/newton.html Newton's CV]
+*[http://www.nytimes.com/2007/01/05/technology/05newton.html Newton's New York Times obituary]
+
+
+{{Persondata
+|NAME=Newton, Arthur Richard
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION=Australian-born computer scientist
+|DATE OF BIRTH=1 July 1951 
+|PLACE OF BIRTH=[[Melbourne]], [[Victoria (Australia)|Victoria]], [[Australia]]
+|DATE OF DEATH=2 January 2007
+|PLACE OF DEATH=[[San Francisco, California]]
+}}
+
+{{DEFAULTSORT:Newton, Arthur Richard}}
+[[Category:1951 births|Newton, A. Richard]]
+[[Category:2007 deaths|Newton, A. Richard]]
+[[Category:Australian computer scientists|Newton, A. Richard]]
+[[Category:Australian engineers|Newton, A. Richard]]
+[[Category:Australian expatriates in the United States|Newton, A. Richard]]
+[[Category:Deaths from pancreatic cancer|Newton, A. Richard]]
+[[Category:Computer scientists from Melbourne|Newton, A. Richard]]
+[[Category:University of Melbourne alumni|Newton, A. Richard]]
+[[Category:University of California, Berkeley alumni|Newton, A. Richard]]
+[[Category:University of California, Berkeley faculty|Newton, A. Richard]]
+[[Category:Electronic design automation people|Newton, A. Richard]]
+[[Category:Fellows of the Institute of Electrical and Electronics Engineers|Newton, A. Richard]]
+[[Category:Members of the United States National Academy of Engineering|Newton, A. Richard]]

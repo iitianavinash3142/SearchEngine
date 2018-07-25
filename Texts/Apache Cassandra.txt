@@ -1,0 +1,141 @@
+| name                   = Apache Cassandra
+| logo                   = [[Image:Cassandra logo.png|250px]]
+| screenshot             =
+| caption                =
+| author                 = Avinash Lakshman, Prashant Malik
+| developer              = [[Apache Software Foundation]]
+| released               = 2008
+| status                 = Active
+| latest release version = 0.7.0
+| latest release date    = {{release date|2011|01|09}}
+| latest preview version = none
+| latest preview date    = n/a
+| frequently updated     = yes
+| programming language   = [[Java (programming language)|Java]]
+| operating system       = [[Cross-platform]]
+| language               = English
+| genre                  = [[Column-oriented DBMS]]
+| license                = [[Apache License]] 2
+| website                = http://cassandra.apache.org/
+}}
+  |accessdate=2009-06-04
+  |date=July 12, 2008
+  |url=http://perspectives.mvdirona.com/2008/07/12/FacebookReleasesCassandraAsOpenSource.aspx
+  |title=Facebook Releases Cassandra as Open Source
+  |author=James Hamilton
+
+
+The values from a column family for each key are stored together, making Cassandra a hybrid between a [[column-oriented DBMS]] and a row-oriented store.{{Citation needed|date=April 2010}}
+
+== History ==
+
+== Features ==
+=== Decentralized ===
+Every node in the cluster is identical.  There is no [[single point of failure]].
+
+=== Fault-tolerant ===
+Data is automatically replicated to multiple nodes for fault-tolerance. Replication across multiple data centers is supported. Failed nodes can be replaced with no downtime.
+
+=== Tunable consistency ===
+Writes and reads offer a tunable level of consistency, all the way from "writes never fail" to "block for all replicas to be readable", with the quorum level in the middle.
+
+=== Elasticity ===
+Read and write throughput both increase linearly as new machines are added, with no downtime or interruption to applications.
+
+== Data model ==
+A table in Cassandra is a distributed multidimensional map indexed by a key. The value is an object which is highly structured. The row key in a table is a string with no size restrictions, although typically 16 to 36 bytes long. Every operation under a single row key is atomic per replica no
+matter how many columns are being read or written into. Columns are grouped together into sets called column families very much similar to what happens in the [[BigTable]] system. Cassandra exposes two kinds of column families, Simple and Super column families. Super column families can be visualized as a column family within a column family. The top dimension in Cassandra is called Keyspace.
+
+Therefore Cassandra can handle maps with 4 or 5 dimensions:
+
+Map with 4 dimensions:
+# Keyspace -> Column Family
+# Column Family -> Column Family Row
+# Column Family Row -> Columns
+# Column -> Data value
+
+Map with 5 dimensions:
+# Keyspace -> Super Column Family
+# Super Column Family -> Super Column Family Row
+# Super Column Family Row -> Super Columns
+# Super Column -> Columns
+# Column -> Data value
+
+The first dimension - Keyspace -> (Super) Column Family - is limited to a (small) set of schema-predefined keys. Cassandra documentation mentions similarities of this dimension with the table definition inside a relational database.
+
+Furthermore, applications can specify the sort order of columns within a Super Column or Simple Column family. The system allows columns to be sorted either by time or by name. Time sorting of columns is exploited by applications like [[Facebook]] Inbox Search where the results are always displayed
+in time sorted order. Any column within a column family is accessed using the convention column_family : column
+and any column within a column family that is of type
+super is accessed using the convention column_family :
+super_column : column.
+
+== Prominent users ==
+  |url=http://blog.digg.com/?p=966
+  |title=Looking to the future with Cassandra
+  |author=Ian Eure
+  |url=http://about.digg.com/node/564
+  |title=Saying Yes to NoSQL; Going Steady with Cassandra
+  |author=John Quinn
+
+== See also ==
+{{Portal|Free software}}
+
+* [[Distributed hash table]] (DHT)
+* [[Distributed database]]
+* [[Dynamo (storage system)]] - Cassandra grabs many elements from Dynamo
+* [[Hypertable]] - [[Hadoop]] based distributed database. Very similar to BigTable
+* [[HBase]] - [[Hadoop]] based distributed database. Very similar to BigTable
+* [[BigTable]] - Original distributed database by Google
+
+==References==
+{{Reflist|2}}
+
+==Bibliography==
+{{refbegin}}
+* {{cite book
+| first1      = Eben
+| last1       = Hewitt
+| date        = December 15, 2010
+| title       = Cassandra: The Definitive Guide
+| publisher   = [[O'Reilly Media]]
+| edition     = 1st
+| pages       = 300
+| isbn        = 9781449390419
+| url         = http://oreilly.com/catalog/0636920010852
+}}
+{{refend}}
+
+==External links==
+* {{cite web
+  |title=Cassandra - A structured storage system on a P2P Network
+  |url=http://www.facebook.com/note.php?note_id=24413138919&id=9445547199&index=9
+  |author=Avinash Lakshman
+  |date=25 August 2008
+  |accessdate=2009-06-04
+  |publisher=Engineering @ Facebook's Notes
+}}
+* [http://cassandra.apache.org/ Project Website]
+* [http://wiki.apache.org/cassandra/ Project Wiki]
+* [http://www.infoq.com/presentations/Adopting-Apache-Cassandra Adopting Apache Cassandra] presented by Eben Hewitt on December 1, 2010
+* [http://www.slideshare.net/jhammerb/data-presentations-cassandra-sigmod/ Presentation on Cassandra at SIGMOD 2008]
+* [http://www.parleys.com/#st=5&id=1866 Introduction to Cassandra at FOSDEM 2010]
+* [http://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf LADIS 2009 WhitePaper by the original contributors Avinash Lakshman & Prashant Malik]
+* [http://www.nosqldatabases.com/main/tag/cassandra Cassandra Articles on NoSQLDatabases.com ]
+* [http://nosql.mypopescu.com/tagged/cassandra Cassandra News and Articles on myNoSQL]
+* [http://nosql.mypopescu.com/post/407159447/cassandra-twitter-an-interview-with-ryan-king Cassandra @ Twitter: an Interview with Ryan King]
+* [http://www.slideshare.net/jbellis/what-every-developer-should-know-about-database-scalability Presentation on RDBMS vs. Dynamo, BigTable, and  Cassandra]
+
+{{apache}}
+{{Facebook navbox}}
+
+{{DEFAULTSORT:Cassandra (Database)}}
+[[Category:BigTable implementations]]
+[[Category:Open source database management systems]]
+[[Category:Structured storage]]
+[[Category:NoSQL]]
+
+[[de:Apache Cassandra]]
+[[fr:Cassandra (base de données)]]
+[[it:Cassandra (database)]]
+[[ja:Apache Cassandra]]
+[[pt:Apache Cassandra]]

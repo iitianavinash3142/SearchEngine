@@ -1,0 +1,25 @@
+
+In Europe, a high level machine architecture for [[ALGOL 60]] was devised which was emulated on various real computers, among them the Siemens 2002 and the [[IBM 7090]]. An ALGOL manual was published which provided a detailed introduction of all features of the language with many program snippets, and four appendixes:{{SpecialChars
+| alt        = Decimal Exponent Symbol
+| link       = http://mailcom.com/unicode/DecimalExponent.ttf
+| special    = Unicode 5.2 "[http://www.unicode.org/charts/PDF/U2300.pdf Miscellaneous Technical]" characters
+| fix        = Unicode#External_links
+}}
+# Revised Report on the Algorithmic Language ALGOL 60 
+# Report on Subset ALGOL 60 (IFIP)
+# Report on Input-Output Procedures for ALGOL 60
+# an early "standard" character set for representing [[ALGOL 60]] code on paper and paper tape. 
+
+==References==
+* Baumann, R. (1961) Baumann, R. "ALGOL Manual of the ALCOR Group, Pts. 1, 2 & 3" Elektronische Rechenanlagen No. 5 (Oct. 1961), 206-212; No. 6 (Dec. 1961), 259-265; No. 2 (Apr. 1962); (in German)
+* http://www.science.uva.nl/museum/DWcodes.html#A001
+* http://homepages.cwi.nl/~dik/english/codes/5tape.html#alcor
+==External links==
+* [http://hopl.murdoch.edu.au/showlanguage.prx?exp=360 ALCOR in The Encyclopedia of Computer Languages]
+
+[[Category:Algol programming language family]]
+[[Category:Systems programming languages]]
+[[Category:Procedural programming languages]]
+[[Category:Character encoding]]
+[[Category:Character sets]]
+

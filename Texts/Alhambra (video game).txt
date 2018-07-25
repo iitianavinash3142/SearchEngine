@@ -1,0 +1,32 @@
+{{Infobox VG
+|width= 
+|title= Alhambra
+|image= 
+|caption= 
+|developer= [[Vivendi Games]]
+|publisher= [[Vivendi Games]]
+|distributor= 
+|designer= 
+|series= 
+|engine= 
+|version= 
+|released= Cancelled
+|genre= [[Turn-based strategy]]
+|modes= [[Single player]], [[multiplayer game|Multiplayer]] ([[Xbox Live]])
+|ratings= [[Entertainment Software Rating Board|ESRB]]: [[List of acronyms and initialisms: N#NA|N/A]]
+|platforms= [[Xbox 360]] ([[Xbox Live Arcade|XBLA]])
+|media= Download
+|requirements= 
+|input= [[Xbox 360 components and accessories#Controllers|Gamepad]]
+}}
+[[Image:Alhambra360.jpg|left|thumb|Early development screenshot.]]
+
+
+== References ==
+
+== External links ==
+*[http://www.gamespot.com/xbox360/puzzle/alhambra/index.html GameSpot profile page]
+
+{{board-videogame-stub}}
+
+[[Category:Video board games]]

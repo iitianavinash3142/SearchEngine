@@ -1,0 +1,16 @@
+
+* ε([''X'',''Y'']) = ε(''X'')ε(''Y'')
+#
+
+for pure graded [[pure element|element]]s ''X'', ''Y'', and ''Z''.
+
+==See also==
+*[[Lie algebra]]
+*[[Anyon]]
+
+==References==
+{{unreferenced|date=June 2008}}
+
+[[Category:Algebra]]
+
+

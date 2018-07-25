@@ -1,0 +1,50 @@
+'''Ashlar''' is prepared (or "[[Wiktionary:dress|dressed]]") [[stone work]] of any type of [[Rock (geology)|stone]]. Stone masonry utilizing dressed stones is known as ashlar masonry, whereas masonry using irregularly shaped stones is known as rubble masonry.  Ashlar blocks are large rectangular [[cuboid]] blocks that are [[masonry]] [[sculpt]]ed to have square edges and smooth faces. The blocks are generally about {{convert|35|cm}} in height. When shorter than {{convert|30|cm}}, they are usually called “small ashlar”.
+
+{{cite web
+| url = http://www.trp.dundee.ac.uk/research/glossary/ashlar.html
+| title = The Conservation Glossary
+| publisher = University of Dundee
+| accessdate = 2009-05-04
+
+==Etymology==
+{{wiktionary}}
+[[Middle English]]: from [[Old French]] ''aisselier'', from [[Latin]] ''axilla'', diminutive of ''axis'', ‘plank.’
+
+==Scope==
+In [[Classical architecture]], ''ashlar'' wall surfaces are contrasted with [[Rustication (architecture)|rustication]].
+
+{{cite book
+| last = Preziosi
+| first = D.|url=http://books.google.com/books?id=2tn3ffOnbocC&pg=PA175
+| coauthors = Hitchcock, L.A.|isbn=0192842080
+| title = Aegean Art and Architecture
+| year = 1999
+| series = Oxford History of Art
+| pages = 175–6
+These domes are not true domes, but are constructed using the [[corbel arch]].
+
+Ashlar masonry is also heavily used in the construction of palace facades on [[Crete]], including [[Knossos]] and [[Phaistos]]. These constructions date to the [[MM III-LM Ib]] period, ca. 1700–1450 BC.
+
+==Freemasonry==
+In some [[Freemasonry|Masonic]] jurisdictions, ashlars are used as a symbolic metaphor for progress.  A rough ashlar is a stone as taken directly from the quarry, and allegorically represents the Freemason prior to his initiation; a smooth ashlar (or "perfect ashlar") is a stone that has been smoothed and dressed by the experienced stonemason, and  allegorically represents the Freemason who, through education and diligence, has learned the lessons of Freemasonry and who lives an upstanding life.
+
+==References==
+{{Reflist}}
+
+[[Category:Masonry]]
+[[Category:Construction]]
+[[Category:Architectural elements]]
+[[Category:Garden features]]
+[[Category:Masonic symbolism]]
+
+[[an:Piedra picata]]
+[[ca:Carreu]]
+[[da:Kvadersten]]
+[[de:Werkstein]]
+[[es:Sillar]]
+[[eu:Harlandu]]
+[[fr:Pierre de taille]]
+[[nl:Parement]]
+[[ja:切石積み]]
+[[pt:Silhar]]
+[[ru:Белый камень]]

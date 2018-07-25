@@ -1,0 +1,28 @@
+
+==Overview==
+
+
+
+
+==Operation==
+
+Arnetminer automatically extracts the researcher profile from the web. It collects and identifies the relevant pages, then uses a unified approach to extract data from the identified documents. It also extracts publications from online digital libraries using heuristic rules.
+
+It integrates the extracted researchers’ profiles and the extracted publications. It employs the researcher name as the identifier. A probabilistic framework has been proposed to deal with the name ambiguity problem in the integration. The integrated data is stored into a researcher network knowledge base (RNKB).
+
+The principal other product in the area are Google Scholar, Elsevier's Scirus, and the open source project CiteSeer.
+
+== See also ==
+* [[CiteSeerX]]
+* [[Digital Bibliography & Library Project]]
+* [[Google Scholar]]
+* [[Libra]]
+* [[List of academic databases and search engines]]
+* [[Scirus]]
+* [[Scopus]]
+
+==References==
+
+==External links==
+* [http://arnetminer.org Arnetminer.org]
+

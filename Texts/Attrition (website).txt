@@ -1,0 +1,31 @@
+
+Often incorrectly described by journalists as a site for [[Hacker (computing)|hackers]], Attrition is actually a privately owned and operated hobby-site operated by Brian Martin with a variety of information available, including movie and music reviews, poetry, security tips covering topics like [[Computer forensics|forensics]], data theft, advisories, and incident response.  The "Going Postal" section, some of the more interesting emails the staffers get are posted, sometimes with humorous responses by the staff, often at the expense of the recipients.
+
+Exploiting the ignorance of others is a common theme in attrition.org's dark humor throughout the website.  One example of this involved the setup of Todd Shriber, who attempted to "hire" the attrition team to hack into his former university to change his grades.  He was sacked from his job as a Republican communications director due to the incident.
+
+[https://www.hackinthebox.org/modules.php?op=modload&name=News&file=article&sid=2952 The attrition.org website was hacked and defaced itself in 2001], in reply to which, site owner Brian Martin was quoted as saying, in effect, he could not be held accountable to the same standards he held security companies accountable to, since he was not running a security service -- at least not at the time.  
+
+Owner Brian Martin goes by various aliases on his website, including Jared, Jericho, Jared E. Richo, and security curmudgeon.  
+
+[http://www.chillingeffects.org/protest/notice.cgi?NoticeID=153 In 2001 attrition.org was given a cease and desist order] by lawyers of MasterCard for supposedly posting distasteful parodies of the now-famous "Priceless" advertising campaign, which violated copyright law. The original parodies have since been removed from the website.
+
+Since updating of the defacement mirror has ceased, the staff has focused on the "Errata" section, which is devoted to pointing out inaccuracies, omissions and other problems with mainstream media related to computer security and hacking. Additionally, staff members publish opinion pieces such as "Security Rants" pointing out problems with the computer security industry.
+
+Attrition will frequently publish pages, or devote entire sections of the site, to topics the staff feel deserve extra attention. Examples include "Cisco: There is no fixed software for this issue," "The Open Source Vulnerability Database," "Security Advisories," "Negation," regarding John Vranesevich and [http://Antionline.com Antionline.com]; "Shame," regarding [[Carolyn Meinel]].
+
+
+In addition to his involvement with DataLossDB.org, attrition.org founder Brian Martin is currently President of the [http://opensecurityfoundation.org Open Security Foundation], a non profit that seeks to monitor, report, and maintain historical archives of security flaws and incidents.
+==References==
+{{reflist}}
+
+== External links ==
+*[http://attrition.org Attrition]
+*[http://www.attrition.org/postal/z/033/0871.html Attrition's humorous "going postal" exchange with Todd Shriber]
+*[https://www.hackinthebox.org/modules.php?op=modload&name=News&file=article&sid=2952 Brian Martin speaks about Attrition defacement]
+*[http://www.chillingeffects.org/protest/notice.cgi?NoticeID=153 MasterCard Infringement by attrition.org]
+*[http://datalossdb.org DataLossDB.org]
+*[http://opensecurityfoundation.org Open Security Foundation]
+
+[[Category:Computer security organizations]]
+[[Category:Computing websites]]
+

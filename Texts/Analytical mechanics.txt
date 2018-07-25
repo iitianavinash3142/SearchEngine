@@ -1,0 +1,43 @@
+
+
+It began with [[d'Alembert's principle]]. By analogy with [[Fermat's principle]], which is the [[variational principle]] in [[geometric optics]], [[Maupertuis' principle]] was discovered in classical mechanics.
+
+Using generalized [[coordinate]]s, we obtain [[Lagrange's equations]]. Using the [[Legendre transformation]], we obtain [[generalized momentum]] and the [[Hamiltonian mechanics|Hamiltonian]]. 
+
+[[Hamilton's canonical equations]] provides [[integral equation|integral]], while [[Lagrange's equation]] provides [[differential equations]]. Finally we may derive the [[Hamilton–Jacobi equation]].
+
+
+==References and notes==
+
+==See also==
+*[[Action (physics)]]
+*[[Applied mechanics]]
+*[[Classical mechanics]]
+*[[Analytical dynamics|Dynamics]]
+*[[Hamilton–Jacobi equation]]
+*[[Hamilton's principle]]
+*[[Kinematics]]
+*[[Kinetics (physics)]]
+
+{{DEFAULTSORT:Analytical Mechanics}}
+[[Category:Theoretical physics]]
+[[Category:Dynamical systems]]
+
+
+{{classicalmechanics-stub}}
+
+[[bg:Теоретична механика]]
+[[cv:Теориллĕ механика]]
+[[cs:Teoretická mechanika]]
+[[de:Theoretische Mechanik]]
+[[es:Mecánica analítica]]
+[[fr:Mécanique analytique]]
+[[it:Meccanica razionale]]
+[[he:מכניקה אנליטית]]
+[[ja:解析力学]]
+[[ru:Теоретическая механика]]
+[[sq:Mekanika analitike]]
+[[scn:Miccanica razziunali]]
+[[sv:Analytisk mekanik]]
+[[tt:Теоретик механика]]
+[[uk:Теоретична механіка]]

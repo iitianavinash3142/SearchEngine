@@ -1,0 +1,78 @@
+  name=Access-eGov|
+  title= Access to e-Government Services Employing Semantic Technologies|
+  keywords=[[e-Government]], [[Semantic interoperability]], [[Semantic Web]], [[Web Services]]|
+  fundingAgency=European Union|
+  frameworkProgramme=[[FP6]] |
+  image=Access-eGov logo.jpg |
+  projectType=[[STReP]]|
+  researchObjective= SO 2.4.13 Strengthening the integration of the ICT research effort in an enlarged Europe|
+  projectReference=FP6-2004-27020|
+  coordinator=[[Technical University of Košice]]|
+* [[University of Regensburg]],
+* [[German University in Cairo]],
+* InterSoft, a. s.,
+* Signity S.A.,
+* e-ISOTIS,
+* [[Kosice Self-governing Region|Košice Self-Governing Region]],
+* Municipality of [[Michalovce]],
+* Cities on Internet Association,
+* City Hall of [[Gliwice]],
+* State Government of [[Schleswig-Holstein]]|
+budget= 2.3 m€|
+funding= 1.98 m€|
+start=1 January 2006|
+end=31 December 2008|
+  website= http://www.accessegov.org
+}}
+
+
+
+==Background, motivation==
+
+
+==Access-eGov approach, objectives and solution==
+The project objectives were defined on organisational and technological levels. Main ''organisational objective'' is to improve [[accessibility]] and [[connectivity]] of governmental services for citizens and businesses. ''Technical objectives'' are focused on the development of the [[software platform]] and tools for integration of various types of governmental services on a semantic basis, including a [[methodology]] for maintenance of the solution by public administrations.
+
+
+
+==Pilot Applications==
+===German field test – "Getting married" scenario===
+The field test was carried out by Ministry of Finance of [[Schleswig-Holstein]]. It was focused on the life event "marriage" and related procedures. The [[Registration of births, deaths and marriages|registry offices]] of eleven municipalities from Schleswig-Holstein have been involved in this field test. The main aim was to test the integration of different web resources containing the service information and making them accessible via a single platform but still leaving the data and its maintenance in the municipalities' legacy systems.
+
+===Slovak pilot – "Obtaining a building permission" scenario===
+The pilot application has been carried out by the [[Kosice Self-governing Region|Košice Self-Governing Region]] and the municipality of [[Michalovce]]. It was focused on supporting citizens during the process of obtaining a [[Building permit]], including complex services related to [[Land-use planning]] and approval proceedings. The objective was to make the whole process easier and transparent for citizens, to provide all relevant information about necessary services in a comprehensive and user-friendly way, and finally to improve the service from the citizen's point of view.
+
+===Polish pilot – "Establishing an enterprise" scenario===
+The pilot application took place in the Silesian region and was performed by the [[Gliwice]] City Hall. The user scenario involved four main user goals: registration in local government, registration in statistical office, registration in [[tax]] office and registration in [[Social insurance]] agency. The objective of the pilot application was to provide a single entry point where users (citizens and entrepreneurs) can obtain relevant information and are properly navigated by the system within the whole complex process.
+
+==Project outcomes==
+* Tools:
+** ''Annotation tool'', which provides for public administration officers a capability to semantically annotate the resources as services, contact data, working hours, fees, etc. A set of forms and templates was designed for specification of preconditions and non-functional properties as parameters of the annotated government services, which can then be grouped into complex workflow sequences. The tool is designed as a standard web application, using the extended WSMO object model and [[JavaServer Faces|JSF]] technology.
+** ''Personal Assistant client'', a tool that provides browsing, discovery, and execution capabilities of the services for citizens and businesses according to a specified life event or goal. Users can browse sub-goals and provide their answers when customization input is requested. Then the system automatically resolves the sub-goals and navigates the user to a new set of sub-goals and services inferred from the conceptual model. The electronic services provided via standardized [[Web Service]] interface can be directly invoked. Finally, the citizen obtains all available information on the life event customized to his/her case, and has also the possibility to execute the actions required for particular services needed for the accomplishing of the life event. The Personal Assistant client was implemented as a web application using [[JavaServer Faces|JSF]] technology. Layout, structure, and ordering of tabs in the interface are dynamically created from the annotated services and are customized according to the conditions of the given user.
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.accessegov.org/ Access-eGov Project Home]
+** [http://www.accessegov.org/acegov/web/uk/index.jsp?id=50268 Public Deliverables]
+** [http://www.accessegov.org/acegov/web/uk/index.jsp?id=50035 List of Publications]
+* [http://ec.europa.eu/research/fp6/index_en.cfm Sixth Framework Programme home page]
+* [http://ec.europa.eu/index_en.htm European Commission]
+
+==Related Projects==
+* [http://www.egovernet.org eGOVERNET]
+* [http://www.egovrtd2020.org eGovRTD2020]
+* [http://www.ontogov.com OntoGov]
+* [http://www.sake-project.org SAKE]
+* [http://www.semantic-gov.org SemanticGov]
+* [http://www.terregov.eupm.net/my_spip/index.php Terregov]
+* [http://dip.semanticweb.org DIP Integrated Project]
+* other, see [http://ec.europa.eu/information_society/activities/egovernment/research/fp6_projects/index_en.htm List of FP6 EU-funded eGovernment research projects]
+{{Use dmy dates|date=November 2010}}
+
+{{DEFAULTSORT:Access-Egov}}
+[[Category:European Commission projects]]
+[[Category:FP6 Projects]]
+[[Category:Semantic Web]]
+[[Category:European Union and science and technology]]

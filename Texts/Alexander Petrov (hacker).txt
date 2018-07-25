@@ -1,0 +1,29 @@
+
+{{Infobox Officeholder
+|name        = Alexander Petrov
+|caption     = 
+|nationality = [[Russia]]n
+}}
+
+
+== See also ==
+*[[Denial of service attack]]
+*[[Barrett Lyon]]
+
+== External links ==
+*[http://www.kommersant.com/page.asp?id=709912  Eight Years for Extorting Millions]
+
+==References==
+{{Reflist}}
+
+| NAME              =Stepanov, Denis
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Stepanov, Denis}}
+[[Category:Living people]]
+[[Category:Year of birth missing (living people)]]

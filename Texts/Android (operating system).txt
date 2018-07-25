@@ -1,0 +1,574 @@
+{{Infobox OS
+| name                   = Android
+| logo                   = [[File:Android robot.svg|100px]]
+| screenshot             = [[File:Android screenshot.png|250px]]
+| caption                = Android 2.3 "Gingerbread"
+| working_state          = Current
+| source_model           = [[Free and open source software]]
+| released               = {{Start date|2008|10|21|df=yes}}
+| website                = [http://www.android.com/ android.com]
+| kernel_type            = [[Monolithic kernel|Monolithic]] (modified [[Linux kernel]])
+| ui                     = [[Graphical User Interface|Graphical]]
+| supported_platforms    = [[ARM architecture|ARM]], [[MIPS architecture|MIPS]], [[Power Architecture]], [[x86]]{{Citation needed|powerpc?mips?|date=November 2010}}
+| updatemodel            =
+| package_manager        =
+}}
+
+
+
+
+
+==History==
+===Acquisition by Google===
+
+
+
+===Open Handset Alliance===
+{{Main|Open Handset Alliance}}
+
+
+
+===Licensing===
+
+===Update history===
+
+Android has seen a number of updates since its original release. These updates to the base operating system typically fix bugs and add new features. Generally each update to the Android operating system is developed under a code name based on a dessert item. The code names are in alphabetical order.
+
+{| class="wikitable" style="margin: 1em auto 1em auto; text-align: left; align:left"
+|-
+|-
+*Multiple resolved issues
+*API changes
+*Maps adds details and reviews
+*Screen timeout longer when using speakerphone
+*"Show" & "Hide" Dialpad included in-call menu
+*Support for saving attachments from MMS
+*Support for marquee in layouts
+|-
+* Ability to record and watch videos through camcorder mode
+* Uploading videos to YouTube and pictures to Picasa directly from the phone
+* A new soft-keyboard with text-prediction
+* Bluetooth [[A2DP]] and [[AVRCP]] support
+* Ability to automatically connect to a Bluetooth headset within a certain distance
+* New widgets and folders that can populate the Home screens
+* Animated screen transitions
+|-
+* An improved Android Market experience
+* An integrated camera, camcorder, and gallery interface
+* Gallery now enables users to select multiple photos for deletion
+* Updated Voice Search, with faster response and deeper integration with native applications, including the ability to dial contacts
+* Updated search experience to allow searching bookmarks, history, contacts, and the web from the home screen
+* Updated technology support for [[IS-95|CDMA]]/[[Evolution-Data Optimized|EVDO]], [[IEEE 802.1X|802.1x]], [[virtual private network|VPN]]s, and a [[speech synthesis|text-to-speech]] engine
+* Support for [[Wide VGA|WVGA]] screen resolutions
+* Speed improvements in searching and camera applications
+* Gesture framework and GestureBuilder development tool
+* Google free [[turn-by-turn navigation]]
+|-
+* Optimized hardware speed
+* Support for more screen sizes and resolutions
+* Revamped UI
+* New Browser UI and [[HTML5]] support
+* New contact lists
+* Better contrast ratio for backgrounds
+* Improved Google Maps 3.1.2
+* Microsoft Exchange Server by [[Exchange ActiveSync]] 2.5 support
+* Built in flash support for Camera
+* Digital Zoom
+* Improved virtual keyboard
+* Bluetooth 2.1
+* Live Wallpapers
+
+
+|-
+* Integration of [[Google Chrome|Chrome]]'s [[V8 (JavaScript engine)|V8 JavaScript engine]] into the Browser application
+* Increased Microsoft Exchange support (security policies, auto-discovery, GAL look-up, calendar synchronization, remote wipe)
+* Improved application launcher with shortcuts to Phone and Browser applications
+* USB tethering and Wi-Fi hotspot functionality
+* Added an option to disable data access over [[mobile network]]
+* Quick switching between multiple keyboard languages and their dictionaries
+* Voice dialing and contact sharing over Bluetooth
+* Support for numeric and alphanumeric passwords
+* Support for installing applications to the expandable memory
+|-
+* Updated user interface design
+* Native support for [[Session Initiation Protocol|SIP]] [[Voice over IP|VoIP]] telephony
+* Support for [[WebM]]/VP8 video playback, and [[Advanced Audio Coding|AAC]] audio encoding
+* New audio effects such as reverb, equalization, headphone virtualization, and bass boost
+* Support for [[Near Field Communication]]
+* System-wide [[cut, copy, and paste|copy–paste]] functionalities
+* Redesigned multi-touch software keyboard
+* Enhanced support for native code development
+* Audio, graphical, and input enhancements for game developers
+* Concurrent [[Garbage collection (computer science)|garbage collection]] for increased performance
+* Native support for more sensors (such as [[gyroscope]]s and [[barometer]]s)
+* A [[download manager]] for long-running downloads
+* Improved [[power management]] and application control
+* Native support for multiple cameras
+|-
+* Optimized tablet support with a new user interface
+* Three dimensional desktop with redesigned widgets
+* Refined multi-tasking
+* Browser enhancements including tabbed web pages, form auto-fill, bookmark syncing with [[Google Chrome]], and private browsing
+* Support for video chat using [[Google Talk]]
+|-
+|}
+
+==Features==
+
+[[Image:Android home.png|thumb|The Android Emulator default home screen (v1.5).]]
+
+[[File:Diagram android.png|thumb|right|Architecture Diagram]]
+
+{| class="wikitable" style="margin: 1em auto 1em auto; text-align: left"
+|- style="text-align: left"
+! Handset layouts
+|| The platform is adaptable to larger, [[Video Graphics Array|VGA]], [[2D computer graphics|2D graphics]] library, [[3D computer graphics|3D graphics]] library based on [[OpenGL ES]] 2.0 specifications, and traditional smartphone layouts.
+|-
+! Storage
+| [[SQLite]], a lightweight [[relational database]], is used for data storage purposes
+|-
+! Connectivity
+|| Android supports connectivity technologies including [[GSM]]/[[Enhanced Data Rates for GSM Evolution|EDGE]], [[Integrated Digital Enhanced Network|IDEN]], [[Code division multiple access|CDMA]], [[Evolution-Data Optimized|EV-DO]], [[Universal Mobile Telecommunications System|UMTS]], [[Bluetooth]], [[Wi-Fi]], [[LTE Advanced|LTE]], and [[WiMAX]].
+|-
+! Messaging
+|| [[SMS]] and [[Multimedia Messaging Service|MMS]] are available forms of messaging, including threaded [[text messaging]] and now Android Cloud to Device Messaging Framework ([[C2DM]]) is also a part of Android Push Messaging service.
+|-
+! Web browser
+|| The web browser available in Android is based on the open-source [[WebKit]] layout engine, coupled with [[Google Chrome|Chrome]]'s [[V8 (JavaScript engine)|V8]] JavaScript engine. The browser scores a 93/100 on the [[Acid3]] Test.
+|-
+! Java support
+|-
+! Media support
+|-
+! Streaming media support
+|-
+! Additional hardware support
+|| Android can use video/still cameras, [[touchscreen]]s, [[Global Positioning System|GPS]], [[accelerometer]]s, [[gyroscope]]s, [[magnetometer]]s, [[proximity sensor|proximity]] and [[pressure sensor]]s, [[thermometer]]s, accelerated 2D [[bit blit]]s (with hardware orientation, scaling, pixel format conversion) and accelerated 3D graphics.
+|-
+! Development environment
+|| Includes a device emulator, tools for [[debugging]], memory and [[Software performance analysis|performance profiling]]. The [[integrated development environment]] (IDE) is Eclipse (currently 3.4 or 3.5) using the Android Development Tools (ADT) Plugin.
+|-
+! Market
+|| The [[Android Market]] is a catalog of applications that can be downloaded and installed to Android devices over-the-air, without the use of a PC.
+|-
+! Multi-touch
+|-
+! Bluetooth
+|-
+! Videocalling
+|-
+! Multitasking
+|url=http://android-developers.blogspot.com/2010/04/multitasking-android-way.html
+|title=Multitasking the Android Way
+|work=Android Developers
+|last=Bray
+|first=Tim
+|date=28 April 2010
+|-
+! Voice based features
+|url=http://developer.android.com/resources/articles/speech-input.html
+|title=Speech Input for Google Search
+|work=Android Developers
+|-
+! Tethering
+|url=http://www.pcworld.com/article/190265/use_your_android_phone_as_a_wireless_modem.html
+|title=Use Your Android Phone as a Wireless Modem
+|publisher=PCWorld
+|author=JR Raphael
+|date=May 6, 2010
+|}
+
+==Hardware running Android==
+{{Main|List of Android devices}}
+|url=http://www.beinno.com/2010/09/basics-about-android.html
+|title=Basics of Android
+|publisher=beinno.com
+|author=
+|url=http://www.youtube.com/watch?v=U1e0q2DYAd8
+|title=Unboxing Acer Aspire One Android netbook
+|publisher=YouTube
+|date=2009-11-25
+
+|url=http://www.peopleoflava.com/television/scandinavia/
+|title=People of Lava - Scandinavia, the World's first Android TV
+|publisher=People of Lava
+
+
+===Google's flagship smartphones===
+A list of Android phones that are marketed by [[Google]] and contain the "Pure Google" Android experience.
+*[[Nexus One]] manufactured by [[HTC Corporation|HTC]]
+*[[Nexus S]] manufactured by [[Samsung Group|Samsung]]
+
+==Software development==
+[[Image:Android mobile phone platform early device.jpg|thumb|200px|Early Android device.]]
+The [[Android Dev Phone]] is a [[Subscriber Identity Module|SIM]]-unlocked and hardware-unlocked device that is designed for advanced developers. While developers can use regular consumer devices purchased at retail to test and use their applications, some developers may choose not to use a retail device, preferring an unlocked or no-contract device.
+
+===Software development kit===
+
+
+
+
+
+===Android Market===
+{{Main|Android Market}}
+
+ |url= http://source.android.com/compatibility/index.html
+ |title=Android Compatibility
+ |work=Android Open Source Project
+ |accessdate=31 December 2010
+ |url= http://developer.android.com/guide/practices/compatibility.html
+ |title=Android Compatibility
+ |work=Android Developers
+ |accessdate=31 December 2010
+
+
+Alternatives to the official Android Market are available, such as SlideME and [[GetJar]].
+
+===App Inventor for Android===
+{{Main|Google App Inventor}}
+
+===Android Developer Challenge===
+{{Main|Android Developer Challenge}}
+
+===Google applications===
+Google has also participated in the Android Market by offering several applications for its services. These applications include [[Google Voice]] for the Google Voice service, Sky Map for watching stars, Finance for their finance service, Maps Editor for their MyMaps service, Places Directory for their Local Search, [[Google Goggles]] that searches by image, Gesture Search for using finger written letters and numbers to search the contents of the phone, Google Translate, Google Shopper, Listen for podcasts and My Tracks, a jogging application.
+
+
+===Third party applications===
+With the growing number of Android handsets, there has also been an increased interest by third party developers to port their applications to the Android operating system.
+
+
+| url=http://www.javalobby.org/nl/archive/jlnews_20071113o.html
+| title=Google Android: Initial Impressions and Criticism
+| date=13 November 2007
+| last=van Gurp|first=Jilles
+| work=Javalobby
+| quote=''Frankly, I don't understand why Google intends to ignore the vast amount of existing implementation out there. It seems like a bad case of "not invented here" to me. Ultimately, this will slow adoption. There are already too many Java platforms for the mobile world and this is yet another one''
+| url=http://www.myriadgroup.com/Media-Centre/News/Myriad-New-J2Android-Converter-Fuels-Android-Applications-Gold-Rush.aspx
+| title=Myriad's New J2Android Converter Fuels Android Applications Gold Rush
+| url=http://www.javaworld.com/community/node/4170
+| title=J2Android hopes you don't know that Android is Java-based
+| quote=''On the other hand, you might think this is kind of a scam aimed at developers who don't really understand the nature of the platform they're targeting. My biggest complaint is that you'd think that Mikael Ricknäs, the IDG News Service reporter who wrote the first story linked to above (who toils for the same company that publishes JavaWorld), would have at least mentioned the relationship between Java and Android to make the oddness of this announcement clear.''
+| url=http://www.javaworld.com/community/?q=node/4210
+| title=Myriad CTO: J2Android moves MIDlets to "beautiful" Android framework
+| quote=''We will have to wait and see exactly how much pickup J2Android actually sees. The tool isn't actually available on the open market just yet; while Schillings spoke optimistically about "converting 1,000 MIDlets in an afternoon," at the moment they're working with a few providers to transform their back catalogs. So those of you out there hoping to avoid learning how to write Android code may have to wait a while.''
+
+
+===Native code===
+
+
+===Community-based firmware===
+
+Those firmware packages are updated frequently, incorporate elements of Android functionality that haven't yet been officially released within a carrier-sanctioned firmware, and tend to have fewer limitations. [[CyanogenMod]] and [[VillainROM]] are two examples of such firmware.
+
+
+==Marketing==
+[[File:Android_robot.svg|thumb|Android robot logo]]
+
+===Logos===
+
+
+===Typeface===
+
+===Market share===
+
+{{Cite web
+ |url= http://www.mycomscore.net/Press_Events/Press_Releases/2010/4/comScore_Reports_February_2010_U.S._Mobile_Subscriber_Market_Share
+ |title=comScore Reports February 2010 U.S. Mobile Subscriber Market Share
+ |work=Comscore.com
+ |date=5 April 2010
+ |accessdate=24 December 2010
+ |quote=RIM, 42.1%; Apple, 25.4%; Microsoft, 15.1%; Google (Android), 9.0%; Palm, 5.4%; others, 3.0%
+
+
+
+ |url= http://www.engadget.com/2010/12/09/andy-rubin-over-300-000-android-phones-activated-daily/
+ |title=Andy Rubin: over 300,000 Android phones activated daily
+ |work=Engadget
+ |date=9 December 2010
+ |accessdate=24 December 2010
+
+===Usage share===
+
+Data collected during two weeks ending on January 4, 2011
+
+{| class="sortable wikitable"
+|-
+| '''Platform''' || '''API Level''' || '''Distribution'''
+|- style="text-align:right;"
+| style="text-align:left;"| Android 2.3 (Gingerbread)   || 9 || 0.4%
+|- style="text-align:right;"
+| style="text-align:left;"| Android 2.2 (Froyo)   || 8 || 51.8%
+|- style="text-align:right;"
+| style="text-align:left;"| Android 2.0/2.1 (Eclair)  || 7 || 35.2%
+|- style="text-align:right;"
+| style="text-align:left;"| Android 1.6 (Donut)   || 4 || 7.9%
+|- style="text-align:right;"
+| style="text-align:left;"| Android 1.5 (Cupcake) || 3 ||  4.7%
+|}
+{{-}}
+
+==Linux compatibility==
+|url=http://arstechnica.com/open-source/reviews/2009/02/an-introduction-to-google-android-for-developers.ars
+| title=Dream(sheep++): A developer's introduction  to Google Android
+| date=23 February 2009
+| last=Paul |first=Ryan
+| work=[[Ars Technica]]
+| quote=In fact, during a presentation at the Google IO conference, Google engineer Patrick Brady stated unambiguously that Android is not Linux. (...) The problem with Google approach is that it makes Android an island. The highly insular nature of the platform prevents Android users and developers from taking advantage of the rich ecosystem of existing third-party Linux applications. Android doesn't officially support native C programs at all, so it won't be possible to port your favorite GTK+ or Qt applications to Android
+| url=http://www.h-online.com/open/features/Android-versus-Linux-924563.html
+| title=Android versus Linux?
+| date=9 February 2010
+| work=www.h-online.com
+
+
+
+
+==Claimed infringement of copyrights and patents==
+|url=http://www.computerworld.com/s/article/9180678/Update_Oracle_sues_Google_over_Java_use_in_Android?taxonomyId=13
+|title=Oracle sues Google over Java use in Android
+|author=James Niccolai
+|date=2010-08-12
+
+Specifically the patent infringement claim references seven patents including United States Patent No. 5,966,702,
+|url=http://www.zdnet.com/blog/burnette/oracle-uses-james-gosling-patent-to-attack-google-and-android-developers/2035?tag=mantle_skin;content
+|title=Oracle uses James Gosling patent to attack Google and Android developers
+|author=Ed Burnette
+|date=August 12, 2010
+|publisher=ZD Net
+
+ |url= http://www.wired.com/epicenter/2010/10/google-oracle-android/
+ |title=Calling Oracle Hypocritical, Google Denies Patent Infringement
+ |work=Wired News
+ |author=Ryan Singel
+ |date=5 October 2010
+ |accessdate=26 December 2010
+ |url= http://groklaw.net/article.php?story=20101005114201136
+ |title=Google Answers Oracle, Counterclaims, and Moves to Dismiss Copyright Infringement Claim
+ |work=Groklaw
+ |date=5 October 2010
+ |accessdate=26 December 2010
+ |url= http://groklaw.net/article.php?story=20101111114933605
+ |title=Google Files Sizzling Answer to Oracle's Amended Complaint and its Opposition to Motion to Dismiss - updated 2Xs
+ |work=Groklaw
+ |date=11 November 2010
+ |accessdate=26 December 2010
+
+|url=http://www.fsf.org/news/oracle-v-google/?searchterm=Oracle
+|title=FSF responds to Oracle v. Google and the threat of software patents
+|publisher=Free Software Foundation
+|author=Brett Smith
+|date=September 8, 2010
+
+==See also==
+{{Columns-list|colwidth=20em|
+* [[Android Market]]
+* [[BlackBerry OS]]
+* [[Dalvik virtual machine]]
+* [[Chromium OS]]
+* [[Google Chrome OS]]
+* [[Google TV]]
+* [[iOS (Apple)]]
+* [[LiMo Foundation]]
+* [[Linux Phone Standards Forum]]
+* [[List of Android devices]]
+* [[List of Android OS-related topics]]
+* [[List of open source Android applications]]
+* [[MeeGo]] Linux
+* [[Samsung]]'s [[bada (operating system)|Bada OS]]
+* [[OPhone]]
+* [[Open Mobile Alliance]]
+* [[Palm, Inc.]]'s [[webOS]]
+* [[Symbian Foundation]]
+}}
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Bibliography==
+{{Refbegin}}
+* {{Cite book
+| first1      = Burnette
+| last1       = Ed
+| date        = November 10, 2009
+| title       = Hello, Android: Introducing Google's Mobile Development Platform
+| publisher   = [[Pragmatic Bookshelf]]
+| edition     = 2nd
+| isbn        = 1934356492
+| url         = http://pragprog.com/titles/eband2/hello-android
+}}
+* {{Cite book
+| first1      = Rick
+| last1       = Rogers
+| first2      = John
+| last2       = Lombardo
+| first3      = Zigurd
+| last3       = Mednieks
+| first4      = Blake
+| last4       = Meike
+| date        = May 1, 2009
+| title       = Android Application Development: Programming with the Google SDK
+| publisher   = [[O'Reilly Media]]
+| edition     = 1st
+| isbn        = 0596521472
+| url         = http://oreilly.com/catalog/9780596521509
+}}
+* {{Cite book
+| first1      = Frank
+| last1       = Ableson
+| first2      = Charlie
+| last2       = Collins
+| first3      = Robi
+| last3       = Sen
+| date        = May 1, 2009
+| title       = Unlocking Android: A Developer's Guide
+| publisher   = [[Manning]]
+| edition     = 1st
+| isbn        = 1933988673
+| url         = http://www.manning.com/ableson/
+}}
+* {{Cite book
+| first1      = Shane
+| last1       = Conder
+| first2      = Lauren
+| last2       = Darcey
+| date        = September 7, 2009
+| title       = Android Wireless Application Development
+| publisher   = [[Addison-Wesley Professional]]
+| edition     = 1st
+| isbn        = 0321627091
+| url         = http://www.informit.com/store/product.aspx?isbn=0321627091
+}}
+* {{Cite book
+| first1      = Mark
+| last1       = Murphy
+| date        = June 26, 2009
+| title       = Beginning Android
+| publisher   = [[Apress]]
+| edition     = 1st
+| isbn        = 1430224193
+| url         = http://www.apress.com/book/view/1430224193
+}}
+* {{Cite book
+| first1      = Sayed Y.
+| last1       = Hashimi
+| first2      = Satya
+| last2       = Komatineni
+| first3      = Dave
+| last3       = MacLean
+| date        = February 26, 2010
+| title       = Pro Android 2
+| publisher   = [[Apress]]
+| edition     = 2nd
+| isbn        = 1430226595
+| url         = http://www.apress.com/book/view/1430226595
+}}
+* {{Cite book
+| first1      = Reto
+| last1       = Meier
+| date        = November 24, 2008
+| title       = Professional Android Application Development
+| publisher   = [[Wrox Press]]
+| edition     = 1st
+| isbn        = 0470344717
+| url         = http://www.wrox.com/WileyCDA/WroxTitle/Professional-Android-Application-Development.productCd-0470344717.html
+}}
+* {{Cite book
+| first       = Jerome
+| last        = DiMarzio
+| date        = July 30, 2008
+| title       = Android a programmers guide
+| publisher   = [[McGraw-Hill|McGraw-Hill Osborne Media]]
+| edition     = 1st
+| isbn        = 0071599886
+| url         = http://www.mhprofessional.com/product.php?isbn=0071599886&cat=112
+}}
+* {{Cite book
+| first       = Chris
+| last        = Haseman
+| date        = July 21, 2008
+| title       = Android Essentials
+| publisher   = [[Apress]]
+| edition     = 1st
+| isbn        = 1430210648
+| url         = http://www.apress.com/book/view/1430210648
+}}
+{{Refend}}
+
+==External links==
+{{Wikinews|Google Android smartphone sales triple in the UK this year}}
+{{Commons category|Android (operating system)}}
+* [http://www.android.com/ Official Android page]
+** [http://source.android.com/ Android Open Source Project]
+** [http://www.android.com/market Android Market]
+** [http://developer.android.com/ Android Developers]
+** [http://android-developers.blogspot.com/ Android Developers Blog]
+** [http://www.android.com/branding/ Android Brand Guidelines]
+* [http://code.google.com/android Google Projects for Android] from [[Google Code]]
+* [http://www.androidwiki.com/ Android Wiki]
+* {{youtube|1FJHYqE0RDg|Sergey Brin introduces the Android platform}}
+* [http://www.stanford.edu/class/ee380/Abstracts/071128.html Android: Building a Mobile Platform to Change the Industry] — lecture given by Google Mobile Platforms Manager, Richard Miner at [[Stanford University]] ([http://ee380.stanford.edu/cgi-bin/videologger.php?target=071128-ee380-300.asx video archive]).
+* {{dmoz|Computers/Systems/Handhelds/Android}}
+
+
+{{Android}}
+{{android devices}}
+{{Table Mobile operating systems}}
+{{Google Inc.}}
+{{Linux}}
+
+{{DEFAULTSORT:Android (Operating System)}}
+[[Category:Smartphones]]
+[[Category:Embedded Linux]]
+[[Category:Google]]
+[[Category:Mobile Linux]]
+[[Category:Cloud clients]]
+[[Category:Mobile phone operating systems]]
+[[Category:Mobile open source]]
+[[Category:Android (operating system)]]
+[[Category:Google acquisitions]]
+
+[[af:Google Android]]
+[[ar:أندرويد]]
+[[be-x-old:Android]]
+[[bs:Android operativni sistem]]
+[[ca:Android]]
+[[cs:Android (operační systém)]]
+[[da:Android]]
+[[de:Android (Betriebssystem)]]
+[[et:Android (operatsioonisüsteem)]]
+[[el:Android]]
+[[es:Android]]
+[[eo:Android]]
+[[eu:Android]]
+[[fa:اندروئید]]
+[[fr:Android]]
+[[ko:안드로이드 (운영 체제)]]
+[[hi:ऍण्ड्रॉइड प्रचालन तन्त्र]]
+[[hr:Android (operativni sustav)]]
+[[id:Android (sistem operasi)]]
+[[it:Android]]
+[[he:אנדרואיד (מערכת הפעלה)]]
+[[kn:ಆಂಡ್ರಾಯ್ಡ್ (ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಂ)]]
+[[lo:ແອນດຣອຍດ໌]]
+[[lv:Android]]
+[[hu:Android (operációs rendszer)]]
+[[ml:ആൻഡ്രോയ്ഡ് (ഓപ്പറേറ്റിംഗ് സിസ്റ്റം)]]
+[[ms:Android]]
+[[nl:Google Android]]
+[[ja:Android]]
+[[no:Android]]
+[[pl:Android (system operacyjny)]]
+[[pt:Android]]
+[[ro:Android (sistem de operare)]]
+[[ru:Android]]
+[[simple:Android (operating system)]]
+[[sk:Android (operačný systém)]]
+[[sl:Android]]
+[[sr:Android (оперативни систем)]]
+[[fi:Android]]
+[[sv:Android (operativsystem)]]
+[[ta:கூகுள் அண்ட்ராய்டு]]
+[[th:แอนดรอยด์ (ระบบปฏิบัติการ)]]
+[[tr:Android (mobil işletim sistemi)]]
+[[uk:Android]]
+[[vi:Android (hệ điều hành)]]

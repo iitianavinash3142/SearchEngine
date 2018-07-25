@@ -1,0 +1,54 @@
+ATI XGP (e'''X'''ternal '''G'''raphics '''P'''latform) is an external graphics solution for [[Laptop|notebook computers]]. The technology was announced on June 4, 2008 on [[Computex]] 2008 trade show, following the announcement of the codenamed ''[[AMD mobile platform#Puma platform|Puma]]'' notebook platform. 
+__NOTOC__
+==Development==
+
+==Technology==
+The XGP platform consists of several parts, that includes a mobility Radeon HD graphics card, an external case and a proprietary connectivity solution.
+
+===Graphics===
+*Single GPU configuration
+**[[Radeon R600#Radeon HD 3800|Mobility Radeon HD 3870]] (M88 core)
+***[[AVIVO#AVIVO HD|AVIVO HD]] with [[Unified Video Decoder|UVD]]
+***Integrated [[High-bandwidth Digital Content Protection|HDCP]]
+**[[Evergreen (GPU family)|Mobility Radeon HD 5870]] (Broadway core)
+*[[ATI CrossFire|ATI CrossFire X]] technology (Dual GPU configuration)
+**Mobility Radeon HD 3850 X2
+**Mobility Radeon HD 3870 X2
+
+===Connectivity===
+====Data====
+*Proprietary connectivity solution designed in collaboration with [[JAE Electronics]]
+**Transfer PCI-E 2.0 signals between XGP and the notebook computer
+**PCI-E 2.0 compliant
+**8 lanes and 16 lanes option available
+**[[Hot swapping|Hot plug]] detection
+*2 USB 2.0
+**For connecting external disc players
+**Connected via the signal pairs between the southbridge to the USB hub via the cable
+
+====Visual====
+*Supports up to four displays via the following visual outputs:
+**[[Digital Visual Interface|DVI-I]]
+**[[High-Definition Multimedia Interface|HDMI]]
+**Optional [[DisplayPort]]
+
+==Consumer Products==
+, retrieved February 18, 2009
+* Acer DynaVivid
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://ati.amd.com/technology/xgp/ ATI XGP Page]
+*[http://ati.amd.com/technology/xgp/xgp_technology_brief.pdf ATI XGP Technology Brief]
+
+{{ATI}}
+
+[[Category:ATI Technologies products]]
+[[Category:Video cards]]
+
+
+{{compu-graphics-stub}}
+
+[[de:ATi XGP]]

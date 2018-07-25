@@ -1,0 +1,19 @@
+
+'''A#''' is a port of the [[Ada (programming language)|Ada programming language]] to the [[.NET Framework|Microsoft .NET]] platform.  A# is freely distributed by the Department of Computer Science at the [[United States Air Force Academy]] as a service to the [[Ada programming language|Ada]] community under the terms of the [[GNU General Public License]].
+
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://asharp.martincarlisle.com A# for .NET]
+* [http://articleworld.org/A_Sharp_%28.NET%29 Ada Sharp .NET] Programming environment
+
+[[Category:Ada programming language]]
+[[Category:.NET programming languages]]
+{{DotNET}}
+{{compu-lang-stub}}
+
+[[ar:إيه شارب]]
+[[ko:A 샤프]]
+[[ru:A Sharp]]

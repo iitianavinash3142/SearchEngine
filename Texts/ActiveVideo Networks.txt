@@ -1,0 +1,38 @@
+|company_name     = ActiveVideo Networks, Inc.
+|company_logo     = [[Image:AVNetworksLogo 72dpi Web w200pxl.png]]
+|company_type     = Privately held
+|location_city    = San Jose, California, United States
+|industry         = Interactive TV
+|products         = CloudTV
+|homepage         = [http://www.activevideo.com www.ActiveVideo.com] 
+}}
+
+
+== History and overview ==
+
+
+
+== Expanding partnership with Cablevision ==
+
+
+== Consumer electronics strategy ==
+
+== Partnership with Blockbuster ==
+
+== Partnership with Trailer Park ==
+
+== Developments at ANGA Cable Show 2010 ==
+
+== Acquisition of TAG Networks ==
+
+== NCTA Cable Show 2010: iVOD ==
+
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.activevideo.com ActiveVideo Networks homepage]
+
+{{DEFAULTSORT:Activevideo Networks}}
+[[Category:Interactive television]]

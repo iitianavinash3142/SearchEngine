@@ -1,0 +1,42 @@
+|name         = Association Electronique Libre (AEL) ASBL-VZW
+|image        = 
+|image_border = 
+|size         = 
+|caption      = 
+|map          =
+|msize        = 
+|mcaption     = 
+|abbreviation = AEL
+|motto        = 
+|formation    = 2001, [[Belgium]]
+|extinction   = 
+|type         = [[Non-profit organization]]
+|status       = ASBL
+|purpose      = Law, Freedom, Privacy
+|headquarters = [[Belgium]]
+|location     = 
+|region_served =
+|membership   = 
+|language     =
+|leader_title =
+|leader_name  = 
+|main_organ   = 
+|parent_organization = 
+|affiliations = 
+|num_staff    = 
+|num_volunteers =
+|budget       = 
+|website      = [http://www.ael.be/ www.ael.be]
+|remarks      =
+}}
+
+
+==References==
+ 
+[[Category:Computer law]]
+[[Category:Non-profit organisations based in Belgium]]
+[[Category:Privacy organizations]]
+[[Category:Politics and technology]]
+[[Category:Internet activism]]
+[[Category:Intellectual property activism]]
+[[Category:Civil liberties advocacy groups]]

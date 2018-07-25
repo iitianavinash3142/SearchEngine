@@ -1,0 +1,20 @@
+In [[automata theory]], an '''alternating finite automaton''' (AFA) is a [[nondeterministic finite automaton]] whose transitions are divided into ''[[existential quantification|existential]]'' and ''[[universal quantification|universal]]'' transitions. For example, let ''A'' be an alternating [[automaton]].
+
+
+Note that due to the universal quantification a run is represented by a run ''tree''. ''A'' accepts a word ''w'', if there ''exists'' a run tree on ''w'' such that ''every'' path ends in an accepting state.
+
+
+This clause representation is usually more efficient. 
+
+==Formal Definition==
+An alternating finite automaton (AFA) is a [[n-tuple|6-tuple]],
+
+
+==Run==
+{{DEFAULTSORT:Alternating Finite Automaton}}
+[[Category:Automata theory]]
+
+
+{{Compu-sci-stub}}
+
+[[bs:Alternirajući konačni automat]]

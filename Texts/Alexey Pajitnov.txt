@@ -1,0 +1,128 @@
+|image              = Alexey Pajitnov - 2575833305 (crop).jpg
+|caption            = Alexey Pajitnov in Barcelona, Spain, 14 June 2008
+|name               = Alexey Pajitnov
+|birth_date         = 1956
+|birth_place        = [[Soviet Union]]
+|death_date         = 
+|death_place        = 
+|significant_design = ''[[Tetris]]''
+}}
+
+'''Alexey Leonidovich Pajitnov''' ({{lang|ru|Алексей Леонидович Пажитнов}}, transliterated as Aleksei Leonidovich Pazhitnov,
+born 1956) is a [[computer]] engineer from [[Russia]] {{As of|2007|alt=now}} living in the [[United States]], who developed the popular game ''[[Tetris]]'' while working for the [[Dorodnicyn Computing Center|Computing Center]] of the [[Soviet Academy of Sciences]], a [[Soviet Union|Soviet government]]-founded [[R&D]] center.
+
+
+==Biography==
+Alexey Pajitnov created ''Tetris'' with the help of Dmitry Pavlovsky and [[Vadim Gerasimov]] in 1985. The game, first available in the Soviet Union, appeared in [[Western world|the West]] in 1986.
+
+He helped design the puzzles in the [[Super Nintendo Entertainment System|Super NES]] versions of ''[[Yoshi's Cookie]]'' and designed the game ''[[Pandora's Box (computer game)|Pandora's Box]]'', which incorporates more traditional [[jigsaw puzzle|jigsaw-style puzzles]].
+
+He began working for [[Microsoft]] in October 1996. Pajitnov worked for the [[Microsoft Entertainment Pack: The Puzzle Collection]], MSN Mind Aerobics and [[MSN Games]] groups. Pajitnov's new, enhanced version of ''[[Hexic]]'', ''Hexic HD'', was included with every new [[Xbox 360]] Premium package. He left Microsoft in 2005.
+
+
+==Works==
+{|border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse; font-size: 95%; text-align: center;"
+|-
+! Game Name !! First Released !! System Name(s) !! Pajitnov's Role(s)
+|-
+! ''[[Tetris]]''
+|-
+! ''[[Welltris]]''
+|-
+! ''Faces''
+|-
+! ''[[Hatris]]''
+|-
+! ''[[Knight Move]]''
+|-
+! ''[[Wordtris]]''
+|-
+! ''[[El-Fish]]''
+|-
+! ''Wild Snake''
+|-
+!''BreakThru!''
+|-
+! ''Knight Moves''
+|-
+! ''Ice & Fire''
+|-
+! ''[[Clockwerx]]''
+|-
+! ''[[Tetrisphere]]''
+|-
+! ''[[Microsoft Entertainment Pack: The Puzzle Collection]]''
+|-
+! ''[[Pandora's Box (computer game)|Microsoft Pandora's Box]]''
+|-
+! ''Microsoft A.I. Puzzler''
+|-
+! ''[[Hexic]]''
+|-
+! ''[[Hexic#Hexic HD|Hexic HD]]''
+|-
+! ''Dwice ''
+|-
+! ''[[Hexic 2]]''
+|}
+
+==Awards and recognition==
+
+==References==
+{{Reflist}}
+
+==Notes==
+*Angela Gunn (December 9&ndash;15, 1999).  "[http://www.seattleweekly.com/features/9949/tech-gunn2.shtml Game boy]".  ''[[Seattle Weekly]]''.
+
+==External links==
+*[http://www.mobygames.com/developer/sheet/view/developerId,929/ ''Alexey Pajitnov''] profile at [[MobyGames]]
+*[http://www.bbc.co.uk/bbcfour/documentaries/features/tetris.shtml ''Tetris - From Russia with Love''], BBC documentary (website).
+*[http://www.gamezombie.tv/?page_id=51 Video Interview with Alexey Pajitnov at GameZombie.tv]
+*[http://slashdot.org/article.pl?sid=08/02/26/1859249 Tetris Creator Claims ''Free and Open Source Software'' Destroys the Market.]
+
+
+{{Tetris}}
+
+|NAME              = Pajitnov, Alexey
+|ALTERNATIVE NAMES = Pazhitnov, Alexey
+|SHORT DESCRIPTION = Computer engineer, developer of ''[[Tetris]]''
+|DATE OF BIRTH     = [[1956]]
+|PLACE OF BIRTH    = [[Soviet Union|USSR]]
+|DATE OF DEATH     = 
+|PLACE OF DEATH    = 
+}}
+{{DEFAULTSORT:Pajitnov, Alexey}}
+[[Category:1956 births]]
+[[Category:Living people]]
+[[Category:Russian programmers]]
+[[Category:Video game designers]]
+[[Category:Russian immigrants to the United States]]
+[[Category:Microsoft employees]]
+[[Category:Soviet computer scientists]]
+[[Category:Russian inventors]]
+
+[[ar:أليكسي باجيتنوف]]
+[[bg:Алексей Пажитнов]]
+[[ca:Aleksei Pàjitnov]]
+[[cs:Alexej Pažitnov]]
+[[de:Alexei Leonidowitsch Paschitnow]]
+[[es:Alekséi Pázhitnov]]
+[[fa:الکسی پاژیتنوف]]
+[[fr:Alekseï Pajitnov]]
+[[ko:알렉세이 파지트노프]]
+[[hr:Aleksej Pažitnov]]
+[[it:Aleksej Leonidovič Pažitnov]]
+[[he:אלכסיי פז'יטנוב]]
+[[nl:Alexey Pajitnov]]
+[[ja:アレクセイ・パジトノフ]]
+[[no:Aleksej Pazjitnov]]
+[[pl:Aleksiej Pażytnow]]
+[[pt:Alexey Pajitnov]]
+[[ro:Alexei Pajitnov]]
+[[ru:Пажитнов, Алексей Леонидович]]
+[[sl:Aleksej Pažitnov]]
+[[sr:Aleksej Pažitnov]]
+[[sh:Aleksej Pažitnov]]
+[[fi:Aleksei Pažitnov]]
+[[sv:Aleksej Pazjitnov]]
+[[tr:Aleksey Pajitnov]]

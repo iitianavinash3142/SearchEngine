@@ -1,0 +1,23 @@
+
+
+==ACP compared to TDP==
+*55 Watt ACP - 79 Watt TDP
+*75 Watt ACP - 115 Watt TDP
+*105 Watt ACP - 137 Watt TDP
+
+== See also ==
+*[[Performance per watt]]
+*[[SPECpower]]
+*[[IT energy management]]
+*[[CPU power dissipation]]
+*[[List of AMD Opteron microprocessors]]
+
+== References ==
+* [http://www.amd.com/us-en/Processors/ProductInformation/0,,30_118_8796_12353,00.html Power Efficiency], AMD
+* [http://images.dailytech.com/nimage/5925_large_amd_explains_acp.png Introducing Average CPU Power], DailyTech
+
+[[Category:Advanced Micro Devices]]
+[[Category:Microprocessors]]
+[[Category:Computer benchmarks]]
+[[Category:Electricity economics]]
+

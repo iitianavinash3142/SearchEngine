@@ -1,0 +1,66 @@
+
+== The Need for ASON ==
+
+* Fast and automatic end-to-end provisioning
+* Fast and efficient re-routing
+* Support of different clients, but optimized for [[Internet Protocol|IP]]
+* Dynamic set up of connections
+* Support of Optical [[Virtual Private Networks]] (OVPNs)
+* Support of different levels of quality of service
+
+
+== Logical Architecture of An ASON ==
+[[Image:ASON Logical Architecture.jpg|thumb|Logical Architecture of ASON]]
+
+The [[logical]] architecture of an ASON can be divided into 3 planes:
+* Transport Plane
+* Control Plane
+* Management Plane
+
+'''The Transport Plane''' contains a number of switches (optical or otherwise) responsible for transporting user data via connections. These switches are connected to each other via PI (Physical Interface).
+
+'''The Control Plane''' is responsible for the actual resource and connection management within an ASN network. It consists of a series of OCC (Optical Connection Controllers), interconnected via NNIs (Network to Network Interfaces).  These OCCs have the following functions:
+* [[Network topology]] discovery (resource discovery)
+* Signaling, [[routing]], address assignment
+* Connection set-up/tear-down
+* Connection protection/restoration
+* [[Traffic engineering]]
+* Wavelength assignment
+
+
+
+== The Role of IETF ==
+
+
+== ITU-T documentation for ASON standardization ==
+
+The following is a list and description of architecture and requirements as published by ITU-T 
+
+*'''G.8080/Y.1304''', Architecture for the automatically switched optical network (ASON)
+*'''G.807/Y.1302''', Requirements for automatic switched transport networks (ASTN) Call and Connection Management
+*'''G.7713/Y.1704''', Distributed call and connection management (DCM)
+*'''G.7713.1/Y.1704.1''', DCM signalling mechanism using PNNI/Q.2931
+*'''G.7713.2/Y.1704.2''', DCM signalling mechanism using GMPLS RSVP-TE
+*'''G.7713.3/Y.1704.3''', DCM signalling mechanism using GMPLS CR-LDP Discovery and Link Management
+*'''G.7714/Y.1705''', Generalized automatic discovery techniques
+*'''G.7715/Y.1706''', Architecture and requirements of routing for automatic switched transport network
+*'''G.7716/Y.1707''', Architecture and requirements of link resource management for automatically switched transport networks
+*'''G.7717/Y.1708''', ASTN connection admission control. Other Related Recommendations
+*'''G.872''', Architecture of optical transport networks
+*'''G.709/Y.1331''', Interface for the optical transport network (OTN)
+*'''G.959.1''', Optical transport network physical layer interfaces
+*'''G.874''', Management aspects of the optical transport network element
+*'''G.874.1''', Optical transport network (OTN) protocolneutral management information model for the network element view.
+*'''G.875''', Optical transport network (OTN) management information model for the network element view
+*'''G.7041/Y.1303''', Generic framing procedure (GFP)
+*'''G.7042/Y.1305''', Link capacity adjustment scheme (LCAS) for virtual concatenated signals
+*'''G.65x''', series on optical fibre cables and test methods
+*'''G.693''', Optical interfaces for intra-office systems
+*'''G.7710/Y.1701''', Common equipment management function requirements
+*'''G.7712/Y.1703''', Architecture and specification of data communication network.
+
+== References ==
+
+
+{{DEFAULTSORT:Automatically Switched Optical Network}}
+[[Category:Fiber-optic communications]]

@@ -1,0 +1,15 @@
+
+The tools may be used to create, update, and view the tables that contain the filtering rules, similarly to the [[iptables]] program from which it was developed. A popular application is the creation of filter configurations to prevent [[ARP spoofing]].
+
+==External links==
+*[http://linux.die.net/man/8/arptables arptables(8) - Linux man page]
+*[http://abulmagd.blogspot.com/2008/08/arptables-and-arp-poisoningnetcut.html arptables, and ARP poisoning]
+
+
+{{Firewall software|collapse}}
+
+[[Category:Firewall software]]
+[[Category:Linux network-related software]]
+[[Category:Free network-related software]]
+[[Category:Free security software]]
+

@@ -1,0 +1,12 @@
+
+It is reasonable to assume that access structures are [[monotone]] in the sense that, if a subset S is in the access structure, all sets that contain S as a subset should also form part of the access structure.
+
+==See also==
+
+* [[Access control]]
+* [[Secret sharing]]
+* [[Threshold cryptosystem]]
+
+[[Category:Access control]]
+
+

@@ -1,0 +1,49 @@
+[[Image:Amar Gupta Picture.png|thumb|right|A 2007 photo of Dr. Amar Gupta]]
+'''Amar Gupta''' is an [[Financial endowment|endowed professor]] of entrepreneurship, management and organizations, computer science, and Latin American studies at the University of Arizona.
+
+==Background==
+with the help of Professor [[Lester Thurow]], eminent economist and former Dean of the MIT Sloan School of Management. Gupta has provided his expertise to several [[UN]] organizations including [[WHO]], [[UNDP]], and [[UNIDO]] for various works in [[Latin America]] and the [[World Bank]] as an advisor on a Distance education endeavor in [[Mozambique]].  Amar Gupta's current appointment is at the [[Eller College of Management]] at the [[University of Arizona]] as the Professor of [[Entrepreneurship]] and MIS; and Senior Director for Research and Business Development. Amar Gupta has developed patented technology and has made innovations in several areas including databases, imaging, healthcare, education, and outsourcing.
+
+==Contributions and Innovations==
+, and contributing ideas that have influenced research in these disciplines.
+
+===Imaging===
+Gupta served as chief scientist and vice president for the development of [[VCN ExecuVision]], the first presentation graphics program. This program changed the manner that presentations were given, first in the academic community before making its way to the business community. The company, Visual Communications Network also pioneered the development of [[clip art]] for the IBM personal computer.
+
+
+===Education===
+
+Gupta launched the first academic program that leads to two graduate degrees and a certificate in entrepreneurship.  This involves a management degree from the [[University of Arizona]]’s [[Eller College of Management]], and a second graduate degree in optics science, engineering, agriculture, or medicine.
+
+===Outsourcing===
+The concept of the [24-Hour Knowledge Factory] was developed by Amar Gupta. This concept allows for multiple professionals in different geographical locations to work together to perform a single task or project. Research is being conducted to utilize this model in a variety of industries. In 2007, Gupta was awarded an IBM faculty award for this vision. 
+
+In early 1980, Amar Gupta proposed to Citibank to do software development work in India. This idea turned into Citibank overseas Software Limited, the pioneer example of a large multinational bank doing such work in India.
+
+==References==
+{{Reflist|2}}
+
+==External links==
+*[http://entrepreneurship.eller.arizona.edu/faculty/agupta.aspx Link To Dr. Amar Gupta's page at the University of Arizona]
+*[http://mitsloan.mit.edu/newsroom/2004-guptathurow.php Link To press release by MIT Sloan School of Management]
+*[http://web.mit.edu/profit/20030217LokVani.pdf Link To press release for handwriting recognition softawre used for check processing ]
+*[http://www.google.com/patents?vid=USPAT5633954&id=4zwbAAAAEBAJ&dq=amar+gupta Link to patent information on character recognition]
+*[http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN%2F5633954 Patent Office:System and method for character recognition with normalization]
+
+| NAME              = Gupta, Amar
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Gupta, Amar}}
+[[Category:Computer systems researchers]]
+[[Category:Indian computer scientists]]
+[[Category:Indian immigrants to the United States]]
+[[Category:MIT Sloan School of Management alumni]]
+[[Category:University of Arizona faculty]]
+[[Category:People from Gujarat]]
+[[Category:Outsourcing]]
+[[Category:Living people]]

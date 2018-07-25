@@ -1,0 +1,33 @@
+
+== Acunetix ==
+
+'''Acunetix''' is a security company that develops a web vulnerability scanner which allows companies to find potential security issues in their web applications. The company was founded in 2004 and its product has been on the market since early 2005
+
+
+Acunetix customers include [[NASA]], [[Ernst & Young]], [[KPMG]], [[Telstra]], [[Adidas]], [[Samsung]], [[Disney]], [[Fujitsu]], [[Panasonic]], Bank of China, the United States Airforce and the United States Army.
+
+== Product ==
+
+The Acunetix Web Vulnerability Scanner is an automated black box scanner that checks for web vulnerabilities such as SQL injection, Cross Site scripting and other vulnerabilities.
+
+The product feature set includes:
+
+* An automatic client script analyzer allowing for security testing of Ajax and Web 2.0 applications
+* SQL injection and Cross site scripting testing
+* Penetration testing tools, such as the HTTP Editor and the HTTP Fuzzer
+* Visual macro recorder to test web forms and password protected areas
+* Ability to test pages with CAPTCHA, single sign-on and Two Factor authentication mechanisms
+* Reporting facilities
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.acunetix.com acunetix.com]
+* [http://www.acunetix.com/blog/ acunetix blog]
+* [http://alliancetechpartners.com/wordpress/?cat=225 Acunetix Discussion]
+* [http://www.alliancetechpartners.com/acunetix/index.htm Acunetix Whitepapers, Videos, Feeds]
+
+[[Category:Computer security software]]
+
+

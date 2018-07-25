@@ -1,0 +1,105 @@
+| title           = XRDS: Crossroads, The ACM Magazine for Students
+| image_alt       = 
+| image_caption   = 
+| editor          = Chris Harrison
+| editor_title    = 
+| previous_editor = 
+| staff_writer    = 
+| frequency       = Quarterly
+| circulation     = 
+| category        = [[Computer Science]]
+| company         = 
+| publisher       = [[Association for Computing Machinery]]
+| country         = 
+| based           = 
+| language        = English
+| issn            = 1528-4972
+}}
+
+
+==List of editors-in-chief==
+{| class=wikitable style="text-align:center"
+! # 
+! [[Editor-In-Chief]]
+! Start of term
+! End of term
+|-
+|1
+|Saveen Reddy
+|1994
+|1994
+|-
+|2
+|Lorrie Faith Cranor
+|1994
+|1996 
+|-
+|3
+|John Cavanos
+|1996
+|1998 
+|-
+|4
+|Lynellen D. S. Perry
+|1998
+|2001 
+|-
+|5
+|Bill Stevenson
+|2001
+|2005
+|-
+|6
+|Jerry Guo
+|2006
+|2009
+|-
+|7
+|Chris Harrison
+|2009
+|}
+
+==Makeover==
+The magazine was originally titled "Crossroads" but in May 2010, it was given a makeover and the title was replaced by the pseudo-acronym "XRDS". Prior to the makeover, the format of the magazine is similar to that of its more illustrious cousin, the [[Communications of the ACM]] where articles are summaries of interesting research papers. With the Summer 2010 issue of XRDS, ACM inaugurates a completely revamped edition of the magazine. Targeted to both graduate and undergraduate students contemplating computing careers, the newly redesigned XRDS offers breaking news and information, practical career advice, and first-hand stories and profiles of people on the front lines of the burgeoning computing field.
+
+The new magazine and its website http://XRDS.acm.org reflect the real voices of today’s students, and will create a hub of interaction and communication for them to access.
+
+XRDS has been designed as an easy-access resource for students who are focused on their futures. Readers now have a convenient channel to find valuable content not only on their field of study but on the student experience as well. With the magazines’ new website, students now have a central place where they can share their ideas and experiences through interactive features and by submitting articles for publication.
+
+== References ==
+*{{cite web|
+author=XRDS staff|
+title=Information about XRDS: Crossroads, The ACM Magazine for Students|
+url=http://xrds.acm.org/about.cfm|
+accessdate=2010-10-13|
+year=2010|
+author=ACM|
+publisher=Association for Computing Machinery
+}}
+*{{cite web|
+title=XRDS Author Guidelines|
+accessdate=2010-10-13|
+url=http://xrds.acm.org/authorguidelines.cfm |
+author=XRDS editorial staff|
+publisher=Association for Computing Machinery|
+}}
+*{{cite web|
+title=XRDS: Crossroads: Magazine Archives|
+url=http://xrds.acm.org/archives.cfm|
+author=XRDS editorial staff|
+publisher=Association for Computing Machinery|
+accessdate=2010-10-13
+}}
+*{{cite web|
+title=XRDS: Crossroads: About Us|
+url=http://xrds.acm.org/aboutus.cfm|
+author=XRDS editorial staff|
+publisher=Association for Computing Machinery|
+accessdate=2010-10-28
+}}
+
+== External links ==
+* {{Officialb|=http://xrds.acm.org}}
+
+[[Category:ACM publications|XRDS]]
+

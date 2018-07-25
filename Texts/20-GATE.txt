@@ -1,0 +1,15 @@
+
+==External links==
+*[http://hopl.murdoch.edu.au/showlanguage.prx?exp=216 HOPL entry]
+
+{{Computer algebra systems}}
+
+{{FOLDOC}}
+
+[[Category:Computer algebra systems]]
+
+
+{{compu-lang-stub}}
+
+[[hr:20-GATE]]
+[[ms:20-GATE]]

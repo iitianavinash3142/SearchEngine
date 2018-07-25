@@ -1,0 +1,39 @@
+ | author = Russell, S.J.
+ | coauthors = Norvig, P.
+ | year = 2002
+ | title = [[Artificial Intelligence: A Modern Approach]]
+ | publisher = Prentice Hall
+ | isbn = 0137903952
+
+==Search Algorithm==
+An admissible heuristic is used to estimate the cost of reaching the goal state in an [[informed search algorithm]]. In order for a heuristic to be admissible to the search problem, the estimated cost must always be lower than or equal to the actual cost of reaching the goal state. The search algorithm uses the admissible heuristic to find an estimated optimal path to the goal state from the current node. 
+
+
+where
+
+
+==Formulation==
+
+
+
+
+==Construction==
+An admissible heuristic can be derived from a relaxed
+version of the problem, or by information from pattern databases that store exact solutions to subproblems of the problem, or by using [[Inductive transfer|inductive learning]] methods.
+
+==Notes==
+While all [[consistent heuristic]]s are admissible, not all admissible heuristics are consistent.
+
+For tree search problems, if an admissible heuristic is used, the [[A* search algorithm]] will never return a suboptimal goal node.
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Heuristic function]]
+* [[Search Algorithm]]
+
+[[Category:Heuristics]]
+[[Category:Artificial intelligence]]
+
+

@@ -1,0 +1,84 @@
+{{Infobox Person
+|name        = Andrew M. Gavin
+|image       = AGHeadshot.jpg
+|image_size  = 200px
+|caption     = Andy Gavin
+|birth_date  = 1970
+|birth_place = USA
+|death_date  = 
+|death_place = 
+|other_names = 
+|known_for   = 
+|occupation  = Chief Technology Officer/Entrepreneur
+|nationality = United States
+}}
+
+==Education==
+
+==Career==
+
+
+Image:ndwrapscott.jpg|Naughty Dog Wrap Party, Santa Monica, CA
+Image:Osirisnd.JPG|One of the Naughty Dogs at work, Santa Monica, CA
+Image:Ndmoving.jpg|Naughty Dog Offices, circa 2003
+
+
+
+== References ==
+
+
+== Gameography ==
+{|class="wikitable"
+!Game Title !!Release!! Platform!! Role 
+|-
+|''[[Math Jam]]'' || 1985 || [[Apple II]] || [[Lead artist]]
+|-
+|''[[Ski Crazed]]'' || 1986 || [[Apple II]] || [[Programmer]]
+|-
+|''[[Dream Zone]]'' || 1987 || [[Commodore Amiga]], [[Apple II]] || [[Programmer]]
+|-
+|''[[Keef the Thief]]'' || 1989 || [[Commodore Amiga]], [[Apple II]], [[Sega Mega Drive/Genesis]] || [[ Programmer]]
+|-
+|''[[Rings of Power (game)|Rings of Power]]'' || 1991 || [[Sega Mega Drive/Genesis]] || [[Programmer]]/[[Game designer]]
+|-
+|''[[Way of the Warrior (video game)|Way of the Warrior]]'' || 1995 || [[3DO Interactive Multiplayer|3DO]] || [[Video game producer|Producer]]/[[Programmer]]/[[Game designer]]
+|-
+|''[[Crash Bandicoot]]'' || 1996 || [[PlayStation]]  || [[Lead programmer]]
+|-
+|''[[Crash Bandicoot 2: Cortex Strikes Back]]'' || 1997 || [[PlayStation]] || [[Lead programmer]]
+|-
+|''[[Crash Bandicoot 3: Warped]]'' || 1998 || [[PlayStation]] || [[Lead programmer]]
+|-
+|''[[Crash Team Racing]]'' || 1999 || [[PlayStation]] || [[Chief Technology Officer]]
+|-
+|''[[Jak & Daxter: The Precursor Legacy]]'' || 2001 || [[PlayStation 2]] || [[Lead programmer]]
+|-
+|''[[Jak II]]'' || 2003 || [[PlayStation 2]] || [[Lead programmer]]
+|-
+|''[[Jak 3]]'' || 2004 || [[PlayStation 2]] || [[Lead programmer]]
+|-
+|''[[Jak X: Combat Racing]]'' || 2005 || [[PlayStation 2]] || Extra Special Thanks
+|-
+|''[[Daxter]]'' || 2006 || [[PlayStation Portable]] || Special Thanks
+|-
+|''[[Uncharted: Drake's Fortune]]'' || 2007 || [[PlayStation 3]] || Special Thanks
+|-
+|}
+
+[[Category:Living people]]
+[[Category:1970 births]]
+[[Category:Haverford College alumni]]
+[[Category:Massachusetts Institute of Technology alumni]]
+[[Category:Video game programmers]]
+
+[[pl:Andy Gavin]]
+
+{{Persondata
+| NAME              = Gavin, Andy
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     = 1970
+| PLACE OF BIRTH    = USA
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}

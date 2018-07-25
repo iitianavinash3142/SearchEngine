@@ -1,0 +1,10 @@
+
+==Properties==
+
+
+==References==
+{{reflist}}
+
+[[Category:Algebra]]
+[[Category:Formal languages]]
+

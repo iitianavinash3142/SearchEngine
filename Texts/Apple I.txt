@@ -1,0 +1,84 @@
+| name                 = Apple I (Apple-1)
+| image                = [[File:Apple I Computer.jpg|250px|Apple I computer]]
+| type                 = [[Personal computer]]
+| developer            = [[Apple Inc.|Apple Computer]]
+| release date         = July 1976
+| discontinued         = September 1977
+| processor            = [[MOS Technology 6502|MOS 6502]] @ [[megahertz|1 MHz]]
+| graphics             = 40&times;24 characters, hardware-implemented scrolling
+| price                = [[United States dollar|US$]]666.66
+}}
+
+
+==History==
+
+[[Image:Woz notebook.png|thumb|left|Excerpt from the later Apple II 'Red' manual, including [[Steve Wozniak]]'s handwritten diagrams for the definition of shape tables]]
+
+, making it by far the highest price paid for this model to date, at £133,250 ($210,000). The high value of this particular example is likely due to the rare documents and packaging offered in the sale rather than the computer itself; namely (and amongst others) the original packaging (with the return label showing Steve Jobs' parents address, the original Apple Computer Inc 'headquarters' being their garage), a personally typed and signed letter from Jobs (answering technical questions about the computer) and the original invoice showing 'Steven' as the salesman.
+
+==Emulators, clones, and replicas==
+
+
+{{Timeline of Apple II Family}}
+
+==References==
+[[File:Apple1innards.jpg|thumb|right|The circuit board of a fully assembled Apple I]]
+{{reflist}}
+{{refbegin}}
+* Price, Rob, So Far:the First Ten Years of a Vision, Apple Computer, Cupertino, CA, 1987, ISBN 1-55693-974-4
+* Owad, Tom (2005). ''[http://www.applefritter.com/replica Apple I Replica Creation: Back to the Garage.]'' Rockland, MA: Syngress Publishing.  Copyright © 2005.  ISBN 1-931836-40-X
+{{refend}}
+
+==External links==
+{{commons category|Apple I}}
+*[http://www.applefritter.com/apple1 Apple I Owners Club]
+*[http://lowendmac.com/orchard/05/0509.html Macintosh Prehistory: The Apple I]
+*[http://www.sbprojects.com/projects/apple1/ Apple I project on www.sbprojects.com]
+*[http://archive.computerhistory.org/resources/text/Apple/Apple.AppleI.1976.102646518.pdf Apple I Operational Manual]
+*[http://apple1computer.blogspot.com  John Calande III blog - Building the Apple I clone]
+
+{{s-start}}
+{{s-bef|before=[[Apple Inc.]]}}
+{{s-ttl|title=Apple I
+|years=1976}}
+{{s-aft|after=[[Apple II series|Apple II]]}}
+{{end}}
+{{Apple hardware before 1998}}
+{{Apple hardware}}
+
+[[Category:1976 introductions]]
+[[Category:Apple II family]]
+[[Category:Apple Inc. hardware]]
+[[Category:Early microcomputers]]
+[[Category:Industrial designs]]
+
+[[bs:Apple I]]
+[[ca:Apple I]]
+[[cs:Apple I]]
+[[da:Apple I]]
+[[de:Apple I]]
+[[el:Apple I]]
+[[es:Apple I]]
+[[eo:Apple I]]
+[[fr:Apple I]]
+[[gl:Apple I]]
+[[hr:Apple I]]
+[[is:Apple I]]
+[[it:Apple I]]
+[[he:Apple I]]
+[[ms:Apple I]]
+[[nl:Apple I]]
+[[ja:Apple I]]
+[[no:Apple I]]
+[[nn:Apple I]]
+[[pl:Apple I]]
+[[pt:Apple I]]
+[[ro:Apple I]]
+[[ru:Apple I]]
+[[sk:Apple I]]
+[[sr:Apple I]]
+[[sh:Apple I]]
+[[fi:Apple I]]
+[[sv:Apple I]]
+[[tr:Apple I]]
+[[uk:Apple I]]

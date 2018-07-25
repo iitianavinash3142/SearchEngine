@@ -1,0 +1,526 @@
+
+Algorithmic skeletons take advantage of common programming patterns to hide the complexity of parallel and distributed applications. Starting from a basic set of patterns (skeletons), more complex patterns can be built by combining the basic ones.
+
+==Overview==
+
+==History==
+Volume 40, Issue 12, pages 1135-1160, November/December 2010.
+
+==Well-known skeleton patterns==
+This section describes some well known Algorithmic Skeleton patterns. Additionally, the patterns signature in the [http://skandium.niclabs.cl Skandium] library is provided for clarity.
+
+* '''FARM''' is also known as '''master-slave'''. Farm represents task replication where the execution of different tasks by the same farm are replicated and executed in parallel.
+* '''PIPE''' represents staged computation. Different tasks can be computed simultaneously on different pipe stages. A pipe can have a variable number of stages, each stage of a pipe may be a nested skeleton pattern. Note that an n-stage pipe can be composed by nesting n-1 2-stage pipes.
+* '''FOR''' represents fixed iteration, where a task is executed a fixed number of times. In some implementations the executions may take place in parallel.
+* '''WHILE''' represents conditional iteration, where a given skeleton is executed until a condition is met.
+* '''IF''' represents conditional branching, where the execution choice between two skeleton patterns is decided by a condition.
+* '''MAP''' represents ''split'', ''execute'', ''merge'' computation. A task is divided into sub-tasks, sub-tasks are executed in parallel according to a given skeleton, and finally sub-task's results are merged to produce the original task's result.
+* '''D&C''' represents divide and conquer parallelism. A task is recursively sub-divided until a condition is met, then the sub-task is executed and results are merged while the recursion is unwound.
+* '''SEQ''' does not represent parallelism, but it is often used a convenient tool to wrap code as the leafs of the skeleton nesting.
+
+==Example program==
+The following example is based on the Java [http://skandium.niclabs.cl Skandium] library for parallel programming.
+
+The objective is to implement an Algorithmic Skeleton based parallel version of the '''QuickSort''' algorithm using the Divide and Conquer pattern. Notice that the high-level approach hides Thread management from the programmer.
+
+// 1. Define the skeleton program
+    new ShouldSplit(threshold, maxTimes),
+    new SplitList(),
+    new Sort(),
+    new MergeList());
+		
+// 2. Input parameters
+	
+// 3. Do something else here.
+// ...
+	
+// 4. Block for the results
+Range result = future.get();
+
+# The first thing is to define a new instance of the skeleton with the functional code that fills the pattern (ShouldSplit, SplitList, Sort, MergeList). The functional code is written by the programmer without parallelism concerns.
+# The second step is the input of data which triggers the computation.  In this case Range is a class holding an array and two indexes which allow the representation of a subarray. For every data entered into the framework a new Future object is created. More than one Future can be entered into a skeleton simultaneously.
+# The Future allows for asynchronous computation, as other tasks can be performed while the results are computed.
+# We can retrieve the result of the computation, blocking if necessary (i.e. results not yet available).
+
+The functional codes in this example correspond to four types Condition, Split, Execute, and Merge.
+
+
+  int threshold, maxTimes, times;
+  
+  public ShouldSplit(int threshold, int maxTimes){
+    this.threshold = threshold;
+    this.maxTimes  = maxTimes;
+    this.times     = 0;
+  }
+	
+  @Override
+  public synchronized boolean condition(Range r){
+    return r.right - r.left > threshold &&
+  }
+}
+
+The ShouldSplit class implements the Condition interface. The function receives an input, Range r in this case, and returning true or false. In the context of the Divide and Conquer where this function will be used, this will decide whether a sub-array should be subdivided again or not.
+
+
+
+ @Override
+ public Range[] split(Range r){
+        
+    int i = partition(r.array, r.left, r.right);
+        
+    Range[] intervals = {new Range(r.array, r.left, i-1), 
+                         new Range(r.array, i+1, r.right)};
+        
+    return intervals;
+ }
+}
+
+
+
+  @Override
+  public Range execute(Range r){
+		
+		
+    Arrays.sort(r.array, r.left, r.right+1);
+		
+    return r;
+  }
+}
+
+Finally, once a set of sub-arrays are sorted  we merge the sub-array parts into a bigger array with the MergeList class which implements a Merge interface.
+
+
+  @Override
+  public Range merge(Range[] r){
+		
+    Range result = new Range( r[0].array, r[0].left, r[1].right);
+		
+    return result;
+  }
+}
+
+==Frameworks and libraries==
+=== ASSIST ===
+
+
+
+While not a classical skeleton framework, in the sense that no skeletons are provided, ASSIST's generic ''parmod'' can be specialized into classical skeletons such as: ''farm'', ''map'', etc.  ASSIST also supports autonomic control of ''parmods''s, and can be subject to a performance contract by dynamically adapting the number of resources used.
+
+===CO2P3S===
+
+'''CO2P3S''' is concerned with the complete development process of a parallel application. Programmers interact through a programming GUI to choose a pattern and its configuration options. Then, programmers fill the hooks required for the pattern, and new code is generated as a framework in Java for the parallel execution of the application. The generated framework uses three levels, in descending order of abstraction: patterns layer, intermediate code layer, and native code layer. Thus, advanced programmers may intervene the generated code at multiple levels to tune the performance of their applications. The generated code is mostly type safe, using the types provided by the programmer which do not require extension of superclass, but fails to be completely type safe such as in the reduce(..., Object reducer) method in the mesh pattern.
+
+The set of patterns supported in CO2P3S corresponds to method-sequence, distributor, mesh, and wavefront. Complex applications can be built by composing frameworks with their object references. Nevertheless, if no pattern is suitable, the MetaCO2P3S graphical tool addresses extensibility by allowing programmers to modify the pattern designs and introduce new patterns into CO2P3S.
+
+
+===Calcium & Skandium===
+'''Calcium''' is greatly inspired by Lithium and Muskel. As such, it provides algorithmic skeleton programming as a Java library. Both task and data parallel skeletons are fully nestable; and are instantiated via parametric skeleton objects, not inheritance.
+
+'''Calcium''' supports the execution of skeleton applications on top of the [[ProActive]] environment
+
+
+===Eden===
+
+'''Eden''' is not a skeleton language in the sense that skeletons are not provided as language constructs. Instead, skeletons are defined on top of Eden’s lower-level process abstraction, supporting both task and data parallelism. So, contrary to most other approaches, Eden lets the skeletons be defined in the same language and at the same level, the skeleton instantiation is written: Eden itself. Because Eden is an extension of a functional language, Eden skeletons are [[higher order function]]s. Eden introduces the concept of implementation skeleton, which is an architecture independent scheme that describes a parallel implementation of an algorithmic skeleton.
+
+===eSkel===
+
+Afterwards, while persistent means that the skeleton is instantiated once and the same skeleton instance will be invoked throughout the application. Implicit interaction means that the flow of data between skeletons is completely defined by the skeleton composition, while explicit means that data can be generated or removed from the flow in a way not specified by the skeleton composition. For example, a skeleton that produces an output without ever receiving an input has explicit interaction.
+
+Performance prediction for scheduling and resource mapping, mainly for pipe-lines, has been
+based on process algebra, and determine the best scheduling strategy based on the results of the
+model.
+
+
+===HDC===
+
+'''HDC''' pays special attention to the subproblem’s granularity and its relation with the number of
+Available processors. The total number of processors is a key parameter for the performance of the
+skeleton program as HDC strives to estimate an adequate assignment of processors for each part
+of the program. Thus, the performance of the application is strongly related with the estimated
+number of processors leading to either exceeding number of subproblems, or not enough parallelism
+to exploit available processors.
+
+===HOC-SA===
+HOC-SA stands for Higher-Order Components-Service Architecture.
+Higher-Order Components ([http://pvs.uni-muenster.de/pvs/forschung/hoc HOCs]) have the aim of simplifying
+
+===JaSkel===
+the distributed farm should be used. To change from one version to the other, programmers must
+change their classes’ signature to inherit from a different skeleton. The nesting of skeletons uses the basic Java Object class, and therefore no type system is enforced during the skeleton composition.
+
+The distribution aspects of the computation are handled in '''JaSkel''' using AOP, more specifically
+the AspectJ implementation. Thus, '''JaSkel''' can be deployed on both cluster and Grid like
+
+===Lithium & Muskel===
+
+
+
+===Mallba===
+skeletons for combinatorial optimisation (research note)." In Euro-Par ’02: Proceedings of
+the 8th International Euro-Par Conference on Parallel Processing, pages 927–932, London,
+simulated annealing, and CHCCES which combines CHC and ES.
+
+The skeletons are provided as a C++ library and are not nestable but type safe. A custom
+MPI abstraction layer is used, NetStream, which takes care of primitive data type marshalling,
+synchronization, etc. A skeleton may have multiple lower-level parallel implementations depending
+on the target architectures: sequential, LAN, and WAN. For example: centralized master-slave,
+distributed master-slave, etc.
+
+'''Mallba''' also provides state variables which hold the state of the search skeleton. The state links the search with the environment, and can be accessed to inspect the evolution of the search and
+decide on future actions. For example, the state can be used to store the best solution found so
+
+Compared with other frameworks, Mallba’s usage of skeletons concepts is unique. Skeletons
+are provided as parametric search strategies rather than parametric parallelization patterns.
+
+===Muesli===
+
+
+===P3L, SkIE, SKElib===
+
+A '''P3L''' module corresponds to a properly defined skeleton construct with input and output
+streams, and other sub-modules or sequential C code. Modules can be nested using the two tier
+model, where the outer level is composed of task parallel skeletons, while data parallel skeletons
+may be used in the inner level [64]. Type verification is performed at the data flow level, when the programmer explicitly specifies the type of the input and output streams, and by specifying the
+flow of data between sub-modules.
+
+user interface. Instead of directly using the coordination language, programmers interact with a
+graphical tool, where parallel modules based on skeletons can be composed.
+
+
+===PAS and EPAS===
+'''PAS''' (Parallel Architectural Skeletons) is a framework for skeleton programming developed in C++
+
+In '''PAS''', every skeleton has a Representative (Rep) object which must be provided by the
+programmer and is in charge of coordinating the skeleton’s execution. Skeletons can be nested in
+a hierarchical fashion via the Rep objects. Besides the skeleton’s execution, the Rep also explicitly
+manages the reception of data from the higher level skeleton, and the sending of data to the sub-skeletons. A parametrized communication/synchronization protocol is used to send and receive
+data between parent and sub-skeletons.
+
+
+===SBASCO===
+output type); while a configuration view provides, in addition, a description of the component’s
+internal structure and processor layout. A component’s internal structure can be defined using
+three skeletons: farm, pipe and multi-block.
+
+Parallel Programming (PAPP), affiliated to the International Conference on Computational
+Science (ICCS), volume 3992 of Lecture Notes in Computer Science, pages 912–919. Springer,
+
+
+===SCL===
+PARLE Conference on Parallel Architectures and Languages Europe, pages 146–160, London,
+
+===SKiPPER & QUAFF===
+runtime environment, CAML skeleton specifications, and application specific functions (provided in C by the programmer), new C code is generated and compiled to run the application on the target architecture. One of the interesting things about '''SKiPPER''' is that the skeleton program can be executed sequentially for debugging.
+
+Different approaches have been explored in '''SKiPPER''' for writing operational skeletons: static
+data-flow graphs, parametric process networks, hierarchical task graphs, and tagged-token data-
+
+
+===SkeTo===
+sequential style of parallel programming." In InfoScale ’06: Proceedings of the 1st international
+
+Additional research around SkeTo has also focused on optimizations strategies by transforma-
+passed between functions.
+
+===Skil===
+directly part of the language but are implemented with it. '''Skil''' uses a subset of C language which provides functional language like features such as higher order functions, curring and polymorphic types. When '''Skil''' is compiled, such features are eliminated and a regular C code is produced. Thus, '''Skil''' transforms polymorphic high order functions into monomorphic first order C functions. '''Skil''' does not support nestable composition of skeletons. Data parallelism is achieved using specific data parallel structures, for example to spread arrays among available processors. Filter skeletons can be used.
+
+==Frameworks comparison==
+* '''Activity Years''' is the known activity years span. The dates represented in this column correspond to the first and last publication date of a related article in a scientific journal or conference proceeding. Note that a project may still be active beyond the activity span, and that we have failed to find a publication for it beyond the given date.
+* '''Programming Language''' is the interface with which programmers interact to code their skeleton applications. These languages are diverse, encompassing paradigms such as: functional languages, coordination languages, markup languages, imperative languages, object oriented languages, and even graphical user interfaces. Inside the programming language, skeletons have been provided either as language constructs or libraries. Providing skeletons as language construct implies the development of a custom domain specific language and its compiler. This was clearly the stronger trend at the begging of skeleton research. The more recent trend is to provide skeletons as libraries, in particular with object oriented languages such as C++ and Java.
+
+* '''Execution Language''' is the language in which the skeleton applications are run or compiled. It was recognized very early that the programming languages (specially in the functional cases), were not efficient enough to execute the skeleton programs. Therefore, skeleton programming languages were simplified by executing skeleton application on other languages. Transformation processes were introduced to convert the skeleton applications (defined in the programming language) into an equivalent application on the target execution language. Different transformation processes were introduced, such as code generation or instantiation of lowerlevel skeletons (sometimes called operational skeletons) which were capable of interacting with a library in the execution language. The transformed application also gave the opportunity to introduce target architecture code, customized for performance, into the transformed application. Table 1 shows that a favorite for execution language has been the C language.
+
+* '''Distribution Library''' provides the functionality to achieve parallel/distributed computations. The big favorite in this sense has been MPI, which is not surprising since it integrates well with the C language, and is probably the most used tool for parallelism in cluster computing. The dangers of directly programming with the distribution library are, of course, safely hidden away from the programmers who never interact with the distribution library. Recently, the trend has been to develop skeleton frameworks capable of interacting with more than one distribution library. For example, CO2 P3 S can use Threads, RMI or Sockets; Mallba can use Netstream or MPI; or JaSkel which uses AspectJ to execute the skeleton applications on different skeleton frameworks.
+
+* '''Type Safety''' refers to the capability of detecting type incompatibility errors in skeleton program. Since the first skeleton frameworks were built on functional languages such as Haskell, type safety was simply inherited from the host language. Nevertheless, as custom languages were developed for skeleton programming, compilers had to be written to take type checking into consideration; which was not as difficult as skeleton nesting was not fully supported. Recently however, as we begun to host skeleton frameworks on object oriented languages with full nesting, the type safety issue has resurfaced. Unfortunately, type checking has been mostly overlooked (with the exception of QUAFF), and specially in Java based skeleton frameworks.
+
+* '''Skeleton Nesting''' is the capability of hierarchical composition of skeleton patterns. Skeleton Nesting was identified as an important feature in skeleton programming from the very beginning, because it allows the composition of more complex patterns starting from a basic set of simpler patterns. Nevertheless, it has taken the community a long time to fully support arbitrary nesting of skeletons, mainly because of the scheduling and type verification difficulties. The trend is clear that recent skeleton frameworks support full nesting of skeletons.
+
+* '''File Access''' is the capability to access and manipulate files from an application. In the past, skeleton programming has proven useful mostly for computational intensive applications, where small amounts of data require big amounts of computation time. Nevertheless, many distributed applications require or produce large amounts of data during their computation. This is the case for astrophysics, particle physics, bio-informatics, etc. Thus, providing file transfer support that integrates with skeleton programming is a key concern which has been mostly overlooked.
+
+* '''Skeleton Set''' is the list of supported skeleton patterns. Skeleton sets vary greatly from one framework to the other, and more shocking, some skeletons with the same name have different semantics on different frameworks. The most common skeleton patterns in the literature are probably farm, pipe, and map.
+
+{| class="wikitable" border="1"
+|+ Non-object oriented Algorithmic Skeleton Frameworks
+|-
+!
+! Activity Years
+! Programming Language
+! Execution Language
+! Distribution Library
+! Type Safe
+! Skeleton Nesting
+! File Access
+! Skeleton Set
+|-
+| ASSIST
+| 2004–2007
+| Custom Control Language
+| C++
+| TCP/IP + ssh/scp
+| yes
+| no
+| explicit
+| seq, parmod
+|-
+| SBSACO
+| 2004–2006
+| Custom Composition Language
+| C++
+| MPI
+| yes
+| yes
+| no
+| farm, pipe, multi-block
+|-
+| eSkel
+| 2004–2005
+| C
+| C
+| MPI
+| no
+| ?
+| no
+| pipeline, farm, deal, butterfly, hallowSwap
+|-
+| HDC
+| 2004–2005
+| Haskell subset
+| C
+| MPI
+| yes
+| ?
+| no
+| dcA, dcB, dcD, dcE, dcF, map, red, scan, filter
+|-
+| SKELib
+| 2000-2000
+| C
+| C
+| MPI
+| no
+| no
+| no
+| farm, pipe
+|-
+| SkiPPER
+| 1999–2002
+| CAML
+| C
+| SynDex
+| yes
+| limited
+| no
+| scm, df, tf, intermem
+|-
+| SkIE
+| 1999-1999
+| GUI/Custom Control Lang.
+| C++
+| MPI
+| yes
+| limited
+| no
+| pipe,farm, map, reduce, loop
+|-
+| Eden
+| 1997–2010
+| Haskell extension
+| C
+| MPVM/MPI
+| yes
+| ?
+| no
+| map,farm,workpool,nr,dc,pipe,iterUntil,torus,ring
+|-
+| P3L
+| 1995–1998
+| Custom Control Lang.
+| C
+| MPI
+| yes
+| limited
+| no
+| map,reduce,scan,comp,pipe,farm,seq,loop
+|-
+| Skil
+| 1995–1998
+| C subset
+| C
+| ?
+| yes
+| no
+| no
+| pardata,map,fold
+|-
+| SCL
+| 1993–1995
+| Custom Control Lang.
+| Fortran
+| CS Tools
+| yes
+| limited
+| no
+| map,scan,fold,farm,SPMD,iterateUntil
+|}
+
+{| class="wikitable" border="1"
+|+ Object oriented Algorithmic Skeleton Frameworks
+|-
+!
+! Activity Years
+! Programming Language
+! Execution Language
+! Distribution Library
+! Type Safe
+! Skeleton Nesting
+! File Access
+! Skeleton Set
+|-
+| Skandium
+| 2009–2010
+| Java
+| Java
+| Threads
+| yes
+| yes
+| no
+| seq, pipe, farm, for, while, map, d&c, fork
+|-
+| Calcium
+| 2006–2008
+| Java
+| Java
+| ProActive
+| yes
+| yes
+| yes
+| seq, pipe, farm, for, while, map, d&c, fork
+|-
+| QUAFF
+| 2006–2007
+| C++
+| C
+| MPI
+| yes
+| yes
+| no
+| seq, pipe, farm, scm, pardo
+|-
+| JaSkel
+| 2006–2007
+| Java
+| Java/AspectJ
+| MPP / RMI
+| no
+| yes
+| no
+| farm, pipeline, heartbeat
+|-
+| Muskel
+| 2005–2008
+| Java
+| Java
+| RMI
+| no
+| yes
+| no
+| farm, pipe, seq, + custom MDF Graphs
+|-
+| HOC-SA
+| 2004–2008
+| Java
+| Java
+| Globus, KOALA
+| no
+| no
+| no
+| farm, pipeline, wavefront
+|-
+| SkeTo
+| 2003–2007
+| C++
+| C++
+| MPI
+| yes
+| no
+| no
+| list, matrix, tree
+|-
+| Mallba
+| 2002–2007
+| C++
+| C++
+| NetStream / MPI
+| yes
+| no
+| no
+| exact, heuristic, hybrid
+|-
+| Muesli
+| 2002–2010
+| C++
+| C++
+| MPI / OpenMP
+| yes
+| yes
+| no
+| data parallel: fold, map, permute, scan, zip, and variants. task parallel: branch & bound, divide & conquer, farm, pipe. auxiliary: filter, final, initial
+|-
+| Alt
+| 2002–2003
+| Java/GworkflowDL
+| Java
+| Java RMI
+| yes
+| no
+| no
+| map, zip, reduction, scan, dh, replicate, apply, sort
+|-
+| (E)PAS
+| 1999–2005
+| C++ extension
+| C++
+| MPI
+| no
+| yes
+| no
+| singleton, replication, compositional, pipeline, divideconquer, dataparallel
+|-
+| Lithium
+| 1999–2004
+| Java
+| Java
+| RMI
+| no
+| yes
+| no
+| pipe, map, farm, reduce
+|-
+| CO2P3S
+| 1999–2003
+| GUI/Java
+| Java (generated)
+| Threads / RMI / Sockets
+| partial
+| no
+| no
+| method-sequence, distributor, mesh, wavefront
+|}
+
+==References==
+{{Reflist|2}}
+
+{{Use dmy dates|date=September 2010}}
+
+{{DEFAULTSORT:Algorithmic Skeleton}}
+[[Category:Concurrent programming languages]]
+[[Category:Computer programming]]
+[[Category:Parallel computing]]
+[[Category:Application programming interfaces]]
+[[Category:C++ programming language family]]
+[[Category:C programming language family]]
+[[Category:Generic programming]]
+[[Category:Threads]]

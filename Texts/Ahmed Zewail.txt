@@ -1,0 +1,134 @@
+{{Infobox scientist
+| name        = Ahmed Hassan Zewail''
+| image       = Ahmed Zewail-post.jpg
+| image_width = 185
+| image_height=
+| caption     = Ahmed Zewail on a stamp of Egypt
+| birth_date  = {{birth date and age|mf=yes|1946|2|26}}
+| birth_place = [[Damanhour]], [[Egypt]]
+| nationality = Egyptian, American
+| field       = [[Chemistry]], [[physics]]
+| known_for   = [[Femtochemistry]]
+| alma_mater  = [[University of Alexandria]], [[University of Pennsylvania]]
+| work_institutions = [[California Institute of Technology]]
+| website     = http://www.its.caltech.edu/~femto/
+| footnotes   =
+}}
+'''Ahmed Hassan Zewail''' ({{lang-ar|أحمد حسن زويل}}) (born February 26, 1946 in [[Damanhour]], [[Egypt]]) is an [[Egypt]]ian-[[United States|American]] scientist, and the winner of the 1999 [[Nobel Prize in Chemistry]] for his work on [[femtochemistry]]. He is the Linus Pauling Chair Professor Chemistry and Professor of Physics at the [[California Institute of Technology]].
+
+== Birth and education ==
+Ahmad Zewail was born on February 26, 1946 in [[Damanhour]] and raised in [[Disuq]]. He received bachelor's degree and MS degree from the [[University of Alexandria]] before moving from [[Egypt]] to the United States to complete his PhD at the [[University of Pennsylvania]] with advisor Dr. [[Robin Hochstrasser]]. He completed a post-doctoral fellowship at the [[University of California, Berkeley]] with advisor Dr. [[Charles B. Harris]].
+
+== Academic career ==
+After some post doctorate work at [[UC-Berkeley]], he was awarded a faculty appointment at [[Caltech]] in 1976, where he has remained since. He became a [[naturalized citizen]] of the United States in 1982, and in 1990, he was made the first ''[[Linus Pauling]] Chair in Chemical Physics''.
+
+Dr. Zewail has been nominated and will participate in President Barack Obama's Presidential Council of Advisors on Science and Technology (PCAST). The council will talk about education, science, defense, energy, the economy, and technology.
+
+== Research ==
+Zewail's key work has been as the pioneer     of [[femtochemistry]]&mdash;i.e. the study of [[chemical reaction]]s across [[femtosecond]]s. Using a rapid [[ultrafast]] [[laser]] technique (consisting of [[ultrashort pulse|ultrashort]] laser flashes), the technique allows the description of reactions on very short time scales - short enough to analyse transition states in selected chemical reactions.
+
+
+
+Zewail is married, and has four children.
+
+== Political work ==
+
+
+==Publications==
+
+* (1) Advances in Laser Spectroscopy I, ed. A. H. Zewail, SPIE, Bellingham, 1977
+* (2) Advances in Laser Chemistry, ed. A. H. Zewail, Springer-Verlag, Berlin-Heidelberg,
+1978
+* (3) Photochemistry and Photobiology, Vols. 1 and 2, ed. A. H. Zewail, Harwood
+Academic, London, 1983
+* (4) Ultrafast Phenomena VII, eds. C. B. Harris, E. P. Ippen, G. A. Mourou and A. H.
+Zewail, Springer-Verlag, Berlin-Heidelberg, 1990
+* (5) The Chemical Bond: Structure and Dynamics, ed. A. H. Zewail, Academic
+Press, Boston, 1992
+* (6) Ultrafast Phenomena VIII, eds. J.-L. Martin, A. Migus, G. A. Mourou, and A. H.
+Zewail, Springer-Verlag, Berlin-Heidelberg, 1993
+* (7) Ultrafast Phenomena IX , eds.
+* (8) [[Age of Science]].
+* (13) Physical Biology: From Atoms to Medicine, ed. A. H. Zewail, Imperial College Press,
+London, 2008
+* (14) [http://www.worldscibooks.com/chemistry/p641.html 4D Electron Microscopy], ed. A. H. Zewail, Imperial College Press,London, 2009
+
+* Ahmad Zewail was one of the original editors of the [http://mrw.interscience.wiley.com/emrw/0470-027312/home Encyclopedia of Analytical Chemistry]
+
+==References==
+{{reflist}}
+
+== External links ==
+*[http://www.its.caltech.edu/~femto/ Ahmad Zewail's Caltech website]
+*[http://nobelprize.org/nobel_prizes/chemistry/laureates/1999/zewail-lecture.html Zewail Nobel Prize lecture]
+*[http://www.saudiaramcoworld.com/issue/201001/the.world.s.fastest.scientist.htm Article about Zewail]
+{{Nobel Prize in Chemistry Laureates 1976-2000}}
+
+| NAME              =Zewail, Ahmed H.
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =February 26, 1946
+| PLACE OF BIRTH    =[[Damanhour]], [[Egypt]]
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Zewail, Ahmed H.}}
+[[Category:1946 births]]
+[[Category:African scientists]]
+[[Category:Arab Nobel laureates]]
+[[Category:Arab scientists|American]]
+[[Category:American Muslims]]
+[[Category:American Nobel laureates]]
+[[Category:Egyptian immigrants to the United States]]
+[[Category:American people of Egyptian descent]]
+[[Category:Egyptian chemists]]
+[[Category:Egyptian Nobel laureates]]
+[[Category:Foreign Members of the Royal Society]]
+[[Category:Members of the United States National Academy of Sciences]]
+[[Category:Members of the Pontifical Academy of Sciences]]
+[[Category:Members of the Royal Swedish Academy of Sciences]]
+[[Category:Naturalized citizens of the United States]]
+[[Category:Nobel laureates in Chemistry]]
+[[Category:Physical chemists]]
+[[Category:Priestley Medal]]
+[[Category:Wolf Prize in Chemistry laureates]]
+[[Category:California Institute of Technology faculty]]
+[[Category:University of Pennsylvania alumni]]
+[[Category:Living people]]
+[[Category:Sloan Research Fellowships]]
+
+[[ar:أحمد زويل]]
+[[zh-min-nan:Ahmed Zewail]]
+[[ca:Ahmed Hassan Zewail]]
+[[cs:Ahmed Zewail]]
+[[de:Ahmed Zewail]]
+[[es:Ahmed H. Zewail]]
+[[eo:Ahmed H. Zewail]]
+[[fr:Ahmed Zewail]]
+[[gd:Ahmed H. Zewail]]
+[[ko:아메드 즈웨일]]
+[[id:Ahmed Zewail]]
+[[it:Ahmed Zewail]]
+[[he:אחמד זוויל]]
+[[sw:Ahmed Zewail]]
+[[la:Ahmed Zewail]]
+[[hu:Ahmed Zewail]]
+[[arz:احمد زويل]]
+[[ms:Ahmad Zewail]]
+[[nl:Ahmed H. Zewail]]
+[[ja:アハメッド・ズウェイル]]
+[[no:Ahmed Zewail]]
+[[oc:Ahmed H. Zewail]]
+[[pnb:احمد زیریل]]
+[[nds:Ahmed Hassan Zewail]]
+[[pl:Ahmed H. Zewail]]
+[[pt:Ahmed Zewail]]
+[[ro:Ahmed Zewail]]
+[[ru:Зевейл, Ахмед]]
+[[sk:Ahmed Hassan Zewail]]
+[[sr:Ахмед Зеваил]]
+[[su:Ahmad H. Zewail]]
+[[fi:Ahmed Zewail]]
+[[sv:Ahmed Zewail]]
+[[uk:Ахмед Хассан Зевейл]]
+[[yo:Ahmed Zewail]]

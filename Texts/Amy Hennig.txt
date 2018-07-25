@@ -1,0 +1,61 @@
+| name          = Amy Hennig
+| image         = 
+| imagesize     = 
+| alt           = 
+| caption       = 
+| birthdate     = {{Birth based on age as of date|45|2010|2|26}}
+| birthplace    = 
+| occupation    = Video game writer and [[video game director|director]] 
+| language      = English
+| nationality   = [[United States|American]]
+| alma_mater    = [[University of California, Berkeley]]
+| notableworks  = ''[[Legacy of Kain]]'' series; ''[[Uncharted]]'' series 
+| influences    = 
+| influenced    = 
+| awards        = [[Writers Guild of America Award|Writers Guild of America Video Game Writing Award]] nomination
+| signature     = 
+| signature_alt = 
+| website       = 
+| portaldisp    = 
+}}
+
+
+With her writing style, Hennig believes that the creative direction of a script holds more importance than the graphics of the game. She has been called one of the most influential women in the [[video game industry]] by ''[[Edge magazine]]'', and has been cited as an example of how more women are becoming involved in a previously male dominated field.
+
+==Life==
+
+
+==Career==
+
+
+
+==Writing style==
+
+
+==Influence==
+
+==References==
+{{reflist}}
+
+{{Legacy of Kain series}}
+{{Uncharted series}}
+
+{{Persondata
+|NAME= Hennig, Amy
+|ALTERNATIVE NAMES=
+|SHORT DESCRIPTION= Video game writer and [[video game director|director]] 
+|PLACE OF BIRTH= 
+|DATE OF DEATH=
+|PLACE OF DEATH=
+}}
+
+{{DEFAULTSORT:Hennig, Amy}}
+
+[[Category:Living people]]
+[[Category:American fiction writers]]
+[[Category:Video game writers]]
+[[Category:Video game directors]]
+[[Category:Video game artists]]
+[[Category:Legacy of Kain]]
+[[Category:Uncharted]]
+

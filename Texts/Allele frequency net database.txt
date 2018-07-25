@@ -1,0 +1,36 @@
+|title = Allele frequency net
+|logo =[[File:Database.png]]
+|description =  online repository for immune gene frequencies in worldwide populations.
+|scope = 
+|organism = [[Homo sapiens]]
+|center =  [[University of Liverpool]]
+|laboratory = Institute of Infection and Global Health
+|author =
+|pmid = PMID 21062830
+|released = 2010
+|standard = 
+|format = 
+|url = http://www.allelefrequencies.net
+|download = 
+|webservice = 
+|sql = 
+|sparql = 
+|webapp = 
+|standalone = 
+|license = 
+|versioning = 
+|frequency = 
+|curation = 
+|bookmark =
+
+==References==
+==See also==
+* [[Allele frequency]]
+==External links==
+* http://www.allelefrequencies.net
+
+{{Biodatabase-stub}}
+
+[[Category:Biological databases]]
+[[Category:Immunology]]
+[[Category:Genetics]]

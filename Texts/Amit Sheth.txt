@@ -1,0 +1,72 @@
+| name        = Amit Sheth
+| image       = 
+| caption     = Amit Sheth
+| birth_place = 
+| occupation  = Director of Kno.e.sis Center
+| website     = [http://knoesis.wright.edu/amit Amit Sheth]
+| footnotes   =
+}}
+Dr. '''Amit Sheth''' is a computer scientist at [[Wright State University]] in [[Dayton]], [[Ohio]]. He is the Lexis Nexis Ohio Eminent Scholar for Advanced [[Data Management]] and Analysis.
+{{cite web|author= Wright State University
+|title= Wright State names international IT expert LexisNexis Eminent Scholar
+|url=http://www.wright.edu/cgi-bin/cm/news.cgi?action=news_item&id=1210
+|accessdate= 2008-05-28
+Prior to founding the [[Knoesis]] center, he served as the director of the Large Scale Distributed [[Information Systems]] lab, at the [[University of Georgia]] in [[Athens, Georgia]].
+
+==Education==
+
+Sheth received his Bachelors in Engineering from the prestigious [[Birla Institute of Technology and Science]] in Computer Science in the year 1981.
+He received his MS and Ph.D in Computer Science from the [[Ohio State University]] in 1983 and 1985 respectively.
+
+==Research==
+===Semantic Interoperability/Integration and Semantic Web===
+{{cite web|author= Cartic Ramakrishnan, K. J. Kochut, Amit P. Sheth
+|title=  A Framework for Schema-Driven Relationship Discovery from Unstructured Text
+|url=http://www.springerlink.com/content/kh10n04667j34w04/
+|accessdate= 2008-05-31
+{{cite web|author= Amit P. Sheth and Cartic Ramakrishnan
+|title=  Relationship Web: Blazing Semantic Trails between Web Resources 
+|url=http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/mags/ic/&toc=comp/mags/ic/2007/04/w4toc.xml&DOI=10.1109/MIC.2007.91
+|accessdate= 2008-05-31
+
+===Workflow Management and Semantic Web Services===
+In the early 1990s, he initiated research in the formal modeling, scheduling, and correctness of workflows. His METEOR project demonstrated the value of research with real-world applications; its tools were used in graduate courses in several countries, and its technology was licensed to create a commercial product.
+
+The follow-on METEOR-S project has been highly influential. He led the research (later joined by [[IBM]]) that resulted in the [[W3C]] submission of WSDL-S (Semantic Annotation of [[Web Services Description Language|WSDL]]), the basis for [[SAWSDL]], a [[W3C recommendation]] for adding semantics to [[Web Services Description Language|WSDL]] and [[XML Schema (W3C)|XML Schema]].
+
+{{cite web|author= Google Scholar
+|title= Google Scholar results for Amit Sheth
+|url=http://scholar.google.com/scholar?q=amit+sheth&hl=en&lr=&btnG=Search
+|accessdate= 2008-05-31
+
+===Information Integration===
+
+"shethLarson">
+{{cite web|author= Amit Sheth, James Larson
+|title= Federated database systems for managing distributed, heterogeneous, and autonomous databases
+|url=http://portal.acm.org/citation.cfm?id=96604&coll=GUIDE&dl=ACM&ret=1
+|accessdate= 2008-05-31
+
+==Awards and Accomplishments==
+Elected [[IEEE Fellow]]  for contributions to [[information integration]] and [[workflow management]]
+{{cite web|author= IEEE
+|title= Fellow Class of 2006
+|url=http://www.ieee.org/web/membership/fellows/Chronology/2006.html#S
+|accessdate= 2008-05-28
+
+==References==
+{{Reflist}}
+
+| NAME              = Sheth, Amit
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Sheth, Amit}}
+[[Category:Living people]]
+[[Category:Year of birth missing (living people)]]
+[[Category:Indian computer scientists]]
+[[Category:Ohio State University alumni]]

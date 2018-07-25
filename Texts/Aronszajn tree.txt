@@ -1,0 +1,30 @@
+
+A cardinal κ for which no κ-Aronszajn trees exist is said to have the '''tree property'''.
+(Sometimes the condition that κ is regular and uncountable is included.)
+
+==Existence of &kappa;-Aronszajn trees==
+
+
+
+Jensen proved that [[V=L]] implies that there is a κ-Aronszajn tree (in fact a  κ-Suslin tree) for every infinite successor cardinal κ.
+
+
+If κ is weakly compact then no κ-Aronszajn trees exist. Conversely if κ is inaccessible and no κ-Aronszajn trees exist then κ is weakly compact.
+
+==Special Aronszajn trees==
+An Aronszajn tree is called '''special''' if there is a function ''f'' from the tree to the rationals so that
+
+==References==
+*{{citation|id={{MR|1492784}}
+|last=Cummings|first= James|last2= Foreman|first2= Matthew
+|title=The tree property
+|journal=Adv. Math. |volume=133 |year=1998|issue=  1|pages= 1–32|doi=10.1006/aima.1997.1680}} 
+*{{citation|first=Chaz |last=Schlindwein 
+|title=Consistency of Suslin's Hypothesis, A Nonspecial Aronszajn Tree, and GCH
+|journal=    The Journal of Symbolic Logic|volume= 59|issue= 1|year= 1994|pages= 1–29 
+|url= http://links.jstor.org/sici?sici=0022-4812%28199403%2959%3A1%3C1%3ACOSHAN%3E2.0.CO%3B2-3|doi=10.2307/2275246|publisher=The Journal of Symbolic Logic, Vol. 59, No. 1 }}
+*{{springer|id=A/a110690|first=Ch.|last= Schlindwein}}
+
+== External links ==
+*[http://planetmath.org/encyclopedia/KappaAronszajnTree.html PlanetMath]
+

@@ -1,0 +1,11 @@
+
+==See also==
+*[[ABSET]]
+
+==References==
+*"ABSYS: An Incremental Compiler for Assertions", J.M. Foster et al., Mach Intell 4, Edinburgh U Press, 1969, pp. 423–429
+*{{FOLDOC}}
+
+[[Category:Declarative programming languages]]
+
+[[ms:ABSYS]]

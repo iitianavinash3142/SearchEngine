@@ -1,0 +1,33 @@
+__NOTOC__
+'''Automaticity''' ({{pron-en|ˌɔːtəməˈtɪsɨti}}) is the ability to do things without occupying the [[mind]] with the low-level details required, allowing it to become an automatic response pattern or [[habit (psychology)|habit]]. It is usually the result of [[learning]], [[repetition (learning)|repetition]], and practice.
+
+Examples of automaticity are common activities such as speaking, bicycle-riding, assembly-line work, and driving a car (see [[Highway hypnosis]]). After an activity is sufficiently practiced, it is possible to focus the mind on other activities or thoughts while undertaking an automaticized activity (for example, holding a conversation or planning a speech while driving a car). Walking is not an example of automaticity as it is not a cortical function. It is a medullary function, with specific medullary circuits, which can be learnt to be inhibited or altered by higher-order ones.
+
+* "Excuse me. I have 5 pages. May I use the Xerox machine because I'm in a rush?"
+* "Excuse me. I have 5 pages. May I use the Xerox machine?" or
+* "Excuse me. I have 5 pages. May I use the Xerox machine because I have to make some copies?"
+
+
+
+Some educational software, like [[QuickSmart]], incorporates the concept of automaticity. By measuring the consistency of processing speed and accuracy of students' responses, foundation skills can become automatic. As a result, students can devote cognitive effort to higher-order comprehension skills.
+
+==See also==
+* [[Habit (psychology)]]
+* [[Habituation]]
+* [[Neural adaptation]]
+
+==References==
+
+==Sources==
+* PhysioEx 6.0 – Peter Zao – Timothy Stabler – Greta Peterson – Lori Smith
+* Shiffrin, R.M., & Schneider, W. (1977). Controlled and automatic human information processing. II. Perceptual learning, automatic attending and a general theory. Psychological Review, 84(2), 127-190.
+* Cialdini, R.B. (2001). Influence: Science and practice (4th ed.). Boston: Allyn & Bacon. p. 4
+
+==External links==
+* [http://edweb.sdsu.edu/eet/articles/automaticityala/index.htm '''Automaticity: A learned advantage''' at Encyclopedia of Educational Technology]
+* [http://coe.sdsu.edu/eet/articles/autoskills/index.htm Automaticity at Encyclopedia of Educational Technology]
+* [http://psyche.cs.monash.edu.au/v5/psyche-5-05-tzelgov.html Automaticity and Processing Without Awareness]
+* [http://www.psych.txstate.edu/graduate/compresources/schneider_2003.pdf This online .pdf summarizes the research about automatic processing and controlled processing up to 2003]
+
+[[Category:Cognitive science]]
+[[Category:Learning]]

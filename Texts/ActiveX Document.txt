@@ -1,0 +1,17 @@
+{{Expert-subject-multiple|Computing|Microsoft Windows|date=February 2009}}
+
+A single [[server (computing)|server]] can support an unlimited number of documents, just as [[Microsoft Word]] can support any number of document files. The server for an ActiveX document can be an EXE or a DLL server. The document generally has the extension .VBD, though ActiveX documents can be stored within other files as well, using a mechanism{{ambig}} called [[Object Linking and Embedding|OLE]] [[structured storage]].
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://pntpm3.ulb.ac.be/Info/Activex/ch23.htm ActiveX document fundamentals]
+
+{{Microsoft Windows components}}
+
+[[Category:Microsoft initiatives]]
+[[Category:Windows software]]
+[[Category:Windows software stubs]]
+
+

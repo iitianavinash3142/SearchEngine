@@ -1,0 +1,24 @@
+
+His first [[mathematical]] papers were in the domain of different [[topology|topological]] and [[metric space]] topics of [[Karol Borsuk]]. Not much later, and in parallel to his [[topological]] research, he worked also in the field of [[mathematical  linguistics]].
+
+Trybulec's sister, [[Krystyna Kuperberg]], his brother in law, [[Włodzimierz Kuperberg]], and their son, [[Greg Kuperberg]], are all noted mathematicians.
+
+==References==
+* [http://math.uwb.edu.pl/~trybulec/ "Andrzej Trybulec", University of Bialystok].
+* [http://www.mizar.org/system/ Mizar System].
+
+| NAME              = Trybulec, Andrzej
+| ALTERNATIVE NAMES =
+| SHORT DESCRIPTION =
+| DATE OF BIRTH     =
+| PLACE OF BIRTH    =
+| DATE OF DEATH     =
+| PLACE OF DEATH    =
+}}
+{{DEFAULTSORT:Trybulec, Andrzej}}
+[[Category:1941 births]]
+[[Category:Living people]]
+[[Category:Polish mathematicians]]
+[[Category:Polish computer scientists]]
+
+
